@@ -3,7 +3,7 @@
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif:400,700&subset=latin,greek,cyrillic,latin-ext' rel='stylesheet' type='text/css'>	    
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>  Europeana Labs </title>
+	<title>  Get your API key -  Europeana Labs </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<!-- never cache patterns -->
@@ -41,9 +41,8 @@
 
 </script>
 </head>
-<body class="sg-single-pattern svg">
-<div id="homepage">
-﻿<!-- Begin header -->
+<body class="sg-single-pattern svg"><!--
+-->﻿<!-- Begin header -->
 <header class="header cf" role="banner">
     <div class="lc">
         <a href="/" class="logo ir"> </a>	
@@ -82,27 +81,69 @@
 </header>
 <!-- End header -->
 <!--
---><div role="main" class="grid">
+-->
 
-<div id="banner" class="block block-hero"> 
-	<div class="b-thumb">
-		<img src="/img/hero_bg.jpg" width="100%" />
-	</div>
-	<div class="b-text"> 
-		<h1>Europeana Labs</h1>
-		<div class="byline">
-			<p>A playground for remixing and using your cultural and scientific heritage.<br />A place for inspiration, innovation and sharing.</p>
-			<p>This is your code, this is your heritage, these are your labs.</p>
-			<div class="startBtn">
-				<a href="http://labs.europeana.eu/blog/welcome-to-the-new-europeana-labs/">GET STARTED</a>
-			</div>
+<div role="main" class="grid">
+	<div class="block block-content-header">
+		<div class="grid__item palm--one-whole push--palm--none three-quarters push--one-quarter">
+			<h2 class="title">Get your API key</h2>
 		</div>
-	</div> 
-</div>
+	</div>
 
-<br><br>
+		<div class="grid__item one-quarter palm--one-whole">		
+		<style type="text/css">
+		  ul.notabs {display: none;}
+		  ul.notabs li a {border: 0;}
 
-<div  class="block">
+		  ul ul li { margin:0; margin-left: 30px;}
+		  ul.notabs a { padding: 0.5rem; }	
+		  ul ul li a.current{text-decoration: underline; }		
+		</style>
+		<ul class="tabs tabs-v">
+			<li><a href="/api" title="API Introduction">Introduction</a></li>
+			<li>
+				<a class="menuTrigger">REST API</a>
+				<ul class="notabs tabs-v">
+                    <li><a href="/api/introduction" title="Introduction">Introduction</a></li>
+                    <li><a href="/api/getting-started" title="Getting Started with the Europeana REST API">Getting Started</a></li>
+					<li><a href="/api/registration" title="API Registration">Get an API-key</a></li>
+					<li><a href="/api/console" title="API Console">Console</a></li>
+					<li><a href="/api/authentication" title="Authentication">Authentication</a></li>
+					<li><a href="/api/search" title="Search">Search</a></li>
+					<li><a href="/api/query" title="Query">Query Syntax</a></li>
+					<li><a href="/api/record" title="Record">Record</a></li>
+					<li><a href="/api/myeuropeana" title="Accessing MyEuropeana">MyEuropeana</a></li>
+					<li><a href="/api/provider" title="Querying Providers and Datasets">Provider and Datasets</a></li>
+					<!--<li><a href="/api/data-fields" title="API Data Fields Reference">Data Fields</a></li>-->					
+					<li><a href="/api/data-hierarchy" title="Data Hierarchy">Data Hierarchy</a></li>					
+                    <li><a href="/api/data-fields" title="Data Fields">Data Fields</a></li>
+					<li><a href="/api/error" title="Error Codes">Error Codes</a></li>	
+					<li><a href="/api/changelog" title="API ChangeLog">Change Log</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuTrigger">Linked Open Data</a>
+				<ul class="notabs tabs-v">
+					<li><a href="/api/linked-open-data/introduction">Introduction</a></li>
+					<li><a href="/api/linked-open-data/data-downloads">Data Downloads</a></li>
+					<li><a href="/api/linked-open-data/SPARQL-endpoint">SPARQL-endpoint</a></li>
+					<li><a href="/api/linked-open-data/data-structure">Data Structure</a></li>
+					<li><a href="/api/linked-open-data/FAQ">FAQ</a></li>
+					<li><a href="/api/linked-open-data/credits">Credits</a></li>
+				</ul>
+			</li>
+			<li><a href="/api/search-widget" title="Search Widget">Search Widget</a></li>			
+			<li><a href="http://www.europeana.eu/portal/rights/api-terms-of-use.html" title="API Data Fields Reference">Terms of Use</a></li>						
+		</ul>	
+	</div>
+
+		
+	<div id="documentation" class="prose grid__item palm--one-whole push--palm-none one-half"><!--
+	--><style type="text/css">
+	#apikey-block table{border: 0;}
+	#apikey-block table th, td {border: 0;}
+</style>
+
 	<div id="apikey-block" >
 	<div class="grid--center">
 		<table id="tblKey">
@@ -110,7 +151,7 @@
 				<td class="key-image"><img src="/img/key.png"></td>
 				<td class="key-form">
 					<h3>Get your API key.</h3>
-					<p>Sign up for your free API key and start developing!
+					<p>Sign up for your free API key and get developing! <br>The rest is up to you.</p>
 						<script type="text/javascript">
 $(document).ready(function(){
 	$("#messageContainer").hide();
@@ -174,158 +215,10 @@ function requestAPIKey(){
 		<div id="messageContainer" class="alert"> </div>
 	</div>
 	</div>
-	</div>
-	<div id="beinspired" class="block">
-		<div class="grid--center" style="text-align: left;">
-			<h3 style="font-weight: bold;">Be inspired &hellip;</h3>
-		</div>
-	</div>
-	<div class="grid__item one-whole palm--one-whole grid--center">
-	    <ul id="homepage-postsl-list" class="post-list grid">
-	        
-			<!--
-	        --><li class="grid__item three-eighths desk--three-eighths">
-	            <div class="block block-thumb">
-
-	                <div class="b-thumb">
-	                    <a href="/apps/culture-collage">
-	                        <img src="/img/apps/europeana-culture-collage/Culture_Collage.jpg" alt="Europeana Culture Collage">
-	                    </a>
-	                </div>
-
-	                <div class="b-text">
-
-	                    
-		                    <h1 class="headline gamma"><a href="/apps/culture-collage">Europeana Culture Collage</a></h1>
-		                    <div class="description">
-		                        <p>Europeana Culture Collage is developed by Monique Szpak (@zenlan) and started as a simple exercise in mashing up a few of the new web technologies, incl. Europeana API and Europeana visual data.</p>                        
-		                    </div>
-						
-						<a href="/apps/culture-collage" title="Europeana Culture Collage" class="text-btn-homepage">Find out more</a>
-	                </div>
-	            </div>
-	        </li>
-			
-			
-			<!--
-	        --><li class="grid__item three-eighths desk--three-eighths">
-	            <div class="block block-thumb">
-
-	                <div class="b-thumb">
-	                    <a href="/apps/biblioteca">
-	                        <img src="/img/apps/biblioteca-digital-hispanica/HIspania2.png" alt="Biblioteca Digital Hispánica">
-	                    </a>
-	                </div>
-
-	                <div class="b-text">
-
-	                    
-		                    <h1 class="headline gamma"><a href="/apps/biblioteca">Biblioteca Digital Hispánica</a></h1>
-		                    <div class="description">
-		                        <p>The National Library of Spain has implemented the Europeana API in their online portal, Biblioteca Digital Hispánica. The portal now enables their users to access related Europeana content via a single link on their search results header.</p>                        
-		                    </div>
-						
-						<a href="/apps/biblioteca" title="Biblioteca Digital Hispánica" class="text-btn-homepage">Find out more</a>
-	                </div>
-	            </div>
-	        </li>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-	    </ul>
-	</div>
-
-<div class="grid--center">
-	<div class="grid__item palm--one-whole one-third">
-		<hr class="top-no-margin">
-		<p class="text-btn" align="center"><a href="/apps" class="seemoreapi" title="Application Gallery"><strong>See more examples in the Application Gallery&nbsp;&rarr;</strong></a></p>
-	</div>
-	<br/><br/><br/><br/>
+	</div><!--
+--></div>
 </div>
-</div>
-<!--
--->﻿<!-- Begin Footer -->
+﻿<!-- Begin Footer -->
 <footer class="footer" role="contentinfo">
     <div class="lc">
 		<div class="social-icons">
@@ -348,5 +241,5 @@ function requestAPIKey(){
 </footer>
 <!-- End Footer -->
 <!--
---></div></body>
+--></body>
 </html>
