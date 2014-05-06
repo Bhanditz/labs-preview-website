@@ -26,7 +26,8 @@
 	<script src="/js/date.format.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/js/URI.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
-	<script src="/js/jquery.pages.js"></script>		
+	<script src="/js/jquery.pages.js"></script>
+	<script src="/js/tagfiltering.js"></script>				
     <script src="/js/labs.js"></script>
     <script type="text/javascript" src="//use.typekit.net/ifv4urq.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -145,7 +146,7 @@
 
 <h2 id="background__the_europeana_data_model_edm">Background - The Europeana Data Model (EDM)</h2>
 
-<p>The Europeana Data Model was designed to replace the Europeana Semantic Elements (ESE). EDM will gradually make Europeana fit within a networked data environment. It is a much more flexible and precise model than ESE, and offers the opportunity to attach every statement to the specific resource it applies to, and to reflect some basic form of data provenance. The main EDM requirements include:</p>
+<p>The Europeana Data Model was designed to replace the Europeana Semantic Elements (ESE). EDM is now gradually making Europeana fit within a networked data environment. It is a much more flexible and precise model than ESE, and offers the opportunity to attach every statement to the specific resource it applies to, and to reflect some basic form of data provenance. The main EDM requirements include:</p>
 
 <ul>
 <li>
@@ -167,7 +168,7 @@
 
 <h2 id="generating_edm_data_for_europeana">Generating EDM data for Europeana</h2>
 
-<p>Currently, Europeana does not harvest metadata in the EDM format. We thus had to convert legacy ESE data into EDM. This entails creating resources for the main EDM classes, and distributing ESE metadata fields over these various resources, as presented in this <a href="http://europeanalabs.eu/wiki/EDMPrototypingTask15">mapping</a>. The resulting data does not realise the full potential offered by EDM but it allows us to make some distinctions, which we believe are useful for data consumers.</p>
+<p>The data available in the pilot results from a conversion of legacy ESE data into EDM. This entails creating resources for the main EDM classes, and distributing ESE metadata fields over these various resources, as presented in this <a href="http://europeanalabs.eu/wiki/EDMPrototypingTask15">mapping</a>. The resulting data does not realise the full potential offered by EDM but it allows us to make some distinctions, which we believe are useful for data consumers.</p>
 
 <p>Additionally, data.europeana.eu includes semantic connections to external (linked data) sources. We serve links to other linked data services already maintained by Europeana providers - currently only the Swedish cultural heritage aggregator (SOCH). The vast majority of external links come from semantic enrichment realised at the Europeana Office, connecting Europeana items to places (as provided by <a href="http://geonames.org">GeoNames</a>), concepts (from the <a href="http://www.eionet.europa.eu/gemet">GEMET</a> thesaurus), persons (from <a href="http://dbpedia.org">DBpedia</a>) and time periods (from an adhoc time period vocabulary).</p>
 

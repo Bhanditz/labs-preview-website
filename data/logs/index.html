@@ -26,7 +26,8 @@
 	<script src="/js/date.format.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/js/URI.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
-	<script src="/js/jquery.pages.js"></script>		
+	<script src="/js/jquery.pages.js"></script>
+	<script src="/js/tagfiltering.js"></script>				
     <script src="/js/labs.js"></script>
     <script type="text/javascript" src="//use.typekit.net/ifv4urq.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -164,45 +165,48 @@
 <tr><td style="text-align: left;">“FULL_RESULT_JSON”</td><td style="text-align: left;">JSON output of the full-result.</td></tr>
 </tbody></table>
 <h2 id="europeana_session_clickstream">Europeana session clickstream</h2>
-<table><thead><tr><th>Field</th><th>Example</th><th>Explanation</th></tr></thead><tbody><tr><td style="text-align: left;"><strong>Session statistics</strong></td><td style="text-align: left;">IP</td><td style="text-align: left;">B7A5C7280ACDE2F373D32BC53B7[…]</td></tr>
-<tr><td style="text-align: left;">Unique identifier replacing IP address.</td><td style="text-align: left;">Countries55</td><td style="text-align: left;">BR</td></tr>
-<tr><td style="text-align: left;">Country code derived from IP address.</td><td style="text-align: left;">Dates</td><td style="text-align: left;">2010-09-23</td></tr>
-<tr><td style="text-align: left;">Date of access.</td><td style="text-align: left;">durationInMin, start_session, end_session</td><td style="text-align: left;">4; “10:35:37”, “10:40:30”</td></tr>
-<tr><td style="text-align: left;">Session duration in minutes with timestamp of first and last log entry.</td><td style="text-align: left;">userHasLoggedIn</td><td style="text-align: left;">false</td></tr>
-<tr><td style="text-align: left;">Session with login to user profile.</td><td style="text-align: left;">inactivityBreak</td><td style="text-align: left;">true</td></tr>
-<tr><td style="text-align: left;">Session was cut off due to inactivity after 60 minutes.</td><td style="text-align: left;">pageClicks</td><td style="text-align: left;">24</td></tr>
-<tr><td style="text-align: left;">No. of performed actions / page views.</td><td style="text-align: left;">bounceSession</td><td style="text-align: left;">false</td></tr>
-<tr><td style="text-align: left;">Session with only one page view / action.</td><td style="text-align: left;">Actions</td><td style="text-align: left;">“REDIRECT_OUTLINK” : 4, “FULL_RESULT” : 6 […]</td></tr>
-<tr><td style="text-align: left;">List of actions with frequency; here: 4 times an outlink to content providers was used, 6 times a full object views was recorded, etc.</td><td style="text-align: left;">actionOrder</td><td style="text-align: left;">“INDEXPAGE” “BRIEF_RESULT”, “RETURN_TO_RESULTS”, [….]</td></tr>
-<tr><td style="text-align: left;">Order of actions performed during a session</td><td style="text-align: left;">reqRefererPairs</td><td style="text-align: left;">http://www.google.com/search?hl=en&amp;q=biblioteca+on+line &gt;http://www.europeana.eu:80/portal/ </td></tr>
-<tr><td style="text-align: left;">Request and referrer links for each log entry.</td><td style="text-align: left;">hasExternalReferrer</td><td style="text-align: left;">true</td></tr>
-<tr><td style="text-align: left;">Session was started from an external referrer link.</td><td style="text-align: left;">googleLanguage, googleCountry</td><td style="text-align: left;">“en”; “com”</td></tr>
-<tr><td style="text-align: left;">Language and country parameters from external Google links.</td><td style="text-align: left;">Queries</td><td style="text-align: left;">“europeana_uri:”http://www.europeana,eu/resolve/record/90101/079674BD6F20C0FB6CCAF1C6785BE655490406E8”” : 1, “Karl Marx” : 13, “Benjamin Franklin” : 2</td></tr>
-<tr><td style="text-align: left;">Browsing, paging and related item queries with frequency; includes queries that are typed by the user (Karl Marx; Benjmin Franklin) as well as queries set by the system as consequence of a link request.</td><td style="text-align: left;">uniqueQueriesNr</td><td style="text-align: left;">3</td></tr>
-<tr><td style="text-align: left;">No. of unique queries in session.</td><td style="text-align: left;">searchType</td><td style="text-align: left;">“Paging”: 5</td></tr>
-<tr><td style="text-align: left;">Search types with query frequency: „initial“: first result page viewed,„paging“:at least 2 result pages viewed, “facet select”: first result page viewed with result refinement.</td><td style="text-align: left;">facetSelected</td><td style="text-align: left;">1</td></tr>
-<tr><td style="text-align: left;">No. of search result pages with facet selection.</td><td style="text-align: left;"><strong>Statistics for Brief Result Pages</strong></td><td style="text-align: left;">pageViews</td></tr>
-<tr><td style="text-align: left;">6</td><td style="text-align: left;">No. of result list pages.</td><td style="text-align: left;">hasPagingSessions</td></tr>
-<tr><td style="text-align: left;">True</td><td style="text-align: left;">Session includes brief result paging.</td><td style="text-align: left;">uniquePagingSessionNr</td></tr>
-<tr><td style="text-align: left;">2</td><td style="text-align: left;">No. of unique brief result.paging sessions per query (Karl Marx; Benjamin Franklin).</td><td style="text-align: left;">pagingSessions</td></tr>
-<tr><td style="text-align: left;">“Karl Marx” : 4,”Benjamin Franklin” : 2</td><td style="text-align: left;">Queries with result page interaction; for Karl Marx 4 result pages were viewed and for the query Benjamin Franklin only 2.</td><td style="text-align: left;">usesFacetsConstraints</td></tr>
-<tr><td style="text-align: left;">true</td><td style="text-align: left;">Usage of facets.</td><td style="text-align: left;">hasLangFacetSelected</td></tr>
-<tr><td style="text-align: left;">true</td><td style="text-align: left;">Usage of language facet.</td><td style="text-align: left;">selectedLangFacets</td></tr>
-<tr><td style="text-align: left;">“pt”</td><td style="text-align: left;">Selected language facet.</td><td style="text-align: left;">hasCountryFacetSelected</td></tr>
-<tr><td style="text-align: left;">false</td><td style="text-align: left;">Usage of country facet.</td><td style="text-align: left;">selectedCountryFacets</td></tr>
-<tr><td style="text-align: left;">x</td><td style="text-align: left;">Selected country facet.</td><td style="text-align: left;">hasProviderFacetSelected</td></tr>
-<tr><td style="text-align: left;">false</td><td style="text-align: left;">Usage of provider facet.</td><td style="text-align: left;">selectedProviderFacets</td></tr>
-<tr><td style="text-align: left;">x</td><td style="text-align: left;">Selected provider facet.</td><td style="text-align: left;">queryConstraints</td></tr>
-<tr><td style="text-align: left;">”&quot;TYPE:&quot;TEXT&quot;&quot;”, ”&quot;LANGUAGE:&quot;pt&quot;&quot;</td><td style="text-align: left;">Content of selected facets.</td><td style="text-align: left;">countryFacet</td></tr>
-<tr><td style="text-align: left;">“france”, “germany”, “portugal”</td><td style="text-align: left;">Top three country facets returned.</td><td style="text-align: left;">languageFacet</td></tr>
-<tr><td style="text-align: left;">“fr”, “de”</td><td style="text-align: left;">Top three language facets returned.</td><td style="text-align: left;"><strong>Statistics for Full Result Pages</strong></td></tr>
+<table><thead><tr><th>Field</th><th>Example</th><th>Explanation</th></tr></thead><tbody><tr><td style="text-align: left;"><strong>Session statistics</strong></td><td style="text-align: left;"></td><td style="text-align: left;"></td></tr>
+<tr><td style="text-align: left;">IP</td><td style="text-align: left;">B7A5C7280ACDE2F373D32BC53B7[…]</td><td style="text-align: left;">Unique identifier replacing IP address.</td></tr>
+<tr><td style="text-align: left;">Countries55</td><td style="text-align: left;">BR</td><td style="text-align: left;">Country code derived from IP address.</td></tr>
+<tr><td style="text-align: left;">Dates</td><td style="text-align: left;">2010-09-23</td><td style="text-align: left;">Date of access.</td></tr>
+<tr><td style="text-align: left;">durationInMin, start_session, end_session</td><td style="text-align: left;">4; “10:35:37”, “10:40:30”</td><td style="text-align: left;">Session duration in minutes with timestamp of first and last log entry.</td></tr>
+<tr><td style="text-align: left;">userHasLoggedIn</td><td style="text-align: left;">false</td><td style="text-align: left;">Session with login to user profile.</td></tr>
+<tr><td style="text-align: left;">inactivityBreak</td><td style="text-align: left;">true</td><td style="text-align: left;">Session was cut off due to inactivity after 60 minutes.</td></tr>
+<tr><td style="text-align: left;">pageClicks</td><td style="text-align: left;">24</td><td style="text-align: left;">No. of performed actions / page views.</td></tr>
+<tr><td style="text-align: left;">bounceSession</td><td style="text-align: left;">false</td><td style="text-align: left;">Session with only one page view / action.</td></tr>
+<tr><td style="text-align: left;">Actions</td><td style="text-align: left;">“REDIRECT_OUTLINK” : 4, “FULL_RESULT” : 6 […]</td><td style="text-align: left;">List of actions with frequency; here: 4 times an outlink to content providers was used, 6 times a full object views was recorded, etc.</td></tr>
+<tr><td style="text-align: left;">actionOrder</td><td style="text-align: left;">“INDEXPAGE” “BRIEF_RESULT”, “RETURN_TO_RESULTS”, [….]</td><td style="text-align: left;">Order of actions performed during a session</td></tr>
+<tr><td style="text-align: left;">reqRefererPairs</td><td style="text-align: left;">http://www.google.com/search?hl=en&amp;q=biblioteca+on+line &gt;http://www.europeana.eu:80/portal/ </td><td style="text-align: left;">Request and referrer links for each log entry.</td></tr>
+<tr><td style="text-align: left;">hasExternalReferrer</td><td style="text-align: left;">true</td><td style="text-align: left;">Session was started from an external referrer link.</td></tr>
+<tr><td style="text-align: left;">googleLanguage, googleCountry</td><td style="text-align: left;">“en”; “com”</td><td style="text-align: left;">Language and country parameters from external Google links.</td></tr>
+<tr><td style="text-align: left;">Queries</td><td style="text-align: left;">“europeana_uri:”http://www.europeana,eu/resolve/record/90101/079674BD6F20C0FB6CCAF1C6785BE655490406E8”” : 1, “Karl Marx” : 13, “Benjamin Franklin” : 2</td><td style="text-align: left;">Browsing, paging and related item queries with frequency; includes queries that are typed by the user (Karl Marx; Benjmin Franklin) as well as queries set by the system as consequence of a link request.</td></tr>
+<tr><td style="text-align: left;">uniqueQueriesNr</td><td style="text-align: left;">3</td><td style="text-align: left;">No. of unique queries in session.</td></tr>
+<tr><td style="text-align: left;">searchType</td><td style="text-align: left;">“Paging”: 5</td><td style="text-align: left;">Search types with query frequency: „initial“: first result page viewed,„paging“:at least 2 result pages viewed, “facet select”: first result page viewed with result refinement.</td></tr>
+<tr><td style="text-align: left;">facetSelected</td><td style="text-align: left;">1</td><td style="text-align: left;">No. of search result pages with facet selection.</td></tr>
+<tr><td style="text-align: left;"><strong>Statistics for Brief Result Pages</strong></td><td style="text-align: left;"></td><td style="text-align: left;"></td></tr>
+<tr><td style="text-align: left;">pageViews</td><td style="text-align: left;">6</td><td style="text-align: left;">No. of result list pages.</td></tr>
+<tr><td style="text-align: left;">hasPagingSessions</td><td style="text-align: left;">True</td><td style="text-align: left;">Session includes brief result paging.</td></tr>
+<tr><td style="text-align: left;">uniquePagingSessionNr</td><td style="text-align: left;">2</td><td style="text-align: left;">No. of unique brief result.paging sessions per query (Karl Marx; Benjamin Franklin).</td></tr>
+<tr><td style="text-align: left;">pagingSessions</td><td style="text-align: left;">“Karl Marx” : 4,”Benjamin Franklin” : 2</td><td style="text-align: left;">Queries with result page interaction; for Karl Marx 4 result pages were viewed and for the query Benjamin Franklin only 2.</td></tr>
+<tr><td style="text-align: left;">usesFacetsConstraints</td><td style="text-align: left;">true</td><td style="text-align: left;">Usage of facets.</td></tr>
+<tr><td style="text-align: left;">hasLangFacetSelected</td><td style="text-align: left;">true</td><td style="text-align: left;">Usage of language facet.</td></tr>
+<tr><td style="text-align: left;">selectedLangFacets</td><td style="text-align: left;">“pt”</td><td style="text-align: left;">Selected language facet.</td></tr>
+<tr><td style="text-align: left;">hasCountryFacetSelected</td><td style="text-align: left;">false</td><td style="text-align: left;">Usage of country facet.</td></tr>
+<tr><td style="text-align: left;">selectedCountryFacets</td><td style="text-align: left;">x</td><td style="text-align: left;">Selected country facet.</td></tr>
+<tr><td style="text-align: left;">hasProviderFacetSelected</td><td style="text-align: left;">false</td><td style="text-align: left;">Usage of provider facet.</td></tr>
+<tr><td style="text-align: left;">selectedProviderFacets</td><td style="text-align: left;">x</td><td style="text-align: left;">Selected provider facet.</td></tr>
+<tr><td style="text-align: left;">queryConstraints</td><td style="text-align: left;">”&quot;TYPE:&quot;TEXT&quot;&quot;”, ”&quot;LANGUAGE:&quot;pt&quot;&quot;</td><td style="text-align: left;">Content of selected facets.</td></tr>
+<tr><td style="text-align: left;">countryFacet</td><td style="text-align: left;">“france”, “germany”, “portugal”</td><td style="text-align: left;">Top three country facets returned.</td></tr>
+<tr><td style="text-align: left;">languageFacet</td><td style="text-align: left;">“fr”, “de”</td><td style="text-align: left;">Top three language facets returned.</td></tr>
+<tr><td style="text-align: left;"><strong>Statistics for Full Result Pages</strong></td><td style="text-align: left;"></td><td style="text-align: left;"></td></tr>
 <tr><td style="text-align: left;">directFullViews</td><td style="text-align: left;">0</td><td style="text-align: left;">User landed on full view without performing a search.</td></tr>
 <tr><td style="text-align: left;">uniqueFullViews 4</td><td style="text-align: left;">No. of unique full object views.</td><td style="text-align: left;">nrUniqueCollections</td></tr>
 <tr><td style="text-align: left;">3</td><td style="text-align: left;">No. of unique collections viewed.</td><td style="text-align: left;">uniqueCollections</td></tr>
 <tr><td style="text-align: left;">“00301”, “92201”, “90101”</td><td style="text-align: left;">Collection IDs.</td><td style="text-align: left;">collCountry</td></tr>
 <tr><td style="text-align: left;">norway</td><td style="text-align: left;">Country of collection viewed.</td><td style="text-align: left;">collLanguage</td></tr>
 <tr><td style="text-align: left;">no</td><td style="text-align: left;">Language of collection viewed.</td><td style="text-align: left;">Queries</td></tr>
-<tr><td style="text-align: left;">“europeana_uri:”http://www.europeana.eu/resolve/record/90101/079674BD6F20C…”” : 1, “Karl Marx” : 5</td><td style="text-align: left;">Queries from which the user navigated to a full view.</td><td style="text-align: left;"><strong>Statistics for Interface Language</strong></td></tr>
+<tr><td style="text-align: left;">“europeana_uri:”http://www.europeana.eu/resolve/record/90101/079674BD6F20C…”” : 1, “Karl Marx” : 5</td><td style="text-align: left;">Queries from which the user navigated to a full view.</td><td style="text-align: left;"></td></tr>
+<tr><td style="text-align: left;"><strong>Statistics for Interface Language</strong></td><td style="text-align: left;"></td><td style="text-align: left;"></td></tr>
 <tr><td style="text-align: left;">Languages</td><td style="text-align: left;">“EN” : 1, “PT” : 23</td><td style="text-align: left;">For each page view, the interface language is determined; this session contains one page view with an EN and 23 page views with PT</td></tr>
 <tr><td style="text-align: left;">uniqueLanguagesNr</td><td style="text-align: left;">2</td><td style="text-align: left;">Nr. of unique languages: EN, PT.</td></tr>
 <tr><td style="text-align: left;">hasLanguageChange</td><td style="text-align: left;">true</td><td style="text-align: left;">Session includes an interface language change.</td></tr>
