@@ -103,19 +103,54 @@
 
 		<div class="b-text">
 		    <div class="prose description">
-		        <p>Uncovering the technology behind the simple search tool to discover reusable content available in both the Europeana portal and API.</p><p><em>This is an extract from a blog post previously published by P&amp;eacute;ter Kir&amp;aacute;ly, software developer at Europeana. To read the full article visit <a href='http://kirunews.blog.hu/2014/02/13/solr_query_facets_in_europeana'>http://kirunews.blog.hu/2014/02/13/solr_query_facets_in_europeana</a></em></p><p>One of Europeana’s important aims is to make the rights statements of records clear and straightforward. You can imagine, our &gt;2,400 partners have different approaches for licensing their objects, and right now in the database we have 60+ different licence types, in other words the RIGHTS facet has 60+ individual values. Some of them are language or version variations of the same CC licence. Most users don’t want to select from that range of options. But we can categorize these rights statements under 3 main categories:</p><ul>
-<li>freely reusable with attribution (CC0, CC BY, CC BY-SA)</li>
+		        <p>Uncovering the technology behind the simple search tool to discover reusable content available in both the Europeana  portal and API.</p>
 
-<li>reusable with some restrictions (CC BY-NC, CC BY-NC-SA, CC BY-NC-ND, CC BY-ND, OOC NC)</li>
+<p><em>This is an extract from a blog post previously published by Péter Király, software developer at Europeana. To read the full article visit <a href="http://kirunews.blog.hu/2014/02/13/solr_query_facets_in_europeana">http://kirunews.blog.hu/2014/02/13/solr_query_facets_in_europeana</a></em></p>
 
-<li>reusable only with permissions (licences of the Europeana Rights Framework)</li>
-</ul><h2 id='how_it_was_done'>How it was done</h2><p>In Europeana we use Apache Solr for searching. Our data model is called EDM (Europeana Data Model), which has almost 200 fields. We also have special fields for facets and we have some aggregated fields. What we wanted to achieve was to form a new facet from these options, but the most straightforward solution, i.e. to create a new field in Solr, was not an easily implementable option because it would require a full reindexing (it would be another blog entry to explain why that was not possible), so we had to search for another solution. To count the numbers belonging to the individual rights statements in the RIGHTS facet would work, but that’s only good for displaying, and it doesn’t cover the problem of user interaction. To use the RIGHTS field for search turned out to be risky because it interferes with the RIGHTS facet, so that did not worked either. Finally we come up with a fake facet, which has two sides: one on the display side, and one on the search side.</p><p>To count the numbers we use a special Solr facet type: query facet. It is a simple, but at the same time a powerful solution. It doesn’t give you a list of existing field values, as a normal facet. In the query facet the input is a query, and the returning value is a single number, which tells you how many records fit the combination of the main query and the query specified in the facet’s parameter. Since we don’t need to know the list of items in the categories, that’s enough for us. We defined three queries:</p><ul>
-<li>RIGHTS:(“CC0” OR “CC BY” OR “CC BY SA”)</li>
+<p>One of Europeana’s important aims is to make the rights statements of records clear and straightforward. You can imagine, our &gt;2,400 partners have different approaches for licensing their objects, and right now in the database we have 60+ different licence types, in other words the RIGHTS facet has 60+ individual values. Some of them are language or version variations of the same CC licence. Most users don’t want to select from that range of options. But we can categorize these rights statements under 3 main categories:</p>
 
-<li>RIGHTS:(“CC BY NC” OR “CC BY NC SA” OR “CC BY NC ND” OR “CC BY ND” OR “OOC NC”)</li>
+<ul>
+  <li>freely reusable with attribution (CC0, CC BY, CC BY-SA)</li>
+  <li>reusable with some restrictions (CC BY-NC, CC BY-NC-SA, CC BY-NC-ND, CC BY-ND, OOC NC)</li>
+  <li>reusable only with permissions (licences of the Europeana Rights Framework)</li>
+</ul>
 
-<li>RIGHTS:(NOT(“CC0” OR “CC BY” OR “CC BY SA” OR “CC BY NC” OR “CC BY NC SA” OR “CC BY NC ND” OR “CC BY ND” OR “OOC NC”))</li>
-</ul><h3 id='europeana_portal'>Europeana portal</h3><p>On the Europeana portal we use a fake facet called ”REUSABILITY”, and we use it in our filtering parameter (&amp;qf) as REUSABILITY:open, or REUSABILITY:restricted or REUSABILITY:permission. These are shortcuts for the lengthy queries. We keep the interface (and the URL) clean.</p><p>Explore this on the Portal: <a href='http://www.europeana.eu' title='Europeana portal'>europeana.eu</a></p><h3 id='europeana_api'>Europeana API</h3><p>In the API we introduced the ”reusability” parameter with the same options as in the portal: “open”, “restricted” and “permission”.</p><p>Example API call: <a href='http://europeana.eu/api/v2/search.json?wskey=%5BYOUR%20API%20KEY%5D&amp;query=*%3A*&amp;reusability=open'>http://europeana.eu/api/v2/search.json?wskey=%5BYOUR%20API%20KEY%5D&amp;query=<em>%3A</em>&amp;reusability=open</a></p><p>Explore this in the API console: <a href='http://labs.europeana.eu/api/console/' title='Europeana APi console'>labs.europeana.eu/api/console/</a></p><h2 id='further_information'>Further information</h2><p>For details of how this is implemented, including the actual Solr queries, read my original blog post at <a href='http://kirunews.blog.hu/2014/02/13/solr_query_facets_in_europeana'>http://kirunews.blog.hu/2014/02/13/solr_query_facets_in_europeana</a></p><p>For more information about the Europeana Data Model see <a href='http://pro.europeana.eu/edm-documentation' title='Europeana Data Model'>http://pro.europeana.eu/edm-documentation</a> To find out more about the Europeana API check the extensive online documentation section at <a href='http://labs.europeana.eu/api/' title='Europeana API documentation'>http://labs.europeana.eu/api/</a></p><p>Péter Király, April 2014<br /><a href='http://nl.linkedin.com/in/peterkiraly/'>http://nl.linkedin.com/in/peterkiraly/</a></p>   
+<h2 id="how-it-was-done">How it was done</h2>
+
+<p>In Europeana we use Apache Solr for searching. Our data model is called EDM (Europeana Data Model), which has almost 200 fields. We also have special fields for facets and we have some aggregated fields. What we wanted to achieve was to form a new facet from these options, but the most straightforward solution, i.e. to create a new field in Solr, was not an easily implementable option because it would require a full reindexing (it would be another blog entry to explain why that was not possible), so we had to search for another solution. To count the numbers belonging to the individual rights statements in the RIGHTS facet would work, but that’s only good for displaying, and it doesn’t cover the problem of user interaction. To use the RIGHTS field for search turned out to be risky because it interferes with the RIGHTS facet, so that did not worked either. Finally we come up with a fake facet, which has two sides: one on the display side, and one on the search side.</p>
+
+<p>To count the numbers we use a special Solr facet type: query facet. It is a simple, but at the same time a powerful solution. It doesn’t give you a list of existing field values, as a normal facet. In the query facet the input is a query, and the returning value is a single number, which tells you how many records fit the combination of the main query and the query specified in the facet’s parameter. Since we don’t need to know the list of items in the categories, that’s enough for us. We defined three queries:</p>
+
+<ul>
+  <li>RIGHTS:(“CC0” OR “CC BY” OR “CC BY SA”)</li>
+  <li>RIGHTS:(“CC BY NC” OR “CC BY NC SA” OR “CC BY NC ND” OR “CC BY ND” OR “OOC NC”)</li>
+  <li>RIGHTS:(NOT(“CC0” OR “CC BY” OR “CC BY SA” OR “CC BY NC” OR “CC BY NC SA” OR “CC BY NC ND” OR “CC BY ND” OR “OOC NC”))</li>
+</ul>
+
+<h3 id="europeana-portal">Europeana portal</h3>
+
+<p>On the Europeana portal we use a fake facet called ”REUSABILITY”, and we use it in our filtering parameter (&amp;qf) as REUSABILITY:open, or REUSABILITY:restricted or REUSABILITY:permission. These are shortcuts for the lengthy queries. We keep the interface (and the URL) clean.</p>
+
+<p>Explore this on the Portal: <a href="http://www.europeana.eu" title="Europeana portal">europeana.eu</a></p>
+
+<h3 id="europeana-api">Europeana API</h3>
+
+<p>In the API we introduced the ”reusability” parameter with the same options as in the portal: “open”, “restricted” and “permission”.</p>
+
+<p>Example API call: <a href="http://europeana.eu/api/v2/search.json?wskey=%5BYOUR%20API%20KEY%5D&amp;query=*%3A*&amp;reusability=open">http://europeana.eu/api/v2/search.json?wskey=%5BYOUR%20API%20KEY%5D&amp;query=<em>%3A</em>&amp;reusability=open</a></p>
+
+<p>Explore this in the API console: <a href="http://labs.europeana.eu/api/console/" title="Europeana APi console">labs.europeana.eu/api/console/</a></p>
+
+<h2 id="further-information">Further information</h2>
+
+<p>For details of how this is implemented, including the actual Solr queries, read my original blog post at <a href="http://kirunews.blog.hu/2014/02/13/solr_query_facets_in_europeana">http://kirunews.blog.hu/2014/02/13/solr_query_facets_in_europeana</a></p>
+
+<p>For more information about the Europeana Data Model see <a href="http://pro.europeana.eu/edm-documentation" title="Europeana Data Model">http://pro.europeana.eu/edm-documentation</a>
+To find out more about the Europeana API check the extensive online documentation section at <a href="http://labs.europeana.eu/api/" title="Europeana API documentation">http://labs.europeana.eu/api/</a></p>
+
+<p>Péter Király, April 2014<br />
+<a href="http://nl.linkedin.com/in/peterkiraly/">http://nl.linkedin.com/in/peterkiraly/</a></p>
+   
 		        
  
 		       <!-- 

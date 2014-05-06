@@ -140,41 +140,85 @@
 
 		
 	<div id="documentation" class="prose grid__item palm--one-whole push--palm-none one-half"><!--
-	--><div class="maruku_toc"><ul><li><a href="#edm_and_records">EDM and Records</a></li><li><a href="#identifying_records">Identifying Records</a></li><li><a href="#fields">Fields</a></li><li><a href="#aggregated_fields">Aggregated Fields</a></li><li><a href="#facets">Facets</a></li></ul></div>
+	--><ul id="markdown-toc">
+  <li><a href="#edm-and-records">EDM and Records</a></li>
+  <li><a href="#identifying-records">Identifying Records</a></li>
+  <li><a href="#fields">Fields</a></li>
+  <li><a href="#aggregated-fields">Aggregated Fields</a></li>
+  <li><a href="#facets">Facets</a></li>
+</ul>
+
 <p>To organize its data Europeana uses a complex data model which is called the Europeana Data Model (EDM). A detailed description of EDM is beyond the scope of this documentation: the reader is referred to the extensive documentation <a href="http://pro.europeana.eu/edm-documentation">on Europeana website</a>. However, a basic understanding of the data organization is necessary for implementing the API. The objective of this section is to provide this basic understanding.</p>
 
-<h2 id="edm_and_records">EDM and Records</h2>
+<h2 id="edm-and-records">EDM and Records</h2>
 
-<p>The Europeana API provides access to the Europeana data, which is modeled using EDM. While EDM is an open flexible data model featuring various kind of resources and relations between them, the Europeana API (and the Europeana Portal) supports the retrieval of a segment of EDM for practical purposes (a subgraph, to use strict terminology). These ‘atomic’ EDM segments usually contain one Cultural Heritage Object (CHO), the aggregation information which connects the metadata and the digital representations together and a number of contextual resources such as the agents, places, concepts and time pertaining to the CHO. The further API documentation, in particular the <a href="http://labs.europeana.eu/api/record">/record</a> call refers to this subgraph as <em>object</em>.</p>
+<p>The Europeana API provides access to the Europeana data, which is modeled using EDM. While EDM is an open flexible data model featuring various kind of resources and relations between them, the Europeana API (and the Europeana Portal) supports the retrieval of a segment of EDM for practical purposes (a subgraph, to use strict terminology). These ‘atomic’ EDM segments usually contain one Cultural Heritage Object (CHO), the aggregation information which connects the metadata and the digital representations together and a number of contextual resources such as the agents, places, concepts and time pertaining to the CHO. The further API documentation, in particular the <a href="http://labs.europeana.eu/api/record">/record</a> call refers to this subgraph as <em>object</em>. </p>
 
-<h2 id="identifying_records">Identifying Records</h2>
+<h2 id="identifying-records">Identifying Records</h2>
 
 <p>Digital records delivered to Europeana are assigned a unique identifier, Europeana ID, that serves to further identify the records when using the API. Usually, this identifier is based on the original metadata that are provided for the record and internal Europeana identifiers of the provider and the dataset containing the record. For example, a Europeana ID of an object can look as follows:</p>
 
-<pre><code>/09102/_GNM_1234</code></pre>
+<pre><code>/09102/_GNM_1234
+</code></pre>
 
-<p>where 091 is the identifier of the provider, 02 is the id of the dataset and <em>GNM</em>1234_ is derived from the unique identifier of the record in the context of the provider.</p>
+<p>where 091 is the identifier of the provider, 02 is the id of the dataset and <em>GNM_1234</em> is derived from the unique identifier of the record in the context of the provider.</p>
 
 <h2 id="fields">Fields</h2>
 
 <p>Europeana data is organized in records which correspond to cultural heritage objects. Each object is described by a number of fields in the record which contain information such as the title of the object, its description, the date, persons and concepts related to it.</p>
 
-<h2 id="aggregated_fields">Aggregated Fields</h2>
+<h2 id="aggregated-fields">Aggregated Fields</h2>
 
 <p>Europeana aggregates its data from cultural institutions that can use diverse, fine-grained systems and methodologies. As a result, a link between for example an object and a person may be stored in different specialized fields. To provide simpler views on this data, Europeana has introduced several general Aggregated Fields: title, who, what, when, and where. In these fields we gather together information from different record fields in order to make the discovery of objects easier. Title, for example, aggregates data from the dc:title and dcterms:alternative fields which are part of Dublin Core, a popular general standard for describing different types of resources.</p>
 
 <h2 id="facets">Facets</h2>
 
 <p>The number of records that Europeana contains is very big and growing. Therefore we need efficient ways to allow our users to discover what they need easily. One such technique is a faceted indexing system that classifies each record along multiple dimensions. The facets, seen on the left side of the Europeana portal, can be useful for filtering search results and can also be used by API users. Currently we support the following facets:</p>
-<table><thead><tr><th>Facet</th><th>Description</th></tr></thead><tbody><tr><td style="text-align: left;">Media Type</td><td style="text-align: left;">A broad classification of objects into five material types that users may find useful for filtering purposes: text, image, sound, video, 3D.</td></tr>
-<tr><td style="text-align: left;">Language</td><td style="text-align: left;">A language of the record.</td></tr>
-<tr><td style="text-align: left;">Date</td><td style="text-align: left;">A point or period of time associated with an event in the lifecycle of the record</td></tr>
-<tr><td style="text-align: left;">Country</td><td style="text-align: left;">The name of the country of the data provider or “Europe” in the case of Europe-wide projects.</td></tr>
-<tr><td style="text-align: left;">Copyrights</td><td style="text-align: left;">Information about rights held in and over the resource.</td></tr>
-<tr><td style="text-align: left;">Provider</td><td style="text-align: left;">Europeana Provider</td></tr>
-<tr><td style="text-align: left;">Completeness</td><td style="text-align: left;">Internal Europeana measure of the completeness of the metadata of the record.</td></tr>
-<tr><td style="text-align: left;">UGC</td><td style="text-align: left;">Whether the record has been contributed by the user community</td></tr>
-</tbody></table><!--
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Facet</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Media Type</td>
+      <td style="text-align: left">A broad classification of objects into five material types that users may find useful for filtering purposes: text, image, sound, video, 3D.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Language</td>
+      <td style="text-align: left">A language of the record.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Date</td>
+      <td style="text-align: left">A point or period of time associated with an event in the lifecycle of the record</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Country</td>
+      <td style="text-align: left">The name of the country of the data provider or “Europe” in the case of Europe-wide projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Copyrights</td>
+      <td style="text-align: left">Information about rights held in and over the resource.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Provider</td>
+      <td style="text-align: left">Europeana Provider</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Completeness</td>
+      <td style="text-align: left">Internal Europeana measure of the completeness of the metadata of the record.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">UGC</td>
+      <td style="text-align: left">Whether the record has been contributed by the user community</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--
 --></div>
 </div>
 ﻿<!-- Begin Footer -->
