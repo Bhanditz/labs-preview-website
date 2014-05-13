@@ -11,12 +11,8 @@
             filterOperator: "AND",
             paginationHolder: "div.pagination-holder",
             paginationContainerId: "list",
-<<<<<<< HEAD
-            activeTagClass: "active"
-=======
             activeTagClass: "active",
             modelNoPagination: true
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
         };
 
         if (options) {
@@ -88,19 +84,11 @@
         }
 
         function performFilter() {
-<<<<<<< HEAD
-
-=======
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
             $(settings.listid + " li")
                 .removeClass("not-filtered")
                 .removeClass("filtered")
                 .addClass("not-filtered");
-<<<<<<< HEAD
-
-=======
                 
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 
             if (fil.length > 0) {
                 $(settings.listid + " li" + fil).removeClass("not-filtered").addClass("filtered");
@@ -110,12 +98,9 @@
                     .removeClass("filtered");
             }
 
-<<<<<<< HEAD
-=======
                 if(settings.modelNoPagination){
                 	 $(settings.listid + " li.not-filtered").hide();
                 }
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
         }
 
         function performPagination() {
