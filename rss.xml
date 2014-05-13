@@ -524,6 +524,8 @@ For more information read: http://pro.europeana.eu/documents/858566/0216948e-dd4
       <link>http://labs.europeana.eu/2014/05/12/europ.in-pinboard-style-picture-search-engine-42/</link>
       <description>&lt;p&gt;Europ.in allows for very visual search and browsing of Europeana content. &lt;/p&gt;
 
+&lt;p&gt;You can search for any keyword and get the results in a pinboard-style grid. Clicking on an image provides more details about the particular search result. If the record clicked has values in its Subject field you can click that value to trigger a new search. Scroll-down to load more results. Europ.in main elements are written in Javascript (jQuery library with Wookmark plugin) and PHP. Winner in the category &amp;#8216;Developers&amp;#8217; Pick&amp;#8217; at Hack4Europe &amp;#8216;12 - Latvia. Finalist at the Digital Agenda Assembly, June 2012, Brussels.&lt;/p&gt;
+
 </description>
       <pubDate>Mon, 12 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/2014/05/12/europ.in-pinboard-style-picture-search-engine-42/</guid>
@@ -2504,12 +2506,12 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Battles_in_art_from_the_rijksmuseum</title>
-      <link>http://labs.europeana.eu/2014/01/01/Battles_in_art_from_the_Rijksmuseum/</link>
+      <title>Battles on artwork and drawings from the Rijksmuseum in Amsterdam</title>
+      <link>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</link>
       <description>
 </description>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/01/01/Battles_in_art_from_the_Rijksmuseum/</guid>
+      <guid>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</guid>
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
