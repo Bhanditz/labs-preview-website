@@ -43,10 +43,10 @@
         
         function performFiltering() {
 
-            activateTagsByHashUrl();
-            createFilter();
-            performFilter();
-            performPagination();
+	            activateTagsByHashUrl();
+	            createFilter();
+	            performFilter();
+	            performPagination();   
         }
         
         function activateTagsByHashUrl() {
@@ -88,6 +88,10 @@
                 .removeClass("not-filtered")
                 .removeClass("filtered")
                 .addClass("not-filtered");
+
+                if(settings.modelNoPagination){
+                	 $(settings.listid + " li.not-filtered").show();
+                }
                 
 
             if (fil.length > 0) {
