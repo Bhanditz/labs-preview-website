@@ -120,46 +120,169 @@
 <p>We describe below the details of the Europeana Logs actions and the Europeana session clickstream. We thank Maria Gäde researcher at Humboldt-Universität zu Berlin for providing us with this documentation. </p>
 
 <h2 id="europeana-logs-actions">Europeana Logs actions</h2>
-<p>| Action | Explanation |
-|:————-|:————-|
-| “BRIEF_RESULT”  | User launches a query and is directed to the brief result page.| 
-| “FULL_RESULT_HTML”    | User clicks on an object from the result list and is directed to the detailed full result presentation | 
-|”INDEXPAGE” | User views the homepage. |
-|”REDIRECT_OUTLINK” | User clicks on a link directing to the content provider. |
-|”RETURN_TO_RESULTS” | Users from a full view to the result list. |
-|”STATICPAGE” | Pages views with no dynamic parameter such as “contact us”, “terms of use and policies”. |
-|”BRIEF_RESULT” | Result list from a search query. |
-|”LANGUAGE_CHANGE” | A user switches the interface language via drop down menu. |
-|”LOGIN” | User logs in the user profile MyEuropeana. |
-|”LOGOUT” | User logs out from MyEuropeana. |
-|”LOGOUT_COOKIE_THEFT” | Matching of cookies fails. |
-|”REGISTER” | User registers for MyEuropeana. |
-|”REGISTER_FAILURE”| Registration process failed. |
-|”REGISTER_SUCCESS”| The registration was successfully confirmed. |
-|”EXCEPTION_CAUGHT”| Requested object was not found. |
-|”CONTACT_PAGE” | User clicks on the contact / feedback page.|
-|”FEEDBACK_SEND” | User has send a message at the feedback page. |
-|”FULL_RESULT_FROM_TIME_LINE_VIEW” | Object view presented at the timeline. |
-|”MY_EUROPEANA” | MyEuropeana link for registration or log in. |
-|”FEEDBACK_SEND_FAILURE” | User message from the feedback page. |
-|”CHANGE_PASSWORD_SUCCES” | User changed the log in password. |
-|”SITE_MAP_XML” | XML rendition of the sitemap so crawlers can navigate the website. |
-|”SAVE_ITEM” | Users saves an object in MyEuropeana. |
-|”SAVE_SOCIAL_TAG” | Users assigns a tag to an object saved in MyEuropeana. |
-|”CHANGE_PASSWORD_FAILURE” | Change of user profile password failed. |
-|”FULL_RESULT_FROM_SAVED_ITEM” | A user clicks on a saved object and views the full result representation. |
-|”SAVE_SEARCH” | User saves previous search terms in MyEuropeana. |
-|”BRIEF_RESULT_FROM_SAVED_SEARCH” | User clicks on a previous saved search and receives a result list. |
-|”REMOVE_SAVED_ITEM” | Users removes a saved object from MyEuropeana. |
-|”REMOVE_SOCIAL_TAG” | User removes a tag from MyEuropeana. |
-|”FULL_RESULT_FROM_CAROUSEL” | Users clicks on an object from the carousel. and is directed to the full result presentation. |
-|”ERROR_TOKEN_EXPIRED” | User session is terminated due to inactivity.|
-|”REMOVE_SAVED_SEARCH” | User removes saved search terms from MyEuropeana.|
-|”AJAX_ERROR” | Error with Java Script request from front-end to back-end service.|
-|”REDIRECT_TO_SECURE” | User is directed to a secure communication page (HTTPS). |
-|”FULL_RESULT_HMTL” | The HTML rendering of the full result page. |
-|”FULL_RESULT_SRW” | The XML SRU/SRW rendering of the full-result page. |
-|”FULL_RESULT_JSON” | JSON output of the full-result. |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Action</th>
+      <th style="text-align: left">Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">BRIEF_RESULT</td>
+      <td style="text-align: left">User launches a query and is directed to the brief result page.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">FULL_RESULT_HTML</td>
+      <td style="text-align: left">User clicks on an object from the result list and is directed to the detailed full result presentation</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">INDEXPAGE</td>
+      <td style="text-align: left">User views the homepage.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REDIRECT_OUTLINK</td>
+      <td style="text-align: left">User clicks on a link directing to the content provider.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">RETURN_TO_RESULTS</td>
+      <td style="text-align: left">Users from a full view to the result list.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">STATICPAGE</td>
+      <td style="text-align: left">Pages views with no dynamic parameter such as “contact us”, “terms of use and policies”.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">BRIEF_RESULT</td>
+      <td style="text-align: left">Result list from a search query.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">LANGUAGE_CHANGE</td>
+      <td style="text-align: left">A user switches the interface language via drop down menu.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">LOGIN</td>
+      <td style="text-align: left">User logs in the user profile MyEuropeana.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">LOGOUT</td>
+      <td style="text-align: left">User logs out from MyEuropeana.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">LOGOUT_COOKIE_THEFT</td>
+      <td style="text-align: left">Matching of cookies fails.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REGISTER</td>
+      <td style="text-align: left">User registers for MyEuropeana.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REGISTER_FAILURE</td>
+      <td style="text-align: left">Registration process failed.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REGISTER_SUCCESS</td>
+      <td style="text-align: left">The registration was successfully confirmed.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">EXCEPTION_CAUGHT</td>
+      <td style="text-align: left">Requested object was not found.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CONTACT_PAGE</td>
+      <td style="text-align: left">User clicks on the contact / feedback page.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">FEEDBACK_SEND</td>
+      <td style="text-align: left">User has send a message at the feedback page.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">FULL_RESULT_FROM_TIME_LINE_VIEW</td>
+      <td style="text-align: left">Object view presented at the timeline.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MY_EUROPEANA</td>
+      <td style="text-align: left">MyEuropeana link for registration or log in.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">FEEDBACK_SEND_FAILURE</td>
+      <td style="text-align: left">User message from the feedback page.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CHANGE_PASSWORD_SUCCES</td>
+      <td style="text-align: left">User changed the log in password.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SITE_MAP_XML</td>
+      <td style="text-align: left">XML rendition of the sitemap so crawlers can navigate the website.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SAVE_ITEM</td>
+      <td style="text-align: left">Users saves an object in MyEuropeana.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SAVE_SOCIAL_TAG</td>
+      <td style="text-align: left">Users assigns a tag to an object saved in MyEuropeana.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CHANGE_PASSWORD_FAILURE</td>
+      <td style="text-align: left">Change of user profile password failed.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">FULL_RESULT_FROM_SAVED_ITEM</td>
+      <td style="text-align: left">A user clicks on a saved object and views the full result representation.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SAVE_SEARCH</td>
+      <td style="text-align: left">User saves previous search terms in MyEuropeana.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">BRIEF_RESULT_FROM_SAVED_SEARCH</td>
+      <td style="text-align: left">User clicks on a previous saved search and receives a result list.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REMOVE_SAVED_ITEM</td>
+      <td style="text-align: left">Users removes a saved object from MyEuropeana.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REMOVE_SOCIAL_TAG</td>
+      <td style="text-align: left">User removes a tag from MyEuropeana.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">FULL_RESULT_FROM_CAROUSEL</td>
+      <td style="text-align: left">Users clicks on an object from the carousel. and is directed to the full result presentation.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ERROR_TOKEN_EXPIRED</td>
+      <td style="text-align: left">User session is terminated due to inactivity.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REMOVE_SAVED_SEARCH</td>
+      <td style="text-align: left">User removes saved search terms from MyEuropeana.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">AJAX_ERROR</td>
+      <td style="text-align: left">Error with Java Script request from front-end to back-end service.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">REDIRECT_TO_SECURE</td>
+      <td style="text-align: left">User is directed to a secure communication page (HTTPS).</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">FULL_RESULT_HMTL</td>
+      <td style="text-align: left">The HTML rendering of the full result page.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">FULL_RESULT_SRW</td>
+      <td style="text-align: left">The XML SRU/SRW rendering of the full-result page.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">FULL_RESULT_JSON</td>
+      <td style="text-align: left">JSON output of the full-result.</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="europeana-session-clickstream">Europeana session clickstream</h2>
 
