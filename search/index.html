@@ -94,11 +94,7 @@
 <!---->
 <script id="search-results-template" type="text/mustache">
   {{#entries}}
-<<<<<<< HEAD
  	<li class="grid__item one-whole {{tags}}">
-=======
- 	<li class="grid__item one-whole">
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
             <div class="block block-thumb ">
 
                 <div class="b-thumb">
@@ -139,12 +135,7 @@
       indexUrl: '/search.json',             // URL of the `search.json` index data for your site
       results:  '#search-results',          // jQuery selector for the search results container
       entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
-<<<<<<< HEAD
       template: '#search-results-template'  // jQuery selector for the Mustache.js template
-=======
-      template: '#search-results-template',  // jQuery selector for the Mustache.js template
-      executeLabsSearchSpecificCode: true
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
     });
    
     inputFieldQ.focus();
@@ -154,25 +145,10 @@
    }
    
 
-<<<<<<< HEAD
    	
 	$("ul.tags li a").click(function(event){
 
 		event.preventDefault();		
-=======
- $("a.tag").listFilters({
-        	listid:"#filtered-list",
-        	paginationContainerId:"search-results-list",
-        	activeTagClass: "current-tag",
-        	modelNoPagination: true
-        });
-   	
-	/*$("ul.tags li a").click(function(event){
-
-		event.preventDefault();
-		
-				
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 		$("ul.tags li a").removeClass("current-tag");
 		$(this).addClass("current-tag");
 		var clickedTagText = $(this).text();
@@ -187,11 +163,7 @@
   			}
   			
   		});
-<<<<<<< HEAD
 	}); 
-=======
-	});*/ 
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
     
   });
 
@@ -204,312 +176,136 @@
 
 					
 		
-<<<<<<< HEAD
 			<li><a href="#archaeology" rel="archaeology" class="tag">Archaeology</a></li>
-=======
-			<li><a href="#archaeology" rel="archaeology" class="tag archaeology">Archaeology</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#history" rel="history" class="tag">History</a></li>
-=======
-			<li><a href="#history" rel="history" class="tag history">History</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#natural-history" rel="natural-history" class="tag">Natural History</a></li>
-=======
-			<li><a href="#natural-history" rel="natural-history" class="tag natural-history">Natural History</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#photographs" rel="photographs" class="tag">Photographs</a></li>
-=======
-			<li><a href="#photographs" rel="photographs" class="tag photographs">Photographs</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#prints" rel="prints" class="tag">Prints</a></li>
-=======
-			<li><a href="#prints" rel="prints" class="tag prints">Prints</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#drawings" rel="drawings" class="tag">Drawings</a></li>
-=======
-			<li><a href="#drawings" rel="drawings" class="tag drawings">Drawings</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#maps" rel="maps" class="tag">Maps</a></li>
-=======
-			<li><a href="#maps" rel="maps" class="tag maps">Maps</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#architecture" rel="architecture" class="tag">Architecture</a></li>
-=======
-			<li><a href="#architecture" rel="architecture" class="tag architecture">Architecture</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#api-implementation" rel="api-implementation" class="tag">API Implementation</a></li>
-=======
-			<li><a href="#api-implementation" rel="api-implementation" class="tag api-implementation">API Implementation</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#open-source-project" rel="open-source-project" class="tag">Open Source Project</a></li>
-=======
-			<li><a href="#open-source-project" rel="open-source-project" class="tag open-source-project">Open Source Project</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#r-d-results" rel="r-d-results" class="tag">R&D results</a></li>
-=======
-			<li><a href="#r-d-results" rel="r-d-results" class="tag r-d-results">R&D results</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#linked-open-data" rel="linked-open-data" class="tag">Linked Open Data</a></li>
-=======
-			<li><a href="#linked-open-data" rel="linked-open-data" class="tag linked-open-data">Linked Open Data</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#apps4europe" rel="apps4europe" class="tag">apps4europe</a></li>
-=======
-			<li><a href="#apps4europe" rel="apps4europe" class="tag apps4europe">apps4europe</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#business-lounge" rel="business-lounge" class="tag">business lounge</a></li>
-=======
-			<li><a href="#business-lounge" rel="business-lounge" class="tag business-lounge">business lounge</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#introduction" rel="introduction" class="tag">Introduction</a></li>
-=======
-			<li><a href="#introduction" rel="introduction" class="tag introduction">Introduction</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#beta" rel="beta" class="tag">Beta</a></li>
-=======
-			<li><a href="#beta" rel="beta" class="tag beta">Beta</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#challenge" rel="challenge" class="tag">challenge</a></li>
-=======
-			<li><a href="#challenge" rel="challenge" class="tag challenge">challenge</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#hackathon" rel="hackathon" class="tag">hackathon</a></li>
-=======
-			<li><a href="#hackathon" rel="hackathon" class="tag hackathon">hackathon</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#re-use" rel="re-use" class="tag">Re-use</a></li>
-=======
-			<li><a href="#re-use" rel="re-use" class="tag re-use">Re-use</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#rights" rel="rights" class="tag">Rights</a></li>
-=======
-			<li><a href="#rights" rel="rights" class="tag rights">Rights</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#facets" rel="facets" class="tag">Facets</a></li>
-=======
-			<li><a href="#facets" rel="facets" class="tag facets">Facets</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#technology" rel="technology" class="tag">Technology</a></li>
-=======
-			<li><a href="#technology" rel="technology" class="tag technology">Technology</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#hackathon-prototype" rel="hackathon-prototype" class="tag">Hackathon Prototype</a></li>
-=======
-			<li><a href="#hackathon-prototype" rel="hackathon-prototype" class="tag hackathon-prototype">Hackathon Prototype</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#visualisation" rel="visualisation" class="tag">Visualisation</a></li>
-=======
-			<li><a href="#visualisation" rel="visualisation" class="tag visualisation">Visualisation</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#mobile" rel="mobile" class="tag">Mobile</a></li>
-=======
-			<li><a href="#mobile" rel="mobile" class="tag mobile">Mobile</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#geolocation" rel="geolocation" class="tag">Geolocation</a></li>
-=======
-			<li><a href="#geolocation" rel="geolocation" class="tag geolocation">Geolocation</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#rich-media" rel="rich-media" class="tag">Rich media</a></li>
-=======
-			<li><a href="#rich-media" rel="rich-media" class="tag rich-media">Rich media</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#curation" rel="curation" class="tag">Curation</a></li>
-=======
-			<li><a href="#curation" rel="curation" class="tag curation">Curation</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#annotation" rel="annotation" class="tag">Annotation</a></li>
-=======
-			<li><a href="#annotation" rel="annotation" class="tag annotation">Annotation</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#3d" rel="3d" class="tag">3D</a></li>
-=======
-			<li><a href="#3d" rel="3d" class="tag 3d">3D</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#social-media" rel="social-media" class="tag">Social media</a></li>
-=======
-			<li><a href="#social-media" rel="social-media" class="tag social-media">Social media</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#search" rel="search" class="tag">Search</a></li>
-=======
-			<li><a href="#search" rel="search" class="tag search">Search</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#client-library" rel="client-library" class="tag">Client library</a></li>
-=======
-			<li><a href="#client-library" rel="client-library" class="tag client-library">Client library</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#metadata-enrichment" rel="metadata-enrichment" class="tag">Metadata enrichment</a></li>
-=======
-			<li><a href="#metadata-enrichment" rel="metadata-enrichment" class="tag metadata-enrichment">Metadata enrichment</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#cms-plugin" rel="cms-plugin" class="tag">CMS plugin</a></li>
-=======
-			<li><a href="#cms-plugin" rel="cms-plugin" class="tag cms-plugin">CMS plugin</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#game" rel="game" class="tag">Game</a></li>
-=======
-			<li><a href="#game" rel="game" class="tag game">Game</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#augmented-reality" rel="augmented-reality" class="tag">Augmented Reality</a></li>
-=======
-			<li><a href="#augmented-reality" rel="augmented-reality" class="tag augmented-reality">Augmented Reality</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#education" rel="education" class="tag">Education</a></li>
-=======
-			<li><a href="#education" rel="education" class="tag education">Education</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#art" rel="art" class="tag">Art</a></li>
-=======
-			<li><a href="#art" rel="art" class="tag art">Art</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#storytelling" rel="storytelling" class="tag">Storytelling</a></li>
-=======
-			<li><a href="#storytelling" rel="storytelling" class="tag storytelling">Storytelling</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#tablet" rel="tablet" class="tag">Tablet</a></li>
-=======
-			<li><a href="#tablet" rel="tablet" class="tag tablet">Tablet</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#first-world-war" rel="first-world-war" class="tag">First World War</a></li>
-=======
-			<li><a href="#first-world-war" rel="first-world-war" class="tag first-world-war">First World War</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#content" rel="content" class="tag">Content</a></li>
-=======
-			<li><a href="#content" rel="content" class="tag content">Content</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
-<<<<<<< HEAD
 			<li><a href="#datasets" rel="datasets" class="tag">Datasets</a></li>
-=======
-			<li><a href="#datasets" rel="datasets" class="tag datasets">Datasets</a></li>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 					
 		
 				
@@ -542,15 +338,8 @@
 		
 	
 	<section id="search-results" style="display: none;">
-<<<<<<< HEAD
 	  <div class="entries">
 	  </div>
-=======
-		<div id="filtered-list">
-				<ul id="search-results-list" class="entries">
-	  			</ul>
-		</div>
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 	</section>
 </div>
 <!--
