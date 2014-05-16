@@ -88,7 +88,9 @@
                 .removeClass("not-filtered")
                 .removeClass("filtered")
                 .addClass("not-filtered");
-
+				
+				$(filters).show();
+				
                 if(settings.modelNoPagination){
                 	 $(settings.listid + " li.not-filtered").show();
                 }
@@ -96,15 +98,40 @@
 
             if (fil.length > 0) {
                 $(settings.listid + " li" + fil).removeClass("not-filtered").addClass("filtered");
+                
+              /*hide filters without current*/  
+              $(filters).each(function(){
+              	if(!$(this).hasClass(settings.activeTagClass)){
+              		$(this).hide();
+              	}
+              });  
+              
+              /*Show other tags depend on results*/  
+              $(settings.listid + " li.filtered").each(function(){
+
+              	var classList = $(this).attr("class").split(/\s+/);
+				for (var i = 0; i < classList.length; i++) {
+					$("ul.tags a."+classList[i]).show();
+				}
+              	
+              });
+              	
+              
+                
             } else {
                 $(settings.listid + " li")
                     .removeClass("not-filtered")
                     .removeClass("filtered");
             }
 
-                if(settings.modelNoPagination){
-                	 $(settings.listid + " li.not-filtered").hide();
-                }
+             if(settings.modelNoPagination){
+              	 $(settings.listid + " li.not-filtered").hide();
+             }
+              
+              
+  
+ 
+                
         }
 
         function performPagination() {
