@@ -15,10 +15,11 @@
     <link rel="stylesheet" href="/css/styleguide.css"/>
     <link rel="stylesheet" href="/css/screen.css" media="all" />
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-    <script type="text/javascript" src="//use.typekit.net/otu7ppb.js"></script>
-	<style type="text/css">.tk-dejarip{font-family:"dejarip",sans-serif;}.tk-ff-more-web-pro{font-family:"ff-more-web-pro",serif;}</style><link rel="stylesheet" href="http://use.typekit.net/c/a93097/dejarip:i4:i7:n4:n7,ff-more-web-pro:i4:i5:n4:n5.Pyq:N:2,Pyv:N:2,Pyp:N:2,Pyt:N:2,VVb:N:2,VVf:N:2,VQP:N:2,VVd:N:2/d?3bb2a6e53c9684ffdc9a9bf71c5b2a6272be58e6824d2f2e6fb239e8cf4203049013567d271eb11e88b702a26bb8a567985e44d5fde55c54845fe9b45d924f4b355fc32a2986e0d7fa1266c0d2c63e917d6d7dab80e03b8c354710c21216000daed902279c6555b7e05ebfc7ad2788d2c5b10957"><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu|Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel='author' href='/humans.txt'/>
     
+	<style type="text/css">.tk-dejarip{font-family:"dejarip",sans-serif;}.tk-ff-more-web-pro{font-family:"ff-more-web-pro",serif;}</style>
+	
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu|Open+Sans' rel='stylesheet' type='text/css'>    
     <link rel="stylesheet" href="/css/labs.css" />
     <script src="/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/js/lunr.min.js" type="text/javascript" charset="utf-8"></script>
@@ -94,7 +95,7 @@
 <!---->
 <script id="search-results-template" type="text/mustache">
   {{#entries}}
- 	<li class="grid__item one-whole {{tags}}">
+ 	<li class="grid__item one-whole">
             <div class="block block-thumb ">
 
                 <div class="b-thumb">
@@ -135,7 +136,8 @@
       indexUrl: '/search.json',             // URL of the `search.json` index data for your site
       results:  '#search-results',          // jQuery selector for the search results container
       entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
-      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+      template: '#search-results-template',  // jQuery selector for the Mustache.js template
+      executeLabsSearchSpecificCode: true
     });
    
     inputFieldQ.focus();
@@ -145,10 +147,18 @@
    }
    
 
+ $("a.tag").listFilters({
+        	listid:"#filtered-list",
+        	paginationContainerId:"search-results-list",
+        	activeTagClass: "current-tag",
+        	modelNoPagination: true
+        });
    	
-	$("ul.tags li a").click(function(event){
+	/*$("ul.tags li a").click(function(event){
 
-		event.preventDefault();		
+		event.preventDefault();
+		
+				
 		$("ul.tags li a").removeClass("current-tag");
 		$(this).addClass("current-tag");
 		var clickedTagText = $(this).text();
@@ -163,7 +173,7 @@
   			}
   			
   		});
-	}); 
+	});*/ 
     
   });
 
@@ -176,67 +186,139 @@
 
 					
 		
-			<li><a href="#archaeology" rel="archaeology" class="tag">Archaeology</a></li>
+			<li><a href="#archaeology" rel="archaeology" class="tag archaeology">Archaeology</a></li>
 					
 		
-			<li><a href="#natural-history" rel="natural-history" class="tag">Natural History</a></li>
+			<li><a href="#history" rel="history" class="tag history">History</a></li>
 					
 		
-			<li><a href="#photographs" rel="photographs" class="tag">Photographs</a></li>
+			<li><a href="#natural-history" rel="natural-history" class="tag natural-history">Natural History</a></li>
 					
 		
-			<li><a href="#prints" rel="prints" class="tag">Prints</a></li>
+			<li><a href="#photographs" rel="photographs" class="tag photographs">Photographs</a></li>
 					
 		
-			<li><a href="#drawings" rel="drawings" class="tag">Drawings</a></li>
+			<li><a href="#prints" rel="prints" class="tag prints">Prints</a></li>
 					
 		
-			<li><a href="#maps" rel="maps" class="tag">Maps</a></li>
+			<li><a href="#drawings" rel="drawings" class="tag drawings">Drawings</a></li>
 					
 		
-			<li><a href="#history" rel="history" class="tag">History</a></li>
+			<li><a href="#maps" rel="maps" class="tag maps">Maps</a></li>
 					
 		
-			<li><a href="#architecture" rel="architecture" class="tag">Architecture</a></li>
+			<li><a href="#architecture" rel="architecture" class="tag architecture">Architecture</a></li>
 					
 		
-			<li><a href="#api-implementation" rel="api-implementation" class="tag">API Implementation</a></li>
+			<li><a href="#api-implementation" rel="api-implementation" class="tag api-implementation">API Implementation</a></li>
 					
 		
-			<li><a href="#open-source-project" rel="open-source-project" class="tag">Open Source Project</a></li>
+			<li><a href="#open-source-project" rel="open-source-project" class="tag open-source-project">Open Source Project</a></li>
 					
 		
-			<li><a href="#r-d-results" rel="r-d-results" class="tag">R&D results</a></li>
+			<li><a href="#r-d-results" rel="r-d-results" class="tag r-d-results">R&D results</a></li>
 					
 		
-			<li><a href="#linked-open-data" rel="linked-open-data" class="tag">Linked Open Data</a></li>
+			<li><a href="#linked-open-data" rel="linked-open-data" class="tag linked-open-data">Linked Open Data</a></li>
 					
 		
-			<li><a href="#apps4europe" rel="apps4europe" class="tag">apps4europe</a></li>
+			<li><a href="#apps4europe" rel="apps4europe" class="tag apps4europe">apps4europe</a></li>
 					
 		
-			<li><a href="#business-lounge" rel="business-lounge" class="tag">business lounge</a></li>
+			<li><a href="#business-lounge" rel="business-lounge" class="tag business-lounge">business lounge</a></li>
 					
 		
-			<li><a href="#introduction" rel="introduction" class="tag">Introduction</a></li>
+			<li><a href="#introduction" rel="introduction" class="tag introduction">Introduction</a></li>
 					
 		
-			<li><a href="#beta" rel="beta" class="tag">Beta</a></li>
+			<li><a href="#beta" rel="beta" class="tag beta">Beta</a></li>
 					
 		
-			<li><a href="#challenge" rel="challenge" class="tag">challenge</a></li>
+			<li><a href="#challenge" rel="challenge" class="tag challenge">challenge</a></li>
 					
 		
-			<li><a href="#hackathon" rel="hackathon" class="tag">hackathon</a></li>
+			<li><a href="#hackathon" rel="hackathon" class="tag hackathon">hackathon</a></li>
 					
 		
-			<li><a href="#re-use" rel="re-use" class="tag">Re-use</a></li>
+			<li><a href="#re-use" rel="re-use" class="tag re-use">Re-use</a></li>
 					
 		
-			<li><a href="#rights" rel="rights" class="tag">Rights</a></li>
+			<li><a href="#rights" rel="rights" class="tag rights">Rights</a></li>
 					
 		
-			<li><a href="#facets" rel="facets" class="tag">Facets</a></li>
+			<li><a href="#facets" rel="facets" class="tag facets">Facets</a></li>
+					
+		
+			<li><a href="#technology" rel="technology" class="tag technology">Technology</a></li>
+					
+		
+			<li><a href="#content" rel="content" class="tag content">Content</a></li>
+					
+		
+			<li><a href="#datasets" rel="datasets" class="tag datasets">Datasets</a></li>
+					
+		
+			<li><a href="#hackathon-prototype" rel="hackathon-prototype" class="tag hackathon-prototype">Hackathon Prototype</a></li>
+					
+		
+			<li><a href="#visualisation" rel="visualisation" class="tag visualisation">Visualisation</a></li>
+					
+		
+			<li><a href="#mobile" rel="mobile" class="tag mobile">Mobile</a></li>
+					
+		
+			<li><a href="#geolocation" rel="geolocation" class="tag geolocation">Geolocation</a></li>
+					
+		
+			<li><a href="#rich-media" rel="rich-media" class="tag rich-media">Rich media</a></li>
+					
+		
+			<li><a href="#curation" rel="curation" class="tag curation">Curation</a></li>
+					
+		
+			<li><a href="#annotation" rel="annotation" class="tag annotation">Annotation</a></li>
+					
+		
+			<li><a href="#3d" rel="3d" class="tag 3d">3D</a></li>
+					
+		
+			<li><a href="#social-media" rel="social-media" class="tag social-media">Social media</a></li>
+					
+		
+			<li><a href="#search" rel="search" class="tag search">Search</a></li>
+					
+		
+			<li><a href="#client-library" rel="client-library" class="tag client-library">Client library</a></li>
+					
+		
+			<li><a href="#metadata-enrichment" rel="metadata-enrichment" class="tag metadata-enrichment">Metadata enrichment</a></li>
+					
+		
+			<li><a href="#cms-plugin" rel="cms-plugin" class="tag cms-plugin">CMS plugin</a></li>
+					
+		
+			<li><a href="#game" rel="game" class="tag game">Game</a></li>
+					
+		
+			<li><a href="#augmented-reality" rel="augmented-reality" class="tag augmented-reality">Augmented Reality</a></li>
+					
+		
+			<li><a href="#education" rel="education" class="tag education">Education</a></li>
+					
+		
+			<li><a href="#storytelling" rel="storytelling" class="tag storytelling">Storytelling</a></li>
+					
+		
+			<li><a href="#tablet" rel="tablet" class="tag tablet">Tablet</a></li>
+					
+		
+			<li><a href="#art" rel="art" class="tag art">Art</a></li>
+					
+		
+			<li><a href="#first-world-war" rel="first-world-war" class="tag first-world-war">First World War</a></li>
+					
+		
+			<li><a href="#fashion" rel="fashion" class="tag fashion">Fashion</a></li>
 					
 		
 				
@@ -269,11 +351,12 @@
 		
 	
 	<section id="search-results" style="display: none;">
-	  <div class="entries">
-	  </div>
+		<div id="filtered-list">
+				<ul id="search-results-list" class="entries">
+	  			</ul>
+		</div>
 	</section>
-</div>
-<!--
+</div><!--
 --></div>
 ﻿<!-- Begin Footer -->
 <footer class="footer" role="contentinfo">
