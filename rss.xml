@@ -10,6 +10,16 @@
     <description>RSS feed for Europeana Labs</description>
     <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
     <item>
+      <title>Kringla</title>
+      <link>http://labs.europeana.eu/apps/kringla</link>
+      <description>&lt;p&gt;The online portal of the Swedish National Heritage Board (SOCH) www.kringla.nu allows users to search in both the national heritage repository &amp;#8216;SOCH&amp;#8217; and the Europeana repository presenting the search results in different tabs. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/kringla</guid>
+      <dc:date>9999-01-01T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>Europeana Culture Collage</title>
       <link>http://labs.europeana.eu/apps/culture-collage</link>
       <description>&lt;p&gt;Europeana Culture Collage is developed by Monique Szpak (@zenlan) and started as a simple exercise in mashing up a few of the new web technologies, incl. Europeana API and Europeana visual data.&lt;/p&gt;
@@ -25,9 +35,9 @@
       <description>&lt;p&gt;The National Library of Spain has implemented the Europeana API in their online portal, Biblioteca Digital Hispánica. The portal now enables their users to access related Europeana content via a single link on their search results header.&lt;/p&gt;
 
 </description>
-      <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 01 Jan 9998 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/apps/biblioteca</guid>
-      <dc:date>9999-01-01T00:00:00+01:00</dc:date>
+      <dc:date>9998-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Shoes from the Rossimoda Shoe Museum</title>
@@ -388,15 +398,13 @@
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>Jeremy Ottevanger’s mashificator</title>
-      <link>http://labs.europeana.eu/apps/jeremy-ottevangers-mashificator</link>
+      <title>Jeremy Ottevanger’s mashificator, Imperial War Museum</title>
+      <link>http://labs.europeana.eu/apps/jeremy-ottevangers-mashificator-imperial-war-museum</link>
       <description>&lt;p&gt;It uses semantic extraction (through two commercial APIs - Zemanta and Yahoo) to create keywords representing places, people, subjects and periods. It then queries a number of different museum APIs and displays the results as an image slide. &lt;/p&gt;
-
-&lt;p&gt;With refinement, the mashificator can be used to display Europeana and other museum objects in a visually attractive manner.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/apps/jeremy-ottevangers-mashificator</guid>
+      <guid>http://labs.europeana.eu/apps/jeremy-ottevangers-mashificator-imperial-war-museum</guid>
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
@@ -522,8 +530,7 @@
     <item>
       <title>Europeana Banana</title>
       <link>http://labs.europeana.eu/apps/europeana-banana</link>
-      <description>&lt;p&gt;Semantic enrichment game
-For more information read: http://pro.europeana.eu/documents/858566/0216948e-dd4d-4d3a-a615-c0bce861b310 &lt;/p&gt;
+      <description>&lt;p&gt;Semantic enrichment game developed at Europeana&amp;#8217;s 1st Hackathon in 2011&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1012,16 +1019,6 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <pubDate>Sat, 29 Mar 2014 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/apps/Amsterdam Museum Linked Open Data</guid>
       <dc:date>2014-03-29T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Kringla</title>
-      <link>http://labs.europeana.eu/apps/kringla</link>
-      <description>&lt;p&gt;The online portal of the Swedish National Heritage Board (SOCH) www.kringla.nu allows users to search in both the national heritage repository &amp;#8216;SOCH&amp;#8217; and the Europeana repository presenting the search results in different tabs. &lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 22 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/apps/kringla</guid>
-      <dc:date>2014-01-22T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Inventing Europe</title>
