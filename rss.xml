@@ -158,7 +158,11 @@
     <item>
       <title>Wikimedia Batch Upload</title>
       <link>http://labs.europeana.eu/apps/wikimedia-batch-upload</link>
-      <description>&lt;p&gt;This prototype makes it possible to upload content to Wikimedia Commons from Europeana. The prototype has now been superceeded by the GLAMwiki toolset.&lt;/p&gt;
+      <description>&lt;p&gt;This prototype makes it possible to upload content to Wikimedia Commons from Europeana. &lt;/p&gt;
+
+&lt;p&gt;NOTE: The prototype has now been superceeded by the &lt;a href=&quot;http://commons.wikimedia.org/wiki/Commons:GLAMwiki_Toolset_Project&quot; title=&quot;GLAMWiki Toolset&quot;&gt;GLAMwiki toolset&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;1st Hackathon 2011&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
