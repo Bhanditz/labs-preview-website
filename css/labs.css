@@ -457,3 +457,6 @@ ul.tags li a.current-tag{background: #206a50;}
 body {font-family: 'Open Sans', Arial, sans-serif;}
 h1, h2, h3, h4 {font-family: Ubuntu, Arial, sans-serif; }
 
+.subnav .tags {margin-bottom: 5px;}
+.subnav .tags a {cursor: pointer;}
+a.show-more-tags {padding-bottom: 15px; cursor: pointer;}
