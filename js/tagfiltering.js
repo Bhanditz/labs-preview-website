@@ -47,15 +47,9 @@
 	        	 
         });
         
-        //add showmore and ALL tag
-       
-        if($("ul.tags li").length>5){
-        	 $("ul.tags").parent().append("<a class=\"show-more-tags\">+show more</a>");
-        	 $("a.show-more-tags").click(function(){
-        	 	$("ul.tags li").slice(6, $("ul.tags li").length).show();
-        	 	$(this).remove();
-        	 });
-        }
+        
+        addShowMore();
+
         
         //Tag click event
         return filters.click(function () {
@@ -71,6 +65,21 @@
             	createFilter();
              }
         });
+        
+        function addShowMore()
+        {
+
+        	        //add showmore and ALL tag
+        		$("a.show-more-tags").remove();
+	        if($("ul.tags li").length>5){
+	        	
+	        	 $("ul.tags").parent().append("<a class=\"show-more-tags\">+show more</a>");
+	        	 $("a.show-more-tags").click(function(){
+	        	 	$("ul.tags li").slice(6, $("ul.tags li").length).show();
+	        	 	$(this).remove();
+	        	 });
+	        }
+        }
                 
         function performFiltering() {
 				
@@ -169,6 +178,8 @@
               
               $("ul.tags li.show-all-tags").click(function(){
               		$("ul.tags li a").removeClass(settings.activeTagClass);
+              		addShowMore();
+              		$("ul.tags li").slice(6, $("ul.tags li").length).hide();
               		location.hash = "#"
               	});
               
