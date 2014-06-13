@@ -29,7 +29,7 @@
 
              performFiltering();
 
-         }, 100);
+         }, 500);
          
 		
         
