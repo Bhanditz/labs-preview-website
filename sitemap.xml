@@ -105,8 +105,8 @@
   </url>
   
   <url>
-    <loc>http://labs.europeana.eu/data/butterflies-from-the-openup-project</loc>
-    <lastmod>2014-05-19T00:00:00+02:00</lastmod>
+    <loc>http://labs.europeana.eu/data/wwi-books-from-the-british-library</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
     <priority>0.8</priority>
   </url>
   
@@ -183,6 +183,12 @@
   </url>
   
   <url>
+    <loc>http://labs.europeana.eu/data/sounds-of-daily-life-and-birds-from-netherlands-institute-of-sound-and-vision</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://labs.europeana.eu/apps/share-what-you-see</loc>
     <lastmod>2014-05-16T00:00:00+02:00</lastmod>
     <priority>0.8</priority>
@@ -213,7 +219,19 @@
   </url>
   
   <url>
+    <loc>http://labs.europeana.eu/data/postcards-from-slovakia</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://labs.europeana.eu/apps/postcards-from-baltics</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/portraits-and-some-shoes-from-europeana-fashion</loc>
     <lastmod>2014-05-16T00:00:00+02:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -231,7 +249,37 @@
   </url>
   
   <url>
+    <loc>http://labs.europeana.eu/data/pictures-of-glassware</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/pictures-of-citizens-from-lithuania</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/pictures-and-scientific-texts-of-birds-from-naturalis</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/photographs-of-soldiers-during-wwi</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://labs.europeana.eu/apps/open-pics-app</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/old-handwritten-documents-from-scandinavia</loc>
     <lastmod>2014-05-16T00:00:00+02:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -268,6 +316,12 @@
   
   <url>
     <loc>http://labs.europeana.eu/apps/institution-recommendations-based-on-geospatial-data</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/incunabula-from-edinburgh</loc>
     <lastmod>2014-05-16T00:00:00+02:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -393,7 +447,25 @@
   </url>
   
   <url>
+    <loc>http://labs.europeana.eu/data/content-collected-during-the-europeana-1914-1918-roadshows</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://labs.europeana.eu/apps/casual-curator</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/calotypes-and-portraits-from-edinburgh</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/butterflies-minerals-and-drawings-from-the-museum-of-natural-history-in-berlin</loc>
     <lastmod>2014-05-16T00:00:00+02:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -424,6 +496,24 @@
   
   <url>
     <loc>http://labs.europeana.eu/apps/art-color-bits</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/art-and-life-on-postcards-and-photographs-from-girona</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/architectural-drawings-from-edinburgh</loc>
+    <lastmod>2014-05-16T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://labs.europeana.eu/data/archaeological-artefacts-from-the-institute-of-balkan-studies-and-thracology</loc>
     <lastmod>2014-05-16T00:00:00+02:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -765,19 +855,13 @@
   </url>
   
   <url>
-    <loc>http://labs.europeana.eu/data/postcards-from-europeana</loc>
-    <lastmod>2014-01-01T00:00:00+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>http://labs.europeana.eu/data/popes-on-artwork-drawings-and-documents-from-the-rijksmuseum-in-the-netherlands</loc>
     <lastmod>2014-01-01T00:00:00+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://labs.europeana.eu/data/2014/01/01/Photographs_Prints_and_Posters_from_the_Biblioteca_Valenciana_Digital/</loc>
+    <loc>http://labs.europeana.eu/2014/01/01/Photographs_Prints_and_Posters_from_the_Biblioteca_Valenciana_Digital/</loc>
     <lastmod>2014-01-01T00:00:00+01:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -795,19 +879,7 @@
   </url>
   
   <url>
-    <loc>http://labs.europeana.eu/data/Minerals-and-rocks-from-the-Museum-of-Natural-History-in-Berlin</loc>
-    <lastmod>2014-01-01T00:00:00+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</loc>
-    <lastmod>2014-01-01T00:00:00+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://labs.europeana.eu/data/Maps-and-Drawings-from-the-Catálogo-Colectivo-De-La-Red-De-Bibliotecas-De-Los-Archivos-Estatales</loc>
+    <loc>http://labs.europeana.eu/2014/01/01/Maps_and_Drawings_from_the_Catalogo/</loc>
     <lastmod>2014-01-01T00:00:00+01:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -825,19 +897,7 @@
   </url>
   
   <url>
-    <loc>http://labs.europeana.eu/data/Drawings-Prints-and-Artwork-from-the-National-Library-of-Poland</loc>
-    <lastmod>2014-01-01T00:00:00+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>http://labs.europeana.eu/data/Butterflies-moths-plants-and-mushrooms-from-the-University-of-Tartu-and-the-Museum-of-Natural-History-Berlin</loc>
-    <lastmod>2014-01-01T00:00:00+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://labs.europeana.eu/data/Bryozoa-from-the-National-Museum-Prague</loc>
     <lastmod>2014-01-01T00:00:00+01:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -855,7 +915,7 @@
   </url>
   
   <url>
-    <loc>http://labs.europeana.eu/data/archaeological-artefacts-from-the-institute-of-balkan-Studies-and-Thracology</loc>
+    <loc>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</loc>
     <lastmod>2014-01-01T00:00:00+01:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -863,238 +923,238 @@
   
   <url>
     <loc>http://labs.europeana.eu/about/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/events/archive/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/events/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/apps/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/locations/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/support/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/search/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/data/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/data/logs/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/blog/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/authentication/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/registration/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/console/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/introduction/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/record/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/error/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/search/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/query/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/provider/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/myeuropeana/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/getting-started/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/changelog/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/registration2/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/data-hierarchy/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/data-fields/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/linked-open-data/introduction/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/linked-open-data/data-structure/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/linked-open-data/FAQ/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/linked-open-data/SPARQL-endpoint/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/linked-open-data/data-downloads/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/linked-open-data/credits/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://labs.europeana.eu/api/search-widget/</loc>
-    <lastmod>2014-06-13T11:56:47+02:00</lastmod>
+    <lastmod>2014-06-25T15:53:30+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

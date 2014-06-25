@@ -70,7 +70,7 @@
         {
 
         	        //add showmore and ALL tag
-        		$("a.show-more-tags").remove();
+        	$("a.show-more-tags").remove();
 	        if($("ul.tags li").length>5){
 	        	
 	        	 $("ul.tags").parent().append("<a class=\"show-more-tags\">+show more</a>");
