@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Europeana Labs</title>
+    <link>http://labs.europeana.eu</link>
+    <description>RSS feed for Europeana Labs</description>
+    <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
+    <item>
+      <title>Open Knowledge Festival 2014 - Open Minds to Open Action</title>
+      <link>http://labs.europeana.eu/events/Open_Knowledge_Foundation_2014</link>
+      <description>[&quot;The event gathers together open movement makers, thinkers, activists and researchers from around the world. To inspire 'Open Minds to Open Action' (as the slogan goes), the 2014 edition will be a space for learning and dialogue where the activities of the international participants shapes the event and its outcomes.&quot;]</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/Open_Knowledge_Foundation_2014</guid>
+      <dc:date>2014-07-15T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>The Europas - The European Tech Startup Awards</title>
+      <link>http://labs.europeana.eu/events/the-europas-2014</link>
+      <description>[&quot;Founded in 2009, The Europas are the premier awards for Europe’s most forward thinking, progressive and innovative tech companies across over some 20+ categories.&quot;]</description>
+      <pubDate>Tue, 10 Jun 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/the-europas-2014</guid>
+      <dc:date>2014-06-10T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>First Europeana Creative Challenge Award Ceremony</title>
+      <link>http://labs.europeana.eu/events/1stEuropeanaCreativeChallengeAwardCeremony</link>
+      <description>[&quot;The event formally closes the first challenge on history education and natural history education themes.&quot;]</description>
+      <pubDate>Tue, 29 Apr 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/1stEuropeanaCreativeChallengeAwardCeremony</guid>
+      <dc:date>2014-04-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Coding Da Vinci</title>
+      <link>http://labs.europeana.eu/events/Coding_DaVinci</link>
+      <description>[&quot;Coding Da Vinci is organised by the German Digital Library, Digital Service Center Berlin, Open Knowledge Foundation Germany and Wikimedia Germany. It brings together developers, web and game designers and representatives of cultural institutions to explore ideas for re-use of cultural content.&quot;]</description>
+      <pubDate>Sat, 26 Apr 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/Coding_DaVinci</guid>
+      <dc:date>2014-04-26T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Coding Da Vinci competition award ceremony</title>
+      <link>http://labs.europeana.eu/events/Coding_DaVinci_award_ceremony</link>
+      <description>[&quot;The ceremony is preceded by a get together BBQ for all participants. On Day 2 the hackathon finalists will present their project and win cool prizes.&quot;]</description>
+      <pubDate>Fri, 11 Apr 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/Coding_DaVinci_award_ceremony</guid>
+      <dc:date>2014-04-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>2nd Europeana Creative Challenge on Tourism and Social Networks (online)</title>
+      <link>http://labs.europeana.eu/events/2nd_Europeana_Creative_Challenge</link>
+      <description>[&quot;App developers, e-book publishers, web and game designers will be invited to submit their ideas for the re-use of cultural content in tourism and social network applications.&quot;]</description>
+      <pubDate>Fri, 11 Apr 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/2nd_Europeana_Creative_Challenge</guid>
+      <dc:date>2014-04-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>International Business Lounge, Future Everything Conference</title>
+      <link>http://labs.europeana.eu/events/International_Business_Lounge_Future_Everything_Conference</link>
+      <description>[&quot;The International Business Lounge is the culmination of the first year of Apps for Europe. From the various Business Lounge events that have taken place and an open call for participants, ten winners have been chosen to present their work at FutureEverything.&quot;]</description>
+      <pubDate>Mon, 31 Mar 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/International_Business_Lounge_Future_Everything_Conference</guid>
+      <dc:date>2014-03-31T00:00:00+02:00</dc:date>
+    </item>
+    <dc:date>9999-01-01T00:00:00+01:00</dc:date>
+  </channel>
+</rss>

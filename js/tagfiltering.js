@@ -71,11 +71,18 @@
 
         	        //add showmore and ALL tag
         	$("a.show-more-tags").remove();
+        	$("ul.tags li").removeClass("othertags");
 	        if($("ul.tags li").length>5){
 	        	
 	        	 $("ul.tags").parent().append("<a class=\"show-more-tags\">+show more</a>");
 	        	 $("a.show-more-tags").click(function(){
-	        	 	$("ul.tags li").slice(6, $("ul.tags li").length).show();
+	        	 	$("ul.tags li").slice(6, $("ul.tags li").length).addClass("othertags");
+	        	 	$("ul.tags li.othertags").each(function(){
+	        	 		if($(this).attr("data-count")>0){
+	        	 			$(this).show();
+	        	 		}	
+	        	 	});
+	        	 	
 	        	 	$(this).remove();
 	        	 });
 	        }
@@ -139,7 +146,8 @@
                 .removeClass("not-filtered")
                 .removeClass("filtered")
                 .addClass("not-filtered");
-				
+		    
+		    $("ul.tags li").removeClass("othertags");
 				
                 if(settings.modelNoPagination){
                 	 $(settings.listid + " li.not-filtered").show();
@@ -172,6 +180,7 @@
 					}
               });
               
+              
               $("ul.tags li.show-all-tags").remove();
               
               $("ul.tags").prepend("<li class=\"show-all-tags\" data-count=\""+$(settings.listid + " li").length+"\"><a class=\"tag\">ALL ("+$(settings.listid + " li").length+")</a></li>");
@@ -196,6 +205,16 @@
 				
 				$("ul.tags li").show();  
 				$("ul.tags li").slice(6, $("ul.tags li").length).hide();
+								
+				if($("ul.tags a.current-tag").length<=0){
+					$("ul li.show-all-tags").click();
+				}
+				
+				$("ul.tags li").each(function(){
+					if($(this).attr("data-count")<=0){
+						$(this).hide();
+					}
+				});
 
         }
 
