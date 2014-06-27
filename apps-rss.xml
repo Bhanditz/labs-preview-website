@@ -30,6 +30,16 @@
       <dc:date>9999-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
+      <title>Biblioteca Digital Hispánica</title>
+      <link>http://labs.europeana.eu/apps/biblioteca</link>
+      <description>&lt;p&gt;The National Library of Spain has implemented the Europeana API in their online portal, Biblioteca Digital Hispánica. The portal now enables their users to access related Europeana content via a single link on their search results header.&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 01 Jan 9998 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/biblioteca</guid>
+      <dc:date>9998-01-01T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>Europeana Open Culture</title>
       <link>http://labs.europeana.eu/apps/europeana-open-culture</link>
       <description>&lt;p&gt;The Europeana Open Culture app lets users explore hand-picked and beautiful image collections from some of Europe&amp;#8217;s top cultural institutions. They can browse, share and download for free more than 350,000 high-resolution images from four themes: Maps and Plans, Images of the Past, Treasures of Art and Treasures of Nature.&lt;/p&gt;
