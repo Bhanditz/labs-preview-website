@@ -48,6 +48,79 @@
       <dc:date>2014-07-15T00:00:00+02:00</dc:date>
     </item>
     <item>
+      <title>Waisda?</title>
+      <link>http://labs.europeana.eu/apps/Waisda-FLOSS</link>
+      <description>&lt;p&gt;Crowdsourcing video annotation software.
+Demo is available at [woordentikkertje.manbijthond.nl] (woordentikkertje.manbijthond.nl)&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Waisda-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Timelinejs Floss</title>
+      <link>http://labs.europeana.eu/2014/07/02/TimelineJS-FLOSS/</link>
+      <description>&lt;p&gt;TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/2014/07/02/TimelineJS-FLOSS/</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Omeka</title>
+      <link>http://labs.europeana.eu/apps/Omeka-FLOSS</link>
+      <description>&lt;p&gt;A Collection/Exhibition Management System&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Omeka-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Mirador Floss</title>
+      <link>http://labs.europeana.eu/2014/07/02/Mirador-FLOSS/</link>
+      <description>&lt;p&gt;An open-source, web-based &amp;#8216;multi-up&amp;#8217; viewer that supports zoom-pan-rotate functionality, ability to display/compare simple images, and images with annotations
+Demo is available at [http://iiif.io/mirador/demo/] (http://iiif.io/mirador/demo/)&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/2014/07/02/Mirador-FLOSS/</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Blacklight</title>
+      <link>http://labs.europeana.eu/apps/Blacklight-FLOSS</link>
+      <description>&lt;p&gt;RoR gem discovery interface for any Solr index.
+Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examples] (https://github.com/projectblacklight/blacklight/wiki/Examples)&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Blacklight-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Apache Tika</title>
+      <link>http://labs.europeana.eu/apps/ApacheTika-FLOSS</link>
+      <description>&lt;p&gt;The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/ApacheTika-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Annotorious</title>
+      <link>http://labs.europeana.eu/apps/Annotorious-FLOSS</link>
+      <description>&lt;p&gt;Annotorious is a JavaScript annotation library for images and zoomable images. Link the Annotorious source files (CSS and JavaScript) into an existing HTML page, and images inside this page will be enhanced with an interactive drawing and commenting tool.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Annotorious-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
       <title>The Europas - The European Tech Startup Awards</title>
       <link>http://labs.europeana.eu/events/the-europas-2014</link>
       <description>[&quot;Founded in 2009, The Europas are the premier awards for Europe’s most forward thinking, progressive and innovative tech companies across over some 20+ categories.&quot;]</description>

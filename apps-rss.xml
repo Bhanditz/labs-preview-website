@@ -40,6 +40,58 @@
       <dc:date>9998-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
+      <title>Waisda?</title>
+      <link>http://labs.europeana.eu/apps/Waisda-FLOSS</link>
+      <description>&lt;p&gt;Crowdsourcing video annotation software.
+Demo is available at [woordentikkertje.manbijthond.nl] (woordentikkertje.manbijthond.nl)&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Waisda-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Omeka</title>
+      <link>http://labs.europeana.eu/apps/Omeka-FLOSS</link>
+      <description>&lt;p&gt;A Collection/Exhibition Management System&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Omeka-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Blacklight</title>
+      <link>http://labs.europeana.eu/apps/Blacklight-FLOSS</link>
+      <description>&lt;p&gt;RoR gem discovery interface for any Solr index.
+Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examples] (https://github.com/projectblacklight/blacklight/wiki/Examples)&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Blacklight-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Apache Tika</title>
+      <link>http://labs.europeana.eu/apps/ApacheTika-FLOSS</link>
+      <description>&lt;p&gt;The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/ApacheTika-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Annotorious</title>
+      <link>http://labs.europeana.eu/apps/Annotorious-FLOSS</link>
+      <description>&lt;p&gt;Annotorious is a JavaScript annotation library for images and zoomable images. Link the Annotorious source files (CSS and JavaScript) into an existing HTML page, and images inside this page will be enhanced with an interactive drawing and commenting tool.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Annotorious-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
       <title>Europeana Open Culture</title>
       <link>http://labs.europeana.eu/apps/europeana-open-culture</link>
       <description>&lt;p&gt;The Europeana Open Culture app lets users explore hand-picked and beautiful image collections from some of Europe&amp;#8217;s top cultural institutions. They can browse, share and download for free more than 350,000 high-resolution images from four themes: Maps and Plans, Images of the Past, Treasures of Art and Treasures of Nature.&lt;/p&gt;
