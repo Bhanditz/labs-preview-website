@@ -773,7 +773,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     <item>
       <title>EuropeanaConnect Geoparser</title>
       <link>http://labs.europeana.eu/apps/EuropeanaConnect-Geoparser</link>
-      <description>&lt;p&gt;&lt;strong&gt;EuropeanaConnect Geoparser&lt;/strong&gt; - A tool to extract place names from text.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: The Goeparser is currently down. The service should be re-started in the coming months. &lt;/p&gt;
 
 </description>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0200</pubDate>
@@ -883,7 +883,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     <item>
       <title>Europeana Connect Annotation Suite</title>
       <link>http://labs.europeana.eu/apps/EuropeanaConnect-Annotation</link>
-      <description>&lt;p&gt;&lt;strong&gt;The EuropeanaConnect Annotation Suite&lt;/strong&gt; - A tool that allows end-users to annotate digital images, maps, audio and video files.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt; The EuropeanaConnect Annotation Suite is now a stable tool renamed as Annotorious. For more details see the [Annotorious entry] (http://labs.europeana.eu/apps/Annotorious-FLOSS/)&lt;/p&gt;
 
 </description>
       <pubDate>Sat, 29 Mar 2014 00:00:00 +0100</pubDate>
