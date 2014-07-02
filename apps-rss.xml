@@ -51,6 +51,16 @@ Demo is available at [woordentikkertje.manbijthond.nl] (woordentikkertje.manbijt
       <dc:date>2014-07-02T00:00:00+02:00</dc:date>
     </item>
     <item>
+      <title>Timeline JS</title>
+      <link>http://labs.europeana.eu/apps/TiimelineJS-FLOSS</link>
+      <description>&lt;p&gt;TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/TiimelineJS-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
       <title>Omeka</title>
       <link>http://labs.europeana.eu/apps/Omeka-FLOSS</link>
       <description>&lt;p&gt;A Collection/Exhibition Management System&lt;/p&gt;
@@ -58,6 +68,17 @@ Demo is available at [woordentikkertje.manbijthond.nl] (woordentikkertje.manbijt
 </description>
       <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/Omeka-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Mirador</title>
+      <link>http://labs.europeana.eu/apps/Mirador-FLOSS</link>
+      <description>&lt;p&gt;An open-source, web-based &amp;#8216;multi-up&amp;#8217; viewer that supports zoom-pan-rotate functionality, ability to display/compare simple images, and images with annotations
+Demo is available at [http://iiif.io/mirador/demo/] (http://iiif.io/mirador/demo/)&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Mirador-FLOSS</guid>
       <dc:date>2014-07-02T00:00:00+02:00</dc:date>
     </item>
     <item>
