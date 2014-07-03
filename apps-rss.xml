@@ -42,8 +42,7 @@
     <item>
       <title>Waisda?</title>
       <link>http://labs.europeana.eu/apps/Waisda-FLOSS</link>
-      <description>&lt;p&gt;Crowdsourcing video annotation software.
-Demo is available at [woordentikkertje.manbijthond.nl] (woordentikkertje.manbijthond.nl)&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Waisda?&lt;/strong&gt; - A prototype Dutch-language game site which explores the social tagging of video in the cultural heritage domain.&lt;/p&gt;
 
 </description>
       <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
@@ -799,16 +798,6 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/AssetsImageSearch</guid>
       <dc:date>2014-04-04T00:00:00+02:00</dc:date>
-    </item>
-    <item>
-      <title>Waisda?</title>
-      <link>http://labs.europeana.eu/apps/Waisda</link>
-      <description>&lt;p&gt;&lt;strong&gt;Waisda?&lt;/strong&gt; - A prototype Dutch-language game site which explores the social tagging of video in the cultural heritage domain.&lt;/p&gt;
-
-</description>
-      <pubDate>Sat, 29 Mar 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/apps/Waisda</guid>
-      <dc:date>2014-03-29T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>VAMP Metadata validation</title>
