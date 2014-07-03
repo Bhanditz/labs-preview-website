@@ -48,6 +48,16 @@
       <dc:date>2014-07-15T00:00:00+02:00</dc:date>
     </item>
     <item>
+      <title>Europeana Ruby Client Library</title>
+      <link>http://labs.europeana.eu/apps/europeana-ruby</link>
+      <description>&lt;p&gt;Ruby client library for the search and retrieval of records from the Europeana REST API.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-ruby</guid>
+      <dc:date>2014-07-04T00:00:00+02:00</dc:date>
+    </item>
+    <item>
       <title>Waisda?</title>
       <link>http://labs.europeana.eu/apps/Waisda-FLOSS</link>
       <description>&lt;p&gt;&lt;strong&gt;Waisda?&lt;/strong&gt; - A prototype Dutch-language game site which explores the social tagging of video in the cultural heritage domain.&lt;/p&gt;
