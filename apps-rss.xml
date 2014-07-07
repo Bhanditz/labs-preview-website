@@ -42,7 +42,7 @@
     <item>
       <title>Europeana Ruby Client Library</title>
       <link>http://labs.europeana.eu/apps/europeana-ruby</link>
-      <description>&lt;p&gt;Ruby client library for the search and retrieval of records from the Europeana REST API.&lt;/p&gt;
+      <description>&lt;p&gt;Ruby client library for the search and retrieval of records from the Europeana REST API. The gem is developed as part of &lt;a href=&quot;http://www.europeana1914-1918.eu/&quot; title=&quot;Title&quot;&gt;Europeana 1914-1918&lt;/a&gt; and is also used in that application.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 04 Jul 2014 00:00:00 +0200</pubDate>
