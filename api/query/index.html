@@ -154,31 +154,88 @@
 
 <p>To look for records that contain a search term in one of the data fields, provide the term as a <strong>query</strong> parameter:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query="Mona Lisa" [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=%22Mona+Lisa%22)
+<pre><code>Syntax: "Mona Lisa"
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query="Mona+Lisa"
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=%22Mona%20Lisa%22">Test on API Console</a></p>
 
 <p>Note that like in many other search applications omitting the quotes will result in searching for records that contain the term <em>Mona</em> or the term <em>Lisa</em> but not necessarily both of them.</p>
 
 <p>If you want to limit your search to a specific data field you should provide the name of the field using the following syntax. For example, to look for objects whose creator is <em>Leonardo da Vinci</em>:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=who:"Leonardo da Vinci" [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=who:%22Leonardo%20da%20Vinci%22)
+<pre><code>Syntax: who:"Leonardo da Vinci"
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=who:"Leonardo+da+Vinci"
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=who:%22Leonardo%20da%20Vinci%22">Test on API Console</a></p>
 
 <h2 id="boolean-search">Boolean Search</h2>
 
 <p>To combine several fields in one search one can use boolean operators AND, OR, and NOT (note the case-sensitivity). Use parentheses to group logical conditions. Note that two consecutive terms without any boolean operator in between default to the AND operator.</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=mona AND lisa  [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=mona%20AND%20lisa)
+<pre><code>Syntax: mona AND lisa
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=mona+AND+lisa
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=mona%20AND%20lisa">Test on API Console</a></p>
 
 <p>Boolean operators can also be combined with the search by fields. The following example searches for objects whose location is in <em>Paris</em> or in <em>London</em>:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=where: (Paris OR London) [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=where:%20%28Paris%20OR%20London%29)
+<pre><code>Syntax: where:(Paris OR London)
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=where:(Paris+OR+London)
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=where:%20%28Paris%20OR%20London%29">Test on API Console</a></p>
 
 <p>The boolean NOT operator cannot be used alone but only in conjunction with another boolean operator. For example, looking for objects which contain the term <em>Lisa</em> but do not contain the term <em>Mona</em> is done by the following:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=lisa NOT mona [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=lisa%20NOT%20mona)
+<pre><code>Syntax: lisa NOT mona
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=lisa+NOT+mona
+</code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=lisa%20NOT%20mona">Test on API Console</a></p>
+
+<h2 id="range-search">Range Search</h2>
+
+<p>To execute range queries, the range operator should be used. This example will search for objects whose field values fall between <strong>a</strong> and <strong>Z</strong>:</p>
+
+<pre><code>Syntax: [a TO Z]
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=[a+TO+Z]
+</code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=[a+TO+Z]">Test on API Console</a></p>
+
+<p>As well as for textual fields it can also be used for numeric values, date ranges, or geographical areas, as shown below.</p>
+
+<h3 id="time-range-search">Time Range Search</h3>
+
+<p>Looking for objects dated by a year between <em>1525</em> and <em>1527</em>:</p>
+
+<pre><code>Syntax: YEAR:[1525 TO 1527]
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=YEAR:[1525+TO+1527]
+</code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=YEAR:[1525%20TO%201527]">Test on API Console</a></p>
+
+<h3 id="geographical-bounding-box-search">Geographical Bounding Box Search</h3>
+
+<p>To search for objects by their geographic location you should specify the bounding box of the area. You need to use the range operator and the <strong>pl_wgs84_pos_lat</strong> (latitude position) and <strong>pl_wgs84_pos_long</strong> (longitude position) field. The following example will bring all the objects found between the latitude of 45° and 47° and between the longitude of 7° and 8°:</p>
+
+<pre><code>Syntax: pl_wgs84_pos_lat:[45 TO 47] AND pl_wgs84_pos_long:[7 TO 8]
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=pl_wgs84_pos_lat:[45+TO+47]+AND+pl_wgs84_pos_long:[7+TO+8]
+</code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=pl_wgs84_pos_lat:[45+TO+47]+AND+pl_wgs84_pos_long:[7+TO+8]">Test on API Console</a></p>
+
+<h2 id="date-search">Date Search</h2>
+
+<p>One can also search objects by date. Currently, full-fledge date search is supported only for the fields storing the creation and update dates of the objects which are available in two formats: the UNIX epoch timestamp and the ISO 8601 formatted date. To search for objects created or updated on a given date, use the following query:</p>
+
+<pre><code>Syntax: timestamp_created:"2013-03-16T20:26:27.168Z"
+Syntax: timestamp_updated:"2013-03-16T20:26:27.168Z"
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=timestamp_created:"2013-03-16T20:26:27.168Z"
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=timestamp_updated:"2013-03-16T20:26:27.168Z"
 </code></pre>
 
 <h2 id="refinements">Refinements</h2>
@@ -187,8 +244,10 @@
 
 <p>This can be done using the refinement parameter <strong>qf</strong> which is appended to the <strong>query</strong> parameter. This example looks for objects which contain the term <em>Westminster</em> and their location is in <em>London</em>:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Westminster&amp;qf=where:London [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=Westminster&amp;qf=where:London)
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Westminster&amp;qf=where:London
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Westminster&amp;qf=where:London">Test on API Console</a></p>
 
 <p>Refinement parameters can be concatenated. Each such parameter and the mandatory query parameter contributes a <a href="http://labs.europeana.eu/api/search/#breadcrumb">breadcrumb</a> object if breadcrumbs are specified in the search profile.</p>
 
@@ -196,45 +255,52 @@
 
 <p>Querying by <a href="http://labs.europeana.eu/api/search/#facet">facets</a> is also done using the refinement parameter <strong>qf</strong>. The following example looks for objects containing the term <em>Paris</em> among images:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=TYPE:IMAGE [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=TYPE:IMAGE)
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=TYPE:IMAGE
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=TYPE:IMAGE">Test on API Console</a></p>
 
 <p>Here are more examples of faceted search. Looking for objects containing the term <em>Paris</em> among objects described in <em>French</em>:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=LANGUAGE:FR [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=LANGUAGE:FR)
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=LANGUAGE:FR
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=LANGUAGE:FR">Test on API Console</a></p>
 
 <p>Looking for objects containing the term <em>Paris</em> among objects dated by the year <em>1789</em>:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=YEAR:1789 [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=YEAR:1789)
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=YEAR:1789
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=YEAR:1789">Test on API Console</a></p>
 
 <p>Looking for objects containing the term Paris among objects provided by an institution based in <em>France</em>:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=COUNTRY:france [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=COUNTRY:france)
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=COUNTRY:france
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=COUNTRY:france">Test on API Console</a></p>
 
 <p>Looking for objects containing the term <em>Paris</em> among objects protected by the <a href="http://www.europeana.eu/portal/rights/rr-f.html"><em>Rights Reserved - Free Access</em></a> licence:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=RIGHTS:http://www.europeana.eu/rights/rr-f/ [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=RIGHTS:http://www.europeana.eu/rights/rr-f/)
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=RIGHTS:http://www.europeana.eu/rights/rr-f/
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=RIGHTS:http://www.europeana.eu/rights/rr-f/">Test on API Console</a></p>
 
 <p>Looking for objects containing the term <em>Paris</em> among objects provided by <em>The European Library</em>:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=PROVIDER:The+European+Library [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=PROVIDER:The+European+Library)
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=PROVIDER:The+European+Library
 </code></pre>
+
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=PROVIDER:The+European+Library">Test on API Console</a></p>
 
 <p>Looking for objects containing the term <em>Paris</em> among objects provided by the user community:</p>
 
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=UGC:true [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=UGC:true)
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=UGC:true
 </code></pre>
 
-<h2 id="time-range-search">Time Range Search</h2>
-
-<p>Looking for objects dated by a year between <em>1525</em> and <em>1527</em>:</p>
-
-<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=YEAR:[1525 TO 1527] [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=YEAR:[1525%20TO%201527])
-</code></pre>
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=UGC:true">Test on API Console</a></p>
 <!--
 --></div>
 </div>
