@@ -113,19 +113,20 @@
 			<li>
 				<a class="menuTrigger">REST API</a>
 				<ul class="notabs tabs-v">
-                    <li><a href="/api/introduction" title="Introduction">Introduction</a></li>
-                    <li><a href="/api/getting-started" title="Getting Started with the Europeana REST API">Getting Started</a></li>
+					<li><a href="/api/introduction" title="Introduction">Introduction</a></li>
+					<li><a href="/api/getting-started" title="Getting Started with the Europeana REST API">Getting Started</a></li>
 					<li><a href="/api/registration" title="API Registration">Get an API-key</a></li>
 					<li><a href="/api/console" title="API Console">Console</a></li>
 					<li><a href="/api/authentication" title="Authentication">Authentication</a></li>
 					<li><a href="/api/search" title="Search">Search</a></li>
 					<li><a href="/api/query" title="Query">Query Syntax</a></li>
 					<li><a href="/api/record" title="Record">Record</a></li>
+					<li><a href="/api/record-jsonld" title="Record">Record in JSON-LD</a></li>
 					<li><a href="/api/myeuropeana" title="Accessing MyEuropeana">MyEuropeana</a></li>
 					<li><a href="/api/provider" title="Querying Providers and Datasets">Provider and Datasets</a></li>
 					<!--<li><a href="/api/data-fields" title="API Data Fields Reference">Data Fields</a></li>-->					
 					<li><a href="/api/data-hierarchy" title="Data Hierarchy">Data Hierarchy</a></li>					
-                    <li><a href="/api/data-fields" title="Data Fields">Data Fields</a></li>
+					<li><a href="/api/data-fields" title="Data Fields">Data Fields</a></li>
 					<li><a href="/api/error" title="Error Codes">Error Codes</a></li>	
 					<li><a href="/api/changelog" title="API ChangeLog">Change Log</a></li>
 				</ul>
@@ -168,7 +169,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query="Mona+Lisa"
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=who:"Leonardo+da+Vinci"
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=who:%22Leonardo%20da%20Vinci%22">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=who:%22Leonardo%20da%20Vinci%22">Test on API Console</a></p>
 
 <h2 id="boolean-search">Boolean Search</h2>
 
@@ -178,7 +179,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=who:"Leonardo+da
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=mona+AND+lisa
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=mona%20AND%20lisa">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=mona%20AND%20lisa">Test on API Console</a></p>
 
 <p>Boolean operators can also be combined with the search by fields. The following example searches for objects whose location is in <em>Paris</em> or in <em>London</em>:</p>
 
@@ -186,7 +187,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=mona+AND+lisa
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=where:(Paris+OR+London)
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=where:%20%28Paris%20OR%20London%29">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=where:%20%28Paris%20OR%20London%29">Test on API Console</a></p>
 
 <p>The boolean NOT operator cannot be used alone but only in conjunction with another boolean operator. For example, looking for objects which contain the term <em>Lisa</em> but do not contain the term <em>Mona</em> is done by the following:</p>
 
@@ -194,7 +195,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=where:(Paris+OR+
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=lisa+NOT+mona
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=lisa%20NOT%20mona">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=lisa%20NOT%20mona">Test on API Console</a></p>
 
 <h2 id="range-search">Range Search</h2>
 
@@ -204,7 +205,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=lisa+NOT+mona
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=[a+TO+z]
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=[a%20TO%20z]">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=[a%20TO%20z]">Test on API Console</a></p>
 
 <p>As well as for textual fields it can also be used for numeric values, date ranges, or geographical areas, as shown below.</p>
 
@@ -216,7 +217,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=[a+TO+z]
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=YEAR:[1525+TO+1527]
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=YEAR:[1525%20TO%201527]">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=YEAR:[1525%20TO%201527]">Test on API Console</a></p>
 
 <h3 id="geographical-bounding-box-search">Geographical Bounding Box Search</h3>
 
@@ -226,7 +227,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=YEAR:[1525+TO+15
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=pl_wgs84_pos_lat:[45+TO+47]+AND+pl_wgs84_pos_long:[7+TO+8]
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=pl_wgs84_pos_lat:[45%20TO%2047]%20AND%20pl_wgs84_pos_long:[7%20TO%208]">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=pl_wgs84_pos_lat:[45%20TO%2047]%20AND%20pl_wgs84_pos_long:[7%20TO%208]">Test on API Console</a></p>
 
 <h2 id="timestamp-search">Timestamp Search</h2>
 
@@ -236,13 +237,13 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=pl_wgs84_pos_lat
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=timestamp_created:"2013-03-16T20:26:27.168Z"
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=timestamp_created:%222013-03-16T20:26:27.168Z%22">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=timestamp_created:%222013-03-16T20:26:27.168Z%22">Test on API Console</a></p>
 
 <pre><code>Syntax: timestamp_update:"2013-03-16T20:26:27.168Z"
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=timestamp_updated:"2013-03-16T20:26:27.168Z"
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=timestamp_updated:%222013-03-16T20:26:27.168Z%22">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=timestamp_updated:%222013-03-16T20:26:27.168Z%22">Test on API Console</a></p>
 
 <h3 id="searching-for-date-range-as-date1-to-date2">Searching for date range (as [date1 TO date2]):</h3>
 
@@ -250,13 +251,13 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=timestamp_update
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=timestamp_created:[2013-11-01T00:00:0.000Z+TO+2013-12-01T00:00:00.000Z]
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=timestamp_created:[2013-11-01T00:00:0.000Z%20TO%202013-12-01T00:00:00.000Z]">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=timestamp_created:[2013-11-01T00:00:0.000Z%20TO%202013-12-01T00:00:00.000Z]">Test on API Console</a></p>
 
 <pre><code>Syntax: timestamp_update:[2013-11-01T00:00:0.000Z TO 2013-12-01T00:00:00.000Z]
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=timestamp_update:[2013-11-01T00:00:0.000Z+TO+2013-12-01T00:00:00.000Z]
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=timestamp_update:[2013-11-01T00:00:0.000Z%20TO%202013-12-01T00:00:00.000Z]">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=timestamp_update:[2013-11-01T00:00:0.000Z%20TO%202013-12-01T00:00:00.000Z]">Test on API Console</a></p>
 
 <h3 id="date-mathematics">Date mathematics</h3>
 
@@ -280,7 +281,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=timestamp_update
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;&amp;query=timestamp_created:[2014-05-01T00:00:00.000Z+TO+NOW]
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=timestamp_created:[2014-05-01T00:00:00.000Z%20TO%20NOW]">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=timestamp_created:[2014-05-01T00:00:00.000Z%20TO%20NOW]">Test on API Console</a></p>
 
 <p>From xxx up until tomorrow</p>
 
@@ -288,7 +289,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;&amp;query=timestamp_c
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;&amp;query=timestamp_created:[2014-05-01T00:00:00.000Z+TO+NOW%2B1DAY]
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=timestamp_created:[2014-05-01T00:00:00.000Z%20TO%20NOW%2B1DAY]">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=timestamp_created:[2014-05-01T00:00:00.000Z%20TO%20NOW%2B1DAY]">Test on API Console</a></p>
 
 <p>Note: be careful, that the plus sign’s proper URL encoded value is %2B, and sometimes space character is encoded as ‘+’ sing, and it easy to mix up the encoded space with the unencoded plus.</p>
 
@@ -298,7 +299,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;&amp;query=timestamp_c
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;&amp;query=timestamp_created:[2014-05-01T00:00:00.000Z+TO+NOW-1DAY]
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=timestamp_created:[2014-05-01T00:00:00.000Z%20TO%20NOW%2B1DAY]">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=timestamp_created:[2014-05-01T00:00:00.000Z%20TO%20NOW%2B1DAY]">Test on API Console</a></p>
 
 <p>Changes in the last two months</p>
 
@@ -306,7 +307,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;&amp;query=timestamp_c
 http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;&amp;query=timestamp_created:[NOW-2MONTH/DAY+TO+NOW/DAY]
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=timestamp_created:[NOW-3MONTH/DAY%20TO%20NOW/DAY]">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=timestamp_created:[NOW-3MONTH/DAY%20TO%20NOW/DAY]">Test on API Console</a></p>
 
 <p>You can find more about data mathematics at <a href="http://lucene.apache.org/solr/4_6_0/solr-core/org/apache/solr/util/DateMathParser.html">Solr’s API documentation</a></p>
 
@@ -319,60 +320,60 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;&amp;query=timestamp_c
 <pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Westminster&amp;qf=where:London
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Westminster&amp;qf=where:London">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=Westminster&amp;qf=where:London">Test on API Console</a></p>
 
-<p>Refinement parameters can be concatenated. Each such parameter and the mandatory query parameter contributes a <a href="http://labs.europeana.eu/api/search/#breadcrumb">breadcrumb</a> object if breadcrumbs are specified in the search profile.</p>
+<p>Refinement parameters can be concatenated. Each such parameter and the mandatory query parameter contributes a <a href="/api/search/#breadcrumb">breadcrumb</a> object if breadcrumbs are specified in the search profile.</p>
 
 <h2 id="faceted-search">Faceted Search</h2>
 
-<p>Querying by <a href="http://labs.europeana.eu/api/search/#facet">facets</a> is also done using the refinement parameter <strong>qf</strong>. The following example looks for objects containing the term <em>Paris</em> among images:</p>
+<p>Querying by <a href="/api/search/#facet">facets</a> is also done using the refinement parameter <strong>qf</strong>. The following example looks for objects containing the term <em>Paris</em> among images:</p>
 
 <pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=TYPE:IMAGE
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=TYPE:IMAGE">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=Paris&amp;qf=TYPE:IMAGE">Test on API Console</a></p>
 
 <p>Here are more examples of faceted search. Looking for objects containing the term <em>Paris</em> among objects described in <em>French</em>:</p>
 
 <pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=LANGUAGE:fr
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=LANGUAGE:fr">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=Paris&amp;qf=LANGUAGE:fr">Test on API Console</a></p>
 
 <p>Looking for objects containing the term <em>Paris</em> among objects dated by the year <em>1789</em>:</p>
 
 <pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=YEAR:1789
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=YEAR:1789">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=Paris&amp;qf=YEAR:1789">Test on API Console</a></p>
 
 <p>Looking for objects containing the term Paris among objects provided by an institution based in <em>France</em>:</p>
 
 <pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=COUNTRY:france
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=COUNTRY:france">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=Paris&amp;qf=COUNTRY:france">Test on API Console</a></p>
 
 <p>Looking for objects containing the term <em>Paris</em> among objects protected by the <a href="http://www.europeana.eu/portal/rights/rr-f.html"><em>Rights Reserved - Free Access</em></a> licence:</p>
 
 <pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=RIGHTS:http://www.europeana.eu/rights/rr-f/
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=RIGHTS:http://www.europeana.eu/rights/rr-f/">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=Paris&amp;qf=RIGHTS:http://www.europeana.eu/rights/rr-f/">Test on API Console</a></p>
 
 <p>Looking for objects containing the term <em>Paris</em> among objects provided by <em>The European Library</em>:</p>
 
 <pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=PROVIDER:The+European+Library
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=PROVIDER:%22The%20European%20Library%22">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=Paris&amp;qf=PROVIDER:%22The%20European%20Library%22">Test on API Console</a></p>
 
 <p>Looking for objects containing the term <em>Paris</em> among objects provided by the user community:</p>
 
 <pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;qf=UGC:true
 </code></pre>
 
-<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Paris&amp;qf=UGC:true">Test on API Console</a></p>
+<p><a href="/api/console/?function=search&amp;query=Paris&amp;qf=UGC:true">Test on API Console</a></p>
 <!--
 --></div>
 </div>
