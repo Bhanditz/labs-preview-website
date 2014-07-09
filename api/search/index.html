@@ -151,6 +151,7 @@
 	--><ul id="markdown-toc">
   <li><a href="#request">Request</a>    <ul>
       <li><a href="#the-possible-values-of-the-profile-parameter">The possible values of the profile parameter</a></li>
+      <li><a href="#the-possible-values-of-the-reusability-parameter">The possible values of the reusability parameter</a></li>
     </ul>
   </li>
   <li><a href="#response">Response</a>    <ul>
@@ -166,7 +167,10 @@
       <li><a href="#rich-profile">Rich profile</a></li>
     </ul>
   </li>
-  <li><a href="#callback-function">Callback Function</a></li>
+  <li><a href="#individual-facets">Individual facets</a>    <ul>
+      <li><a href="#offset-and-limit-of-facets">Offset and limit of facets</a></li>
+    </ul>
+  </li>
 </ul>
 
 <p>Search for records.</p>
@@ -213,7 +217,27 @@
     <tr>
       <td style="text-align: left">callback</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left">Name of a client side <a href="#callback_function">callback function</a>.</td>
+      <td style="text-align: left">Name of a client side <a href="#callback-function">callback function</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">reusability</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">Filter by copyright status. Possible values are open, restricted or permission, see <a href="#reusability-parameters">reusability parameters</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">facet</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">Name of an individual facet. See <a href="#individual-facets">individual facets</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">f.[facet name].facet.limit</td>
+      <td style="text-align: left">Number</td>
+      <td style="text-align: left">Number of values an individual facet should contain. The [facet name] part should be replaced with one of the the facet names you specified in <code>facet</code> parameter. See <a href="#individual-facets">individual facets</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">f.[facet name].facet.offset</td>
+      <td style="text-align: left">Number</td>
+      <td style="text-align: left">The offset of the first value in an individual facet. The [facet name] part should be replaced with one of the the facet names you specified in <code>facet</code> parameter. See <a href="#individual-facets">individual facets</a></td>
     </tr>
   </tbody>
 </table>
@@ -260,6 +284,13 @@
     </tr>
   </tbody>
 </table>
+
+<h3 id="the-possible-values-of-the-reusability-parameter">The possible values of the reusability parameter</h3>
+<p>| Value | Description |
+|:——|:————|
+| open | The records are freely reusable. The licenses in this category are <a href="http://creativecommons.org/publicdomain/mark/">NOC</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC-ZERO</a>, <a href="http://creativecommons.org/licenses/by/">CC-BY</a>, <a href="http://creativecommons.org/licenses/by-sa/">CC-BY-SA</a> |
+| restricted | The records are reusable, but with restrictions. The licenses in this category are <a href="http://creativecommons.org/licenses/by-nc/">CC-BY-NC</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/">CC-BY-NC-SA</a>, <a href="http://creativecommons.org/licenses/by-nc-nd/">CC-BY-NC-ND</a>, <a href="http://creativecommons.org/licenses/by-nd/">CC-BY-ND</a>, <a href="http://www.europeana.eu/rights/out-of-copyright-non-commercial/">OOC-NC</a> |
+| permission | You can reuse the records only with explicit permission. |</p>
 
 <h2 id="response">Response</h2>
 
@@ -538,12 +569,12 @@
     <tr>
       <td style="text-align: left">timestamp_created</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left">ISO 8601 format of the date when record were created</td>
+      <td style="text-align: left"><a href="http://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> format of the date when record were created</td>
     </tr>
     <tr>
       <td style="text-align: left">timestamp_update</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left">ISO 8601 format of the date when record were last updated</td>
+      <td style="text-align: left"><a href="http://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> format of the date when record were last updated</td>
     </tr>
   </tbody>
 </table>
@@ -908,34 +939,84 @@
   </tbody>
 </table>
 
-<h2 id="callback-function">Callback Function</h2>
-<p>Name of a client side (JavaScript) callback function. If you set a funtion the JSON response will be wrapped by this function call, so it is not JSON, but <a href="http://en.wikipedia.org/wiki/JSONP">JSONP</a> (JSON with Paggings). JSONP provides a method to request data from a server in a different domain, something prohibited by typical web browsers because of the <a href="http://en.wikipedia.org/wiki/Same_origin_policy">same origin policy</a>.</p>
+<h2 id="individual-facets">Individual facets</h2>
 
-<blockquote>
-  <p>“Under the same origin policy, a web page served from server1.example.com cannot normally connect to or communicate with a server other than server1.example.com. An exception is the HTML script element. Exploiting the open policy for script elements, some pages use them to retrieve JavaScript code that operates on dynamically generated JSON-formatted data from other origins. This usage pattern is known as JSONP. Requests for JSONP retrieve not JSON, but arbitrary JavaScript code. They are evaluated by the JavaScript interpreter, not parsed by a JSON parser.” (Wikipedia: <a href="http://en.wikipedia.org/wiki/JSONP">JSONP</a>)</p>
-</blockquote>
+<p>So far the user could get only the default Europeana facet set. From now on API users can select which facets they would like to retrieve via the <code>facet</code> parameter. When you request facet you have to set the profile either as <code>facets</code> or as <code>portal</code> (which covers facets as well).</p>
 
-<p>A callback can be added to any JSON-based call by appending &amp;callback=callbackname to the call, where the callbackname should be an existing JavaScript function existing on the client side. The API returns JSONP response, like this one:</p>
+<p>The value of the parameter could be “DEFAULT” (which is a shortcut of the Europeana facet set we make use on the portal, which contains UGC, LANGUAGE, TYPE, YEAR, PROVIDER, DATA_PROVIDER, COUNTRY and RIGHTS), or any field name which is indexed and stored in Apache Solr.
+We maintain a table in API documentation about the existing fields: http://labs.europeana.eu/api/api-fields.html. In the field type column “text” means indexed as as a row of distinct terms, while “string” means indexed as phrase, so the whole content is taken as one individual unit.</p>
 
-<pre><code>/api/v2/record/[record ID].json?wskey=xxxx&amp;profile=similar&amp;**callback=processEuropeanaSearch**
+<p>Users can set one or more facets in one query.</p>
+
+<p>Requesting a single facet:</p>
+
+<pre><code>&amp;facet=proxy_dc_contributor&amp;profile=facets
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_contributor&amp;profile=facets
 </code></pre>
 
-<p>returns</p>
+<p><a href="http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;facet=proxy_dc_contributor&amp;profile=facets">Test on API Console</a></p>
 
-<pre><code>processEuropeanaSearch({"apikey":"xxxxx","action":"record.json","success":true,"statsDuration":22,"requestNumber":8,"object":{"type":"TEXT","title":["Bibliotheca Indica"],"about": "[record ID]",....}})
+<p>Requesting multiple facets can be done with three different syntaxes. You can add multiple facet parameters, or one facet parameter with multiple values separated by commas or spaces:</p>
+
+<p>Multiple facet parameters:</p>
+
+<pre><code>&amp;facet=proxy_dc_coverage&amp;facet=proxy_dc_contributor&amp;profile=facets
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_coverage&amp;facet=proxy_dc_contributor&amp;profile=facets [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;facet=proxy_dc_coverage&amp;facet=proxy_dc_contributor&amp;profile=facets)
 </code></pre>
 
-<p>The JSON response is wrapped into your function, and the function use JSON as input parameter, and it immediatelly runs when it returns. In your client you have to define the callback function before you call the API. A client side example:</p>
+<p>Multiple facets separated by commas</p>
 
-<pre><code>&lt;script&gt;
-function processEuropeanaSearch(json){
-   alert(json.object.title.join(', '));
-}
-&lt;/script&gt;
-&lt;script src="http://www.europeana.eu/api/v2/record/9200143/41CCA52E2986E491BBA631D4899768A5002C455A.json?wskey=xxxx&amp;profile=similar&amp;callback=processEuropeanaSearch"&gt;&lt;/script&gt;
+<pre><code>&amp;facet=proxy_dc_coverage,proxy_dc_contributor&amp;profile=facets
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_coverage,proxy_dc_contributor&amp;profile=facets [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;facet=proxy_dc_coverage,proxy_dc_contributor&amp;profile=facets)
 </code></pre>
 
-<p>Of course in this example we didn’t do any rocket science with the returned Europeana record, it is your turn to do some fascinating thing.</p>
+<p>Multiple facets separated by spaces</p>
+
+<pre><code>&amp;facet=proxy_dc_coverage%20proxy_dc_contributor&amp;profile=facets
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_coverage%20proxy_dc_contributor&amp;profile=facets [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;facet=proxy_dc_coverage%20proxy_dc_contributor&amp;profile=facets)
+
+&amp;facet=proxy_dc_coverage+proxy_dc_contributor&amp;profile=facets
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_coverage+proxy_dc_contributor&amp;profile=facets [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;facet=proxy_dc_coverage%20proxy_dc_contributor&amp;profile=facets)
+</code></pre>
+
+<p>Requesting the default facets:</p>
+
+<pre><code>&amp;profile=portal
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;profile=portal [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;profile=portal)
+
+&amp;profile=facets
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;profile=facets [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;profile=facets)
+
+&amp;facet=DEFAULT&amp;profile=facets
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=DEFAULT&amp;profile=facets [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;facet=DEFAULT&amp;profile=facets)
+</code></pre>
+
+<p>Combining default facets with custom facets:</p>
+
+<pre><code>&amp;facet=DEFAULT+proxy_dc_contributor&amp;profile=facets
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=DEFAULT+proxy_dc_contributor&amp;profile=facets [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;facet=DEFAULT%20proxy_dc_contributor&amp;profile=facets)
+</code></pre>
+
+<h3 id="offset-and-limit-of-facets">Offset and limit of facets</h3>
+
+<p>The API user can set how many facet values she would like to retrieve, and which should be the first one. With this parameters, she can page over all facet values without requesting too much at a time. The limit and offset parameter syntax is a little bit tricky, but if you are familiar with Apache Solr syntax, it won’t be strange, because it is the same.</p>
+
+<pre><code>Syntax: f.[facet name].facet.limit
+Example: &amp;f.PROVIDER.facet.limit=30
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=PROVIDER&amp;profile=facets&amp;f.PROVIDER.facet.limit=30 [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;facet=PROVIDER&amp;profile=facets&amp;f.PROVIDER.facet.limit=30)
+
+Syntax: f.[facet name].facet.offset
+Example: &amp;f.PROVIDER.facet.offset=30
+http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=PROVIDER&amp;profile=facets&amp;f.PROVIDER.facet.offset=30 [Test on API Console](http://labs.europeana.eu/api/console/?function=search&amp;query=paris&amp;facet=PROVIDER&amp;profile=facets&amp;f.PROVIDER.facet.offset=30)
+</code></pre>
+
+<p>Both parameter accepts numeric values.</p>
+
+<p>The default offset value is 0, it means no offset, the first item to return is the first item in the list. 1 offset the list by one, so the first item to return is the second and so on.</p>
+
+<p>In limit 0 means not to return anything.</p>
+
+<p>The special <code>DEFAULT</code> shortcut works here as well, and it limit the facets which are part of the above mentioned set. So <code>&amp;f.DEFAULT.facet.limit=20</code> works for RIGHTS, and PROVIDER, but doesn’t work for non default facets such as proxy_dc_contributor.</p>
 <!--
 --></div>
 </div>
