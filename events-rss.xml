@@ -10,6 +10,14 @@
     <description>RSS feed for Europeana Labs</description>
     <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
     <item>
+      <title>AppsCultura workshop using Europeana content and the Europeana API</title>
+      <link>http://labs.europeana.eu/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona</link>
+      <description>[&quot;Apps&amp;amp;Cultura has teamed up with Europeana Creative for this year’s Hack at Home competition and the second round of the Europeana Creative Challenges. In this workshop the team from Europeana will be organising a hands on workshop demonstrating how to use the Europeana API and include it into your applications.&quot;]</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona</guid>
+      <dc:date>2014-07-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
       <title>Open Knowledge Festival 2014 - Open Minds to Open Action</title>
       <link>http://labs.europeana.eu/events/Open_Knowledge_Foundation_2014</link>
       <description>[&quot;The event gathers together open movement makers, thinkers, activists and researchers from around the world. To inspire 'Open Minds to Open Action' (as the slogan goes), the 2014 edition will be a space for learning and dialogue where the activities of the international participants shapes the event and its outcomes.&quot;]</description>
