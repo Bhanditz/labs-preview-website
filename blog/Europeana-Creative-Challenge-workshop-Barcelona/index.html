@@ -113,7 +113,73 @@
 		    <div class="prose description">
 		        <p>This blog post has been created to support the <a href="/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona/">Europeana Creative Challenge workshop, Barcelona, 16 July 2014</a>, held in association with Apps&amp;Cultura. For those not able to attend, the event will be livestreamed at <a href="http://xmpp.iglor.es/appscultura_europeanalab/">http://xmpp.iglor.es/appscultura_europeanalab/</a></p>
 
-<p>This post is also a place where anyone interested in the challenges can post ideas and requests related to the API and the Challenge - just [add a comment][comments] below and we’ll respond.</p>
+<p>This post is also a place where anyone interested in the challenges can post ideas and requests related to the API and the Challenge - just <a href="#comments">add a comment</a> below and we’ll respond.</p>
+
+<h2 id="getting-started">Getting started</h2>
+<p>You should find everything you need to get started using the Europeana API in the Europeana Labs website.</p>
+
+<h3 id="new-to-europeana">New to Europeana?</h3>
+<ul>
+  <li>explore our <a href="/data">sample datasets</a> to see examples of just some of the openly licensed content that is available</li>
+  <li>get inspiration from our <a href="/apps">gallery of existing apps</a> to see what is possible.</li>
+</ul>
+
+<h3 id="new-to-the-europeana-api">New to the Europeana API?</h3>
+<ul>
+  <li>if you haven’t already done so, <a href="/api/registration/">register for a Europeana API key</a></li>
+  <li>take a little time to read the <a href="/api/introduction/">Getting Started guide</a> to the Rest API.</li>
+</ul>
+
+<h3 id="give-it-a-try">Give it a try</h3>
+<ul>
+  <li>our <a href="/api/console/">API Console</a> allows you to easily build and test queries</li>
+  <li>there are a number of client libraries available for languages such as php, Python and Django</li>
+  <li>we have also produced a <a href="/apps/#tag=open-source-tools">directory of open source tools</a> that might be useful to developers, covering topics such as metadata management, annotation, front end display etc.</li>
+</ul>
+
+<h3 id="colaborate">Colaborate</h3>
+<ul>
+  <li>we’re always keen to facilitate collaborations between developers, and with our own team. A great example is the Europeana Open Culture app for iOS and Android which has been released as an open source platform for building tablet-based experiences using Europeana content. It’s <a href="https://github.com/europeana/openculture/wiki">available on GitHub</a> under the “European Union Public Licence”. </li>
+</ul>
+
+<h3 id="need-help">Need help?</h3>
+
+<p>If you have any questions, just leave a comment below or check out the <a href="/support/contact/">other ways to contact us</a>.</p>
+
+<h2 id="hints--tips">Hints &amp; tips</h2>
+
+<h3 id="querying-by-location">Querying by location</h3>
+
+<ul>
+  <li>you can very easily specify a bounding box to query geotagged items. The easiest way to do this is via the <a href="/api/console/">API Console</a> and enter coordinates in the ‘Spatial params’ filter</li>
+  <li>to include non-geotagged items you can run standard text searches based on place names. These will naturally be less precise, but if you can’t find what you want, or are getting a lot of unrelated items, experiment with ‘where’ and ‘what’ searches e.g. <a href="http://labs.europeana.eu/api/console/?function=search&amp;query=where:barcelona&amp;start=1&amp;rows=24">where: Barcelona</a> and <a href="http://labs.europeana.eu/api/console/?function=search&amp;query=what:barcelona&amp;start=1&amp;rows=24">what: Barcelona</a> (note that the former method will typically retrieve items located in Barcelona (e.g. from Barcelona-based collections), the latter typically items depicting Barcelona.</li>
+</ul>
+
+<h3 id="licensing">Licensing</h3>
+
+<p>All metadata in Europeana is licensed as CC0 so is free to re-use. Individual items each have their own clearly marked license. 
+- the simplest way to find openly re-usable content is to use the parameter <a href="http://labs.europeana.eu/api/console/?function=search&amp;query=Barcelona&amp;start=1&amp;rows=24&amp;profile=minimal&amp;reusability=open">&amp;reusability=open</a>
+- more information about the different licenses and how to query them is contained in the blog post <a href="/blog/can-i-use-it/">Can I use it?</a></p>
+
+<h3 id="retrieving-media-assets">Retrieving media assets</h3>
+<p>This is a very common question from developers, so here’s a quick overview and a few details about what can and what can’t (currently at least) be done:
+- every item returned in a standard search call will have a url to a thumbnail e.g. “edmPreview”: [ “http://europeanastatic.eu/api/image?uri=http%3A%2F%2Fcoleccionfff.unav.es%2Fbvunav%2Fi18n%2Fcatalogo_imagenes%2Fimagen_id.cmd%3FidImagen%3D10000592&amp;size=LARGE&amp;type=IMAGE” ]<br />
+(note that if we have not been able to create a thumbnail, for example if the item is not an image, then a placeholder thumbnail will be returned)
+- in addition, each item <strong>may</strong> have a direct link to the original media file. This is returned in the edmIsShowBy attribute (<strong>currently</strong> only available through an individual record call so you would need to iterate through each item in the search results - we currently have a new ‘rich’ profile in development that will return this attribute within the search results)
+- you can query just for records that have such links by using &amp;query=provider_aggregation_edm_isShownBy:* in your API call
+- because of variability in the types of items and in the data supplied by providers, the format of these original files will vary (for example various image formats, pdfs, audio &amp; video files, and links to html pages with image viewers). If you wanted to use this attribute for example to display high resolution images your code should first detect and check the format.</p>
+
+<p>A lot of work is currently being undertaken to address this and provide a more direct and precise way of retrieving original media, but as illustrated by sites like <a href="http://www.zenlan.com/collage/europeana/#barcelona">Culture Collage</a> and <a href="http://museums.eu/museum/details/16007/the-british-library">museums.eu</a> quite rich experiences can still be created using the thumbnails alone. </p>
+
+<h2 id="where-next">Where next?</h2>
+
+<p>Our data, API and associated documentation are constantly updated and improved. Much of this is in response to feedback and requests received from our user community. However big or small, we would love to hear your ideas and answer any questions you may have. Leave a comment below, or see some of the other ways to <a href="/support/contact">contact us</a>. </p>
+
+<hr />
+
+<p><small>Header image: <a href="http://europeana.eu/portal/record/90402/RP_P_1896_A_19368_1959.html?start=8&amp;query=barcelona&amp;startPage=1&amp;qf=TYPE%3AIMAGE&amp;qf=REUSABILITY%3Aopen&amp;qf=provider_aggregation_edm_isShownBy%3A*&amp;qf=PROVIDER%3ARijksmuseum&amp;rows=24">Opstand in Barcelona, 1640, Johann David Zunnern, 1701</a> from Rijksmuseum (Public Domain).</small></p>
+
+<p><a name="comments"></a></p>
    
 		        
  
