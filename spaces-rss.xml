@@ -11,42 +11,42 @@
     <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
     <item>
       <title>i-Matériel.Lab | Paris</title>
-      <link>http://labs.europeana.eu/locations/imateriel</link>
+      <link>{{site.url}}/locations/imateriel</link>
       <description>&lt;p&gt;i-Matériel.Lab is the user driven innovation platform dedicated to Cultural Heritage and Tourism, specialized in mobile products and services (Smartphones, touch screen Tablets and Smart Objects).&lt;/p&gt;
 
 </description>
       <pubDate>Thu, 09 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/locations/imateriel</guid>
+      <guid>{{site.url}}/locations/imateriel</guid>
       <dc:date>2014-01-09T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>AALTO Fab Lab | Helsinki</title>
-      <link>http://labs.europeana.eu/locations/aalto</link>
+      <link>{{site.url}}/locations/aalto</link>
       <description>&lt;p&gt;FabLab (fabrication laboratory) is a small-scale workshop for digital fabrication, started by MIT. In a Fablab you can find machines such as the lasercutter, vinyl cutter, desktop CNC milling machine and 3D printer and electronics prototyping equipment.&lt;/p&gt;
 
 </description>
       <pubDate>Thu, 09 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/locations/aalto</guid>
+      <guid>{{site.url}}/locations/aalto</guid>
       <dc:date>2014-01-09T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Future Classroom Lab | Brussels</title>
-      <link>http://labs.europeana.eu/locations/future-classroom-lab</link>
+      <link>{{site.url}}/locations/future-classroom-lab</link>
       <description>&lt;p&gt;The Future Classroom Lab in Brussels is a fully equipped, reconfigurable, teaching and learning space developed by &lt;a href=&quot;http://eun.org&quot;&gt;European Schoolnet&lt;/a&gt;, its 30 supporting Ministries of Education and leading educational technology providers.&lt;/p&gt;
 
 </description>
       <pubDate>Thu, 09 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/locations/future-classroom-lab</guid>
+      <guid>{{site.url}}/locations/future-classroom-lab</guid>
       <dc:date>2014-01-09T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Platoniq | Palma</title>
-      <link>http://labs.europeana.eu/locations/platoniq</link>
+      <link>{{site.url}}/locations/platoniq</link>
       <description>&lt;p&gt;Since 2001 we at &lt;a href=&quot;http://www.youcoop.org&quot;&gt;Platoniq&lt;/a&gt; have collaborated and worked with lots of cultural and social collectives, nationally and internationally, in the area of ICT development, to promote free and open culture and citizen’s participation. We cooperate with public institutions, universities and companies with affinity for the collaborative economy’s philosophy and the principles of free knowledge.&lt;/p&gt;
 
 </description>
       <pubDate>Sat, 04 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/locations/platoniq</guid>
+      <guid>{{site.url}}/locations/platoniq</guid>
       <dc:date>2014-01-04T00:00:00+01:00</dc:date>
     </item>
     <dc:date>9999-01-01T00:00:00+01:00</dc:date>
