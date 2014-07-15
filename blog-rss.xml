@@ -10,6 +10,16 @@
     <description>RSS feed for Europeana Labs</description>
     <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
     <item>
+      <title>2nd Europeana Creative Challenge Workshop, Barcelona, 16 July 2014</title>
+      <link>http://labs.europeana.eu/blog/Europeana-Creative-Challenge-workshop-Barcelona</link>
+      <description>&lt;p&gt;test content&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/blog/Europeana-Creative-Challenge-workshop-Barcelona</guid>
+      <dc:date>2014-07-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
       <title>Focus on re-usable datasets</title>
       <link>http://labs.europeana.eu/blog/focus-on-reusable-datasets</link>
       <description>&lt;p&gt;In April we added over 1 million new items to Europeana. The majority of these new collections are openly licensed and re-usable.&lt;/p&gt;
