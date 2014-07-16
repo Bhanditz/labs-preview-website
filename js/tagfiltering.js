@@ -263,7 +263,7 @@
 				}
 				
 				$("ul.tags li").each(function(){
-					if($(this).attr("data-count")<=0){
+					if(!$(this).hasClass("show-more-tags-cont") && $(this).attr("data-count")<=0){
 						$(this).hide();
 					}
 				});
