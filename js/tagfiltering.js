@@ -166,22 +166,24 @@
             $(filters).each(function () {
 
                 if ($(this).hasClass(settings.activeTagClass)) {
-
-                    if (hs.length > 0) {
-                        hs = hs + "&";
-                    }
                                        
                     var currentActiveFilterClass = $(this).attr("class").split(' ')[1];
-                    
-					if(settings.filterOperator==="AND"){
-                    	fil = fil + "." + currentActiveFilterClass;
-                   	}else{
-                   		if(fil.length>0){
-                   			fil=fil+", ";
-                   		}
-                   		fil = fil + "." + currentActiveFilterClass;
-                   	}
-                    hs = hs + "tag=" + currentActiveFilterClass;
+
+					if (hs.indexOf("tag=" + currentActiveFilterClass) == -1) {
+						if (hs.length > 0) {
+							hs = hs + "&";
+						}
+
+						if(settings.filterOperator==="AND"){
+							fil = fil + "." + currentActiveFilterClass;
+						}else{
+							if(fil.length>0){
+								fil=fil+", ";
+							}
+							fil = fil + "." + currentActiveFilterClass;
+						}
+						hs = hs + "tag=" + currentActiveFilterClass;
+					}
                    
                 }
             });
