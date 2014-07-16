@@ -92,7 +92,8 @@
 
 				var smallTags = $("ul.tags li").slice(6, $("ul.tags li").length).addClass("othertags").detach();
 	        	$("ul.tags").append("<li class=\"show-more-tags-cont\"><a class=\"show-more-tags\" data-state=\"more1\">+show more</a></li>");
-	        	
+	        	$("ul.tags").append(smallTags);
+				
 	        	$("a.show-more-tags").click(function(){
 					if ($(this).data('state')=='more1') {
 						$("ul.tags li.othertags").each(function(){
