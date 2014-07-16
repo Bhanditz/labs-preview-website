@@ -244,7 +244,6 @@
               		//addShowMore();
               		//$("ul.tags li").slice(7, $("ul.tags li").length).hide();
               		location.hash = "#"
-					location.reload();
               	});
               
               
