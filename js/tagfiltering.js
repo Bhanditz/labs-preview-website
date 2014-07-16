@@ -74,10 +74,10 @@
         	//add showmore and ALL tag
         	$("a.show-more-tags").remove();
 
-			$("ul.tags:first li").removeClass("othertags");
+			$("ul.tags li").removeClass("othertags");
 
 			var existingTags = new Array();
-			$("ul.tags:first li").each(function(){
+			$("ul.tags li").each(function(){
 				var lcDataText = $(this).data('btntext').toLowerCase();
 				if ($.inArray(lcDataText, existingTags)!=-1) {
 					$(this).remove();
@@ -86,9 +86,9 @@
 				}
 			});
 	        
-			if($("ul.tags:first li").length>5){
-	        	$("ul.tags:first").parent().append("<a class=\"show-more-tags\" data-state=\"more1\">+show more</a>");
-				$("ul.tags:first").parent().append("<div id=\"otherTagsDiv\"><ul id=\"otherTagsUl\" class=\"\"></ul></div>");
+			if($("ul.tags li").length>5){
+	        	$("ul.tags").parent().append("<a class=\"show-more-tags\" data-state=\"more1\">+show more</a>");
+				$("ul.tags").parent().append("<div id=\"otherTagsDiv\"><ul id=\"otherTagsUl\" class=\"tags\"></ul></div>");
 
 				$("ul.tags:first li").slice(6, $("ul.tags:first li").length).detach().appendTo("#otherTagsUl");
 	        	
@@ -252,7 +252,7 @@
               	//Sort and set text and counter
 				$("ul.tags:first li").sort(sort_li).appendTo('ul.tags:first');
 				
-				$("ul.tags:first li a").each(function(){
+				$("ul.tags li a").each(function(){
 					var btnParentLi = $(this).parent();
 					if(btnParentLi.attr("data-btntext")!=undefined){
 						$(this).text(btnParentLi.attr("data-btntext")+" ("+btnParentLi.attr("data-count")+")")
