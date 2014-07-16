@@ -240,7 +240,7 @@
               $("ul.tags li.show-all-tags").click(function(){
               		$("ul.tags li a").removeClass(settings.activeTagClass);
               		addShowMore();
-              		$("ul.tags li").slice(6, $("ul.tags li").length).hide();
+              		$("ul.tags li").slice(7, $("ul.tags li").length).hide();
               		location.hash = "#"
               	});
               
@@ -256,7 +256,7 @@
 				});
 				
 				$("ul.tags li").show();  
-				$("ul.tags li").slice(6, $("ul.tags li").length).hide();
+				$("ul.tags li").slice(7, $("ul.tags li").length).hide();
 								
 				if($("ul.tags a.current-tag").length<=0){
 					$("ul li.show-all-tags").click();
