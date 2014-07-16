@@ -50,26 +50,13 @@
       <dc:date>2015-07-15T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>Nodejs Europeana</title>
-      <link>http://labs.europeana.eu/2014/07/16/nodejs-europeana/</link>
-      <description>&lt;hr /&gt;
-
-&lt;p&gt;layout: apps-item
-category: apps
-permalink: apps/nodejs-europeana
-title: Node.js module for the Europeana API
-imageurl: 
-  - &amp;#8220;/img/no-image.gif&amp;#8221;
-featured: false
-tags: 
-  - Client library
-links:
-  - https://github.com/fvdm/nodejs-europeana
-  - https://www.npmjs.org/package/europeana&lt;/p&gt;
+      <title>Node.js module for the Europeana API</title>
+      <link>http://labs.europeana.eu/apps/nodejs-europeana</link>
+      <description>&lt;p&gt;Unofficial Node.js module for the Europeana API. &lt;/p&gt;
 
 </description>
       <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/2014/07/16/nodejs-europeana/</guid>
+      <guid>http://labs.europeana.eu/apps/nodejs-europeana</guid>
       <dc:date>2014-07-16T00:00:00+02:00</dc:date>
     </item>
     <item>

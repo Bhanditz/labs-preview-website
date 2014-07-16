@@ -50,6 +50,16 @@
       <dc:date>2015-07-15T00:00:00+02:00</dc:date>
     </item>
     <item>
+      <title>Node.js module for the Europeana API</title>
+      <link>http://labs.europeana.eu/apps/nodejs-europeana</link>
+      <description>&lt;p&gt;Unofficial Node.js module for the Europeana API. &lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/nodejs-europeana</guid>
+      <dc:date>2014-07-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
       <title>Rest Easy (Python)</title>
       <link>http://labs.europeana.eu/apps/rest-easy</link>
       <description>&lt;p&gt;This Python module dynamically creates wrappers for RESTful APIs from YAML markup. It has a ready-made wrapper for the Europeana API as well as for a number of other GLAM APIs.&lt;/p&gt;
