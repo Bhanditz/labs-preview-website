@@ -69,7 +69,7 @@
         
         function addShowMore()
         {
-
+			/*
         	        //add showmore and ALL tag
         	$("a.show-more-tags").remove();
         	$("ul.tags li").removeClass("othertags");
@@ -109,7 +109,7 @@
 						}
 					}
 	        	 });
-	        }
+	        }*/
         }
                 
         function performFiltering() {
