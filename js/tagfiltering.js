@@ -69,47 +69,66 @@
         
         function addShowMore()
         {
-			/*
-        	        //add showmore and ALL tag
+        	//add showmore and ALL tag
         	$("a.show-more-tags").remove();
-        	$("ul.tags li").removeClass("othertags");
-	        if($("ul.tags li").length>5){
+
+			$("ul.tags li").removeClass("othertags");
+
+			var existingTags = new Array();
+			$("#otherTagsUl li.othertags").each(function(){
+				var lcDataText = $(this).data('btntext').toLowerCase();
+				if ($.inArray(lcDataText, existingTags)!=-1) {
+					$(this).remove();
+				} else {
+					existingTags.push(lcDataText);
+				}
+			});
+	        
+			if($("ul.tags li").length>5){
+	        	$("ul.tags").parent().append("<a class=\"show-more-tags\" data-state=\"more1\">+show more</a>");
+				$("ul.tags").parent().append("<div id=\"otherTagsDiv\"><ul id=\"otherTagsUl\"></ul></div>");
+
+				$("ul.tags li").slice(6, $("ul.tags li").length).addClass("othertags").detach().appendTo("#otherTagsUl");
 	        	
-	        	 $("ul.tags").parent().append("<a class=\"show-more-tags\" data-state=\"more1\">+show more</a>");
-	        	 $("a.show-more-tags").click(function(){
-					if ($(this).data('state')=='more') {
-						$("ul.tags li").slice(6, $("ul.tags li").length).addClass("othertags");
-						$("ul.tags li.othertags").each(function(){
+	        	$("a.show-more-tags").click(function(){
+					if ($(this).data('state')=='more1') {
+						$("#otherTagsUl li.othertags").each(function(){
 							if($(this).attr("data-count")>0){
 								$(this).show();
 							}	
 						});
 						
+						$("#otherTagsDiv").show();
+						
 						$(this).html('-show less');
-						$(this).data('state','less');
+						$(this).data('state', 'less');
 					} 
 					else 
 					{
 						if ($(this).data('state')=='more') {
-							$("ul.tags li.othertags").each(function(){
+							$("#otherTagsUl li.othertags").each(function(){
 								if($(this).attr("data-count")>0){
 									$(this).show();
 								}	
 							});
 							
+							$("#otherTagsDiv").show();
+							
 							$(this).html('-show less');
 							$(this).data('state','less');
 						} else {
-							$("ul.tags li.othertags").each(function(){
+							$("#otherTagsUl li.othertags").each(function(){
 								$(this).hide();
 							});
+							
+							$("#otherTagsDiv").hide();
 							
 							$(this).html('+show more');
 							$(this).data('state','more');
 						}
 					}
 	        	 });
-	        }*/
+	        }
         }
                 
         function performFiltering() {
