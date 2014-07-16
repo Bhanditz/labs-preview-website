@@ -67,8 +67,15 @@
              }
         });
         
+		var addShowMoreCompleted=0;
+		
         function addShowMore()
         {
+			if (addShowMoreCompleted>0) {
+				return;
+			} else {
+				addShowMoreCompleted=1;
+			}
         	//add showmore and ALL tag
         	$("a.show-more-tags").remove();
 
@@ -86,9 +93,9 @@
 	        
 			if($("ul.tags li").length>5){
 	        	$("ul.tags").parent().append("<a class=\"show-more-tags\" data-state=\"more1\">+show more</a>");
-				$("ul.tags").parent().append("<div id=\"otherTagsDiv\"><ul id=\"otherTagsUl\"></ul></div>");
+				$("ul.tags").parent().append("<div id=\"otherTagsDiv\"><ul id=\"otherTagsUl\" class=\"tags\"></ul></div>");
 
-				$("ul.tags li").slice(6, $("ul.tags li").length).addClass("othertags").detach().appendTo("#otherTagsUl");
+				$("ul.tags li").slice(6, $("ul.tags li").length).detach().appendTo("#otherTagsUl").addClass("othertags");
 	        	
 	        	$("a.show-more-tags").click(function(){
 					if ($(this).data('state')=='more1') {
