@@ -92,7 +92,7 @@
 
 				$("li.show-more-tags-cont").remove();
 			
-				var smallTags = $("ul.tags li").slice(6, $("ul.tags li").length).addClass("othertags").detach();
+				var smallTags = $("ul.tags li").slice(6, $("ul.tags li").length).addClass("othertags").hide().detach();
 	        	$("ul.tags").append("<li class=\"show-more-tags-cont\"><a class=\"show-more-tags\" data-state=\"more1\">+show more</a></li>");
 	        	$("ul.tags").append(smallTags);
 				
@@ -154,6 +154,7 @@
                 filters.each(function () {
                     if ($(this).hasClass(tagValue)) {
                         $(this).removeClass(settings.activeTagClass).addClass(settings.activeTagClass);
+						return;
                     }
                 });
             });
