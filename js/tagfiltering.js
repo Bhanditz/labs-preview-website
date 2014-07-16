@@ -20,7 +20,7 @@
         }
 
 		//prepare copy of original tag text
-		$("ul.tags li>a").each(function(){
+		$("ul.tags:first li>a").each(function(){
 			$(this).parent().attr("data-btntext", $(this).text());
 		});
 		
@@ -71,18 +71,13 @@
 		
         function addShowMore()
         {
-			if (addShowMoreCompleted>0) {
-				return;
-			} else {
-				addShowMoreCompleted=1;
-			}
         	//add showmore and ALL tag
         	$("a.show-more-tags").remove();
 
-			$("ul.tags li").removeClass("othertags");
+			$("ul.tags:first li").removeClass("othertags");
 
 			var existingTags = new Array();
-			$("ul.tags li").each(function(){
+			$("ul.tags:first li").each(function(){
 				var lcDataText = $(this).data('btntext').toLowerCase();
 				if ($.inArray(lcDataText, existingTags)!=-1) {
 					$(this).remove();
@@ -91,11 +86,11 @@
 				}
 			});
 	        
-			if($("ul.tags li").length>5){
-	        	$("ul.tags").parent().append("<a class=\"show-more-tags\" data-state=\"more1\">+show more</a>");
-				$("ul.tags").parent().append("<div id=\"otherTagsDiv\"><ul id=\"otherTagsUl\" class=\"\"></ul></div>");
+			if($("ul.tags:first li").length>5){
+	        	$("ul.tags:first").parent().append("<a class=\"show-more-tags\" data-state=\"more1\">+show more</a>");
+				$("ul.tags:first").parent().append("<div id=\"otherTagsDiv\"><ul id=\"otherTagsUl\" class=\"\"></ul></div>");
 
-				$("ul.tags li").slice(6, $("ul.tags li").length).detach().appendTo("#otherTagsUl");
+				$("ul.tags:first li").slice(6, $("ul.tags:first li").length).detach().appendTo("#otherTagsUl");
 	        	
 				$("#otherTagsUl li").each(function(){
 					$(this).addClass("othertags");
@@ -203,7 +198,7 @@
                 .removeClass("filtered")
                 .addClass("not-filtered");
 		    
-		    $("ul.tags li").removeClass("othertags");
+		    $("ul.tags:first li").removeClass("othertags");
 				
                 if(settings.modelNoPagination){
                 	 $(settings.listid + " li.not-filtered").show();
@@ -217,7 +212,7 @@
                 }                
 
 
-              $("ul.tags a").parent().attr("data-count",0);
+              $("ul.tags:first a").parent().attr("data-count",0);
               
               /*Show other tags depend on results*/  
               var filteresListItems =$(settings.listid + " li.filtered"); 
@@ -225,7 +220,7 @@
 	              	var classList = $(this).attr("class").split(/\s+/);
 					for (var i = 0; i < classList.length; i++) {
 						
-						var tagButton = $("ul.tags a."+classList[i]);
+						var tagButton = $("ul.tags:first a."+classList[i]);
 											
 						if(tagButton.parent().attr("data-count")!= undefined)
 						{
@@ -242,36 +237,36 @@
               });
               
               
-              $("ul.tags li.show-all-tags").remove();
+              $("ul.tags:first li.show-all-tags").remove();
               
-              $("ul.tags").prepend("<li class=\"show-all-tags\" data-count=\""+$(settings.listid + " li").length+"\"><a class=\"tag\">ALL ("+$(settings.listid + " li").length+")</a></li>");
+              $("ul.tags:first").prepend("<li class=\"show-all-tags\" data-count=\""+$(settings.listid + " li").length+"\"><a class=\"tag\">ALL ("+$(settings.listid + " li").length+")</a></li>");
               
-              $("ul.tags li.show-all-tags").click(function(){
-              		$("ul.tags li a").removeClass(settings.activeTagClass);
+              $("ul.tags:first li.show-all-tags").click(function(){
+              		$("ul.tags:first li a").removeClass(settings.activeTagClass);
               		addShowMore();
-              		$("ul.tags li").slice(6, $("ul.tags li").length).hide();
+              		$("ul.tags:first li").slice(6, $("ul.tags:first li").length).hide();
               		location.hash = "#"
               	});
               
               
               	//Sort and set text and counter
-				$("ul.tags li").sort(sort_li).appendTo('ul.tags');
+				$("ul.tags:first li").sort(sort_li).appendTo('ul.tags:first');
 				
-				$("ul.tags li a").each(function(){
+				$("ul.tags:first li a").each(function(){
 					var btnParentLi = $(this).parent();
 					if(btnParentLi.attr("data-btntext")!=undefined){
 						$(this).text(btnParentLi.attr("data-btntext")+" ("+btnParentLi.attr("data-count")+")")
 					}
 				});
 				
-				$("ul.tags li").show();  
-				$("ul.tags li").slice(6, $("ul.tags li").length).hide();
+				$("ul.tags:first li").show();  
+				$("ul.tags:first li").slice(6, $("ul.tags:first li").length).hide();
 								
-				if($("ul.tags a.current-tag").length<=0){
+				if($("ul.tags:first a.current-tag").length<=0){
 					$("ul li.show-all-tags").click();
 				}
 				
-				$("ul.tags li").each(function(){
+				$("ul.tags:first li").each(function(){
 					if($(this).attr("data-count")<=0){
 						$(this).hide();
 					}
