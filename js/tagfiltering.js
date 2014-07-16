@@ -151,10 +151,11 @@
             var tagsSplited = hashUrl.split("&");
             $.each(tagsSplited, function(key, tag) {
                 var tagValue = tag.split("=")[1];
+				var found = 0;
                 filters.each(function () {
-                    if ($(this).hasClass(tagValue)) {
+                    if (found==0 && $(this).hasClass(tagValue)) {
                         $(this).removeClass(settings.activeTagClass).addClass(settings.activeTagClass);
-						return;
+						found = 1;
                     }
                 });
             });
