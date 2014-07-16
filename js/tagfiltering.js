@@ -95,7 +95,7 @@
 	            createFilter();
 	            performFilter();
 	            performPagination();   
-	            $(".show-more-tags").click();
+	            /*$(".show-more-tags").click();*/
 	            
         }
 
