@@ -82,7 +82,7 @@
 			$("ul.tags li").removeClass("othertags");
 
 			var existingTags = new Array();
-			$("#otherTagsUl li.othertags").each(function(){
+			$("ul.tags li").each(function(){
 				var lcDataText = $(this).data('btntext').toLowerCase();
 				if ($.inArray(lcDataText, existingTags)!=-1) {
 					$(this).remove();
@@ -93,10 +93,14 @@
 	        
 			if($("ul.tags li").length>5){
 	        	$("ul.tags").parent().append("<a class=\"show-more-tags\" data-state=\"more1\">+show more</a>");
-				$("ul.tags").parent().append("<div id=\"otherTagsDiv\"><ul id=\"otherTagsUl\" class=\"tags\"></ul></div>");
+				$("ul.tags").parent().append("<div id=\"otherTagsDiv\"><ul id=\"otherTagsUl\" class=\"\"></ul></div>");
 
-				$("ul.tags li").slice(6, $("ul.tags li").length).detach().appendTo("#otherTagsUl").addClass("othertags");
+				$("ul.tags li").slice(6, $("ul.tags li").length).detach().appendTo("#otherTagsUl");
 	        	
+				$("#otherTagsUl li").each(function(){
+					$(this).addClass("othertags");
+				});
+				
 	        	$("a.show-more-tags").click(function(){
 					if ($(this).data('state')=='more1') {
 						$("#otherTagsUl li.othertags").each(function(){
