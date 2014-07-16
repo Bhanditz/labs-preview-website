@@ -90,6 +90,8 @@
 	        
 			if($("ul.tags li").length>5){
 
+				$("li.show-more-tags-cont").remove();
+			
 				var smallTags = $("ul.tags li").slice(6, $("ul.tags li").length).addClass("othertags").detach();
 	        	$("ul.tags").append("<li class=\"show-more-tags-cont\"><a class=\"show-more-tags\" data-state=\"more1\">+show more</a></li>");
 	        	$("ul.tags").append(smallTags);
@@ -238,10 +240,11 @@
               $("ul.tags").prepend("<li class=\"show-all-tags\" data-count=\""+$(settings.listid + " li").length+"\"><a class=\"tag\">ALL ("+$(settings.listid + " li").length+")</a></li>");
               
               $("ul.tags li.show-all-tags").click(function(){
-              		$("ul.tags li a").removeClass(settings.activeTagClass);
-              		addShowMore();
-              		$("ul.tags li").slice(7, $("ul.tags li").length).hide();
+              		//$("ul.tags li a").removeClass(settings.activeTagClass);
+              		//addShowMore();
+              		//$("ul.tags li").slice(7, $("ul.tags li").length).hide();
               		location.hash = "#"
+					location.reload();
               	});
               
               
@@ -255,8 +258,9 @@
 					}
 				});
 				
-				$("ul.tags li").show();  
-				$("ul.tags li").slice(7, $("ul.tags li").length).hide();
+				$("ul.tags li").show();
+				addShowMore();
+				//$("ul.tags li").slice(7, $("ul.tags li").length).hide();
 								
 				if($("ul.tags a.current-tag").length<=0){
 					$("ul li.show-all-tags").click();
