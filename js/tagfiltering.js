@@ -275,7 +275,7 @@
 					}
 				});
 				
-				if (countVisible<=5) {
+				if (countVisible-2<=5) {
 					$(".show-more-tags-cont").hide();
 				}
 
