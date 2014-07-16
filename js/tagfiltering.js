@@ -91,7 +91,6 @@
 			$("li.show-more-tags-cont").remove();
 			
 			if($("ul.tags li").length>5){
-			
 				var smallTags = $("ul.tags li").slice(6, $("ul.tags li").length).addClass("othertags").hide().detach();
 	        	$("ul.tags").append("<li class=\"show-more-tags-cont\"><a class=\"show-more-tags\" data-state=\"more1\">+show more</a></li>");
 	        	$("ul.tags").append(smallTags);
@@ -267,11 +266,18 @@
 					//$("ul li.show-all-tags").click();
 				}
 				
+				var countVisible = 0;
 				$("ul.tags li").each(function(){
 					if(!$(this).hasClass("show-more-tags-cont") && $(this).attr("data-count")<=0){
 						$(this).hide();
+					} else {
+						countVisible++;
 					}
 				});
+				
+				if (countVisible<=5) {
+					$(".show-more-tags-cont").hide();
+				}
 
         }
 
