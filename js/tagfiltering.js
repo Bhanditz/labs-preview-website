@@ -128,7 +128,9 @@
 						}
 					}
 	        	 });
-	        }
+				
+				$(".show-more-tags-cont").show();
+			}
         }
                 
         function performFiltering() {
