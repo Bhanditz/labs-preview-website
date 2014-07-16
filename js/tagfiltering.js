@@ -78,11 +78,13 @@
 
 			var existingTags = new Array();
 			$("ul.tags li").each(function(){
-				var lcDataText = $(this).data('btntext').toLowerCase();
-				if ($.inArray(lcDataText, existingTags)!=-1) {
-					$(this).remove();
-				} else {
-					existingTags.push(lcDataText);
+				if ($(this).data('btntext')!=undefined) {
+					var lcDataText = $(this).data('btntext').toLowerCase();
+					if ($.inArray(lcDataText, existingTags)!=-1) {
+						$(this).remove();
+					} else {
+						existingTags.push(lcDataText);
+					}
 				}
 			});
 	        
