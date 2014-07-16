@@ -20,7 +20,7 @@
         }
 
 		//prepare copy of original tag text
-		$("ul.tags:first li>a").each(function(){
+		$("ul.tags li>a").each(function(){
 			$(this).parent().attr("data-btntext", $(this).text());
 		});
 		
@@ -87,18 +87,13 @@
 			});
 	        
 			if($("ul.tags li").length>5){
-	        	$("ul.tags").parent().append("<a class=\"show-more-tags\" data-state=\"more1\">+show more</a>");
-				$("ul.tags").parent().append("<div id=\"otherTagsDiv\"><ul id=\"otherTagsUl\" class=\"tags\"></ul></div>");
 
-				$("ul.tags:first li").slice(6, $("ul.tags:first li").length).detach().appendTo("#otherTagsUl");
+				var smallTags = $("ul.tags li").slice(6, $("ul.tags li").length).addClass("othertags").detach();
+	        	$("ul.tags").append("<li class=\"show-more-tags-cont\"><a class=\"show-more-tags\" data-state=\"more1\">+show more</a></li>");
 	        	
-				$("#otherTagsUl li").each(function(){
-					$(this).addClass("othertags");
-				});
-				
 	        	$("a.show-more-tags").click(function(){
 					if ($(this).data('state')=='more1') {
-						$("#otherTagsUl li.othertags").each(function(){
+						$("ul.tags li.othertags").each(function(){
 							if($(this).attr("data-count")>0){
 								$(this).show();
 							}	
@@ -112,22 +107,18 @@
 					else 
 					{
 						if ($(this).data('state')=='more') {
-							$("#otherTagsUl li.othertags").each(function(){
+							$("ul.tags li.othertags").each(function(){
 								if($(this).attr("data-count")>0){
 									$(this).show();
 								}	
 							});
 							
-							$("#otherTagsDiv").show();
-							
 							$(this).html('-show less');
 							$(this).data('state','less');
 						} else {
-							$("#otherTagsUl li.othertags").each(function(){
+							$("ul.tags li.othertags").each(function(){
 								$(this).hide();
 							});
-							
-							$("#otherTagsDiv").hide();
 							
 							$(this).html('+show more');
 							$(this).data('state','more');
@@ -198,7 +189,7 @@
                 .removeClass("filtered")
                 .addClass("not-filtered");
 		    
-		    $("ul.tags:first li").removeClass("othertags");
+		    $("ul.tags li").removeClass("othertags");
 				
                 if(settings.modelNoPagination){
                 	 $(settings.listid + " li.not-filtered").show();
@@ -212,7 +203,7 @@
                 }                
 
 
-              $("ul.tags:first a").parent().attr("data-count",0);
+              $("ul.tags a").parent().attr("data-count",0);
               
               /*Show other tags depend on results*/  
               var filteresListItems =$(settings.listid + " li.filtered"); 
@@ -220,7 +211,7 @@
 	              	var classList = $(this).attr("class").split(/\s+/);
 					for (var i = 0; i < classList.length; i++) {
 						
-						var tagButton = $("ul.tags:first a."+classList[i]);
+						var tagButton = $("ul.tags a."+classList[i]);
 											
 						if(tagButton.parent().attr("data-count")!= undefined)
 						{
@@ -237,20 +228,20 @@
               });
               
               
-              $("ul.tags:first li.show-all-tags").remove();
+              $("ul.tags li.show-all-tags").remove();
               
-              $("ul.tags:first").prepend("<li class=\"show-all-tags\" data-count=\""+$(settings.listid + " li").length+"\"><a class=\"tag\">ALL ("+$(settings.listid + " li").length+")</a></li>");
+              $("ul.tags").prepend("<li class=\"show-all-tags\" data-count=\""+$(settings.listid + " li").length+"\"><a class=\"tag\">ALL ("+$(settings.listid + " li").length+")</a></li>");
               
-              $("ul.tags:first li.show-all-tags").click(function(){
-              		$("ul.tags:first li a").removeClass(settings.activeTagClass);
+              $("ul.tags li.show-all-tags").click(function(){
+              		$("ul.tags li a").removeClass(settings.activeTagClass);
               		addShowMore();
-              		$("ul.tags:first li").slice(6, $("ul.tags:first li").length).hide();
+              		$("ul.tags li").slice(6, $("ul.tags li").length).hide();
               		location.hash = "#"
               	});
               
               
               	//Sort and set text and counter
-				$("ul.tags:first li").sort(sort_li).appendTo('ul.tags:first');
+				$("ul.tags li").sort(sort_li).appendTo('ul.tags');
 				
 				$("ul.tags li a").each(function(){
 					var btnParentLi = $(this).parent();
@@ -259,14 +250,14 @@
 					}
 				});
 				
-				$("ul.tags:first li").show();  
-				$("ul.tags:first li").slice(6, $("ul.tags:first li").length).hide();
+				$("ul.tags li").show();  
+				$("ul.tags li").slice(6, $("ul.tags li").length).hide();
 								
-				if($("ul.tags:first a.current-tag").length<=0){
+				if($("ul.tags a.current-tag").length<=0){
 					$("ul li.show-all-tags").click();
 				}
 				
-				$("ul.tags:first li").each(function(){
+				$("ul.tags li").each(function(){
 					if($(this).attr("data-count")<=0){
 						$(this).hide();
 					}
