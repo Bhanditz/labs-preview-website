@@ -160,9 +160,12 @@
       <li><a href="#retrieving-individual-facets">Retrieving individual facets</a></li>
     </ul>
   </li>
-  <li><a href="#version-208-2013-10-23">Version 2.0.8 (2013-10-23)</a></li>
+  <li><a href="#version-208-2013-10-23">Version 2.0.8 (2013-10-23)</a>    <ul>
+      <li><a href="#new-parameter-reusability">New parameter: reusability</a></li>
+    </ul>
+  </li>
   <li><a href="#version-206-2013-08-09">Version 2.0.6 (2013-08-09)</a>    <ul>
-      <li><a href="#example">Example</a></li>
+      <li><a href="#new-response-profile-params">New response profile: params</a></li>
     </ul>
   </li>
 </ul>
@@ -434,7 +437,9 @@ f.[facet name].facet.offset such as &amp;f.PROVIDER.facet.offset=30
 
 <h2 id="version-208-2013-10-23">Version 2.0.8 (2013-10-23)</h2>
 
-<p>New parameter: <code>reusability</code>. It might have two possible values: Free and Limited. It is an additional filter, which selects those items, which can be reusable free, or in a limited way. They are shorthands for a couple of right values:</p>
+<h3 id="new-parameter-reusability">New parameter: reusability</h3>
+
+<p>The new <code>reusability</code> parameter can have two possible values: Open and Limited. It is an additional filter, which selects those items, which can be reusable free, or in a limited way. They are shorthands for a couple of right values:</p>
 
 <p>Free:</p>
 
@@ -445,7 +450,7 @@ f.[facet name].facet.offset such as &amp;f.PROVIDER.facet.offset=30
   <li>CC-BY-SA: http://creativecommons.org/licenses/by-sa/</li>
 </ul>
 
-<p>Limited</p>
+<p>Limited:</p>
 
 <ul>
   <li>CC-BY-NC: http://creativecommons.org/licenses/by-nc/</li>
@@ -487,9 +492,11 @@ http://localhost:8080/api/v2/search.json?wskey=api2demo&amp;query=*:*&amp;reusab
 
 <h2 id="version-206-2013-08-09">Version 2.0.6 (2013-08-09)</h2>
 
+<h3 id="new-response-profile-params">New response profile: params</h3>
+
 <p>New allowable value for the <em>profile</em> parameter: <code>params</code>. When client adds <code>params</code> to the <em>profile</em> parameter, the header of the response will contain a <code>params</code> key, which lists the requested and default parameters of the API call. The client can use profile <em>profile</em> parameter in search and object calls. The parameter accepts both single and multiple values separated by comma or space (such as <code>&amp;profile=standard</code> or <code>&amp;profile=standard,params</code> or <code>&amp;amp;profile=standard%20params</code>).</p>
 
-<h3 id="example">Example</h3>
+<p>Example</p>
 
 <p><code>
 http://europeana.eu/api/v2/search.json?wskey=xxxxxxxx&amp;amp;query=mona+lisa&amp;amp;profile=standard%20params
