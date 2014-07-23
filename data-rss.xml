@@ -8,7 +8,7 @@
     <title>Europeana Labs</title>
     <link>http://labs.europeana.eu</link>
     <description>RSS feed for Europeana Labs</description>
-    <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
+    <pubDate>Fri, 23 Jul 9999 00:00:00 +0200</pubDate>
     <item>
       <title>Shoes from the Rossimoda Shoe Museum</title>
       <link>http://labs.europeana.eu/data/Shoes-from-the-Rossimoda-Shoe-Museum</link>
@@ -342,6 +342,6 @@
       <guid>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</guid>
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
-    <dc:date>9999-01-01T00:00:00+01:00</dc:date>
+    <dc:date>9999-07-23T00:00:00+02:00</dc:date>
   </channel>
 </rss>
