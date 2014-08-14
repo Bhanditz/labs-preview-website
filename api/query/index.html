@@ -149,7 +149,24 @@
 
 		
 	<div id="documentation" class="prose grid__item palm--one-whole push--palm-none one-half"><!--
-	--><p>Internally, Europeana uses <a href="http://lucene.apache.org/solr/">Apache Solr</a> platform to store its data and thus <a href="https://lucene.apache.org/core/4_1_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package_description">Apache Lucene Query Syntax</a> is supported by queries. Advanced users are encouraged to use Lucene and Apache SOLR guides to get most out of the Europeana repository. For others, we supply a basic guide for querying Europeana.</p>
+	--><ul id="markdown-toc">
+  <li><a href="#basic-search">Basic Search</a></li>
+  <li><a href="#boolean-search">Boolean Search</a></li>
+  <li><a href="#range-search">Range Search</a>    <ul>
+      <li><a href="#time-range-search">Time Range Search</a></li>
+      <li><a href="#geographical-bounding-box-search">Geographical Bounding Box Search</a></li>
+    </ul>
+  </li>
+  <li><a href="#timestamp-search">Timestamp Search</a>    <ul>
+      <li><a href="#searching-for-date-range-as-date1-to-date2">Searching for date range (as [date1 TO date2]):</a></li>
+      <li><a href="#date-mathematics">Date mathematics</a></li>
+    </ul>
+  </li>
+  <li><a href="#refinements">Refinements</a></li>
+  <li><a href="#faceted-search">Faceted Search</a></li>
+</ul>
+
+<p>Internally, Europeana uses <a href="http://lucene.apache.org/solr/">Apache Solr</a> platform to store its data and thus <a href="https://lucene.apache.org/core/4_1_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package_description">Apache Lucene Query Syntax</a> is supported by queries. Advanced users are encouraged to use Lucene and Apache SOLR guides to get most out of the Europeana repository. For others, we supply a basic guide for querying Europeana.</p>
 
 <h2 id="basic-search">Basic Search</h2>
 
