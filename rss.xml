@@ -8,11 +8,32 @@
     <title>Europeana Labs</title>
     <link>http://labs.europeana.eu</link>
     <description>RSS feed for Europeana Labs</description>
-    <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
+    <pubDate>Fri, 23 Jul 9999 00:00:00 +0200</pubDate>
     <item>
-      <title>Europeana Culture Collage</title>
+      <title>Serendip-o-matic</title>
+      <link>http://labs.europeana.eu/apps/serendip-o-matic</link>
+      <description>&lt;p&gt;As their page states:
+&amp;#8220;Serendip-o-matic connects your sources to digital materials located in libraries, museums, and archives around the world. By first examining your research interests, and then identifying related content in locations such as the Digital Public Library of America (DPLA), Europeana, and Flickr Commons, our serendipity engine helps you discover photographs, documents, maps and other primary sources.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 23 Jul 9999 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/serendip-o-matic</guid>
+      <dc:date>9999-07-23T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Kringla</title>
+      <link>http://labs.europeana.eu/apps/kringla</link>
+      <description>&lt;p&gt;The online portal of the Swedish National Heritage Board (SOCH) www.kringla.nu allows users to search in both the national heritage repository &amp;#8216;SOCH&amp;#8217; and the Europeana repository presenting the search results in different tabs. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/kringla</guid>
+      <dc:date>9999-01-01T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Culture Collage</title>
       <link>http://labs.europeana.eu/apps/culture-collage</link>
-      <description>&lt;p&gt;Europeana Culture Collage is developed by Monique Szpak (@zenlan) and started as a simple exercise in mashing up a few of the new web technologies, incl. Europeana API and Europeana visual data.&lt;/p&gt;
+      <description>&lt;p&gt;Culture Collage is developed by Monique Szpak (@zenlan) and started as a simple exercise in mashing up a few web technologies, including those of Europeana API.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
@@ -25,9 +46,1545 @@
       <description>&lt;p&gt;The National Library of Spain has implemented the Europeana API in their online portal, Biblioteca Digital Hispánica. The portal now enables their users to access related Europeana content via a single link on their search results header.&lt;/p&gt;
 
 </description>
-      <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 01 Jan 9998 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/apps/biblioteca</guid>
-      <dc:date>9999-01-01T00:00:00+01:00</dc:date>
+      <dc:date>9998-01-01T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Wandora's Europeana Extractor</title>
+      <link>http://labs.europeana.eu/apps/wandora</link>
+      <description>&lt;p&gt;Wandora is a general purpose information extraction, management and publishing application based on Topic Maps and Java.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 15 Jul 2015 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/wandora</guid>
+      <dc:date>2015-07-15T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>User contributed content from Poland, relating to the events of 1989 in Central and Eastern Europe. </title>
+      <link>http://labs.europeana.eu/data/user-contributed-content-from-poland-relating-to-the-events-of-1989-in-central-and-eastern-europe</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/user-contributed-content-from-poland-relating-to-the-events-of-1989-in-central-and-eastern-europe</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>User contributed content from Lithuania, relating to the events of 1989 in Central and Eastern Europe.</title>
+      <link>http://labs.europeana.eu/data/user-contributed-content-from-lithuania-relating-to-the-events-of-1989-in-central-and-eastern-europe</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/user-contributed-content-from-lithuania-relating-to-the-events-of-1989-in-central-and-eastern-europe</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>User contributed content from Latvia, relating to the events of 1989 in Central and Eastern Europe.</title>
+      <link>http://labs.europeana.eu/data/user-contributed-content-from-latvia-relating-to-the-events-of-1989-in-central-and-eastern-europe</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/user-contributed-content-from-latvia-relating-to-the-events-of-1989-in-central-and-eastern-europe</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>User contributed content from Estonia, relating to the events of 1989 in Central and Eastern Europe.</title>
+      <link>http://labs.europeana.eu/data/user-contributed-content-from-estonia-relating-to-the-events-of-1989-in-central-and-eastern-europe</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/user-contributed-content-from-estonia-relating-to-the-events-of-1989-in-central-and-eastern-europe</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Swedish fashion from the 19th century</title>
+      <link>http://labs.europeana.eu/data/swedish-fashion-from-the-19th-century</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/swedish-fashion-from-the-19th-century</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Slovakian collection of paintings and sculptures</title>
+      <link>http://labs.europeana.eu/data/slovakian-collection-of-paintings-and-sculptures</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/slovakian-collection-of-paintings-and-sculptures</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Photographs of Dutch windmills</title>
+      <link>http://labs.europeana.eu/data/photographs-of-dutch-windmills</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/photographs-of-dutch-windmills</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Photographs of buildings in Iceland</title>
+      <link>http://labs.europeana.eu/data/photographs-of-buildings-in-iceland</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/photographs-of-buildings-in-iceland</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Paintings of Dutch landscapes and local views</title>
+      <link>http://labs.europeana.eu/data/paintings-of-dutch-landscapes-and-local-views</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/paintings-of-dutch-landscapes-and-local-views</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Newsreels from Sound and Vision on the Netherlands in the 20th century</title>
+      <link>http://labs.europeana.eu/data/newsreels-from-sound-and-vision-on-the-netherlands-in-the-20th-century</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/newsreels-from-sound-and-vision-on-the-netherlands-in-the-20th-century</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Lithographic prints from Bibliothèque Municipale de Lyon</title>
+      <link>http://labs.europeana.eu/data/lithographic-prints-from-bibliothque-municipale-de-lyon</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/lithographic-prints-from-bibliothque-municipale-de-lyon</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Historic photographs from the Netherlands </title>
+      <link>http://labs.europeana.eu/data/historic-photographs-from-the-netherlands</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/historic-photographs-from-the-netherlands</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Haunting sketches and other pieces of art from Bulgaria</title>
+      <link>http://labs.europeana.eu/data/haunting-sketches-and-other-pieces-of-art-from-bulgaria</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/haunting-sketches-and-other-pieces-of-art-from-bulgaria</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Estonian cultural heritage provided by Athena</title>
+      <link>http://labs.europeana.eu/data/estonian-cultural-heritage-provided-by-athena</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/estonian-cultural-heritage-provided-by-athena</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Drawings and sketches from the National Library of Wales</title>
+      <link>http://labs.europeana.eu/data/drawings-and-sketches-from-the-national-library-of-wales</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/drawings-and-sketches-from-the-national-library-of-wales</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Black and white photographs from Lithuania</title>
+      <link>http://labs.europeana.eu/data/black-and-white-photographs-from-lithuania</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/black-and-white-photographs-from-lithuania</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Biblical narratives in art from Bibliothèque Municipale de Lyon</title>
+      <link>http://labs.europeana.eu/data/biblical-narratives-in-art-from-bibliothque-municipale-de-lyon</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/biblical-narratives-in-art-from-bibliothque-municipale-de-lyon</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>A wide variety of cultural heritage objects from the Rotterdam Museum</title>
+      <link>http://labs.europeana.eu/data/a-wide-variety-of-cultural-heritage-objects-from-the-rotterdam-museum</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/a-wide-variety-of-cultural-heritage-objects-from-the-rotterdam-museum</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>3D models of Art Nouveau objects from the Isle of Mann</title>
+      <link>http://labs.europeana.eu/data/3d-models-of-art-nouveau-objects-from-the-isle-of-mann</link>
+      <description>
+</description>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/3d-models-of-art-nouveau-objects-from-the-isle-of-mann</guid>
+      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>New translation method in the Europeana API</title>
+      <link>http://labs.europeana.eu/blog/new-translation-method-in-API</link>
+      <description>&lt;p&gt;We have recently released a new translation method in the Europeana API.&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/blog/new-translation-method-in-API</guid>
+      <dc:date>2014-08-14T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana Labs update; take a Creative Challenge</title>
+      <link>http://labs.europeana.eu/blog/2nd-Europeana-Labs-Newsletter</link>
+      <description>&lt;p&gt;&lt;strong&gt;Welcome to the 2nd Europeana Labs newsletter. Every few months we bring you the latest news from Europeana, focussed on showcasing the exciting opportunities available to our developer community and inspiring you to be creative with Europe’s cultural heritage!&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/blog/2nd-Europeana-Labs-Newsletter</guid>
+      <dc:date>2014-07-23T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Node.js module for the Europeana API</title>
+      <link>http://labs.europeana.eu/apps/nodejs-europeana</link>
+      <description>&lt;p&gt;Unofficial Node.js module for the Europeana API. &lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/nodejs-europeana</guid>
+      <dc:date>2014-07-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Apps&amp;amp;Cultura workshop: using Europeana content and the Europeana API</title>
+      <link>http://labs.europeana.eu/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona</link>
+      <description>[&quot;Apps&amp;amp;Cultura has teamed up with Europeana Creative for this year’s Hack at Home competition and the second round of the Europeana Creative Challenges. In this workshop the team from Europeana will be demonstrating how to use the Europeana API and include it into your applications.&quot;]</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona</guid>
+      <dc:date>2014-07-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>2nd Europeana Creative Challenge Workshop, Barcelona, 16 July 2014</title>
+      <link>http://labs.europeana.eu/blog/Europeana-Creative-Challenge-workshop-Barcelona</link>
+      <description>&lt;p&gt;This blog post has been created to support the &lt;a href=&quot;/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona/&quot;&gt;Europeana Creative Challenge workshop, Barcelona, 16 July 2014&lt;/a&gt;, held in association with Apps&amp;amp;Cultura. For those not able to attend, the event will be livestreamed at &lt;a href=&quot;http://xmpp.iglor.es/appscultura_europeanalab/&quot;&gt;http://xmpp.iglor.es/appscultura_europeanalab/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/blog/Europeana-Creative-Challenge-workshop-Barcelona</guid>
+      <dc:date>2014-07-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Rest Easy (Python)</title>
+      <link>http://labs.europeana.eu/apps/rest-easy</link>
+      <description>&lt;p&gt;This Python module dynamically creates wrappers for RESTful APIs from YAML markup. It has a ready-made wrapper for the Europeana API as well as for a number of other GLAM APIs.&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/rest-easy</guid>
+      <dc:date>2014-07-15T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>europeana-search-0.2.1 (Python)</title>
+      <link>http://labs.europeana.eu/apps/europeana-search-0.2.1-python</link>
+      <description>&lt;p&gt;Basic Python wrapper for the Europeana Search API&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-search-0.2.1-python</guid>
+      <dc:date>2014-07-15T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana PHP library</title>
+      <link>http://labs.europeana.eu/apps/europeana-php-library</link>
+      <description>&lt;p&gt;This is a PHP library for the Europeana API. The library is used to power an &lt;a href=&quot;http://europeana-api.gmtplusone.com/&quot;&gt;interactive documentation site&lt;/a&gt; for the Europeana API.&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-php-library</guid>
+      <dc:date>2014-07-15T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Open Knowledge Festival 2014 - Open Minds to Open Action</title>
+      <link>http://labs.europeana.eu/events/Open_Knowledge_Foundation_2014</link>
+      <description>[&quot;The event gathers together open movement makers, thinkers, activists and researchers from around the world. To inspire 'Open Minds to Open Action' (as the slogan goes), the 2014 edition will be a space for learning and dialogue where the activities of the international participants shapes the event and its outcomes.&quot;]</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/Open_Knowledge_Foundation_2014</guid>
+      <dc:date>2014-07-15T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>yuma.min.js</title>
+      <link>http://labs.europeana.eu/apps/yuma</link>
+      <description>&lt;p&gt;Open Source media annotation toolkit that makes content on a Web page annotatable with just a few lines of JavaScript. &lt;strong&gt;Deprectated&lt;/strong&gt; Cf. &lt;a href=&quot;http://labs.europeana.eu/apps/Annotorious-FLOSS/&quot;&gt;&amp;#8216;Annotorious&amp;#8217;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/yuma</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>easyLOD</title>
+      <link>http://labs.europeana.eu/apps/easyLOD</link>
+      <description>&lt;p&gt;Simple framework for exposing Linked Open Data from arbitrary sources.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/easyLOD</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>dat</title>
+      <link>http://labs.europeana.eu/apps/dat</link>
+      <description>&lt;p&gt;dat is an open source tool that enables the sharing of large datasets, allowing for a decentralized collaboration flow&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/dat</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>XTF</title>
+      <link>http://labs.europeana.eu/apps/XTF</link>
+      <description>&lt;p&gt;The eXtensible Text Framework (XTF) is a powerful open source platform for providing access to digital content.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/XTF</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>VuFind</title>
+      <link>http://labs.europeana.eu/apps/VuFind</link>
+      <description>&lt;p&gt;Library resource portal.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/VuFind</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Video Frame Analyzer</title>
+      <link>http://labs.europeana.eu/apps/VideoFrameAnalyzer</link>
+      <description>&lt;p&gt;This application is used to analyze technical properties of individual frames of a video file in order to detect quality issues within digitized video files. Within video files, the quality issues that might arise vary from collection to collection. This application allows the user to configure the tests to be performed against a file and to tailor those setting to a specific collection.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/VideoFrameAnalyzer</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Tabula</title>
+      <link>http://labs.europeana.eu/apps/Tabula</link>
+      <description>&lt;p&gt;Tabula is a tool for liberating data tables trapped inside PDF files.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Tabula</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>REPOX</title>
+      <link>http://labs.europeana.eu/apps/REPOX</link>
+      <description>&lt;p&gt;REPOX is a framework to manage metadata spaces. It comprises several channels to import metadata from data providers, services to transform metadata between schemas according to user&amp;#8217;s specified rules, and services to expose the results to the exterior. REPOX aims to provide to all the TEL and Europeana partners a simple solution to import, convert and expose their bibliographic data via OAI-PMH.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/REPOX</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Phraseanet</title>
+      <link>http://labs.europeana.eu/apps/Phraseanet</link>
+      <description>&lt;p&gt;Phraseanet is an Open Source Digital Asset Management (DAM) software.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Phraseanet</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>OpenSeadragon</title>
+      <link>http://labs.europeana.eu/apps/OpenSeadragon</link>
+      <description>&lt;p&gt;An open-source, web-based viewer for zoomable images, implemented in pure JavaScript.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/OpenSeadragon</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Neatline</title>
+      <link>http://labs.europeana.eu/apps/Neatline</link>
+      <description>&lt;p&gt;The Scholars’ Lab designed Neatline as a suite of plugins for the open-source Omeka framework, which provides a powerful platform for content management and web publication. Through Neatline, you can create create rich representations of places, objects, events, narratives, and documents.
+Demo is available at &lt;a href=&quot;http://neatline.org/neatline-in-action/&quot;&gt;http://neatline.org/neatline-in-action/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Neatline</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>MediaMosa</title>
+      <link>http://labs.europeana.eu/apps/MediaMosa</link>
+      <description>&lt;p&gt;MediaMosa is open source software to build a Full Featured, Webservice Oriented Media Management and Distribution platform.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/MediaMosa</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>MediaInfo</title>
+      <link>http://labs.europeana.eu/apps/MediaInfo</link>
+      <description>&lt;p&gt;A convenient unified display of the most relevant technical and tag data for video and audio files.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/MediaInfo</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>MINT</title>
+      <link>http://labs.europeana.eu/apps/MINT</link>
+      <description>&lt;p&gt;MINT services compose a web based platform that was designed and developed to facilitate aggregation initiatives for cultural heritage content and metadata in Europe.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/MINT</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>MAchine Readable Cataloging (MARC)</title>
+      <link>http://labs.europeana.eu/apps/MARC</link>
+      <description>&lt;p&gt;MARC is a ruby library for reading and writing MAchine Readable Cataloging (MARC)&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/MARC</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Leaflet</title>
+      <link>http://labs.europeana.eu/apps/Leaflet</link>
+      <description>&lt;p&gt;Leaflet is an open source JavaScript library for mobile-friendly interactive maps&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Leaflet</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>IIPMooViewer</title>
+      <link>http://labs.europeana.eu/apps/IIPMooViewer</link>
+      <description>&lt;p&gt;IIPMooViewer is a high performance light-weight HTML5 Ajax-based javascript image streaming and zooming client designed for the IIPImage high resolution imaging system.
+Demo is available at &lt;a href=&quot;http://iipimage.sourceforge.net/demo/&quot;&gt;http://iipimage.sourceforge.net/demo/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/IIPMooViewer</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>IIPImage</title>
+      <link>http://labs.europeana.eu/apps/IIPImage</link>
+      <description>&lt;p&gt;IIPImage is an advanced high-performance feature-rich image server system for web-based streamed viewing and zooming of ultra high-resolution images.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/IIPImage</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Internet Archive BookReader</title>
+      <link>http://labs.europeana.eu/apps/IABookReader</link>
+      <description>&lt;p&gt;The Internet Archive BookReader is used to view books from the Internet Archive online and can also be used to view other books
+Demo is available at &lt;a href=&quot;http://www.archive.org/stream/birdbookillustra00reedrich#page/n3/mode/2up&quot;&gt;http://www.archive.org/stream/birdbookillustra00reedrich#page/n3/mode/2up&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/IABookReader</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>GathrIt</title>
+      <link>http://labs.europeana.eu/apps/GathrIt</link>
+      <description>&lt;p&gt;The concept of GathrIt is to provide a crowdsourcing toolset for cultural collections.
+Demo is available at &lt;a href=&quot;http://collection.catchingtherain.com/items/show/58&quot;&gt;http://collection.catchingtherain.com/items/show/58&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/GathrIt</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Evergreen</title>
+      <link>http://labs.europeana.eu/apps/Evergreen</link>
+      <description>&lt;p&gt;Evergreen is a highly-scalable software for libraries that helps library patrons find library materials, and helps libraries manage, catalog, and circulate those materials, no matter how large or complex the libraries.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Evergreen</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Echoprint</title>
+      <link>http://labs.europeana.eu/apps/Echoprint</link>
+      <description>&lt;p&gt;Internet design and authoring tools.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Echoprint</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Doc Viewer</title>
+      <link>http://labs.europeana.eu/apps/DocViewer</link>
+      <description>&lt;p&gt;HTML5 document viewer&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/DocViewer</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Docsplit</title>
+      <link>http://labs.europeana.eu/apps/Docsplit</link>
+      <description>&lt;p&gt;Docsplit is a command-line utility and Ruby library for splitting apart documents into their component parts: searchable UTF-8 plain text, page images or thumbnails in any format, PDFs, single pages, and document metadata (title, author, number of pages&amp;#8230;)&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Docsplit</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Data Pipes</title>
+      <link>http://labs.europeana.eu/apps/DataPipes</link>
+      <description>&lt;p&gt;Data Pipes is a service to provide streaming, “pipe-like” data transformations on the web – things like deleting rows or columns, find and replace, head, grep etc.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/DataPipes</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>DSpace</title>
+      <link>http://labs.europeana.eu/apps/DSpace</link>
+      <description>&lt;p&gt;DSpace open source software is a turnkey repository application
+Demo available at &lt;a href=&quot;http://demo.dspace.org/&quot;&gt;http://demo.dspace.org/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/DSpace</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>DBpedia Spotlight</title>
+      <link>http://labs.europeana.eu/apps/DBpediaSpotlight</link>
+      <description>&lt;p&gt;DBpedia Spotlight is a tool for automatically annotating mentions of DBpedia resources in text, providing a solution for linking unstructured information sources to the Linked Open Data cloud through DBpedia.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/DBpediaSpotlight</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>DAITSS</title>
+      <link>http://labs.europeana.eu/apps/DAITSS</link>
+      <description>&lt;p&gt;DAITSS is a digital preservation software application.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/DAITSS</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>D3-cartogram</title>
+      <link>http://labs.europeana.eu/apps/D3cartogram</link>
+      <description>&lt;p&gt;Continuous area cartograms with d3 and TopoJSON&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/D3cartogram</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>CollectionSpace</title>
+      <link>http://labs.europeana.eu/apps/CollectionSpace</link>
+      <description>&lt;p&gt;CollectionSpace is an open-source collections management application that meets the needs of museums, historical societies, and other collection-holding organizations. CollectionSpace is designed to be configurable to each organization’s needs, serving as a gateway to digital and physical assets across an institution. The software is freely distributed via open-source licensing, and an active developer community ensures that CollectionSpace is continually improving.
+Demo is available at &lt;a href=&quot;www.demo.collectionspace.org&quot;&gt;www.demo.collectionspace.org&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/CollectionSpace</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Catmandu</title>
+      <link>http://labs.europeana.eu/apps/Catmandu</link>
+      <description>&lt;p&gt;Catmandu provides a suite of Perl modules to ease the import, storage, retrieval, export and transformation of metadata records.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Catmandu</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>CKAN</title>
+      <link>http://labs.europeana.eu/apps/CKAN</link>
+      <description>&lt;p&gt;CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data.
+Demo is available at &lt;a href=&quot;http://ckan.org/case-studies/&quot;&gt;http://ckan.org/case-studies/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/CKAN</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>CHContext</title>
+      <link>http://labs.europeana.eu/apps/CHContext</link>
+      <description>&lt;p&gt;CHContext is a JavaScript-based widget that is able to provide a list of links to cultural heritage materials based on predefined item of a website on which it is embedded (via given JQuery HTML selector).&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/CHContext</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>BibServer</title>
+      <link>http://labs.europeana.eu/apps/BibServer</link>
+      <description>&lt;p&gt;BibServer is a tool for quickly and easily sharing collections of bibliographic metadata. By making it simple for people to use this information, we make scholarship better.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/BibServer</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>ArchivesSpace</title>
+      <link>http://labs.europeana.eu/apps/ArchivesSpace</link>
+      <description>&lt;p&gt;A next-generation archives management application that will incorporate the best features of Archivist’s Toolkit (AT) and Archon. The project team is developing a technical platform, governance structure, and service model that will provide the archival community with a cutting-edge, extensible, and sustainable platform for describing analog and born-digital archival materials. The ArchivesSpace product is being developed using an Agile scrum process, guided by a Product Vision for ArchivesSpace.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/ArchivesSpace</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Archivematica</title>
+      <link>http://labs.europeana.eu/apps/Archivematica</link>
+      <description>&lt;p&gt;Archivematica is a free and open-source digital preservation system that is designed to maintain standards-based, long-term access to collections of digital objects.
+Demo is available at &lt;a href=&quot;sankofa.archivematica.org/administration/accounts/login&quot;&gt;sankofa.archivematica.org/administration/accounts/login/ (user name: demo@example.com, password: demo)&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Archivematica</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Apache PDFBox</title>
+      <link>http://labs.europeana.eu/apps/ApachePDFBox</link>
+      <description>&lt;p&gt;The Apache PDFBox™ library is an open source Java tool for working with PDF documents. This project allows creation of new PDF documents, manipulation of existing documents and the ability to extract content from documents.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/ApachePDFBox</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Annotator</title>
+      <link>http://labs.europeana.eu/apps/Annotator</link>
+      <description>&lt;p&gt;The Annotator is an open-source JavaScript library and tool that can be added to any webpage to make it annotatable.
+Demo is available at &lt;a href=&quot;http://okfnlabs.org/annotator/demo/&quot;&gt;http://okfnlabs.org/annotator/demo/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Annotator</guid>
+      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana Ruby Client Library</title>
+      <link>http://labs.europeana.eu/apps/europeana-ruby</link>
+      <description>&lt;p&gt;Ruby client library for the search and retrieval of records from the Europeana REST API. The gem is developed as part of &lt;a href=&quot;http://www.europeana1914-1918.eu/&quot; title=&quot;Title&quot;&gt;Europeana 1914-1918&lt;/a&gt; and is also used in that application.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-ruby</guid>
+      <dc:date>2014-07-04T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Waisda?</title>
+      <link>http://labs.europeana.eu/apps/Waisda-FLOSS</link>
+      <description>&lt;p&gt;&lt;strong&gt;Waisda?&lt;/strong&gt; - A prototype Dutch-language game site which explores the social tagging of video in the cultural heritage domain.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Waisda-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Timeline JS</title>
+      <link>http://labs.europeana.eu/apps/TiimelineJS-FLOSS</link>
+      <description>&lt;p&gt;TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/TiimelineJS-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Omeka</title>
+      <link>http://labs.europeana.eu/apps/Omeka-FLOSS</link>
+      <description>&lt;p&gt;A Collection/Exhibition Management System&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Omeka-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Mirador</title>
+      <link>http://labs.europeana.eu/apps/Mirador-FLOSS</link>
+      <description>&lt;p&gt;An open-source, web-based &amp;#8216;multi-up&amp;#8217; viewer that supports zoom-pan-rotate functionality, ability to display/compare simple images, and images with annotations
+Demo is available at [http://iiif.io/mirador/demo/] (http://iiif.io/mirador/demo/)&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Mirador-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Blacklight</title>
+      <link>http://labs.europeana.eu/apps/Blacklight-FLOSS</link>
+      <description>&lt;p&gt;RoR gem discovery interface for any Solr index.
+Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examples] (https://github.com/projectblacklight/blacklight/wiki/Examples)&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Blacklight-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Apache Tika</title>
+      <link>http://labs.europeana.eu/apps/ApacheTika-FLOSS</link>
+      <description>&lt;p&gt;The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/ApacheTika-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Annotorious</title>
+      <link>http://labs.europeana.eu/apps/Annotorious-FLOSS</link>
+      <description>&lt;p&gt;Annotorious is a JavaScript annotation library for images and zoomable images. Link the Annotorious source files (CSS and JavaScript) into an existing HTML page, and images inside this page will be enhanced with an interactive drawing and commenting tool.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/Annotorious-FLOSS</guid>
+      <dc:date>2014-07-02T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>The Europas - The European Tech Startup Awards</title>
+      <link>http://labs.europeana.eu/events/the-europas-2014</link>
+      <description>[&quot;Founded in 2009, The Europas are the premier awards for Europe’s most forward thinking, progressive and innovative tech companies across over some 20+ categories.&quot;]</description>
+      <pubDate>Tue, 10 Jun 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/events/the-europas-2014</guid>
+      <dc:date>2014-06-10T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana Open Culture</title>
+      <link>http://labs.europeana.eu/apps/europeana-open-culture</link>
+      <description>&lt;p&gt;The Europeana Open Culture app lets users explore hand-picked and beautiful image collections from some of Europe&amp;#8217;s top cultural institutions. They can browse, share and download for free more than 350,000 high-resolution images from four themes: Maps and Plans, Images of the Past, Treasures of Art and Treasures of Nature.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-open-culture</guid>
+      <dc:date>2014-06-04T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>WWI collection of the Berlin State Library</title>
+      <link>http://labs.europeana.eu/data/wwi-collection-of-the-berlin-state-library</link>
+      <description>
+</description>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/wwi-collection-of-the-berlin-state-library</guid>
+      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Works of art from the Rijksmuseum</title>
+      <link>http://labs.europeana.eu/data/works-of-art-from-the-rijksmuseum</link>
+      <description>
+</description>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/works-of-art-from-the-rijksmuseum</guid>
+      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Scans of plants from the OpenUp! project</title>
+      <link>http://labs.europeana.eu/data/scans-of-plants-from-the-openup-project-slovak-academy-of-sciences</link>
+      <description>
+</description>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/scans-of-plants-from-the-openup-project-slovak-academy-of-sciences</guid>
+      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Scans of plants from the OpenUp! project</title>
+      <link>http://labs.europeana.eu/data/scans-of-plants-from-the-openup-project-oberoesterreichischen-landesmuseen</link>
+      <description>
+</description>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/scans-of-plants-from-the-openup-project-oberoesterreichischen-landesmuseen</guid>
+      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Scans of plants from the OpenUp! project</title>
+      <link>http://labs.europeana.eu/data/scans-of-plants-from-the-openup-project-berlin</link>
+      <description>
+</description>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/scans-of-plants-from-the-openup-project-berlin</guid>
+      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Scans of plants and more natural history objects from the OpenUp! project</title>
+      <link>http://labs.europeana.eu/data/scans-of-plants-and-more-natural-history-objects-from-the-openup-project</link>
+      <description>
+</description>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/scans-of-plants-and-more-natural-history-objects-from-the-openup-project</guid>
+      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Paintings from Rybinsk State Architectural, Historical and Art Museum</title>
+      <link>http://labs.europeana.eu/data/paintings-from-rybinsk-state-architectural-historical-and-art-museum</link>
+      <description>
+</description>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/paintings-from-rybinsk-state-architectural-historical-and-art-museum</guid>
+      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Natural history objects from the OpenUp! project</title>
+      <link>http://labs.europeana.eu/data/natural-history-objects-from-the-openup-project</link>
+      <description>
+</description>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/natural-history-objects-from-the-openup-project</guid>
+      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Insects from the OpenUp! project</title>
+      <link>http://labs.europeana.eu/data/insects-from-the-openup-project</link>
+      <description>
+</description>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/insects-from-the-openup-project</guid>
+      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Historic events in paintings from the Amsterdam Museum</title>
+      <link>http://labs.europeana.eu/data/historic-events-in-paintings-from-the-amsterdam-museum</link>
+      <description>
+</description>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/historic-events-in-paintings-from-the-amsterdam-museum</guid>
+      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>WWI books from the British Library</title>
+      <link>http://labs.europeana.eu/data/wwi-books-from-the-british-library</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/wwi-books-from-the-british-library</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Wikimedia Batch Upload</title>
+      <link>http://labs.europeana.eu/apps/wikimedia-batch-upload</link>
+      <description>&lt;p&gt;This prototype makes it possible to upload content to Wikimedia Commons from Europeana. &lt;/p&gt;
+
+&lt;p&gt;NOTE: The prototype has now been superceeded by the &lt;a href=&quot;http://commons.wikimedia.org/wiki/Commons:GLAMwiki_Toolset_Project&quot; title=&quot;GLAMWiki Toolset&quot;&gt;GLAMwiki toolset&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;1st Hackathon 2011&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/wikimedia-batch-upload</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Wikiana</title>
+      <link>http://labs.europeana.eu/apps/wikiana</link>
+      <description>&lt;p&gt;The Wikiana prototype (redeveloped as Storyana at a later hackathon) combines Wikipedia with the data available in Europeana.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/wikiana</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Wandora's Europeana Extractor</title>
+      <link>http://labs.europeana.eu/apps/wandoras-europeana-extractor</link>
+      <description>&lt;p&gt;Wandora is a general purpose information extraction, management and publishing application based on Topic Maps and Java.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/wandoras-europeana-extractor</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>VuFind Europeana search results recommendation module</title>
+      <link>http://labs.europeana.eu/apps/vufind-europeana-search-results-recommendation-module</link>
+      <description>&lt;p&gt;VuFind is an Open Source discovery interface for digital libraries used by a large number of institutions.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/vufind-europeana-search-results-recommendation-module</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Visual Chronology</title>
+      <link>http://labs.europeana.eu/apps/visual-chronology</link>
+      <description>&lt;p&gt;Visual Chronology is a sketch displaying Europeana search results on a timeline. At the bottom of the screen, years are represented by dots.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/visual-chronology</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Twitter EuropeanaBot</title>
+      <link>http://labs.europeana.eu/apps/twitter-europeanabot</link>
+      <description>&lt;p&gt;Inspired by the DPLABot, this implementation uses Europeana API to present semi-random images from Europeana collections on Twitter.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/twitter-europeanabot</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>TimeMash</title>
+      <link>http://labs.europeana.eu/apps/timemash</link>
+      <description>&lt;p&gt;TimeMash is a search client for historical data from Europeana. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/timemash</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Timebook</title>
+      <link>http://labs.europeana.eu/apps/timebook</link>
+      <description>&lt;p&gt;Timebook is an aggregator of information coming from DBPedia, Wikiquote and Europeana about personalities of the past (in particular composers, painters, writers or artists in general). It formats the information in the form of a Facebook-like profile, creating a social network of artists by looking at the influences in each other&amp;#8217;s works.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/timebook</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>The Culture Center (TCC)</title>
+      <link>http://labs.europeana.eu/apps/the-culture-center-tcc</link>
+      <description>&lt;p&gt;The prototype was developed using the Europeana API and YQL (Yahoo Query language) to build a quick and powerful culture information search tool.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/the-culture-center-tcc</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Storyscope</title>
+      <link>http://labs.europeana.eu/apps/storyscope</link>
+      <description>&lt;p&gt;The software includes an attractive visual interface that allows users to not only collect and arrange online objects, but to shape these collections into compelling narratives.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/storyscope</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Storyana</title>
+      <link>http://labs.europeana.eu/apps/storyana</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Most innovative app.&amp;#8217; at Hack4Europe &amp;#8216;12 - Belgium. Storyana is a novel interface for exploring Europeana&amp;#8217;s vast and interesting collections through short stories.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/storyana</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Stackathon</title>
+      <link>http://labs.europeana.eu/apps/stackathon</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Greatest commercial potential&amp;#8217; at Hack4Europe &amp;#8216;12 - Belgium. Finalist at the Digital Agenda Assembly, June 2012, Brussels.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/stackathon</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Sounds of daily life and birds from Netherlands Institute of Sound and Vision</title>
+      <link>http://labs.europeana.eu/data/sounds-of-daily-life-and-birds-from-netherlands-institute-of-sound-and-vision</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/sounds-of-daily-life-and-birds-from-netherlands-institute-of-sound-and-vision</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Share What You See</title>
+      <link>http://labs.europeana.eu/apps/share-what-you-see</link>
+      <description>&lt;p&gt;Share What you See supports easy blogging of Europeana content via Word Press. Winner in the category ‘Audience award´ at Hack4Europe ‘11 - UK.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/share-what-you-see</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Royal Museum for Central Africa search</title>
+      <link>http://labs.europeana.eu/apps/royal-museum-for-central-africa-search</link>
+      <description>&lt;p&gt;The Royal Museum for Central Africa in Belgium is one of Europeana&amp;#8217;s content providers. On their Plone powered website, they have made their contributed content searchable using the Europeana API.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/royal-museum-for-central-africa-search</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Related items widget</title>
+      <link>http://labs.europeana.eu/apps/related-items-widget</link>
+      <description>&lt;p&gt;The PIONIER Network Digital Libraries Federation have a related items widget that uses the Google Translate API to translate keywords to other languages before sending them to the Europeana API.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/related-items-widget</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Random Images Explorer</title>
+      <link>http://labs.europeana.eu/apps/random-images-explorer</link>
+      <description>&lt;p&gt;Semantic enrichment game. 1st Hackathon 2011.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/random-images-explorer</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>ProgrammeNotes</title>
+      <link>http://labs.europeana.eu/apps/programmenotes</link>
+      <description>&lt;p&gt;The team built a simple HTML5 player displaying interactive historical information related to a musical work while the track plays through SoundCloud.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/programmenotes</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Postcards from Slovakia</title>
+      <link>http://labs.europeana.eu/data/postcards-from-slovakia</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/postcards-from-slovakia</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Postcards from Baltics</title>
+      <link>http://labs.europeana.eu/apps/postcards-from-baltics</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Greatest commercial potential&amp;#8217; at Hack4Europe &amp;#8216;12 - Latvia.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/postcards-from-baltics</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Portraits and some shoes from Europeana Fashion</title>
+      <link>http://labs.europeana.eu/data/portraits-and-some-shoes-from-europeana-fashion</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/portraits-and-some-shoes-from-europeana-fashion</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Portal Thingy</title>
+      <link>http://labs.europeana.eu/apps/portal-thingy</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Developers&amp;#8217; Pick&amp;#8217; at Hack4Europe &amp;#8216;12 - Belgium. The Portal Thingy is a prototype search portal which offers users the chance to enrich Europeana metadata.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/portal-thingy</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>PIONIER Network Digital Libraries Federation (Federacja Bibliotek Cyfrowych) - Europeana search (API)</title>
+      <link>http://labs.europeana.eu/apps/pionier-network-digital-libraries-federation-federacja-bibliotek-cyfrowych---europeana-search-api</link>
+      <description>&lt;p&gt;Related content from Europeana is shown under the PIONIER Network Digital Libraries Federation search results. As they are a Europeana aggregator, their own objects in Europeana are filtered out of the API responses in order to avoid duplicate hits.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/pionier-network-digital-libraries-federation-federacja-bibliotek-cyfrowych---europeana-search-api</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Pictures of glassware</title>
+      <link>http://labs.europeana.eu/data/pictures-of-glassware</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/pictures-of-glassware</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Pictures of citizens from Lithuania</title>
+      <link>http://labs.europeana.eu/data/pictures-of-citizens-from-lithuania</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/pictures-of-citizens-from-lithuania</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Pictures and scientific texts of birds from Naturalis</title>
+      <link>http://labs.europeana.eu/data/pictures-and-scientific-texts-of-birds-from-naturalis</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/pictures-and-scientific-texts-of-birds-from-naturalis</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Photographs of soldiers during WWI</title>
+      <link>http://labs.europeana.eu/data/photographs-of-soldiers-during-wwi</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/photographs-of-soldiers-during-wwi</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Open Pics app</title>
+      <link>http://labs.europeana.eu/apps/open-pics-app</link>
+      <description>&lt;p&gt;This open source app allows search for images in multiple online collections.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/open-pics-app</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Old handwritten documents from Scandinavia</title>
+      <link>http://labs.europeana.eu/data/old-handwritten-documents-from-scandinavia</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/old-handwritten-documents-from-scandinavia</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>National Library of New Zealand</title>
+      <link>http://labs.europeana.eu/apps/national-library-of-new-zealand</link>
+      <description>&lt;p&gt;The digital service of the National Library of New Zealand - Digital New Zealand (DigitalNZ) - uses the Europeana API (1.0) to harvest and locally store New Zealand-related Europeana records in their own aggregation.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/national-library-of-new-zealand</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>National Library of Ireland catalogue widget</title>
+      <link>http://labs.europeana.eu/apps/national-library-of-ireland-catalogue-widget</link>
+      <description>&lt;p&gt;This interface allows simultaneous search of many of the Library&amp;#8217;s catalogued collections, including digitised material.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/national-library-of-ireland-catalogue-widget</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>myHometo.wn</title>
+      <link>http://labs.europeana.eu/apps/myhometo.wn</link>
+      <description>&lt;p&gt;myHometo.wn can be likened to a public genealogy for all cities across a country.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/myhometo.wn</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>MuseumVille</title>
+      <link>http://labs.europeana.eu/apps/museumville</link>
+      <description>&lt;p&gt;This prototype has been inspired by the addictive Facebook game Farmville.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/museumville</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Jeremy Ottevanger’s mashificator, Imperial War Museum</title>
+      <link>http://labs.europeana.eu/apps/jeremy-ottevangers-mashificator-imperial-war-museum</link>
+      <description>&lt;p&gt;It uses semantic extraction (through two commercial APIs - Zemanta and Yahoo) to create keywords representing places, people, subjects and periods. It then queries a number of different museum APIs and displays the results as an image slide. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/jeremy-ottevangers-mashificator-imperial-war-museum</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Institution Recommendations Based on Geospatial Data</title>
+      <link>http://labs.europeana.eu/apps/institution-recommendations-based-on-geospatial-data</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Greatest Commercial Potential&amp;#8217; and the category &amp;#8216;Developers&amp;#8217; Pick&amp;#8217; (together with &amp;#8216;Art Seeker&amp;#8217;) at Hack4Europe &amp;#8216;11 - Poland. The prototype is a mobile web application which recommends Europeana content providers near to a user&amp;#8217;s location (based on his/her current GPS coordinates) and shows their content on Europeana. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/institution-recommendations-based-on-geospatial-data</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Incunabula from Edinburgh</title>
+      <link>http://labs.europeana.eu/data/incunabula-from-edinburgh</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/incunabula-from-edinburgh</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Image Form Query Suggestions</title>
+      <link>http://labs.europeana.eu/apps/image-form-query-suggestions</link>
+      <description>&lt;p&gt;Building on an analysis of user behaviour ,this prototype gives users suggestions related to their intitial search query.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/image-form-query-suggestions</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>History4u</title>
+      <link>http://labs.europeana.eu/apps/history4u</link>
+      <description>&lt;p&gt;History4u is a mobile application for Windows 7 which allows the search and display of historical photographs available on Europeana.The application uses GPS technology to identify the nearest place based on the user&amp;#8217;s current coordinates and presents old pictures of this location.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/history4u</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Hackmemory</title>
+      <link>http://labs.europeana.eu/apps/hackmemory</link>
+      <description>&lt;p&gt;A simple educational application for kids and adults based on well-known memory games.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/hackmemory</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Gamepad 2.0</title>
+      <link>http://labs.europeana.eu/apps/gamepad-2.0</link>
+      <description>&lt;p&gt;Winner in the category ‘General Public‘ at Hack4LT. Gamepad 2.0 is an interactive multiplayer HTML5 game.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/gamepad-2.0</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana4Education (E4E)</title>
+      <link>http://labs.europeana.eu/apps/europeana4education-e4e</link>
+      <description>&lt;p&gt;E4E is a set of two widgets that automatically suggest cultural resources from Europeana and learning resources from Open Discovery Space. It is aimed at authors of educational pathways. E4E widgets can be integrated into an authoring environment such as OMEKA to augment the authoring process and to enhance the educational impact of a pathway. The main rationale behind E4E development was to explore the educational uses of items on Europeana. The E4E widgets were developed in the context of the Natural Europe and Open Discovery Space projects. Winner in the category &amp;#8216;Social Inclusion&amp;#8217; at Hack4Europe &amp;#8216;12 - Belgium.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana4education-e4e</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana Portfolio</title>
+      <link>http://labs.europeana.eu/apps/europeana-portfolio</link>
+      <description>&lt;p&gt;The prototype is based on a combination of SCAM framework (EntryStore) and Confolio (EntryScape) and allows the creation of online learning resources using Europeana metadata.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-portfolio</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana on Free Image Search Tool</title>
+      <link>http://labs.europeana.eu/apps/europeana-on-free-image-search-tool</link>
+      <description>&lt;p&gt;The prototype is a further development of the Free Image Search Tool (FIST), a tool to help illustrate articles on Wikipedia.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-on-free-image-search-tool</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana Layar</title>
+      <link>http://labs.europeana.eu/apps/europeana-layar</link>
+      <description>&lt;p&gt;The prototype allows the user to view Europeana geo-enabled items in an augmented reality mode on Layar compatible devices.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-layar</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana Geo Search</title>
+      <link>http://labs.europeana.eu/apps/europeana-geo-search</link>
+      <description>&lt;p&gt;Europeana Geo Search app for Android: http://pro.europeana.eu/c/document_library/get_file?uuid=2ab26ca0-a4e7-4ea7-87fb-a2828fe2e2eb&amp;amp;groupId=462475&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-geo-search</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana Field Game</title>
+      <link>http://labs.europeana.eu/apps/europeana-field-game</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Most innovative app&amp;#8217; at Hack4Europe &amp;#8216;11 - Poland.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-field-game</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana Fancy Search</title>
+      <link>http://labs.europeana.eu/apps/europeana-fancy-search</link>
+      <description>&lt;p&gt;Fancy Search is a Europeana Search API component prototype for Joomla 1.6.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-fancy-search</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana Banana</title>
+      <link>http://labs.europeana.eu/apps/europeana-banana</link>
+      <description>&lt;p&gt;Semantic enrichment game developed at Europeana&amp;#8217;s 1st Hackathon in 2011&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-banana</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europ.in: Pinboard-style picture search engine</title>
+      <link>http://labs.europeana.eu/apps/europ.in-pinboard-style-picture-search-engine</link>
+      <description>&lt;p&gt;Europ.in allows for very visual search and browsing of Europeana content. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europ.in-pinboard-style-picture-search-engine</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>eu:KindleSearch</title>
+      <link>http://labs.europeana.eu/apps/eukindlesearch</link>
+      <description>&lt;p&gt;euKindleSearch easily produces e-books for the Amazon Kindle based on searches in the Europeana collections. Winner in the category &amp;#8216;Greatest Commercial Potential&amp;#8217; at Hack4Europe &amp;#8216;11 - UK.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/eukindlesearch</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>EOD search</title>
+      <link>http://labs.europeana.eu/apps/eod-search</link>
+      <description>&lt;p&gt;Over 6000 books have been digitised via EOD. Through the Europeana API, EOD search results are enriched with relevant Europeana records.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/eod-search</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Django Europeana 0.1.5</title>
+      <link>http://labs.europeana.eu/apps/django-europeana-0.1.5</link>
+      <description>&lt;p&gt;This is a client library for Django, the free and open source web framework written in Python.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/django-europeana-0.1.5</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>DISMARC</title>
+      <link>http://labs.europeana.eu/apps/dismarc</link>
+      <description>&lt;p&gt;DISMARC aggregates music from archives all across Europe and makes it available in their own portal and in Europeana. Through our API, searches in their portal also return results from Europeana.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/dismarc</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Cultured Canvas </title>
+      <link>http://labs.europeana.eu/apps/cultured-canvas</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Most innovative app&amp;#8217;  at Hack4Europe &amp;#8216;11 - UK Cultured Canvas is an easy way to promote culture to a user&amp;#8217;s Twitter followers.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/cultured-canvas</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Culture Globe</title>
+      <link>http://labs.europeana.eu/apps/culture-globe</link>
+      <description>&lt;p&gt;eTech Hackathon 2011 winner Culture Globe allows users to navigate through Europeana content on an interactive globe and timeline.&lt;/p&gt;
+
+&lt;p&gt;It accomplishes this by using cutting-edge HTML5 and WebGL technology in combination with semantic information from Europeana and Freebase.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/culture-globe</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Crowdhwr</title>
+      <link>http://labs.europeana.eu/apps/crowdhwr</link>
+      <description>&lt;p&gt;Winner in the category ‘Digital Humanities‘ at Hack4LT. Crowdhwr is a crowdsourcing manuscripts’ transcription system for digital humanities.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/crowdhwr</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Content collected during the Europeana 1914-1918 roadshows</title>
+      <link>http://labs.europeana.eu/data/content-collected-during-the-europeana-1914-1918-roadshows</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/content-collected-during-the-europeana-1914-1918-roadshows</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Casual Curator</title>
+      <link>http://labs.europeana.eu/apps/casual-curator</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Social Inclusion&amp;#8217; at Hack4Europe &amp;#8216;11 - UK. Finalist at the Digital Agenda Assembly, June 2011, Brussels.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/casual-curator</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Calotypes and portraits from Edinburgh</title>
+      <link>http://labs.europeana.eu/data/calotypes-and-portraits-from-edinburgh</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/calotypes-and-portraits-from-edinburgh</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Butterflies, minerals and drawings from the Museum of Natural History in Berlin</title>
+      <link>http://labs.europeana.eu/data/butterflies-minerals-and-drawings-from-the-museum-of-natural-history-in-berlin</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/butterflies-minerals-and-drawings-from-the-museum-of-natural-history-in-berlin</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>ArtSpace</title>
+      <link>http://labs.europeana.eu/apps/artspace</link>
+      <description>&lt;p&gt;ArtSpace promotes access to art in everyday situations i.e. Europeana collections can be made available in public places such as coffee shops, libraries, schools and hotels.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/artspace</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Art4Europe</title>
+      <link>http://labs.europeana.eu/apps/art4europe</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Greatest commercial potential&amp;#8217; at Hack4Europe &amp;#8216;11 - Poland. Finalist at the Digital Agenda Assembly, June 2011, Brussels&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/art4europe</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Art Terra </title>
+      <link>http://labs.europeana.eu/apps/art-terra</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Social inclusion&amp;#8217; at Hack4Europe &amp;#8216;11 - Poland.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/art-terra</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Art Seeker</title>
+      <link>http://labs.europeana.eu/apps/art-seeker</link>
+      <description>&lt;p&gt;The prototype is a mobile application for art discovery.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/art-seeker</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Art Color Bits</title>
+      <link>http://labs.europeana.eu/apps/art-color-bits</link>
+      <description>&lt;p&gt;Art Color Bits introduces an innovative way of browsing painters&amp;#8217; works by colours.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/art-color-bits</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Art and life on postcards and photographs from Girona</title>
+      <link>http://labs.europeana.eu/data/art-and-life-on-postcards-and-photographs-from-girona</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/art-and-life-on-postcards-and-photographs-from-girona</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Architectural drawings from Edinburgh</title>
+      <link>http://labs.europeana.eu/data/architectural-drawings-from-edinburgh</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/architectural-drawings-from-edinburgh</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Archaeological Artefacts from the Institute of Balkan Studies and Thracology</title>
+      <link>http://labs.europeana.eu/data/archaeological-artefacts-from-the-institute-of-balkan-studies-and-thracology</link>
+      <description>
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/archaeological-artefacts-from-the-institute-of-balkan-studies-and-thracology</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Focus on re-usable datasets</title>
+      <link>http://labs.europeana.eu/blog/focus-on-reusable-datasets</link>
+      <description>&lt;p&gt;In April we added over 1 million new items to Europeana. The majority of these new collections are openly licensed and re-usable.&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 15 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/blog/focus-on-reusable-datasets</guid>
+      <dc:date>2014-05-15T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>First Europeana Creative Challenge Award Ceremony</title>
@@ -95,23 +1652,6 @@ The latest&amp;nbsp;&lt;a href=&quot;http://paths-project.eu/eng/Prototype&quot;
       <pubDate>Fri, 25 Apr 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/Assets3D-search</guid>
       <dc:date>2014-04-25T00:00:00+02:00</dc:date>
-    </item>
-    <item>
-      <title>Untold stories of Norwegian history</title>
-      <link>http://labs.europeana.eu/data/Kulturradet-Norway-History</link>
-      <description>
-</description>
-      <pubDate>Fri, 18 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/data/Kulturradet-Norway-History</guid>
-      <dc:date>2014-04-18T00:00:00+02:00</dc:date>
-    </item>
-    <item>
-      <title>Hack4Europe! Alghero, Sardinia</title>
-      <link>http://labs.europeana.eu/events/Hack4Europe-Alghero</link>
-      <description>[&quot;A two-day hackathon and a business lounge organised by Europeana und University of Sassari-ArsLab in collaboration of Azienda Speciale Parco di Porto Conte and Castra Sardiniae.&quot;]</description>
-      <pubDate>Fri, 11 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/Hack4Europe-Alghero</guid>
-      <dc:date>2014-04-11T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Coding Da Vinci competition award ceremony</title>
@@ -203,7 +1743,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     <item>
       <title>EuropeanaConnect Geoparser</title>
       <link>http://labs.europeana.eu/apps/EuropeanaConnect-Geoparser</link>
-      <description>&lt;p&gt;&lt;strong&gt;EuropeanaConnect Geoparser&lt;/strong&gt; - A tool to extract place names from text.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: The Goeparser is currently down. The service should be re-started in the coming months. &lt;/p&gt;
 
 </description>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0200</pubDate>
@@ -247,16 +1787,6 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <pubDate>Mon, 31 Mar 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/events/International_Business_Lounge_Future_Everything_Conference</guid>
       <dc:date>2014-03-31T00:00:00+02:00</dc:date>
-    </item>
-    <item>
-      <title>Waisda?</title>
-      <link>http://labs.europeana.eu/apps/Waisda</link>
-      <description>&lt;p&gt;&lt;strong&gt;Waisda?&lt;/strong&gt; - A prototype Dutch-language game site which explores the social tagging of video in the cultural heritage domain.&lt;/p&gt;
-
-</description>
-      <pubDate>Sat, 29 Mar 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/apps/Waisda</guid>
-      <dc:date>2014-03-29T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>VAMP Metadata validation</title>
@@ -331,7 +1861,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     <item>
       <title>Europeana Connect Annotation Suite</title>
       <link>http://labs.europeana.eu/apps/EuropeanaConnect-Annotation</link>
-      <description>&lt;p&gt;&lt;strong&gt;The EuropeanaConnect Annotation Suite&lt;/strong&gt; - A tool that allows end-users to annotate digital images, maps, audio and video files.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt; The EuropeanaConnect Annotation Suite is now a stable tool renamed as Annotorious. For more details see the [Annotorious entry] (http://labs.europeana.eu/apps/Annotorious-FLOSS/)&lt;/p&gt;
 
 </description>
       <pubDate>Sat, 29 Mar 2014 00:00:00 +0100</pubDate>
@@ -380,16 +1910,6 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <dc:date>2014-03-29T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Kringla</title>
-      <link>http://labs.europeana.eu/apps/kringla</link>
-      <description>&lt;p&gt;The online portal of the Swedish National Heritage Board (SOCH) www.kringla.nu allows users to search in both the national heritage repository &amp;#8216;SOCH&amp;#8217; and the Europeana repository presenting the search results in different tabs. &lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 22 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/apps/kringla</guid>
-      <dc:date>2014-01-22T00:00:00+01:00</dc:date>
-    </item>
-    <item>
       <title>Inventing Europe</title>
       <link>http://labs.europeana.eu/apps/inventing-europe</link>
       <description>&lt;p&gt;The Inventing Europe online platform is a pioneering collaboration between historians and cultural heritage institutions across Europe.&lt;/p&gt;
@@ -410,7 +1930,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <dc:date>2014-01-22T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>europeana4j</title>
+      <title>europeana4j (Java client library)</title>
       <link>http://labs.europeana.eu/apps/europeana4j</link>
       <description>&lt;p&gt;europeana4j is a Java library which allows applications to search and retrieve Europeana data, including millions of books, paintings, films, museum objects and archival records that have been digitised throughout Europe.&lt;/p&gt;
 
@@ -600,15 +2120,6 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <dc:date>2014-01-04T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Postcards from Europeana 1914 - 1918</title>
-      <link>http://labs.europeana.eu/data/postcards-from-europeana</link>
-      <description>
-</description>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/data/postcards-from-europeana</guid>
-      <dc:date>2014-01-01T00:00:00+01:00</dc:date>
-    </item>
-    <item>
       <title>Popes on artwork, drawings and documents from the Rijksmuseum in the Netherlands</title>
       <link>http://labs.europeana.eu/data/popes-on-artwork-drawings-and-documents-from-the-rijksmuseum-in-the-netherlands</link>
       <description>
@@ -619,11 +2130,11 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     </item>
     <item>
       <title>Photographs, Prints and Posters from the Biblioteca Valenciana Digital</title>
-      <link>http://labs.europeana.eu/data/2014/01/01/Photographs_Prints_and_Posters_from_the_Biblioteca_Valenciana_Digital/</link>
+      <link>http://labs.europeana.eu/data/Photographs-Prints-and-Posters-from-the-Biblioteca-Valenciana-Digital</link>
       <description>
 </description>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/data/2014/01/01/Photographs_Prints_and_Posters_from_the_Biblioteca_Valenciana_Digital/</guid>
+      <guid>http://labs.europeana.eu/data/Photographs-Prints-and-Posters-from-the-Biblioteca-Valenciana-Digital</guid>
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
@@ -642,24 +2153,6 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
 </description>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/data/Napoleon-on-artwork-drawings-and-documents-from-the-Amsterdam-Museum</guid>
-      <dc:date>2014-01-01T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Minerals and rocks from the Museum of Natural History in Berlin</title>
-      <link>http://labs.europeana.eu/data/Minerals-and-rocks-from-the-Museum-of-Natural-History-in-Berlin</link>
-      <description>
-</description>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/data/Minerals-and-rocks-from-the-Museum-of-Natural-History-in-Berlin</guid>
-      <dc:date>2014-01-01T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Battles on artwork and drawings from the Rijksmuseum in the Netherlands</title>
-      <link>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</link>
-      <description>
-</description>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</guid>
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
@@ -690,30 +2183,12 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Drawings, Prints and Artwork from the National Library of Poland</title>
-      <link>http://labs.europeana.eu/data/Drawings-Prints-and-Artwork-from-the-National-Library-of-Poland</link>
-      <description>
-</description>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/data/Drawings-Prints-and-Artwork-from-the-National-Library-of-Poland</guid>
-      <dc:date>2014-01-01T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Butterflies, moths, plants and mushrooms from the University of Tartu and the Museum of Natural History Berlin</title>
+      <title>Butterflies, moths, plants and mushrooms from the University of Tartu</title>
       <link>http://labs.europeana.eu/data/Butterflies-moths-plants-and-mushrooms-from-the-University-of-Tartu-and-the-Museum-of-Natural-History-Berlin</link>
       <description>
 </description>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/data/Butterflies-moths-plants-and-mushrooms-from-the-University-of-Tartu-and-the-Museum-of-Natural-History-Berlin</guid>
-      <dc:date>2014-01-01T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Bryozoa from the National Museum Prague</title>
-      <link>http://labs.europeana.eu/data/Bryozoa-from-the-National-Museum-Prague</link>
-      <description>
-</description>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/data/Bryozoa-from-the-National-Museum-Prague</guid>
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
@@ -726,14 +2201,14 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Archaeological Artefacts from the Institute of Balkan Studies and Thracology</title>
-      <link>http://labs.europeana.eu/data/archaeological-artefacts-from-the-institute-of-balkan-Studies-and-Thracology</link>
+      <title>Battles on artwork and drawings from the Rijksmuseum in Amsterdam</title>
+      <link>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</link>
       <description>
 </description>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/data/archaeological-artefacts-from-the-institute-of-balkan-Studies-and-Thracology</guid>
+      <guid>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</guid>
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
-    <dc:date>9999-01-01T00:00:00+01:00</dc:date>
+    <dc:date>9999-07-23T00:00:00+02:00</dc:date>
   </channel>
 </rss>
