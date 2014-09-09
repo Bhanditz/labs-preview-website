@@ -61,79 +61,19 @@
       <dc:date>2015-07-15T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>Hack4pisa</title>
-      <link>http://labs.europeana.eu/2014/10/02/Hack4Pisa/</link>
-      <description>&lt;p&gt;permalink: /events/Hack4Pisa
-title: Hack4Pisa
-imageurl: 
-  - &amp;#8220;/img/events/Hack4Pisa.png&amp;#8221;
-tags: 
-  - hackathon
-links:
-  - http://www.eventbrite.co.uk/e/hack4pisa-registration-12152387117
-excerpt:
-  - &amp;#8220;A two day hackathon and business lounge organised in cooperation with Hyperborea s.r.l and Polo Tecnologico di Navacchio.&amp;#8221;
-startdate:
-  - 02/10/2014
-enddate:
-  - 03/10/2014
-datenotconfirmed:
-  - &amp;#8220;&amp;#8221;
-starttime:
-  - &amp;#8220;&amp;#8221;
-streetaddress:
-  - &amp;#8220;&amp;#8221;
-city:
-  - &amp;#8220;Pisa&amp;#8221;
-country:
-  - &amp;#8220;Italy&amp;#8221;
-europeanaevent:
-  - &amp;#8220;&amp;#8221;
-featured:
-  - &amp;#8220;true&amp;#8221;
-&amp;#8212;&lt;/p&gt;
-
-</description>
+      <title>Hack4Pisa</title>
+      <link>http://labs.europeana.eu/events/Hack4Pisa</link>
+      <description>[&quot;A two day hackathon and business lounge organised in cooperation with Hyperborea s.r.l and Polo Tecnologico di Navacchio.&quot;]</description>
       <pubDate>Thu, 02 Oct 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/2014/10/02/Hack4Pisa/</guid>
+      <guid>http://labs.europeana.eu/events/Hack4Pisa</guid>
       <dc:date>2014-10-02T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>Europeana Creative Challenge Awards</title>
-      <link>http://labs.europeana.eu/2014/09/23/europeana-creative-challenge-awards/</link>
-      <description>&lt;p&gt;permalink: /events/2nd-Europeana-Creative-Challenge-Award-Ceremony
-title: 2nd Europeana Creative Challenge Award Ceremony
-imageurl: 
-  - &amp;#8220;/img/events/2nd-creative-challenge.png&amp;#8221;
-tags: 
-  - challenge
-links:
-  - http://pro.europeana.eu/web/europeana-creative/challenges
-excerpt:
-  - &amp;#8220;This event is hosted in collaboration with Apps&amp;amp;Culture and  formally closes the second challenge on tourism and social networks themes.&amp;#8221;
-startdate:
-  - 23/09/2014
-enddate:
-  - 23/09/2014
-datenotconfirmed:
-  - &amp;#8220;&amp;#8221;
-starttime:
-  - &amp;#8220;&amp;#8221;
-streetaddress:
-  - &amp;#8220;&amp;#8221;
-city:
-  - &amp;#8220;Barcelona&amp;#8221;
-country:
-  - &amp;#8220;Spain&amp;#8221;
-europeanaevent:
-  - &amp;#8220;&amp;#8221;
-featured:
-  - &amp;#8220;true&amp;#8221;
-&amp;#8212;&lt;/p&gt;
-
-</description>
+      <title>2nd Europeana Creative Challenge Award Ceremony</title>
+      <link>http://labs.europeana.eu/events/2nd-Europeana-Creative-Challenge-Award-Ceremony</link>
+      <description>[&quot;This event is hosted in collaboration with Apps&amp;Culture and  formally closes the second challenge on tourism and social networks themes.&quot;]</description>
       <pubDate>Tue, 23 Sep 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/2014/09/23/europeana-creative-challenge-awards/</guid>
+      <guid>http://labs.europeana.eu/events/2nd-Europeana-Creative-Challenge-Award-Ceremony</guid>
       <dc:date>2014-09-23T00:00:00+02:00</dc:date>
     </item>
     <item>
