@@ -51,16 +51,6 @@
       <dc:date>9998-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Wandora's Europeana Extractor</title>
-      <link>http://labs.europeana.eu/apps/wandora</link>
-      <description>&lt;p&gt;Wandora is a general purpose information extraction, management and publishing application based on Topic Maps and Java.&lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 15 Jul 2015 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/apps/wandora</guid>
-      <dc:date>2015-07-15T00:00:00+02:00</dc:date>
-    </item>
-    <item>
       <title>Culture Grid</title>
       <link>http://labs.europeana.eu/apps/culture-grid</link>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.culturegrid.org.uk/&quot;&gt;Culture Grid&lt;/a&gt; opens up a wealth of information from museums, galleries, libraries and archives: giving greater access to UK culture, arts and heritage. It is also an aggregator, powering UK collections into Europeana. On their own search portal they have used the Europeana API to offer users extended search results from across Europe.&lt;/p&gt;
@@ -75,7 +65,7 @@
       <link>http://labs.europeana.eu/apps/digital-storytelling-prototype</link>
       <description>&lt;p&gt;The Digital Storytelling Protype (DSP) was developed in the Europeana Awareness project by partners &lt;a href=&quot;http://www.beeldengeluid.nl/en/netherlands-institute-sound-and-vision&quot;&gt;Netherlands Institute of Sound and Vision&lt;/a&gt;,
 &lt;a href=&quot;http://www.ntua.gr/index_en.html&quot;&gt;National Technical University Athens&lt;/a&gt;, &lt;a href=&quot;http://www.spildaftid.dk/&quot;&gt;Spild af Tid&lt;/a&gt; and Europeana. It&amp;#8217;s a service (backend, API and client) that allows users to create and publish collections of content 
-mixing their own uploads with existing content in Europeana and on YouTube.&lt;/p&gt;
+mixing their own uploads with existing content in Europeana and on YouTube. As the code is open, anyone can use it to build their own storytelling platforms.&lt;/p&gt;
 
 </description>
       <pubDate>Wed, 03 Sep 2014 00:00:00 +0200</pubDate>
@@ -91,6 +81,16 @@ mixing their own uploads with existing content in Europeana and on YouTube.&lt;/
       <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/nodejs-europeana</guid>
       <dc:date>2014-07-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Wandora's Europeana Extractor</title>
+      <link>http://labs.europeana.eu/apps/wandora</link>
+      <description>&lt;p&gt;Wandora is a general purpose information extraction, management and publishing application based on Topic Maps and Java.&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/wandora</guid>
+      <dc:date>2014-07-15T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Rest Easy (Python)</title>
