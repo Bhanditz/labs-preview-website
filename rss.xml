@@ -61,6 +61,16 @@
       <dc:date>2015-07-15T00:00:00+02:00</dc:date>
     </item>
     <item>
+      <title>Culture Grid</title>
+      <link>http://labs.europeana.eu/apps/culture-grid</link>
+      <description>&lt;p&gt;&lt;a href=&quot;http://www.culturegrid.org.uk/&quot;&gt;Culture Grid&lt;/a&gt; opens up a wealth of information from museums, galleries, libraries and archives: giving greater access to UK culture, arts and heritage. It is also an aggregator, powering UK collections into Europeana. On their own search portal they have used the Europeana API to offer users extended search results from across Europe.&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 06 Oct 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/culture-grid</guid>
+      <dc:date>2014-10-06T00:00:00+02:00</dc:date>
+    </item>
+    <item>
       <title>Hack4Pisa</title>
       <link>http://labs.europeana.eu/events/Hack4Pisa</link>
       <description>[&quot;A two day hackathon and business lounge organised in cooperation with Hyperborea s.r.l and Polo Tecnologico di Navacchio.&quot;]</description>
