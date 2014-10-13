@@ -63,9 +63,8 @@
     <item>
       <title>Digital Storytelling Prototype</title>
       <link>http://labs.europeana.eu/apps/digital-storytelling-prototype</link>
-      <description>&lt;p&gt;The Digital Storytelling Prototype was developed in the Europeana Awareness project by partners &lt;a href=&quot;http://www.beeldengeluid.nl/en/netherlands-institute-sound-and-vision&quot;&gt;Netherlands Institute of Sound and Vision&lt;/a&gt;,
-&lt;a href=&quot;http://www.ntua.gr/index_en.html&quot;&gt;National Technical University Athens&lt;/a&gt;, &lt;a href=&quot;http://www.spildaftid.dk/&quot;&gt;Spild af Tid&lt;/a&gt; and Europeana. It&amp;#8217;s a service (backend, API and client) that allows users to create and publish collections of content 
-mixing their own uploads with existing content in Europeana and on YouTube. As the code is open, anyone can use it to build their own storytelling platforms.&lt;/p&gt;
+      <description>&lt;p&gt;The Digital Storytelling Prototype was developed by partners &lt;a href=&quot;http://www.beeldengeluid.nl/en/netherlands-institute-sound-and-vision&quot;&gt;Netherlands Institute of Sound and Vision&lt;/a&gt;,
+&lt;a href=&quot;http://www.ntua.gr/index_en.html&quot;&gt;National Technical University Athens&lt;/a&gt;, &lt;a href=&quot;http://www.spildaftid.dk/&quot;&gt;Spild af Tid&lt;/a&gt; and Europeana and is an outcome of the Europeana Awareness project. It&amp;#8217;s a service (backend, API and client) that allows users to create and publish collections of content, mixing their own uploads with existing content in Europeana and on YouTube. As the code is open, anyone can use it to build their own storytelling platforms.&lt;/p&gt;
 
 </description>
       <pubDate>Wed, 03 Sep 2014 00:00:00 +0200</pubDate>
