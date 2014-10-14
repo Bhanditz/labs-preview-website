@@ -10,16 +10,6 @@
     <description>RSS feed for Europeana Labs</description>
     <pubDate>Fri, 23 Jul 9999 00:00:00 +0200</pubDate>
     <item>
-      <title>Hunting for First World War data - CENDARI and the Europeana API</title>
-      <link>http://labs.europeana.eu/blog/CENDARI-and-the-Europeana-API</link>
-      <description>&lt;p&gt;&lt;em&gt;By Valentine Charles (EuropeanaFoundation) and Milica Knezevic (Mathematical Institute SANU)&lt;/em&gt;&lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/blog/CENDARI-and-the-Europeana-API</guid>
-      <dc:date>2014-10-13T00:00:00+02:00</dc:date>
-    </item>
-    <item>
       <title>New translation method in the Europeana API</title>
       <link>http://labs.europeana.eu/blog/new-translation-method-in-API</link>
       <description>&lt;p&gt;We have recently released a new translation method in the Europeana API.&lt;/p&gt;
