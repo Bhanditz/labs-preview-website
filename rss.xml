@@ -75,362 +75,129 @@
       <dc:date>2015-02-12T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Wwi Text Posters From Austria Hungary</title>
-      <link>http://labs.europeana.eu/2014/12/02/wwi-text-posters-from-austria-hungary/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/wwi-text-posters-from-austria-hungary
-title: WWI text posters from Austria-Hungary
-provider: Austrian National Library 
-description: More than 6,500 text posters from all parts pf the Austrian-Hungarian monarchy including the important Emperor manifestos, announcements managing mobilisation, administration and shortages with information on dates and places.
-contact: bildarchiv@onb.ac.at 
-portal: “http://www.europeana.eu/portal/search.html?query=europeana_collectionName%3A9200290&lt;em&gt;&amp;amp;rows=96&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fmark%2F1.0%2F&lt;/em&gt;” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A9200290*&amp;amp;rows=96&amp;amp;reusability=open”
-providerurl: “http://www.bildarchivaustria.at/”
-imageurl: 
-  - “/img/datasets/9200290_Austria.jpg”
-tags:
-- History
-- First World War
-licenses:
-  - Creative Commons Public Domain Mark 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/wwi-text-posters-from-austria-hungary/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Wwi Photographs From Austria Hungary</title>
-      <link>http://labs.europeana.eu/2014/12/02/wwi-photographs-from-austria-hungary/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/wwi-photographs-from-austria-hungary
-title: WWI photographs from Austria-Hungary
-provider: Austrian National Library 
-description: More than 37,000 photographs illustrating the Great War at the eastern and south eastern front, the back country and further areas of the former Monarchy.
-contact: bildarchiv@onb.ac.at 
-portal: “http://www.europeana.eu/portal/search.html?query=europeana_collectionName%3A9200291&lt;em&gt;&amp;amp;rows=24&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fmark%2F1.0%2F&lt;/em&gt;” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A9200291&lt;em&gt;&amp;amp;rows=24&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fmark%2F1.0%2F&lt;/em&gt;”
-providerurl: “http://www.bildarchivaustria.at/”
-imageurl: 
-  - “/img/datasets/9200291_Austria.jpg”
-tags:
-- Photographs
-- History
-- First World War
-licenses:
-  - Creative Commons Public Domain Mark 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/wwi-photographs-from-austria-hungary/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>User Contributed Content Pictures Of Swedish Monuments</title>
-      <link>http://labs.europeana.eu/2014/12/02/user-contributed-content-pictures-of-swedish-monuments/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/user-contributed-content-pictures-of-swedish-monuments
-title: User contributed content: pictures of Swedish Monuments
-provider: Wikimedia Sweden
-description: A small collection of colour photographs of Swedish architectural or natural monuments, as submitted by users to Wikimedia Sweden for their Wiki Loves Monuments project.
-contact: info@wikimedia.se
-portal: “http://europeana.eu/portal/search.html?query=europeana_collectionName%3A2058702&lt;em&gt;&amp;amp;rows=24” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A2058702&lt;/em&gt;&amp;amp;rows=24”
-providerurl: “https://meta.wikimedia.org/wiki/Wikimedia_Sverige”
-imageurl: 
-  - “/img/datasets/2058702_Sweden.jpg”
-tags:
-- Architecture
-- Tourism
-- Photographs
-licenses:
-  - Creative Commons Attribution - Share Alike 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/user-contributed-content-pictures-of-swedish-monuments/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Swedish Churches Religious Art And Architecture</title>
-      <link>http://labs.europeana.eu/2014/12/02/swedish-churches-religious-art-and-architecture/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/swedish-churches-religious-art-and-architecture
-title: Swedish churches: religious art and architecture
-provider: Riksantikvarieämbetet 
-description: More than 120,000 colour and black-and-white photographs documenting the diversity of Swedish church architecture, interiors, ritual objects, frescoes and all kinds of religious art.
-contact: registrator@raa.se
-portal: “http://europeana.eu/portal/search.html?query=europeana_collectionName%3A91622&lt;em&gt;&amp;amp;rows=24” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A91622&lt;/em&gt;&amp;amp;rows=24”
-providerurl: “http://www.raa.se/om-riksantikvarieambetet/in-english/”
-imageurl: 
-  - “/img/datasets/91622_Sweden.jpg”
-tags:
-- Architecture
-- Photographs
-- History
-licenses:
-  - Creative Commons Public Domain Mark
-Creative Commons Attribution 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/swedish-churches-religious-art-and-architecture/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Rich History And Collections Of The University Of Edinburgh In Pictures Drawings Writings</title>
-      <link>http://labs.europeana.eu/2014/12/02/rich-history-and-collections-of-the-university-of-edinburgh-in-pictures-drawings-writings/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/rich-history-and-collections-of-the-university-of-edinburgh-in-pictures-drawings-writings
-title: The rich history and collections of the University of Edinburgh in pictures, drawings and writings 
-provider: University of Edinburgh
-description: More than 3,000 historical documents relating to the history and collections of the University of Edinburgh: from illuminated manuscripts, anatomical drawings and honorific medals to personal letters, travel reports and student registers.
-contact: IS.Helpline@ed.ac.uk
-portal: “http://europeana.eu/portal/search.html?query=europeana_collectionName%3A+9200271&lt;em&gt;&amp;amp;rows=96” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A+9200271&lt;/em&gt;&amp;amp;rows=96”
-providerurl: “http://www.ed.ac.uk/home”
-imageurl: 
-  - “/img/datasets/9200271_Edinburgh.jpg”
-tags:
-- History
-- Natural History
-- Photographs
-- Drawings
-licenses:
-  - Creative Commons Attribution 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/rich-history-and-collections-of-the-university-of-edinburgh-in-pictures-drawings-writings/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Portrait Collection Of The Austrian National Library</title>
-      <link>http://labs.europeana.eu/2014/12/02/portrait-collection-of-the-austrian-national-library/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/portrait-collection-of-the-austrian-national-library
-title: Portrait Collection of the Austrian National Library
-provider: Austrian National Library 
-description: More than 150,000 portraits of the portraits collection from the Austrian National Library including European and non-European regent dynasties, divided into categories like popes, emperors, kings, nobles, Austrian dukes and other kings.
-contact: bildarchiv@onb.ac.at 
-portal: “http://www.europeana.eu/portal/search.html?query=europeana_collectionName%3A92062&lt;em&gt;&amp;amp;rows=24&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fmark%2F1.0%2F&lt;/em&gt;” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A92062&lt;em&gt;&amp;amp;rows=24&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fmark%2F1.0%2F&lt;/em&gt;”
-providerurl: “http://www.bildarchivaustria.at/”
-imageurl: 
-  - “/img/datasets/92062_Austria.jpg”
-tags:
-- History
-licenses:
-  - Creative Commons Public Domain Mark 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/portrait-collection-of-the-austrian-national-library/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Portable Antiquities Historical Objects From The Neolithic Until The Middle Ages</title>
-      <link>http://labs.europeana.eu/2014/12/02/portable-antiquities-historical-objects-from-the-neolithic-until-the-middle-ages/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/portable-antiquities-historical-objects-from-the-neolithic-until-the-middle-ages
-title: Portable Antiquities: historical objects from the Neolithic until the Middle Ages
-provider: The British Museum and The Portable Antiquities Scheme
-description: More than 290,000 portable artifacts from the pre-modern period such as Neolithic end scrapers, Bronze Age axes, Roman coins, Medieval seals and Post-Medieval cannon balls.
-contact: http://finds.org.uk/contacts
-portal: “http://europeana.eu/portal/search.html?query=europeana_collectionName%3A2022324&lt;em&gt;&amp;amp;rows=24&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F&lt;/em&gt;” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A2022324&lt;em&gt;&amp;amp;rows=24&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F&lt;/em&gt;”
-providerurl: “http://finds.org.uk/”
-imageurl: 
-  - “/img/datasets/2022324_Antiquities.jpg”
-tags:
-- Archaeology
-- History
-licenses:
-  - Creative Commons Attribution - Share Alike 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/portable-antiquities-historical-objects-from-the-neolithic-until-the-middle-ages/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Photographs Of Places And Buildings In Estonia</title>
-      <link>http://labs.europeana.eu/2014/12/02/photographs-of-places-and-buildings-in-estonia/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/photographs-of-places-and-buildings-in-estonia
-title: Photographs of places and buildings in Estonia
-provider: Muinsuskaitseamet - Estonian National Heritage Board
-description: More than 100 colour photographs of different places and buildings in Estonia, such as churches, graveyards, schools and castles.
-contact: info@muinas.ee
-portal: “http://europeana.eu/portal/search.html?query=europeana_collectionName%3A2020735&lt;em&gt;&amp;amp;rows=24” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A2020735&lt;/em&gt;&amp;amp;rows=24”
-providerurl: “http://www.muinas.ee/en”
-imageurl: 
-  - “/img/datasets/2020735_Estonia.jpg”
-tags:
-- Photographs
-- Tourism
-licenses:
-  - Creative Commons CC0 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/photographs-of-places-and-buildings-in-estonia/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Music And Songs In Yiddish</title>
-      <link>http://labs.europeana.eu/2014/12/02/music-and-songs-in-yiddish/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/music-and-songs-in-yiddish
-title: Music and songs in Yiddish
-provider: Bibliothèque Medem - Maison de la Culture Yiddish
-description: More than 600 old recordings of instrumental music and songs in Yiddish from the Bibliothèque Medem - Maison de la Culture Yiddish
-contact: none
-portal: “http://europeana.eu/portal/search.html?query=europeana_collectionName%3A09301&lt;em&gt;&amp;amp;rows=24” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A09301&lt;/em&gt;&amp;amp;rows=24”
-providerurl: “http://yiddishweb.com/en/welcome/”
-imageurl: 
-  - “/img/datasets/9301_Judaica.jpg”
-tags:
-- Music
-licenses:
-  - Creative Commons Public Domain Mark 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/music-and-songs-in-yiddish/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Medieval Manuscripts And Parchment Fragments From Finland</title>
-      <link>http://labs.europeana.eu/2014/12/02/medieval-manuscripts-and-parchment-fragments-from-finland/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/medieval-manuscripts-and-parchment-fragments-from-finland
-title: Medieval manuscripts and parchment fragments from Finland
-provider: The National Library of Finland
-description: More than 1,600 high-resolution pictures of Medieval manuscripts and parchment fragments with Latin texts, ranging from breviaries and liturgical calendars to psalters, from the The Fragmenta Membranea Collection of The National Library of Finland
-contact: kk-palvelu@helsinki.fi
-portal: “http://europeana.eu/portal/search.html?query=europeana_collectionName%3A+2021003&lt;em&gt;&amp;amp;rows=96” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A+2021003&lt;/em&gt;&amp;amp;rows=96”
-providerurl: “http://www.nationallibrary.fi/”
-imageurl: 
-  - “/img/datasets/2021003_Finland.jpg”
-tags:
-- Manuscripts
-- History
-licenses:
-  - Creative Commons Public Domain Mark 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/medieval-manuscripts-and-parchment-fragments-from-finland/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Lithuanian Postcards And Prints</title>
-      <link>http://labs.europeana.eu/2014/12/02/lithuanian-postcards-and-prints/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/lithuanian-postcards-and-prints
-title: Lithuanian postcards and prints
-provider: Šiaulių „Aušros“ muziejus
-description: More than 500 old postcards and prints from Lithuania, showing scenes from daily life as well as tourist attractions, battlefield drawings and campaigning images.
-contact: info@ausrosmuziejus.lt
-portal: “http://europeana.eu/portal/search.html?query=europeana_collectionName%3A2048004&lt;em&gt;&amp;amp;rows=24&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fzero%2F1.0%2F&lt;/em&gt;” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A2048004&lt;em&gt;&amp;amp;rows=24&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fzero%2F1.0%2F&lt;/em&gt;”
-providerurl: “http://www.ausrosmuziejus.lt/”
-imageurl: 
-  - “/img/datasets/2048004_Lithuania.jpg”
-tags:
-- Postcards
-- Tourism
-- Photographs
-licenses:
-  - Creative Commons CC0 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/lithuanian-postcards-and-prints/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Historical Views And Landscapes Of Europe From The Austrian National Library</title>
-      <link>http://labs.europeana.eu/2014/12/02/historical-views-and-landscapes-of-europe-from-the-austrian-national-library/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/historical-views-and-landscapes-of-europe-from-the-austrian-national-library
-title: Historical views and landscapes of Europe from the Austrian National Library
-provider: Austrian National Library 
-description: More than 3,500 topographical recordings, images of cities, villages, buildings, architecture, landscapes and pictures of natural events from the areas of the former Austrian crown-lands, but also from modern day Germany, Italy, France, England, Spain, Switzerland and The Netherlands.
-contact: bildarchiv@onb.ac.at 
-portal: “http://www.europeana.eu/portal/search.html?query=europeana_collectionName%3A92070&lt;em&gt;&amp;amp;rows=24&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fmark%2F1.0%2F&lt;/em&gt;” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A92070&lt;em&gt;&amp;amp;rows=24&amp;amp;qf=RIGHTS%3Ahttp%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fmark%2F1.0%2F&lt;/em&gt;”
-providerurl: “http://www.bildarchivaustria.at/”
-imageurl: 
-  - “/img/datasets/92070_Austria.jpg”
-tags:
-- History
-- Tourism
-licenses:
-  - Creative Commons Public Domain Mark 
-—&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/historical-views-and-landscapes-of-europe-from-the-austrian-national-library/</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Everyday Life In A Dutch Provincial City Apeldoorn In Black And White Pictures</title>
-      <link>http://labs.europeana.eu/2014/12/02/everyday-life-in-a-dutch-provincial-city-apeldoorn-in-black-and-white-pictures/</link>
+      <title>WWI text posters from Austria-Hungary</title>
+      <link>http://labs.europeana.eu/data/wwi-text-posters-from-austria-hungary</link>
       <description>
 </description>
       <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/everyday-life-in-a-dutch-provincial-city-apeldoorn-in-black-and-white-pictures/</guid>
+      <guid>http://labs.europeana.eu/data/wwi-text-posters-from-austria-hungary</guid>
       <dc:date>2014-12-02T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Everyday Life In A Dutch City Den Bosch In Historical Pictures And Postcards</title>
-      <link>http://labs.europeana.eu/2014/12/02/everyday-life-in-a-dutch-city-den-bosch-in-historical-pictures-and-postcards/</link>
+      <title>WWI photographs from Austria-Hungary</title>
+      <link>http://labs.europeana.eu/data/wwi-photographs-from-austria-hungary</link>
       <description>
 </description>
       <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/everyday-life-in-a-dutch-city-den-bosch-in-historical-pictures-and-postcards/</guid>
+      <guid>http://labs.europeana.eu/data/wwi-photographs-from-austria-hungary</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>User contributed content - pictures of Swedish Monuments</title>
+      <link>http://labs.europeana.eu/data/user-contributed-content-pictures-of-swedish-monuments</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/user-contributed-content-pictures-of-swedish-monuments</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Swedish churches - religious art and architecture</title>
+      <link>http://labs.europeana.eu/data/swedish-churches-religious-art-and-architecture</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/swedish-churches-religious-art-and-architecture</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>The rich history and collections of the University of Edinburgh in pictures, drawings and writings</title>
+      <link>http://labs.europeana.eu/data/rich-history-and-collections-of-the-university-of-edinburgh-in-pictures-drawings-writings</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/rich-history-and-collections-of-the-university-of-edinburgh-in-pictures-drawings-writings</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Portrait Collection of the Austrian National Library</title>
+      <link>http://labs.europeana.eu/data/portrait-collection-of-the-austrian-national-library</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/portrait-collection-of-the-austrian-national-library</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Portable Antiquities - historical objects from the Neolithic until the Middle Ages</title>
+      <link>http://labs.europeana.eu/data/portable-antiquities-historical-objects-from-the-neolithic-until-the-middle-ages</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/portable-antiquities-historical-objects-from-the-neolithic-until-the-middle-ages</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Photographs of places and buildings in Estonia</title>
+      <link>http://labs.europeana.eu/data/photographs-of-places-and-buildings-in-estonia</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/photographs-of-places-and-buildings-in-estonia</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Music and songs in Yiddish</title>
+      <link>http://labs.europeana.eu/data/music-and-songs-in-yiddish</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/music-and-songs-in-yiddish</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Medieval manuscripts and parchment fragments from Finland</title>
+      <link>http://labs.europeana.eu/data/medieval-manuscripts-and-parchment-fragments-from-finland</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/medieval-manuscripts-and-parchment-fragments-from-finland</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Lithuanian postcards and prints</title>
+      <link>http://labs.europeana.eu/data/lithuanian-postcards-and-prints</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/lithuanian-postcards-and-prints</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Historical views and landscapes of Europe from the Austrian National Library</title>
+      <link>http://labs.europeana.eu/data/historical-views-and-landscapes-of-europe-from-the-austrian-national-library</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/historical-views-and-landscapes-of-europe-from-the-austrian-national-library</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Everyday life in a Dutch provincial city - Apeldoorn in black-and-white pictures</title>
+      <link>http://labs.europeana.eu/data/everyday-life-in-a-dutch-provincial-city-apeldoorn-in-black-and-white-pictures</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/everyday-life-in-a-dutch-provincial-city-apeldoorn-in-black-and-white-pictures</guid>
+      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Everyday life in a Dutch city - Den Bosch in historical pictures and postcards</title>
+      <link>http://labs.europeana.eu/data/everyday-life-in-a-dutch-city-den-bosch-in-historical-pictures-and-postcards</link>
+      <description>
+</description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/everyday-life-in-a-dutch-city-den-bosch-in-historical-pictures-and-postcards</guid>
       <dc:date>2014-12-02T00:00:00+01:00</dc:date>
     </item>
     <item>
