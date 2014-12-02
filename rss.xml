@@ -418,26 +418,7 @@ licenses:
     <item>
       <title>Everyday Life In A Dutch Provincial City Apeldoorn In Black And White Pictures</title>
       <link>http://labs.europeana.eu/2014/12/02/everyday-life-in-a-dutch-provincial-city-apeldoorn-in-black-and-white-pictures/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/everyday-life-in-a-dutch-provincial-city-apeldoorn-in-black-and-white-pictures
-title: Everyday life in a Dutch provincial city: Apeldoorn in black-and-white pictures
-provider: CODA  Apeldoorn
-description: More than 30,000 black-and-white pictures showing occasions from everyday life in the Dutch city of Apeldoorn, from traditional holidays and official openings to groups of construction workers at their site.
-contact: mail@coda-apeldoorn.nl
-portal: “http://europeana.eu/portal/search.html?query=europeana_collectionName%3A2021636&lt;em&gt;&amp;amp;rows=24” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A2021636&lt;/em&gt;&amp;amp;rows=24”
-providerurl: “http://www.coda-apeldoorn.nl/english/organization/”
-imageurl: 
-  - “/img/datasets/2021636_Apeldoorn.jpg”
-tags:
-- History
-- Photographs
-licenses:
-  - Creative Commons Attribution - Share Alike 
-—&lt;/p&gt;
-
+      <description>
 </description>
       <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/2014/12/02/everyday-life-in-a-dutch-provincial-city-apeldoorn-in-black-and-white-pictures/</guid>
@@ -446,89 +427,28 @@ licenses:
     <item>
       <title>Everyday Life In A Dutch City Den Bosch In Historical Pictures And Postcards</title>
       <link>http://labs.europeana.eu/2014/12/02/everyday-life-in-a-dutch-city-den-bosch-in-historical-pictures-and-postcards/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/everyday-life-in-a-dutch-city-den-bosch-in-historical-pictures-and-postcards
-title: Everyday life in a Dutch city: Den Bosch in historical pictures and postcards
-provider: Gemeente Den Bosch
-description: More than 55,000 pictures and postcards showing the day-to-day life of the inhabitants of the Dutch city of Den Bosch: shops, houses, celebrations, local dignitaries and ice-skating parties.
-contact: Stadsarchief@s-hertogenbosch.nl
-portal: “http://europeana.eu/portal/search.html?query=europeana_collectionName%3A2021633&lt;em&gt;&amp;amp;rows=24” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A2021633&lt;/em&gt;&amp;amp;rows=24”
-providerurl: “http://www.stadsarchief.nl/engelstalig/welcome/”
-imageurl: 
-  - “/img/datasets/2021633_Den Bosch.jpg”
-tags:
-- History
-- Photographs
-- Tourism
-licenses:
-  - Creative Commons Attribution - Share Alike 
-—&lt;/p&gt;
-
+      <description>
 </description>
       <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/2014/12/02/everyday-life-in-a-dutch-city-den-bosch-in-historical-pictures-and-postcards/</guid>
       <dc:date>2014-12-02T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>European Folk Music From The 20th Century</title>
-      <link>http://labs.europeana.eu/2014/12/02/european-folk-music-from-the-20th-century/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/european-folk-music-from-the-20th-century
-title: European folk music from the 20th century
-provider: DISMARC - EuropeanaConnect
-description: A diverse collection of more than 5,500 20th century recordings of folk music (instrumental and vocal) and family songs from various European countries.
-contact: info@dismarc.org
-portal: “http://europeana.eu/portal/search.html?query=&lt;em&gt;%3A&lt;/em&gt;&amp;amp;rows=24&amp;amp;qf=TYPE%3ASOUND&amp;amp;qf=PROVIDER%3A%22DISMARC+-+EuropeanaConnect%22&amp;amp;qf=REUSABILITY%3Aopen” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=&lt;em&gt;%3A&lt;/em&gt;&amp;amp;rows=24&amp;amp;qf=TYPE%3ASOUND&amp;amp;qf=PROVIDER:%22DISMARC%20-%20EuropeanaConnect%22&amp;amp;reusability=open”
-providerurl: “http://www.dismarc.org/”
-imageurl: 
-  - “/img/datasets/2023601_Folk music.jpg”
-tags:
-- Music
-- Sounds
-licenses:
-  - Creative Commons Public Domain Mark 
-—&lt;/p&gt;
-
+      <title>European folk music from the 20th century</title>
+      <link>http://labs.europeana.eu/data/european-folk-music-from-the-20th-century</link>
+      <description>
 </description>
       <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/european-folk-music-from-the-20th-century/</guid>
+      <guid>http://labs.europeana.eu/data/european-folk-music-from-the-20th-century</guid>
       <dc:date>2014-12-02T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Dutch Buildings Through The Ages</title>
-      <link>http://labs.europeana.eu/2014/12/02/dutch-buildings-through-the-ages/</link>
-      <description>&lt;p&gt;﻿—
-layout: data-item
-category: data
-permalink: data/dutch-buildings-through-the-ages
-title: Dutch buildings through the ages
-provider: Rijksdienst voor het Cultureel Erfgoed
-description: More than 450,000 pictures (colour and black-and-white) of Dutch buildings of various kinds and different periods in time, from windmills and monasteries to train stations and shops.
-contact: info@cultureelerfgoed.nl
-portal: “http://www.europeana.eu/portal/search.html?query=europeana_collectionName%3A2020704&lt;em&gt;&amp;amp;rows=24” 
-console: “http://labs.europeana.eu/api/console/?function=search&amp;amp;query=europeana_collectionName%3A2020704&lt;/em&gt;&amp;amp;rows=24”
-providerurl: “http://www.cultureelerfgoed.nl/”
-imageurl: 
-  - “/img/datasets/2020704_Netherlands.jpg”
-tags:
-- History
-- Tourism
-- Architecture
-- Photographs
-- Geodata
-licenses:
-  - Creative Commons Attribution - Share Alike 
-—&lt;/p&gt;
-
+      <title>Dutch buildings through the ages</title>
+      <link>http://labs.europeana.eu/data/dutch-buildings-through-the-ages</link>
+      <description>
 </description>
       <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/2014/12/02/dutch-buildings-through-the-ages/</guid>
+      <guid>http://labs.europeana.eu/data/dutch-buildings-through-the-ages</guid>
       <dc:date>2014-12-02T00:00:00+01:00</dc:date>
     </item>
     <item>
