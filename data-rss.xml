@@ -10,6 +10,15 @@
     <description>RSS feed for Europeana Labs</description>
     <pubDate>Fri, 23 Jul 9999 00:00:00 +0200</pubDate>
     <item>
+      <title>Swedish churches - religious art and architecture</title>
+      <link>http://labs.europeana.eu/data/swedish-churches-religious-art-and-architecture</link>
+      <description>
+</description>
+      <pubDate>Wed, 03 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/data/swedish-churches-religious-art-and-architecture</guid>
+      <dc:date>2014-12-03T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>WWI text posters from Austria-Hungary</title>
       <link>http://labs.europeana.eu/data/wwi-text-posters-from-austria-hungary</link>
       <description>
@@ -34,15 +43,6 @@
 </description>
       <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/data/user-contributed-content-pictures-of-swedish-monuments</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Swedish churches - religious art and architecture</title>
-      <link>http://labs.europeana.eu/data/swedish-churches-religious-art-and-architecture</link>
-      <description>
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/data/swedish-churches-religious-art-and-architecture</guid>
       <dc:date>2014-12-02T00:00:00+01:00</dc:date>
     </item>
     <item>
