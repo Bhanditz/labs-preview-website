@@ -75,7 +75,7 @@
       <dc:date>2015-02-12T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Swedish churches - religious art and architecture</title>
+      <title>Swedish churches and archaeological sites</title>
       <link>http://labs.europeana.eu/data/swedish-churches-religious-art-and-architecture</link>
       <description>
 </description>
@@ -153,15 +153,6 @@
 </description>
       <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/data/music-and-songs-in-yiddish</guid>
-      <dc:date>2014-12-02T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Medieval manuscripts and parchment fragments from Finland</title>
-      <link>http://labs.europeana.eu/data/medieval-manuscripts-and-parchment-fragments-from-finland</link>
-      <description>
-</description>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/data/medieval-manuscripts-and-parchment-fragments-from-finland</guid>
       <dc:date>2014-12-02T00:00:00+01:00</dc:date>
     </item>
     <item>
@@ -406,15 +397,6 @@
 </description>
       <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/data/slovakian-collection-of-paintings-and-sculptures</guid>
-      <dc:date>2014-08-29T00:00:00+02:00</dc:date>
-    </item>
-    <item>
-      <title>Photographs of Dutch windmills</title>
-      <link>http://labs.europeana.eu/data/photographs-of-dutch-windmills</link>
-      <description>
-</description>
-      <pubDate>Fri, 29 Aug 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/data/photographs-of-dutch-windmills</guid>
       <dc:date>2014-08-29T00:00:00+02:00</dc:date>
     </item>
     <item>
@@ -1147,15 +1129,6 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <dc:date>2014-05-19T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>Scans of plants from the OpenUp! project</title>
-      <link>http://labs.europeana.eu/data/scans-of-plants-from-the-openup-project-berlin</link>
-      <description>
-</description>
-      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/data/scans-of-plants-from-the-openup-project-berlin</guid>
-      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
-    </item>
-    <item>
       <title>Scans of plants and more natural history objects from the OpenUp! project</title>
       <link>http://labs.europeana.eu/data/scans-of-plants-and-more-natural-history-objects-from-the-openup-project</link>
       <description>
@@ -1180,15 +1153,6 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
 </description>
       <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/data/natural-history-objects-from-the-openup-project</guid>
-      <dc:date>2014-05-19T00:00:00+02:00</dc:date>
-    </item>
-    <item>
-      <title>Insects from the OpenUp! project</title>
-      <link>http://labs.europeana.eu/data/insects-from-the-openup-project</link>
-      <description>
-</description>
-      <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/data/insects-from-the-openup-project</guid>
       <dc:date>2014-05-19T00:00:00+02:00</dc:date>
     </item>
     <item>
@@ -1393,15 +1357,6 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>Postcards from Slovakia</title>
-      <link>http://labs.europeana.eu/data/postcards-from-slovakia</link>
-      <description>
-</description>
-      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/data/postcards-from-slovakia</guid>
-      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
-    </item>
-    <item>
       <title>Postcards from Baltics</title>
       <link>http://labs.europeana.eu/apps/postcards-from-baltics</link>
       <description>&lt;p&gt;Winner in the category &amp;#8216;Greatest commercial potential&amp;#8217; at Hack4Europe &amp;#8216;12 - Latvia.&lt;/p&gt;
@@ -1447,24 +1402,6 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/data/pictures-of-glassware</guid>
-      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
-    </item>
-    <item>
-      <title>Pictures of citizens from Lithuania</title>
-      <link>http://labs.europeana.eu/data/pictures-of-citizens-from-lithuania</link>
-      <description>
-</description>
-      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/data/pictures-of-citizens-from-lithuania</guid>
-      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
-    </item>
-    <item>
-      <title>Pictures and scientific texts of birds from Naturalis</title>
-      <link>http://labs.europeana.eu/data/pictures-and-scientific-texts-of-birds-from-naturalis</link>
-      <description>
-</description>
-      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/data/pictures-and-scientific-texts-of-birds-from-naturalis</guid>
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
