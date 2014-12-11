@@ -149,17 +149,16 @@
 
 		
 	<div id="documentation" class="prose grid__item palm--one-whole push--palm-none one-half"><!--
-	--><ul id="markdown-toc">
-  <li><a href="#json-ld">JSON-LD</a></li>
-</ul>
+	--><p><em>Please note:</em> due to a recently identified issue this method is currently unavailable.</p>
 
 <h2 id="json-ld">JSON-LD</h2>
 
 <p>JSON-LD is stands for JSON for Linking Data, and is lightweight Linked Data format.</p>
 
-<p>The basic structure of a JSON-LD response is similar than the normal JSON:</p>
+<p>The basic structure of the JSON-LD response is similar to a normal <a href="/api/record/">single Record JSON request</a>:</p>
 
-<p>```JavaScript
+<p>```
+JavaScript
 {</p>
 
 <pre><code>"@context": {
@@ -251,21 +250,25 @@
 
 <p>The big differences between normal JSON and JSON-LD are</p>
 
-<p>1) JSON-LD makes use <a href="http://en.wikipedia.org/wiki/Internationalized_resource_identifier">Internationalized Resource Identifiers, IRIs</a> as property names. This ensures, that each statement of a record match a standard vocabulary. In Europeana’s implementation the properties are qualified names (in the format of namespace prefix : property name such as “dc:creator”) for the sake of brevity. In the normal JSON response we use non-standard camel case (“dcCreator”) propety names. In the <a href="/api/data-fields/">data field</a> page you can find the connections between our camelCase property names, and the JSON-LD and RDF qualified names.</p>
+<p>1) JSON-LD makes use of <a href="http://en.wikipedia.org/wiki/Internationalized_resource_identifier">Internationalized Resource Identifiers, IRIs</a> as property names. This ensures that each statement of a record matches a standard vocabulary. In Europeana’s implementation the properties are qualified names (in the format of “namespace_prefix:property_name” such as “dc:creator”) for the sake of brevity. In the normal JSON response we use non-standard camel case (“dcCreator”) property names. In the <a href="/api/data-fields/">data fields</a> page you can find the connections between our camelCase property names and the JSON-LD and RDF qualified names.</p>
 
-<p>2) JSON-LD has a <code>@context</code> part, which links object properties in a JSON document to concepts in an ontology. In JSON-LD our case this lists the used namespaces and their prefixes.</p>
+<p>2) JSON-LD has a <code>@context</code> part, which links object properties in a JSON document to concepts in an ontology. In our JSON-LD  this lists the used namespaces and their prefixes.</p>
 
-<p>3) JSON-LD makes difference between the resource type values (), and string literals</p>
+<p>3) JSON-LD makes a distinction between the resource type values (), and string literals</p>
 
-<p>A resource value:
-<code>JavaScript
+<p>A resource value:</p>
+
+<p><code>
+JavaScript
 "edm:landingPage": {
   "@id": "http://www.europeana.eu/portal/record/09102/_CM_0839888.html"
 }, 
 </code></p>
 
-<p>A normal string literal:
-<code>JavaScript
+<p>A normal string literal:</p>
+
+<p><code>
+JavaScript
 "dc:creator": "Europeana",
 </code></p>
 
