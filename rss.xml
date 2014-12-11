@@ -75,6 +75,16 @@
       <dc:date>2015-02-12T00:00:00+01:00</dc:date>
     </item>
     <item>
+      <title>TuoMuseo / YourMuseum</title>
+      <link>http://labs.europeana.eu/apps/TuoMuseo</link>
+      <description>&lt;p&gt;TuoMuseo was one of the winning entries in the Hack for Europe Hack4Pisa event in October 2014. The project combines Europeana content, pulled in through the API,  with Wikimedia, museum and user generated content to automatically create seo friendly pages about heritage points of interests and museum objects. The aim is to be a starting point for making the heritage experience participatory, engaging and social.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 07 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/TuoMuseo</guid>
+      <dc:date>2014-12-07T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>Who's Using What - Eero Hyv&amp;ouml;nen Developer Profile</title>
       <link>http://labs.europeana.eu/blog/whos-using-what-eero-hyvonen</link>
       <description>&lt;p&gt;In this new series &amp;#8220;Who&amp;#8217;s Using What?&amp;#8221;, &lt;a href=&quot;http://pro.europeana.eu/web/network/europeana-tech&quot;&gt;EuropeanaTech&lt;/a&gt; Community Manager Gregory Markus from the &lt;a href=&quot;http://www.beeldengeluid.nl/en&quot;&gt;Netherlands Institute for Sound and Vision&lt;/a&gt;, will be profiling the use of open source software within the EuropeanaTech Communty and the greater digital cultural heritage world at large. Software will range from storytelling tools that enable reuse to OCRs or libraries and everything in between. Enjoy! &lt;/p&gt;

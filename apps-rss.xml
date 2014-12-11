@@ -51,6 +51,16 @@
       <dc:date>9998-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
+      <title>TuoMuseo / YourMuseum</title>
+      <link>http://labs.europeana.eu/apps/TuoMuseo</link>
+      <description>&lt;p&gt;TuoMuseo was one of the winning entries in the Hack for Europe Hack4Pisa event in October 2014. The project combines Europeana content, pulled in through the API,  with Wikimedia, museum and user generated content to automatically create seo friendly pages about heritage points of interests and museum objects. The aim is to be a starting point for making the heritage experience participatory, engaging and social.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 07 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/TuoMuseo</guid>
+      <dc:date>2014-12-07T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>Culture Grid</title>
       <link>http://labs.europeana.eu/apps/culture-grid</link>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.culturegrid.org.uk/&quot;&gt;Culture Grid&lt;/a&gt; opens up a wealth of information from museums, galleries, libraries and archives: giving greater access to UK culture, arts and heritage. It is also an aggregator, powering UK collections into Europeana. On their own search portal they have used the Europeana API to offer users extended search results from across Europe.&lt;/p&gt;
