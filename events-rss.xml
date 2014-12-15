@@ -11,138 +11,138 @@
     <pubDate>Fri, 23 Jul 9999 00:00:00 +0200</pubDate>
     <item>
       <title>UK Heritage + Culture Open Data Challenge</title>
-      <link>http://labs.europeana.eu/events/uk-heritage-culture-open-data-challenge</link>
+      <link>{{site.url}}/events/uk-heritage-culture-open-data-challenge</link>
       <description>[&quot;Nesta and the Open Data Institute are asking teams to develop products and services which answer the question: 'How can we use open data to engage more people, and more diverse people, in UK heritage and culture?'&quot;]</description>
       <pubDate>Wed, 02 Sep 2015 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/uk-heritage-culture-open-data-challenge</guid>
+      <guid>{{site.url}}/events/uk-heritage-culture-open-data-challenge</guid>
       <dc:date>2015-09-02T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Future Everything Festival, February 2015, Manchester</title>
-      <link>http://labs.europeana.eu/events/future-everything-manchester-2015</link>
+      <link>{{site.url}}/events/future-everything-manchester-2015</link>
       <description>[&quot;2015 will welcome the 20th edition of the Future Everything Festival. Artists, designers, city makers, activists, technologists and business people will get together in Manchester’s stunning Town Hall to discover, share and experience new ideas about the future.&quot;]</description>
       <pubDate>Thu, 26 Feb 2015 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/events/future-everything-manchester-2015</guid>
+      <guid>{{site.url}}/events/future-everything-manchester-2015</guid>
       <dc:date>2015-02-26T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Europeana Tech Conference, 2015</title>
-      <link>http://labs.europeana.eu/events/europeana-tech-conference-2015</link>
+      <link>{{site.url}}/events/europeana-tech-conference-2015</link>
       <description>[&quot;This event will bring together application developers, information professionals, technology researchers and decision makers in the cultural domain.&quot;]</description>
       <pubDate>Thu, 12 Feb 2015 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/events/europeana-tech-conference-2015</guid>
+      <guid>{{site.url}}/events/europeana-tech-conference-2015</guid>
       <dc:date>2015-02-12T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Europeana Creative Design Challenge</title>
-      <link>http://labs.europeana.eu/events/creative-design-challenge</link>
+      <link>{{site.url}}/events/creative-design-challenge</link>
       <description>[&quot;Europeana Creative is pleased to announce its final challenge encouraging you to design and submit products, applications and designs that reuse Europeana content in the theme of Design.&quot;]</description>
       <pubDate>Wed, 26 Nov 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/events/creative-design-challenge</guid>
+      <guid>{{site.url}}/events/creative-design-challenge</guid>
       <dc:date>2014-11-26T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Europeana Food &amp; Drink challenge</title>
-      <link>http://labs.europeana.eu/events/food-and-drink-challenge</link>
+      <link>{{site.url}}/events/food-and-drink-challenge</link>
       <description>[&quot;This challenge invites invites applicants to be submit innovative tools, products and services using food and drink themed content from Europeana.&quot;]</description>
       <pubDate>Tue, 25 Nov 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/events/food-and-drink-challenge</guid>
+      <guid>{{site.url}}/events/food-and-drink-challenge</guid>
       <dc:date>2014-11-25T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Apps for Europe Competition</title>
-      <link>http://labs.europeana.eu/events/apps-for-europe-competition</link>
+      <link>{{site.url}}/events/apps-for-europe-competition</link>
       <description>[&quot;Our partner project Apps4Europe invites developers, start-ups and companies that use open data to join the project’s online competition and win a spot at the International Business Lounge @ Future Everything conference on 26 and 27 February 2015 in Manchester (UK).&quot;]</description>
       <pubDate>Tue, 25 Nov 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/events/apps-for-europe-competition</guid>
+      <guid>{{site.url}}/events/apps-for-europe-competition</guid>
       <dc:date>2014-11-25T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Redesign your cultural heritage at Mozilla Festival 2014</title>
-      <link>http://labs.europeana.eu/events/mozilla-festival-2014</link>
+      <link>{{site.url}}/events/mozilla-festival-2014</link>
       <description>[&quot;The aim of the Redesign Your Cultural Heritage! session at MozFest2014 aims to connect the digital cultural heritage offered by Europeana to communities of designers and artists who wish to use open cultural content - data, pictures, sound, videos -  as inspiration and sources for new derivative works, such as animations and films, media art and installations, textile patterns, and other design artefacts.&quot;]</description>
       <pubDate>Sat, 25 Oct 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/mozilla-festival-2014</guid>
+      <guid>{{site.url}}/events/mozilla-festival-2014</guid>
       <dc:date>2014-10-25T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Hack4Pisa</title>
-      <link>http://labs.europeana.eu/events/Hack4Pisa</link>
+      <link>{{site.url}}/events/Hack4Pisa</link>
       <description>[&quot;A two day hackathon and business lounge organised in cooperation with Hyperborea s.r.l and Polo Tecnologico di Navacchio.&quot;]</description>
       <pubDate>Thu, 02 Oct 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/Hack4Pisa</guid>
+      <guid>{{site.url}}/events/Hack4Pisa</guid>
       <dc:date>2014-10-02T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>2nd Europeana Creative Challenge Award Ceremony</title>
-      <link>http://labs.europeana.eu/events/2nd-Europeana-Creative-Challenge-Award-Ceremony</link>
+      <link>{{site.url}}/events/2nd-Europeana-Creative-Challenge-Award-Ceremony</link>
       <description>[&quot;This event is hosted in collaboration with Apps&amp;Culture and  formally closes the second challenge on tourism and social networks themes.&quot;]</description>
       <pubDate>Tue, 23 Sep 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/2nd-Europeana-Creative-Challenge-Award-Ceremony</guid>
+      <guid>{{site.url}}/events/2nd-Europeana-Creative-Challenge-Award-Ceremony</guid>
       <dc:date>2014-09-23T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Apps&amp;amp;Cultura workshop: using Europeana content and the Europeana API</title>
-      <link>http://labs.europeana.eu/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona</link>
+      <link>{{site.url}}/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona</link>
       <description>[&quot;Apps&amp;amp;Cultura has teamed up with Europeana Creative for this year’s Hack at Home competition and the second round of the Europeana Creative Challenges. In this workshop the team from Europeana will be demonstrating how to use the Europeana API and include it into your applications.&quot;]</description>
       <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona</guid>
+      <guid>{{site.url}}/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona</guid>
       <dc:date>2014-07-16T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Open Knowledge Festival 2014 - Open Minds to Open Action</title>
-      <link>http://labs.europeana.eu/events/Open_Knowledge_Foundation_2014</link>
+      <link>{{site.url}}/events/Open_Knowledge_Foundation_2014</link>
       <description>[&quot;The event gathers together open movement makers, thinkers, activists and researchers from around the world. To inspire 'Open Minds to Open Action' (as the slogan goes), the 2014 edition will be a space for learning and dialogue where the activities of the international participants shapes the event and its outcomes.&quot;]</description>
       <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/Open_Knowledge_Foundation_2014</guid>
+      <guid>{{site.url}}/events/Open_Knowledge_Foundation_2014</guid>
       <dc:date>2014-07-15T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>The Europas - The European Tech Startup Awards</title>
-      <link>http://labs.europeana.eu/events/the-europas-2014</link>
+      <link>{{site.url}}/events/the-europas-2014</link>
       <description>[&quot;Founded in 2009, The Europas are the premier awards for Europe’s most forward thinking, progressive and innovative tech companies across over some 20+ categories.&quot;]</description>
       <pubDate>Tue, 10 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/the-europas-2014</guid>
+      <guid>{{site.url}}/events/the-europas-2014</guid>
       <dc:date>2014-06-10T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>First Europeana Creative Challenge Award Ceremony</title>
-      <link>http://labs.europeana.eu/events/1stEuropeanaCreativeChallengeAwardCeremony</link>
+      <link>{{site.url}}/events/1stEuropeanaCreativeChallengeAwardCeremony</link>
       <description>[&quot;The event formally closes the first challenge on history education and natural history education themes.&quot;]</description>
       <pubDate>Tue, 29 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/1stEuropeanaCreativeChallengeAwardCeremony</guid>
+      <guid>{{site.url}}/events/1stEuropeanaCreativeChallengeAwardCeremony</guid>
       <dc:date>2014-04-29T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Coding Da Vinci</title>
-      <link>http://labs.europeana.eu/events/Coding_DaVinci</link>
+      <link>{{site.url}}/events/Coding_DaVinci</link>
       <description>[&quot;Coding Da Vinci is organised by the German Digital Library, Digital Service Center Berlin, Open Knowledge Foundation Germany and Wikimedia Germany. It brings together developers, web and game designers and representatives of cultural institutions to explore ideas for re-use of cultural content.&quot;]</description>
       <pubDate>Sat, 26 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/Coding_DaVinci</guid>
+      <guid>{{site.url}}/events/Coding_DaVinci</guid>
       <dc:date>2014-04-26T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Coding Da Vinci competition award ceremony</title>
-      <link>http://labs.europeana.eu/events/Coding_DaVinci_award_ceremony</link>
+      <link>{{site.url}}/events/Coding_DaVinci_award_ceremony</link>
       <description>[&quot;The ceremony is preceded by a get together BBQ for all participants. On Day 2 the hackathon finalists will present their project and win cool prizes.&quot;]</description>
       <pubDate>Fri, 11 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/Coding_DaVinci_award_ceremony</guid>
+      <guid>{{site.url}}/events/Coding_DaVinci_award_ceremony</guid>
       <dc:date>2014-04-11T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>2nd Europeana Creative Challenge on Tourism and Social Networks (online)</title>
-      <link>http://labs.europeana.eu/events/2nd_Europeana_Creative_Challenge</link>
+      <link>{{site.url}}/events/2nd_Europeana_Creative_Challenge</link>
       <description>[&quot;App developers, e-book publishers, web and game designers will be invited to submit their ideas for the re-use of cultural content in tourism and social network applications.&quot;]</description>
       <pubDate>Fri, 11 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/2nd_Europeana_Creative_Challenge</guid>
+      <guid>{{site.url}}/events/2nd_Europeana_Creative_Challenge</guid>
       <dc:date>2014-04-11T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>International Business Lounge, Future Everything Conference</title>
-      <link>http://labs.europeana.eu/events/International_Business_Lounge_Future_Everything_Conference</link>
+      <link>{{site.url}}/events/International_Business_Lounge_Future_Everything_Conference</link>
       <description>[&quot;The International Business Lounge is the culmination of the first year of Apps for Europe. From the various Business Lounge events that have taken place and an open call for participants, ten winners have been chosen to present their work at FutureEverything.&quot;]</description>
       <pubDate>Mon, 31 Mar 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/events/International_Business_Lounge_Future_Everything_Conference</guid>
+      <guid>{{site.url}}/events/International_Business_Lounge_Future_Everything_Conference</guid>
       <dc:date>2014-03-31T00:00:00+02:00</dc:date>
     </item>
     <dc:date>9999-07-23T00:00:00+02:00</dc:date>
