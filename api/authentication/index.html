@@ -157,33 +157,34 @@
 
 <h3 id="user-authentication">User Authentication</h3>
 
-<p>This form of authentication is used when an application wishes to access MyEuropeana data of a specific user and the public and the private keys of this user are known available in advance. In this case login is done by calling a POST method</p>
+<p>This form of authentication is used when an application wishes to access MyEuropeana data of a specific user. Either the user’s username and password, or public and private keys can be used. The pair of credentials used determines which base API endpoint to use in subsequent API calls, either <code>http://europeana.eu/api/v2/user</code> when using the username/password or <code>http://europeana.eu/api/v2/mydata</code> when using the public/private keys.</p>
 
-<pre><code>http://europeana.eu/api/login.do    
+<pre><code>POST http://europeana.eu/api/login.do
 </code></pre>
-
-<p>with the following two parameters that contain authentication credentials:</p>
 
 <table>
   <thead>
     <tr>
       <th style="text-align: left">Parameter</th>
-      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Either</th>
+      <th style="text-align: left">Or</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: left">j_username</td>
+      <td style="text-align: left">Your USERNAME</td>
       <td style="text-align: left">Your PUBLIC apikey</td>
     </tr>
     <tr>
       <td style="text-align: left">j_password</td>
+      <td style="text-align: left">Your PASSWORD</td>
       <td style="text-align: left">Your PRIVATE apikey</td>
     </tr>
   </tbody>
 </table>
 
-<p>When a login is successful a status 200 is returned, otherwise a redirect to the login page is triggered. </p>
+<p>The initial response header is a <code>HTTP/1.1 302 Moved Temporarily</code> that contains a cookie with the key/value pair, <code>JSESSIONID=&lt;your-session-value&gt;</code>. That cookie will need to be sent with every subsequent API call that requires authentication. Unsuccessful authentication will redirect to <code>http://europeana.eu/api/login?form=user</code>. Successful authentication will redirect to <code>http://europeana.eu/api/</code>.</p>
 
 <h3 id="oauth2-authentication">OAuth2 Authentication</h3>
 
