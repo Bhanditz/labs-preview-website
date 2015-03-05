@@ -77,6 +77,26 @@
       <dc:date>2015-03-04T00:00:00+01:00</dc:date>
     </item>
     <item>
+      <title>Secret Legacy</title>
+      <link>http://labs.europeana.eu/apps/secretlegacy</link>
+      <description>&lt;p&gt;The Secret Legacy is the Europeana Creative Natural History Education Pilot.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/secretlegacy</guid>
+      <dc:date>2015-03-04T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>CultureCam</title>
+      <link>http://labs.europeana.eu/apps/culturecam</link>
+      <description>&lt;h2 id=&quot;culture-cam&quot;&gt;Culture Cam&lt;/h2&gt;
+
+</description>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/culturecam</guid>
+      <dc:date>2015-03-04T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>1st Swiss Open Cultural Data Hackathon</title>
       <link>http://labs.europeana.eu/events/1st-Swiss-Open-Cultural-Data-Hackathon</link>
       <description>[&quot;This event is organised by the OpenGLAM.ch working group and invites software developers, researchers and domain experts interested in using cultural data, data providers, designers, and idea providers for two creative days at the Swiss National Library in Bern.&quot;]</description>
