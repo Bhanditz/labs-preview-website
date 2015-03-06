@@ -8,18 +8,7 @@
     <title>Europeana Labs</title>
     <link>http://labs.europeana.eu</link>
     <description>RSS feed for Europeana Labs</description>
-    <pubDate>Fri, 23 Jul 9999 00:00:00 +0200</pubDate>
-    <item>
-      <title>Serendip-o-matic</title>
-      <link>http://labs.europeana.eu/apps/serendip-o-matic</link>
-      <description>&lt;p&gt;As their page states:
-&amp;#8220;Serendip-o-matic connects your sources to digital materials located in libraries, museums, and archives around the world. By first examining your research interests, and then identifying related content in locations such as the Digital Public Library of America (DPLA), Europeana, and Flickr Commons, our serendipity engine helps you discover photographs, documents, maps and other primary sources.&lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 23 Jul 9999 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/apps/serendip-o-matic</guid>
-      <dc:date>9999-07-23T00:00:00+02:00</dc:date>
-    </item>
+    <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
     <item>
       <title>Culture Collage</title>
       <link>http://labs.europeana.eu/apps/culture-collage</link>
@@ -213,6 +202,16 @@ Enlightenment-era literary history. &lt;/p&gt;
       <dc:date>2015-01-22T00:00:00+01:00</dc:date>
     </item>
     <item>
+      <title>Europeana Beacon (eBe)</title>
+      <link>http://labs.europeana.eu/apps/europeana-beacon</link>
+      <description>&lt;p&gt;Europeana Beacon was the winner of the &lt;a href=&quot;http://www.appsforeurope.eu/&quot;&gt;Apps for Europe&lt;/a&gt; award at &lt;a href=&quot;http://www.eventbrite.co.uk/e/hack4pisa-registration-12152387117&quot;&gt;Hack4Pisa&lt;/a&gt;, October 2014.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-beacon</guid>
+      <dc:date>2014-12-31T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>Content sourcing for the Europeana Food and Drink Challenge</title>
       <link>http://labs.europeana.eu/blog/food-drink-challenge-content-sourcing</link>
       <description>&lt;p&gt;The &lt;a href=&quot;http://foodanddrinkeurope.eu/challengeone/&quot;&gt;first Europeana Food &amp;amp; Drink challenge&lt;/a&gt; invites applicants to submit innovative tools, products and services using food and drink themed content from Europeana.  Here we highlight ways to access content, and outline techniques that you can use to discover more via Europeana&amp;#8217;s API.&lt;/p&gt;
@@ -221,6 +220,17 @@ Enlightenment-era literary history. &lt;/p&gt;
       <pubDate>Mon, 15 Dec 2014 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/blog/food-drink-challenge-content-sourcing</guid>
       <dc:date>2014-12-15T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Serendip-o-matic</title>
+      <link>http://labs.europeana.eu/apps/serendip-o-matic</link>
+      <description>&lt;p&gt;As their page states:
+&amp;#8220;Serendip-o-matic connects your sources to digital materials located in libraries, museums, and archives around the world. By first examining your research interests, and then identifying related content in locations such as the Digital Public Library of America (DPLA), Europeana, and Flickr Commons, our serendipity engine helps you discover photographs, documents, maps and other primary sources.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 12 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/serendip-o-matic</guid>
+      <dc:date>2014-12-12T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Kringla</title>
@@ -240,16 +250,6 @@ Enlightenment-era literary history. &lt;/p&gt;
 </description>
       <pubDate>Sun, 07 Dec 2014 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/apps/TuoMuseo</guid>
-      <dc:date>2014-12-07T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Europeana Beacon (eBe)</title>
-      <link>http://labs.europeana.eu/apps/europeana-beacon</link>
-      <description>&lt;p&gt;Europeana Beacon was the winner of the &lt;a href=&quot;http://www.appsforeurope.eu/&quot;&gt;Apps for Europe&lt;/a&gt; award at &lt;a href=&quot;http://www.eventbrite.co.uk/e/hack4pisa-registration-12152387117&quot;&gt;Hack4Pisa&lt;/a&gt;, October 2014.&lt;/p&gt;
-
-</description>
-      <pubDate>Sun, 07 Dec 2014 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/apps/europeana-beacon</guid>
       <dc:date>2014-12-07T00:00:00+01:00</dc:date>
     </item>
     <item>
@@ -2638,6 +2638,6 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <guid>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</guid>
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
-    <dc:date>9999-07-23T00:00:00+02:00</dc:date>
+    <dc:date>9999-01-01T00:00:00+01:00</dc:date>
   </channel>
 </rss>
