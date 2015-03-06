@@ -61,6 +61,16 @@
       <dc:date>2015-03-04T00:00:00+01:00</dc:date>
     </item>
     <item>
+      <title>Sound Connections</title>
+      <link>http://labs.europeana.eu/apps/sound-connections</link>
+      <description>&lt;h3 id=&quot;explore-sounds-from-across-europe-and-help-enrich-them-with-contextual-information-and-audio-visual-media&quot;&gt;Explore sounds from across Europe and help enrich them with contextual information and audio-visual media.&lt;/h3&gt;
+
+</description>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/sound-connections</guid>
+      <dc:date>2015-03-04T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>Secret Legacy</title>
       <link>http://labs.europeana.eu/apps/secretlegacy</link>
       <description>&lt;p&gt;The Secret Legacy is the Europeana Creative Natural History Education Pilot.&lt;/p&gt;
@@ -71,9 +81,19 @@
       <dc:date>2015-03-04T00:00:00+01:00</dc:date>
     </item>
     <item>
+      <title>Memory Match - Natural History edition</title>
+      <link>http://labs.europeana.eu/apps/memory-match</link>
+      <description>&lt;p&gt;Memory Match – Natural History Edition is one of the pilot applications developed in the Europeana Creative project - a European project enabling and promoting greater re-use of cultural heritage resources by creative industries. The goal of this project was creating an educational game that will be reusing content from Europeana. The application was developed by Semantika in collaboration with the National Museum in Prague. It’s an educational game combining the classic memory game of finding pairs with a quiz game testing player’s knowledge of natural history. The game is primarily aimed at school children and their teachers and parents.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/memory-match</guid>
+      <dc:date>2015-03-04T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>CultureCam</title>
       <link>http://labs.europeana.eu/apps/culturecam</link>
-      <description>&lt;h2 id=&quot;culture-cam&quot;&gt;Culture Cam&lt;/h2&gt;
+      <description>&lt;p&gt;The Culture Cam (http://culturecam.eu) tool offers a non-text based visual search interface to European cultural heritage.&lt;/p&gt;
 
 </description>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0100</pubDate>
