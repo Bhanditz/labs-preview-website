@@ -21,16 +21,6 @@
       <dc:date>9999-07-23T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>Kringla</title>
-      <link>http://labs.europeana.eu/apps/kringla</link>
-      <description>&lt;p&gt;The online portal of the Swedish National Heritage Board (SOCH) www.kringla.nu allows users to search in both the national heritage repository &amp;#8216;SOCH&amp;#8217; and the Europeana repository presenting the search results in different tabs. &lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/apps/kringla</guid>
-      <dc:date>9999-01-01T00:00:00+01:00</dc:date>
-    </item>
-    <item>
       <title>Culture Collage</title>
       <link>http://labs.europeana.eu/apps/culture-collage</link>
       <description>&lt;p&gt;Culture Collage is developed by Monique Szpak (@zenlan) and started as a simple exercise in mashing up a few web technologies, including those of Europeana API.&lt;/p&gt;
@@ -71,7 +61,7 @@
       <dc:date>2015-03-04T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Secret Legacy</title>
+      <title>The Secret Legacy</title>
       <link>http://labs.europeana.eu/apps/secretlegacy</link>
       <description>&lt;p&gt;The Secret Legacy is the Europeana Creative Natural History Education Pilot.&lt;/p&gt;
 
@@ -99,6 +89,16 @@
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/apps/culturecam</guid>
       <dc:date>2015-03-04T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Kringla</title>
+      <link>http://labs.europeana.eu/apps/kringla</link>
+      <description>&lt;p&gt;The online portal of the Swedish National Heritage Board (SOCH) www.kringla.nu allows users to search in both the national heritage repository &amp;#8216;SOCH&amp;#8217; and the Europeana repository presenting the search results in different tabs. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 12 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/kringla</guid>
+      <dc:date>2014-12-12T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>TuoMuseo / YourMuseum</title>
