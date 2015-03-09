@@ -1563,7 +1563,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     <item>
       <title>Europeana4Education (E4E)</title>
       <link>http://labs.europeana.eu/apps/e4e</link>
-      <description>&lt;p&gt;E4E is a set of two widgets that automatically suggest cultural resources from Europeana and learning resources from Open Discovery Space. It is aimed at authors of educational pathways. E4E widgets can be integrated into an authoring environment such as OMEKA to augment the authoring process and to enhance the educational impact of a pathway. The main rationale behind E4E development was to explore the educational uses of items on Europeana. The E4E widgets were developed in the context of the Natural Europe and Open Discovery Space projects. Winner in the category &amp;#8216;Social Inclusion&amp;#8217;.&lt;/p&gt;
+      <description>&lt;p&gt;E4E is a set of two widgets that automatically suggest cultural resources from Europeana and learning resources from Open Discovery Space. &lt;/p&gt;
 
 </description>
       <pubDate>Wed, 15 Jan 2014 00:00:00 +0100</pubDate>
@@ -1573,7 +1573,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     <item>
       <title>yuma.min.js</title>
       <link>http://labs.europeana.eu/apps/yuma</link>
-      <description>&lt;p&gt;Open Source media annotation toolkit that makes content on a Web page annotatable with just a few lines of JavaScript. &lt;strong&gt;Deprectated&lt;/strong&gt; Cf. &lt;a href=&quot;http://labs.europeana.eu/apps/Annotorious-FLOSS/&quot;&gt;&amp;#8216;Annotorious&amp;#8217;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Open Source media annotation toolkit that makes content on a Web page annotatable with just a few lines of JavaScript. &lt;strong&gt;Deprectated&lt;/strong&gt; Cf. &lt;a href=&quot;/apps/Annotorious-FLOSS/&quot;&gt;&amp;#8216;Annotorious&amp;#8217;&lt;/a&gt;&lt;/p&gt;
 
 </description>
       <pubDate>Sat, 11 Jan 2014 00:00:00 +0100</pubDate>
@@ -1603,7 +1603,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     <item>
       <title>CH Context widget</title>
       <link>http://labs.europeana.eu/apps/ch-context-widget</link>
-      <description>&lt;p&gt;This JavaScript-based widget is able to provide links to cultural heritage materials (from Europeana or Digital Public Library of America or Polish Digital Library Federation) based on predefined item of a website on which it is embedded (via given JQuery HTML selector).&lt;/p&gt;
+      <description>&lt;p&gt;This JavaScript-based widget and Wordpress plugin that is able to provide links to cultural heritage materials (from Europeana or Digital Public Library of America or Polish Digital Library Federation) based on a predefined item in a website on which it is embedded (via given JQuery HTML selector).&lt;/p&gt;
 
 </description>
       <pubDate>Tue, 07 Jan 2014 00:00:00 +0100</pubDate>
