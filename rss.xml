@@ -8,17 +8,7 @@
     <title>Europeana Labs</title>
     <link>http://labs.europeana.eu</link>
     <description>RSS feed for Europeana Labs</description>
-    <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
-    <item>
-      <title>Culture Collage</title>
-      <link>http://labs.europeana.eu/apps/culture-collage</link>
-      <description>&lt;p&gt;Culture Collage is developed by Monique Szpak (@zenlan) and started as a simple exercise in mashing up a few web technologies, including those of Europeana API.&lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/apps/culture-collage</guid>
-      <dc:date>9999-01-01T00:00:00+01:00</dc:date>
-    </item>
+    <pubDate>Wed, 02 Sep 2015 00:00:00 +0200</pubDate>
     <item>
       <title>UK Heritage + Culture Open Data Challenge</title>
       <link>http://labs.europeana.eu/events/uk-heritage-culture-open-data-challenge</link>
@@ -34,6 +24,16 @@
       <pubDate>Fri, 08 May 2015 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/events/hacking-culture-bootcamp</guid>
       <dc:date>2015-05-08T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Culture Collage MS Office app</title>
+      <link>http://labs.europeana.eu/apps/culture-collage-MS-Office</link>
+      <description>&lt;p&gt;The Culture Collage MS Office App was developed by Monique Szpak (@zenlan) and allows easy embedding of images, together with their associated descriptions and license information, directly into documents such as Powerpoint presentations.&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/culture-collage-MS-Office</guid>
+      <dc:date>2015-03-09T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>VanGoYourself</title>
@@ -190,6 +190,16 @@ Enlightenment-era literary history. &lt;/p&gt;
       <pubDate>Thu, 22 Jan 2015 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/blog/whos-using-what-douglas-duhaime</guid>
       <dc:date>2015-01-22T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Culture Collage</title>
+      <link>http://labs.europeana.eu/apps/culture-collage-ms-office</link>
+      <description>&lt;p&gt;Culture Collage is developed by Monique Szpak (@zenlan) and started as a simple exercise in mashing up a few web technologies, including those of Europeana API.&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/culture-collage-ms-office</guid>
+      <dc:date>2015-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Europeana Beacon (eBe)</title>
@@ -792,16 +802,6 @@ Enlightenment-era literary history. &lt;/p&gt;
       <dc:date>2014-07-15T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>yuma.min.js</title>
-      <link>http://labs.europeana.eu/apps/yuma</link>
-      <description>&lt;p&gt;Open Source media annotation toolkit that makes content on a Web page annotatable with just a few lines of JavaScript. &lt;strong&gt;Deprectated&lt;/strong&gt; Cf. &lt;a href=&quot;http://labs.europeana.eu/apps/Annotorious-FLOSS/&quot;&gt;&amp;#8216;Annotorious&amp;#8217;&lt;/a&gt;&lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/apps/yuma</guid>
-      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
-    </item>
-    <item>
       <title>easyLOD</title>
       <link>http://labs.europeana.eu/apps/easyLOD</link>
       <description>&lt;p&gt;Simple framework for exposing Linked Open Data from arbitrary sources.&lt;/p&gt;
@@ -971,17 +971,6 @@ Demo is available at &lt;a href=&quot;http://iipimage.sourceforge.net/demo/&quot
 </description>
       <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/IIPImage</guid>
-      <dc:date>2014-07-11T00:00:00+02:00</dc:date>
-    </item>
-    <item>
-      <title>Internet Archive BookReader</title>
-      <link>http://labs.europeana.eu/apps/IABookReader</link>
-      <description>&lt;p&gt;The Internet Archive BookReader is used to view books from the Internet Archive online and can also be used to view other books
-Demo is available at &lt;a href=&quot;http://www.archive.org/stream/birdbookillustra00reedrich#page/n3/mode/2up&quot;&gt;http://www.archive.org/stream/birdbookillustra00reedrich#page/n3/mode/2up&lt;/a&gt;&lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/apps/IABookReader</guid>
       <dc:date>2014-07-11T00:00:00+02:00</dc:date>
     </item>
     <item>
@@ -2449,6 +2438,16 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <dc:date>2014-01-15T00:00:00+01:00</dc:date>
     </item>
     <item>
+      <title>yuma.min.js</title>
+      <link>http://labs.europeana.eu/apps/yuma</link>
+      <description>&lt;p&gt;Open Source media annotation toolkit that makes content on a Web page annotatable with just a few lines of JavaScript. &lt;strong&gt;Deprectated&lt;/strong&gt; Cf. &lt;a href=&quot;http://labs.europeana.eu/apps/Annotorious-FLOSS/&quot;&gt;&amp;#8216;Annotorious&amp;#8217;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 11 Jan 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/yuma</guid>
+      <dc:date>2014-01-11T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>i-Matériel.Lab | Paris</title>
       <link>http://labs.europeana.eu/locations/imateriel</link>
       <description>&lt;p&gt;i-Matériel.Lab is the user driven innovation platform dedicated to Cultural Heritage and Tourism, specialized in mobile products and services (Smartphones, touch screen Tablets and Smart Objects).&lt;/p&gt;
@@ -2638,6 +2637,6 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
       <guid>http://labs.europeana.eu/data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands</guid>
       <dc:date>2014-01-01T00:00:00+01:00</dc:date>
     </item>
-    <dc:date>9999-01-01T00:00:00+01:00</dc:date>
+    <dc:date>2015-09-02T00:00:00+02:00</dc:date>
   </channel>
 </rss>

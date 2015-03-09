@@ -8,7 +8,7 @@
     <title>Europeana Labs</title>
     <link>http://labs.europeana.eu</link>
     <description>RSS feed for Europeana Labs</description>
-    <pubDate>Fri, 01 Jan 9999 00:00:00 +0100</pubDate>
+    <pubDate>Wed, 02 Sep 2015 00:00:00 +0200</pubDate>
     <item>
       <title>UK Heritage + Culture Open Data Challenge</title>
       <link>http://labs.europeana.eu/events/uk-heritage-culture-open-data-challenge</link>
@@ -161,6 +161,6 @@
       <guid>http://labs.europeana.eu/events/International_Business_Lounge_Future_Everything_Conference</guid>
       <dc:date>2014-03-31T00:00:00+02:00</dc:date>
     </item>
-    <dc:date>9999-01-01T00:00:00+01:00</dc:date>
+    <dc:date>2015-09-02T00:00:00+02:00</dc:date>
   </channel>
 </rss>
