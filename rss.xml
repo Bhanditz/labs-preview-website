@@ -1642,7 +1642,11 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
     <item>
       <title>MuseumVille</title>
       <link>http://labs.europeana.eu/apps/museumville</link>
-      <description>&lt;p&gt;This prototype has been inspired by the addictive Facebook game Farmville.&lt;/p&gt;
+      <description>&lt;p&gt;This prototype has been inspired by the addictive Facebook game Farmville.  It is a curation app and game which allows users to build, share and compare their own museums created by selecting content from Europeana.&lt;/p&gt;
+
+&lt;p&gt;The demo has attractive graphic design and a user interface adapted for touch screens, especially tablets (works on both iPad and Android tablets).&lt;/p&gt;
+
+&lt;p&gt;Hack4Europe &amp;#8216;11 - Sweden&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1650,9 +1654,11 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>Jeremy Ottevanger’s mashificator, Imperial War Museum</title>
+      <title>Jeremy Ottevanger’s mashificator</title>
       <link>http://labs.europeana.eu/apps/jeremy-ottevangers-mashificator-imperial-war-museum</link>
-      <description>&lt;p&gt;It uses semantic extraction (through two commercial APIs - Zemanta and Yahoo) to create keywords representing places, people, subjects and periods. It then queries a number of different museum APIs and displays the results as an image slide. &lt;/p&gt;
+      <description>&lt;p&gt;The Mashificator uses semantic extraction (through two commercial APIs - Zemanta and Yahoo) to create keywords representing places, people, subjects and periods. &lt;/p&gt;
+
+&lt;p&gt;It then queries a number of different museum APIs and displays the results as an image slide. With refinement, the mashificator can be used to display Europeana and other museum objects in a visually attractive manner.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1662,7 +1668,11 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
     <item>
       <title>Institution Recommendations Based on Geospatial Data</title>
       <link>http://labs.europeana.eu/apps/institution-recommendations-based-on-geospatial-data</link>
-      <description>&lt;p&gt;Winner in the category &amp;#8216;Greatest Commercial Potential&amp;#8217; and the category &amp;#8216;Developers&amp;#8217; Pick&amp;#8217; (together with &amp;#8216;Art Seeker&amp;#8217;) at Hack4Europe &amp;#8216;11 - Poland. The prototype is a mobile web application which recommends Europeana content providers near to a user&amp;#8217;s location (based on his/her current GPS coordinates) and shows their content on Europeana. &lt;/p&gt;
+      <description>&lt;p&gt;The prototype is a mobile web application which recommends Europeana content providers near to a user&amp;#8217;s location (based on his/her current GPS coordinates) and shows their content on Europeana.&lt;/p&gt;
+
+&lt;p&gt;The application tries to fill the gap between the collections and the end-users by providing additional social features like a check-in and achievement system (the user gets points for content review, recommendation, enrichment) and interaction with other users.&lt;/p&gt;
+
+&lt;p&gt;Winner in the category &amp;#8216;Greatest Commercial Potential&amp;#8217; and the category &amp;#8216;Developers&amp;#8217; Pick&amp;#8217; (together with &amp;#8216;Art Seeker&amp;#8217;) at Hack4Europe &amp;#8216;11 - Poland.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1683,25 +1693,37 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <link>http://labs.europeana.eu/apps/image-form-query-suggestions</link>
       <description>&lt;p&gt;Building on an analysis of user behaviour ,this prototype gives users suggestions related to their intitial search query.&lt;/p&gt;
 
+&lt;p&gt;However, rather than presenting those suggestions as text links it mashes up with Dbpedia and Freebase to identify people, topics and places and displays those as thumbnails. The user can then click on these thumbnails to navigate further into the Europeana content.&lt;/p&gt;
+
+&lt;p&gt;eTech Hackathon 2011&lt;/p&gt;
+
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/image-form-query-suggestions</guid>
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>History4u</title>
-      <link>http://labs.europeana.eu/apps/history4u</link>
-      <description>&lt;p&gt;History4u is a mobile application for Windows 7 which allows the search and display of historical photographs available on Europeana.The application uses GPS technology to identify the nearest place based on the user&amp;#8217;s current coordinates and presents old pictures of this location.&lt;/p&gt;
+      <title>History4u 44 Autogenerated</title>
+      <link>http://labs.europeana.eu/2014/05/16/history4u-44-autogenerated/</link>
+      <description>&lt;p&gt;History4u is a mobile application for Windows 7 which allows the search and display of historical photographs available on Europeana.&lt;/p&gt;
+
+&lt;p&gt;The application uses GPS technology to identify the nearest place based on the user&amp;#8217;s current coordinates and presents old pictures of this location. Tapping on a picture will open a screen with the picture details. Alternatively, the user can find a specific place by searching for a location name (text search) or browsing and selecting a place on an interactive map. Subject for further development are interactive features, such as sharing the found photographs on social media (Twitter, Facebook, Foursquare), introducing a rating system (find the best picture per location), creating browsable histories of these historical photographs, etc. Winner in the category &amp;#8216;Social Inclusion&amp;#8217;.&lt;/p&gt;
+
+&lt;p&gt;Hack4Europe &amp;#8216;12 - Latvia&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/apps/history4u</guid>
+      <guid>http://labs.europeana.eu/2014/05/16/history4u-44-autogenerated/</guid>
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Hackmemory</title>
       <link>http://labs.europeana.eu/apps/hackmemory</link>
       <description>&lt;p&gt;A simple educational application for kids and adults based on well-known memory games.&lt;/p&gt;
+
+&lt;p&gt;Users search for two exactly matching pictures and, once found, they can read about the pictures’ content. Users can create their own quiz and share it with friends on Twitter, Facebook or Buzz. The quiz content comes from Europeana and is filtered by the quiz creator. Pupils and friends can compete and fight for the best place on the leader board – the fastest friend wins!&lt;/p&gt;
+
+&lt;p&gt;Hack4Europe ‘11 - Poland&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1711,7 +1733,11 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
     <item>
       <title>Gamepad 2.0</title>
       <link>http://labs.europeana.eu/apps/gamepad-2.0</link>
-      <description>&lt;p&gt;Winner in the category ‘General Public‘ at Hack4LT. Gamepad 2.0 is an interactive multiplayer HTML5 game.&lt;/p&gt;
+      <description>&lt;p&gt;Gamepad 2.0 is an interactive multiplayer HTML5 game. It uses digitized data from Europeana to generate questions and encourages players to compete with each other by giving answers in a limited amount of time.&lt;/p&gt;
+
+&lt;p&gt;The main screen of the game can be projected virtually on any surface independently of its size, e.g. large screen, iPad, etc. Players can join the game with their smartphones by scanning a QR code which takes the player to a gamepad-website. Gamepad transforms the phone into a controller that can be used to participate in the game. No need for installing extra software and no restictions on platforms or devices - as long as it is able to browse the web, the device qualifies as a gamepad.&lt;/p&gt;
+
+&lt;p&gt;Winner in the category ‘General Public‘ at Hack4LT. &lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1743,6 +1769,8 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <link>http://labs.europeana.eu/apps/europeana-on-free-image-search-tool</link>
       <description>&lt;p&gt;The prototype is a further development of the Free Image Search Tool (FIST), a tool to help illustrate articles on Wikipedia.&lt;/p&gt;
 
+&lt;p&gt;FIST can be used to find images by searching in article categories or lists of articles. It compares the name of the article (all articles in the category/categories/list, articles with no images, or with less than x images) with free pictures in e.g. Wikimedia Commons or Flickr, and then links the findings to a simple upload tool. In this way, users will be able to illustrate a whole article category with one search, instead of having to search individually for each article. The prototype allows images from Europeana collections to be used in Wikipedia articles. Hack4Europe &amp;#8216;11 - Sweden&lt;/p&gt;
+
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/europeana-on-free-image-search-tool</guid>
@@ -1753,6 +1781,8 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <link>http://labs.europeana.eu/apps/europeana-layar</link>
       <description>&lt;p&gt;The prototype allows the user to view Europeana geo-enabled items in an augmented reality mode on Layar compatible devices.&lt;/p&gt;
 
+&lt;p&gt;Layar is the world leading augmented reality browser. Europeana Layar has adapted the Europeana XML feed to be able to work with PorPOISe, the Open Source Layar server. In its first version, the prototype geo-references all Picasso&amp;#8217;s work currently available in the Europeana database in Spain. Users can view image miniatures for every item in augmented reality mode on their devices, and can also access every item page on Europeana. Winner in the category &amp;#8216;Greatest commercial potential&amp;#8217;. Hack4Europe &amp;#8216;11 - Spain&lt;/p&gt;
+
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/europeana-layar</guid>
@@ -1761,7 +1791,7 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
     <item>
       <title>Europeana Geo Search</title>
       <link>http://labs.europeana.eu/apps/europeana-geo-search</link>
-      <description>&lt;p&gt;Europeana Geo Search app for Android: http://pro.europeana.eu/c/document_library/get_file?uuid=2ab26ca0-a4e7-4ea7-87fb-a2828fe2e2eb&amp;amp;groupId=462475&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&quot;http://pro.europeana.eu/c/document_library/get_file?uuid=2ab26ca0-a4e7-4ea7-87fb-a2828fe2e2eb&amp;amp;groupId=462475&quot;&gt;Europeana Geo Search app for Android&lt;/a&gt; 1st Europeana Hackathon 2011&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1769,19 +1799,23 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>Europeana Field Game</title>
-      <link>http://labs.europeana.eu/apps/europeana-field-game</link>
+      <title>Europeana Field Game 19 Autogenerated</title>
+      <link>http://labs.europeana.eu/2014/05/16/europeana-field-game-19-autogenerated/</link>
       <description>&lt;p&gt;Winner in the category &amp;#8216;Most innovative app&amp;#8217; at Hack4Europe &amp;#8216;11 - Poland.&lt;/p&gt;
+
+&lt;p&gt;A community driven geotagging of Europeana content. The user can &amp;#8220;drag&amp;#8221; and pin elements (Europeana items) to a location and see elements pinned to a location by other users. The game encourages geo-tagging by introducing quests and allowing interaction with other users. The geo-tags created by the players can be used later on to suggest interesting Europeana content based on location data.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
-      <guid>http://labs.europeana.eu/apps/europeana-field-game</guid>
+      <guid>http://labs.europeana.eu/2014/05/16/europeana-field-game-19-autogenerated/</guid>
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Europeana Fancy Search</title>
       <link>http://labs.europeana.eu/apps/europeana-fancy-search</link>
       <description>&lt;p&gt;Fancy Search is a Europeana Search API component prototype for Joomla 1.6.&lt;/p&gt;
+
+&lt;p&gt;It complements the Joomla CMS component developed by the same team at the Hilversum hackathon with a Who?What?When?Where? search, mashed up with Freebase and Geonames, interactive maps, a timeline and a visual display of results on a slideshow. Related searches can be performed on any Europeana metadata values. The code is Open Source and ready to be used immediately. Hack4Europe &amp;#8216;11 - Sweden&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1803,6 +1837,8 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <link>http://labs.europeana.eu/apps/europ.in-pinboard-style-picture-search-engine</link>
       <description>&lt;p&gt;Europ.in allows for very visual search and browsing of Europeana content. &lt;/p&gt;
 
+&lt;p&gt;You can search for any keyword and get the results in a pinboard-style grid. Clicking on an image provides more details about the particular search result. If the record clicked has values in its Subject field you can click that value to trigger a new search. Scroll-down to load more results. Europ.in main elements are written in Javascript (jQuery library with Wookmark plugin) and PHP. Winner in the category &amp;#8216;Developers&amp;#8217; Pick&amp;#8217; at Hack4Europe &amp;#8216;12 - Latvia. Finalist at the Digital Agenda Assembly, June 2012, Brussels.&lt;/p&gt;
+
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/europ.in-pinboard-style-picture-search-engine</guid>
@@ -1813,6 +1849,8 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <link>http://labs.europeana.eu/apps/eukindlesearch</link>
       <description>&lt;p&gt;euKindleSearch easily produces e-books for the Amazon Kindle based on searches in the Europeana collections. Winner in the category &amp;#8216;Greatest Commercial Potential&amp;#8217; at Hack4Europe &amp;#8216;11 - UK.&lt;/p&gt;
 
+&lt;p&gt;The prototype&amp;#8217;s first version allows users to search for item records from UK collections. Search results are shown in the Kindle Browser. Links display items in a separate page with a complete description. Further links lead to the data supplier. It is also possible to download search results as an e-book (mobipocket) either to PC or direct to Kindle.&lt;/p&gt;
+
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/eukindlesearch</guid>
@@ -1822,6 +1860,8 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <title>EOD search</title>
       <link>http://labs.europeana.eu/apps/eod-search</link>
       <description>&lt;p&gt;Over 6000 books have been digitised via EOD. Through the Europeana API, EOD search results are enriched with relevant Europeana records.&lt;/p&gt;
+
+&lt;p&gt;The eBooks on Demand (EOD) search makes currently available over 3,4 Mio records from 24 libraries by giving direct access to the items already digitised on users&amp;#8217; requests and through other projects as well as books offered for digitisation on demand. EOD was a partner in the EuropeanaConnect project and has contributed 1000 items to the Europeana portal so far. Over 6000 books have been digitised via EOD. Through the Europeana API, EOD search results are enriched with relevant Europeana records. Thus, any user can easily check if an item has possibly already been digitised and uploaded to the Europeana portal by EOD or one of the numerous European projects.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1853,6 +1893,8 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <link>http://labs.europeana.eu/apps/cultured-canvas</link>
       <description>&lt;p&gt;Winner in the category &amp;#8216;Most innovative app&amp;#8217;  at Hack4Europe &amp;#8216;11 - UK Cultured Canvas is an easy way to promote culture to a user&amp;#8217;s Twitter followers.&lt;/p&gt;
 
+&lt;p&gt;Based on user&amp;#8217;s preferences/selected criteria, the prototype generates backgrounds of Europeana content for a user&amp;#8217;s Twitter account.&lt;/p&gt;
+
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/cultured-canvas</guid>
@@ -1875,6 +1917,8 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <link>http://labs.europeana.eu/apps/crowdhwr</link>
       <description>&lt;p&gt;Winner in the category ‘Digital Humanities‘ at Hack4LT. Crowdhwr is a crowdsourcing manuscripts’ transcription system for digital humanities.&lt;/p&gt;
 
+&lt;p&gt;The prototype allows to mark words in a digitized manuscript taken from Europeana and prepare it for analysis. It provides a tool to convert image to text in order to perform automatic search of a manuscript’s content. The system was developed by using Python and JavaScript languages, SciPy and NumPy packages, and Django framework.&lt;/p&gt;
+
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/crowdhwr</guid>
@@ -1893,6 +1937,8 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <title>Casual Curator</title>
       <link>http://labs.europeana.eu/apps/casual-curator</link>
       <description>&lt;p&gt;Winner in the category &amp;#8216;Social Inclusion&amp;#8217; at Hack4Europe &amp;#8216;11 - UK. Finalist at the Digital Agenda Assembly, June 2011, Brussels.&lt;/p&gt;
+
+&lt;p&gt;Casual Curator gets semantically improved search results from Europeana to aid personal curation for learning and teaching: easily organise, annotate and share culture via an Android touchscreen demonstrator.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1922,6 +1968,8 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <link>http://labs.europeana.eu/apps/artspace</link>
       <description>&lt;p&gt;ArtSpace promotes access to art in everyday situations i.e. Europeana collections can be made available in public places such as coffee shops, libraries, schools and hotels.&lt;/p&gt;
 
+&lt;p&gt;Making use of LCD displays and an online Collection Management System allows us to provide a &amp;#8220;Virtual art leasing&amp;#8221; service and highly personalised curation. Winner in the category &amp;#8216;Most innovative app&amp;#8217; at Hack4Europe &amp;#8216;11 - Poland. Finalist at the Digital Agenda Assembly, June 2012, Brussels.&lt;/p&gt;
+
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/artspace</guid>
@@ -1932,6 +1980,8 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <link>http://labs.europeana.eu/apps/art4europe</link>
       <description>&lt;p&gt;Winner in the category &amp;#8216;Greatest commercial potential&amp;#8217; at Hack4Europe &amp;#8216;11 - Poland. Finalist at the Digital Agenda Assembly, June 2011, Brussels&lt;/p&gt;
 
+&lt;p&gt;How many times have you been in an art museum without knowing anything about the paintings you were looking at? Imagine you could take a photo of any painting and get the description of the painting in a matter of seconds! And what if you could translate the description to any of the EU languages? And even have it read out loud for you? You can do this all with the Europeana dataset and the Art4Europe project!&lt;/p&gt;
+
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/art4europe</guid>
@@ -1940,7 +1990,7 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
     <item>
       <title>Art Terra </title>
       <link>http://labs.europeana.eu/apps/art-terra</link>
-      <description>&lt;p&gt;Winner in the category &amp;#8216;Social inclusion&amp;#8217; at Hack4Europe &amp;#8216;11 - Poland.&lt;/p&gt;
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Social inclusion&amp;#8217; at Hack4Europe &amp;#8216;11 - Poland. A web application which allows end-users to create geo-tags referring to chosen multimedia content (i.e. Europeana images). Those tags can be organised into albums, shared and finally browsed using mobile devices.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1950,7 +2000,7 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
     <item>
       <title>Art Seeker</title>
       <link>http://labs.europeana.eu/apps/art-seeker</link>
-      <description>&lt;p&gt;The prototype is a mobile application for art discovery.&lt;/p&gt;
+      <description>&lt;p&gt;The prototype is a mobile application for art discovery. It supports tourists seeking local attractions with a database of galleries and museums and a preview of exhibitions available on the go. Also, thanks to geo-localisation and map services, it may also serve as a city guide. Winner in the category &amp;#8216;Developers&amp;#8217; Pick&amp;#8217; at Hack4Europe &amp;#8216;11 - Poland (together with &amp;#8220;Institution Recommendations based on Geospatial Data&amp;#8221;).&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1960,7 +2010,7 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
     <item>
       <title>Art Color Bits</title>
       <link>http://labs.europeana.eu/apps/art-color-bits</link>
-      <description>&lt;p&gt;Art Color Bits introduces an innovative way of browsing painters&amp;#8217; works by colours.&lt;/p&gt;
+      <description>&lt;p&gt;Art Color Bits introduces an innovative way of browsing painters&amp;#8217; works by colours. The software gets all the paintings of an author available in the Europeana database and extracts the main colors from each artwork. After that, the whole collection is arranged chronologically with special attention to the main colors. In this way, the app visualises the painter&amp;#8217;s evolution in the use of colors through the different periods of his/her life. This prototype is focused on Picasso&amp;#8217;s works. Winner in the category &amp;#8216;Most innovative app&amp;#8217; (shared with Visual Chronology) Hack4Europe &amp;#8216;11 - Spain&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -2031,9 +2081,9 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <dc:date>2014-04-25T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>vieu- europeana cultural heritage visual search</title>
+      <title>vieu - Europeana cultural heritage visual search</title>
       <link>http://labs.europeana.eu/apps/VIEU</link>
-      <description>&lt;p&gt;&lt;strong&gt;vieu- europeana cultural heritage visual search&lt;/strong&gt; - vieu is a visual search engine focusing on cultural heritage content. Starting from a random set of query suggestions, the user can get a list of matching images ranked by visual similarity. These results are retrieved from a collection of images from Europeana data providers. Along with the results, the user is presented with a direct link to the image page in the Europeana portal.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;vieu - europeana cultural heritage visual search&lt;/strong&gt; - vieu is a visual search engine focusing on cultural heritage content. Starting from a random set of query suggestions, the user can get a list of matching images ranked by visual similarity. These results are retrieved from a collection of images from Europeana data providers. Along with the results, the user is presented with a direct link to the image page in the Europeana portal.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 25 Apr 2014 00:00:00 +0200</pubDate>
@@ -2090,7 +2140,7 @@ The latest&amp;nbsp;&lt;a href=&quot;http://paths-project.eu/eng/Prototype&quot;
     <item>
       <title>Stanbol</title>
       <link>http://labs.europeana.eu/apps/Stanbol</link>
-      <description>&lt;p&gt;&lt;strong&gt;Stanbol&lt;/strong&gt;- The &lt;a href=&quot;http://incubator.apache.org/stanbol/&quot;&gt;Apache Stanbol&lt;/a&gt; project was initiated by the European R&amp;amp;D project &lt;a href=&quot;http://www.iks-project&quot;&gt;IKS&lt;/a&gt; (Interactive Knowledge Stack).&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Stanbol&lt;/strong&gt;- The &lt;a href=&quot;http://incubator.apache.org/stanbol/&quot;&gt;Apache Stanbol&lt;/a&gt; project was initiated by the European R&amp;amp;D project &lt;a href=&quot;http://www.iks-project&quot;&gt;IKS&lt;/a&gt;(Interactive Knowledge Stack).&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0200</pubDate>
@@ -2259,7 +2309,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     <item>
       <title>Karma</title>
       <link>http://labs.europeana.eu/apps/Karma</link>
-      <description>&lt;p&gt;&lt;strong&gt;Karma mapping tool&lt;/strong&gt; - &lt;a href=&quot;http://www.isi.edu/integration/karma/&quot;&gt;Karma&lt;/a&gt;&amp;nbsp;proposes a semantic approach to data mapping. It is a mapping tool that can be used to map data in a variety of formats and from a variety of data sources (databases, spreadsheets, XML&amp;hellip;) to structured RDF. It also allows the creation of links to external resources such as DBpedia or GeoNames.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Karma mapping tool&lt;/strong&gt; - &lt;a href=&quot;http://www.isi.edu/integration/karma/&quot;&gt;Karma&lt;/a&gt; proposes a semantic approach to data mapping. It is a mapping tool that can be used to map data in a variety of formats and from a variety of data sources (databases, spreadsheets, XML&amp;hellip;) to structured RDF. It also allows the creation of links to external resources such as DBpedia or GeoNames.&lt;/p&gt;
 
 </description>
       <pubDate>Sat, 29 Mar 2014 00:00:00 +0100</pubDate>
@@ -2279,7 +2329,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     <item>
       <title>Europeana Connect Annotation Suite</title>
       <link>http://labs.europeana.eu/apps/EuropeanaConnect-Annotation</link>
-      <description>&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt; The EuropeanaConnect Annotation Suite is now a stable tool renamed as Annotorious. For more details see the [Annotorious entry] (http://labs.europeana.eu/apps/Annotorious-FLOSS/)&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Please Note:&lt;/strong&gt; The EuropeanaConnect Annotation Suite is now a stable tool renamed as Annotorious. For more details see the &lt;a href=&quot;http://labs.europeana.eu/apps/Annotorious-FLOSS/&quot;&gt;Annotorious entry&lt;/a&gt;&lt;/p&gt;
 
 </description>
       <pubDate>Sat, 29 Mar 2014 00:00:00 +0100</pubDate>
@@ -2380,7 +2430,7 @@ The aim of PATHS project is to enable exploration and discovery within cultural 
     <item>
       <title>Europeana Local Austria</title>
       <link>http://labs.europeana.eu/apps/europeana-local-austria</link>
-      <description>&lt;p&gt;The Europeana Local Austria portal aggregates content from regional and local Austrian libraries, archives and museums. Through our API, searches in their portal also return results from Europeana.&lt;/p&gt;
+      <description>&lt;p&gt;The Europeana Local Austria portal aggregates content from regional and local Austrian libraries, archives and museums. Through the Europeana API, searches in their portal also return results from Europeana.&lt;/p&gt;
 
 </description>
       <pubDate>Wed, 22 Jan 2014 00:00:00 +0100</pubDate>
