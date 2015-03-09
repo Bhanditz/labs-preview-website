@@ -868,7 +868,9 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
     <item>
       <title>Open Pics app</title>
       <link>http://labs.europeana.eu/apps/open-pics-app</link>
-      <description>&lt;p&gt;This open source app allows search for images in multiple online collections.&lt;/p&gt;
+      <description>&lt;p&gt;This open source app allows search for images in multiple online collections, such as Europeana, New York Public Library, Library of Congress, California Digital Library, Digital Public Library of America, LIFE Magazine photo archive, National Library of Australia (Trove) and Flickr Commons.&lt;/p&gt;
+
+&lt;p&gt;The app is designed for both iPad and iPhone and is available in 15+ languages.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -876,9 +878,11 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
-      <title>National Library of New Zealand</title>
+      <title>Digital NZ - National Library of New Zealand</title>
       <link>http://labs.europeana.eu/apps/national-library-of-new-zealand</link>
       <description>&lt;p&gt;The digital service of the National Library of New Zealand - Digital New Zealand (DigitalNZ) - uses the Europeana API (1.0) to harvest and locally store New Zealand-related Europeana records in their own aggregation.&lt;/p&gt;
+
+&lt;p&gt;Europeana objects are then searchable on their website (and via their API and widgets) with users re-directed to the Europeana portal when they click on an object in the search result. Through the mapping between the Europeana and DigitalNZ search facets, users can filter the Europeana content by usage rights (including finding CC-licensed content), by year and by media type using the standard DigitalNZ website facets. Read more about the collaboration with Europeana on their blog.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -888,7 +892,7 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
     <item>
       <title>National Library of Ireland catalogue widget</title>
       <link>http://labs.europeana.eu/apps/national-library-of-ireland-catalogue-widget</link>
-      <description>&lt;p&gt;This interface allows simultaneous search of many of the Library&amp;#8217;s catalogued collections, including digitised material.&lt;/p&gt;
+      <description>&lt;p&gt;This interface allows simultaneous search of many of the Library&amp;#8217;s catalogued collections, including digitised material.  A new feature is that results from Europeana are also returned for every search, using a sidebar widget. The widget shows six items from Europeana with an option to see the full search result on the Europeana portal. Results from the National Library&amp;#8217;s contributions to Europeana are filtered out to remove duplicates.&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -899,6 +903,10 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
       <title>myHometo.wn</title>
       <link>http://labs.europeana.eu/apps/myhometo.wn</link>
       <description>&lt;p&gt;myHometo.wn can be likened to a public genealogy for all cities across a country.&lt;/p&gt;
+
+&lt;p&gt;This particular prototype showcases how people can add their personal stories to an ever-growing online story about Sweden and its cities. It is a high-potential crowd-sourcing tool for European cultural institutions.&lt;/p&gt;
+
+&lt;p&gt;Hack4Europe &amp;#8216;11 - Sweden&lt;/p&gt;
 
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
@@ -1039,6 +1047,18 @@ Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examp
 </description>
       <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
       <guid>http://labs.europeana.eu/apps/europeana-geo-search</guid>
+      <dc:date>2014-05-16T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana Field Game</title>
+      <link>http://labs.europeana.eu/apps/europeana-field-game</link>
+      <description>&lt;p&gt;Winner in the category &amp;#8216;Most innovative app&amp;#8217; at Hack4Europe &amp;#8216;11 - Poland.&lt;/p&gt;
+
+&lt;p&gt;A community driven geotagging of Europeana content. The user can &amp;#8220;drag&amp;#8221; and pin elements (Europeana items) to a location and see elements pinned to a location by other users. The game encourages geo-tagging by introducing quests and allowing interaction with other users. The geo-tags created by the players can be used later on to suggest interesting Europeana content based on location data.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 16 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/apps/europeana-field-game</guid>
       <dc:date>2014-05-16T00:00:00+02:00</dc:date>
     </item>
     <item>
