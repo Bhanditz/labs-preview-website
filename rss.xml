@@ -20,16 +20,6 @@
       <dc:date>9999-01-01T00:00:00+01:00</dc:date>
     </item>
     <item>
-      <title>Biblioteca Digital Hispánica</title>
-      <link>http://labs.europeana.eu/apps/biblioteca</link>
-      <description>&lt;p&gt;The National Library of Spain has implemented the Europeana API in their online portal, Biblioteca Digital Hispánica. The portal now enables their users to access related Europeana content via a single link on their search results header.&lt;/p&gt;
-
-</description>
-      <pubDate>Thu, 01 Jan 9998 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/apps/biblioteca</guid>
-      <dc:date>9998-01-01T00:00:00+01:00</dc:date>
-    </item>
-    <item>
       <title>UK Heritage + Culture Open Data Challenge</title>
       <link>http://labs.europeana.eu/events/uk-heritage-culture-open-data-challenge</link>
       <description>[&quot;Nesta and the Open Data Institute are asking teams to develop products and services which answer the question: 'How can we use open data to engage more people, and more diverse people, in UK heritage and culture?'&quot;]</description>
@@ -48,7 +38,7 @@
     <item>
       <title>VanGoYourself</title>
       <link>http://labs.europeana.eu/apps/vangoyourself</link>
-      <description>&lt;h2 id=&quot;tired-of-just-looking-at-paintings&quot;&gt;Tired of just looking at paintings?&lt;/h2&gt;
+      <description>&lt;p&gt;VanGoYourself is a genuinely different and surprisingly deep way for visitors to engage with heritage, based on emotion, playfulness and curiosity: recreate a painting or historic photo with your friends, then upload and share your photograph, twinned with the original, for others to enjoy.&lt;/p&gt;
 
 </description>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0100</pubDate>
@@ -58,7 +48,7 @@
     <item>
       <title>Sound Connections</title>
       <link>http://labs.europeana.eu/apps/sound-connections</link>
-      <description>&lt;h3 id=&quot;explore-sounds-from-across-europe-and-help-enrich-them-with-contextual-information-and-audio-visual-media&quot;&gt;Explore sounds from across Europe and help enrich them with contextual information and audio-visual media.&lt;/h3&gt;
+      <description>&lt;p&gt;Explore sounds from across Europe and help enrich them with contextual information and audio-visual media.&lt;/p&gt;
 
 </description>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0100</pubDate>
@@ -78,7 +68,7 @@
     <item>
       <title>Memory Match - Natural History edition</title>
       <link>http://labs.europeana.eu/apps/memory-match</link>
-      <description>&lt;p&gt;Memory Match – Natural History Edition is one of the pilot applications developed in the Europeana Creative project - a European project enabling and promoting greater re-use of cultural heritage resources by creative industries. The goal of this project was creating an educational game that will be reusing content from Europeana. The application was developed by Semantika in collaboration with the National Museum in Prague. It’s an educational game combining the classic memory game of finding pairs with a quiz game testing player’s knowledge of natural history. The game is primarily aimed at school children and their teachers and parents.&lt;/p&gt;
+      <description>&lt;p&gt;Memory Match – Natural History Edition, is an educational game combining the classic memory game of finding pairs with a quiz game testing player’s knowledge of natural history.&lt;/p&gt;
 
 </description>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0100</pubDate>
@@ -240,6 +230,16 @@ Enlightenment-era literary history. &lt;/p&gt;
 </description>
       <pubDate>Fri, 12 Dec 2014 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/apps/kringla</guid>
+      <dc:date>2014-12-12T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Biblioteca Digital Hispánica</title>
+      <link>http://labs.europeana.eu/apps/biblioteca</link>
+      <description>&lt;p&gt;The National Library of Spain has implemented the Europeana API in their online portal, Biblioteca Digital Hispánica. The portal now enables their users to access related Europeana content via a single link on their search results header.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 12 Dec 2014 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/biblioteca</guid>
       <dc:date>2014-12-12T00:00:00+01:00</dc:date>
     </item>
     <item>
