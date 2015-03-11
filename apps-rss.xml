@@ -10,13 +10,33 @@
     <description>RSS feed for Europeana Labs</description>
     <pubDate>Wed, 02 Sep 2015 00:00:00 +0200</pubDate>
     <item>
-      <title>Culture Collage MS Office app</title>
-      <link>http://labs.europeana.eu/apps/culture-collage-MS-Office</link>
-      <description>&lt;p&gt;The Culture Collage MS Office App allows easy embedding of images, together with their associated descriptions and license information, directly into documents such as Powerpoint presentations.&lt;/p&gt;
+      <title>Historiana</title>
+      <link>http://labs.europeana.eu/apps/historiana</link>
+      <description>&lt;p&gt;The Historiana Learning Section is the History Education Pilot from the Europeana Creative Project.&lt;/p&gt;
 
 </description>
       <pubDate>Wed, 11 Mar 2015 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/apps/culture-collage-MS-Office</guid>
+      <guid>http://labs.europeana.eu/apps/historiana</guid>
+      <dc:date>2015-03-11T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana-D3</title>
+      <link>http://labs.europeana.eu/apps/Europeana-D3</link>
+      <description>&lt;p&gt;The purpose of this small project is to show art as a series of connections, using a different kind of data visualisation. The example starts with the artist. From there we link to cultural heritage institutions. And finally we can view the object itself.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/Europeana-D3</guid>
+      <dc:date>2015-03-11T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Ajapaik / Timepatch</title>
+      <link>http://labs.europeana.eu/apps/ajapaik-timepatch</link>
+      <description>&lt;p&gt;Ajapaik (translated from Estonian to English as &amp;#8216;Timepatch&amp;#8217;) is a location based site inviting users to look around and add metadata to historical images. It also adds a social and competitive element, with points awarded for contributions made.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/ajapaik-timepatch</guid>
       <dc:date>2015-03-11T00:00:00+01:00</dc:date>
     </item>
     <item>
