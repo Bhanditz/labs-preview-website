@@ -10,6 +10,16 @@
     <description>RSS feed for Europeana Labs</description>
     <pubDate>Wed, 02 Sep 2015 00:00:00 +0200</pubDate>
     <item>
+      <title>Museums.EU</title>
+      <link>http://labs.europeana.eu/apps/museums-eu</link>
+      <description>&lt;p&gt;Museums.EU describes itself as &amp;#8220;The European Museums Network intended to present and promote museums and cultural heritage across Europe&amp;#8221;.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/museums-eu</guid>
+      <dc:date>2015-03-11T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>Historiana</title>
       <link>http://labs.europeana.eu/apps/historiana</link>
       <description>&lt;p&gt;The Historiana Learning Section is the History Education Pilot from the Europeana Creative Project.&lt;/p&gt;
