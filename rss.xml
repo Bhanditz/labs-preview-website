@@ -26,6 +26,16 @@
       <dc:date>2015-05-08T00:00:00+02:00</dc:date>
     </item>
     <item>
+      <title>Museums Eu</title>
+      <link>http://labs.europeana.eu/2015/03/11/Museums-eu/</link>
+      <description>&lt;p&gt;Museums.EU describes itself as &amp;#8220;The European Museums Network intended to present and promote museums and cultural heritage across Europe&amp;#8221;.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/2015/03/11/Museums-eu/</guid>
+      <dc:date>2015-03-11T00:00:00+01:00</dc:date>
+    </item>
+    <item>
       <title>Historiana</title>
       <link>http://labs.europeana.eu/apps/historiana</link>
       <description>&lt;p&gt;The Historiana Learning Section is the History Education Pilot from the Europeana Creative Project.&lt;/p&gt;
@@ -33,16 +43,6 @@
 </description>
       <pubDate>Wed, 11 Mar 2015 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/apps/historiana</guid>
-      <dc:date>2015-03-11T00:00:00+01:00</dc:date>
-    </item>
-    <item>
-      <title>Europeana-D3</title>
-      <link>http://labs.europeana.eu/apps/Europeana-D3</link>
-      <description>&lt;p&gt;The purpose of this small project is to show art as a series of connections, using a different kind of data visualisation. The example starts with the artist. From there we link to cultural heritage institutions. And finally we can view the object itself.&lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 11 Mar 2015 00:00:00 +0100</pubDate>
-      <guid>http://labs.europeana.eu/apps/Europeana-D3</guid>
       <dc:date>2015-03-11T00:00:00+01:00</dc:date>
     </item>
     <item>
@@ -114,6 +114,36 @@
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0100</pubDate>
       <guid>http://labs.europeana.eu/apps/culturecam</guid>
       <dc:date>2015-03-04T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>Europeana-D3</title>
+      <link>http://labs.europeana.eu/apps/Europeana-D3</link>
+      <description>&lt;p&gt;The purpose of this small project is to show art as a series of connections, using a different kind of data visualisation. The example starts with the artist. From there we link to cultural heritage institutions. And finally we can view the object itself.&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 03 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/Europeana-D3</guid>
+      <dc:date>2015-03-03T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>PostcodePast</title>
+      <link>http://labs.europeana.eu/apps/postcodepast</link>
+      <description>&lt;p&gt;The aim of the PostcodePast prototype is three-fold:&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/postcodepast</guid>
+      <dc:date>2015-03-01T00:00:00+01:00</dc:date>
+    </item>
+    <item>
+      <title>CulturePics</title>
+      <link>http://labs.europeana.eu/apps/culturepics</link>
+      <description>&lt;p&gt;CulturePics provides custom images from the world&amp;#8217;s cultural collections.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0100</pubDate>
+      <guid>http://labs.europeana.eu/apps/culturepics</guid>
+      <dc:date>2015-03-01T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>1st Swiss Open Cultural Data Hackathon</title>
