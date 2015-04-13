@@ -10,6 +10,15 @@
     <description>RSS feed for Europeana Labs</description>
     <pubDate>Wed, 02 Sep 2015 00:00:00 +0200</pubDate>
     <item>
+      <title>Toys and history from Deventer Museum</title>
+      <link>http://labs.europeana.eu/data/deventer-historical-and-toy-museum</link>
+      <description>
+</description>
+      <pubDate>Mon, 13 Apr 2015 00:00:00 +0200</pubDate>
+      <guid>http://labs.europeana.eu/data/deventer-historical-and-toy-museum</guid>
+      <dc:date>2015-04-13T00:00:00+02:00</dc:date>
+    </item>
+    <item>
       <title>The history of the circus from 1880 to now</title>
       <link>http://labs.europeana.eu/data/the-history-of-the-circus-from-1880-to-now</link>
       <description>
