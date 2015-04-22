@@ -182,6 +182,8 @@
 <pre><code>http://europeana.eu/api/v2/providers.json
 </code></pre>
 
+<p>Alternatively, you can also use the <a href="/api/data-fields/#metadata-facets">DATA_PROVIDER facet</a> in a <a href="/api/search/">Search Query</a> to group results by and search for results by a provider.</p>
+
 <h3 id="request">Request</h3>
 
 <table>
@@ -214,6 +216,12 @@
     </tr>
   </tbody>
 </table>
+
+<p>List all providers from The Netherlands:</p>
+
+<pre><code>&amp;countryCode=NL
+http://www.europeana.eu/api/v2/providers.json?wskey=xxxx&amp;countryCode=NL
+</code></pre>
 
 <h3 id="response">Response</h3>
 
@@ -325,6 +333,11 @@
 <pre><code>http://europeana.eu/api/v2/provider/[providerID]/datasets.json
 </code></pre>
 
+<p>Alternatively, you can also construct a <a href="/api/search">Search Query</a> with a custom dataset facet to group results by and search for results by dataset.</p>
+
+<pre><code>http://europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=europeana_collectionName:*&amp;facet=europeana_collectionName&amp;f.europeana_collectionName.facet.limit=2000&amp;profile=facets
+</code></pre>
+
 <h3 id="request-2">Request</h3>
 
 <table>
@@ -395,7 +408,7 @@
       <td style="text-align: left">the number of records that belong to this dataset and are published on the Europeana Portal</td>
     </tr>
     <tr>
-      <td style="text-align: left">…</td>
+      <td style="text-align: left">N/A</td>
       <td style="text-align: left">deleteRecords</td>
       <td style="text-align: left">Number</td>
       <td style="text-align: left">The number of records that have been removed or deleted</td>

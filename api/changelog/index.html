@@ -157,7 +157,7 @@
       <li><a href="#support-for-and-inclusion-of-technical-metadata">Support for and inclusion of technical metadata</a></li>
     </ul>
   </li>
-  <li><a href="#version-2-0-12-2014-06-18">Version 2.-0-.12 (2014-06-18)</a>    <ul>
+  <li><a href="#version-2012-2014-06-18">Version 2.0.12 (2014-06-18)</a>    <ul>
       <li><a href="#v2translatequeryjson">/v2/translateQuery.json</a></li>
       <li><a href="#renaming-field-europeanacollectionname-to-edmdatasetname">Renaming field “europeanaCollectionName” to “edmDatasetName”</a></li>
     </ul>
@@ -183,7 +183,7 @@
 
 <h3 id="support-for-and-inclusion-of-technical-metadata">Support for and inclusion of technical metadata</h3>
 
-<p>The API now supports technical metadata, metadata which is extracted from media files such as images. This results in new request parameters for the <a href="/api/search">search API</a>, the addition of <a href="/api/data-fields/">new facets</a> and an updated <a href="/api/record">response in the record API</a>. At the time of release (end of April), we have extracted technical metadata for about one-third of our collection. This number will increase gradually over the next few months.</p>
+<p>The API now supports technical metadata, metadata which is extracted from media files such as images. This results in new request parameters for the <a href="/api/search/#request">search API</a>, the addition of <a href="/api/data-fields/#technical-metadata-facets">new facets</a> and an updated <a href="/api/record/#response">response in the record API</a>. At the time of release, we have extracted technical metadata for about one-third of our collection. This number will increase gradually over the next few months.</p>
 
 <p>An overview of the new API parameters:</p>
 
@@ -199,7 +199,7 @@
     <tr>
       <td style="text-align: left">media</td>
       <td style="text-align: left">Boolean</td>
-      <td style="text-align: left">Filter by records where an URL to the full media file is present in the edm:isShownBy or edm:hasView metadata. Works only with ‘true’.</td>
+      <td style="text-align: left">Filter by records where an URL to the full media file is present in the edm:isShownBy or edm:hasView metadata and is resolvable. Works only with ‘true’.</td>
     </tr>
   </tbody>
 </table>
@@ -272,17 +272,26 @@
 
 <p>Find all records that match the query ‘Paris’ which are openly licensed and have large images:</p>
 
-<p>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusability=open&amp;qf=IMAGE_SIZE:large</p>
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusability=open&amp;qf=IMAGE_SIZE:large
+</code></pre>
+
+<p><a href="/api/console/?function=search&amp;query=Paris&amp;reusability=open&amp;qf=IMAGE_SIZE:large">Test on API Console</a></p>
 
 <p>Find all records that match the query Paris which have a thumbnail image, are of mime type image/jpeg and have an aspect ratio of ‘landscape’:</p>
 
-<p>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;thumbnail=true&amp;qf=MIME_TYPE:image%2Fjpeg&amp;qf=IMAGE_ASPECTRATIO:landscape</p>
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;thumbnail=true&amp;qf=MIME_TYPE:image%2Fjpeg&amp;qf=IMAGE_ASPECTRATIO:landscape
+</code></pre>
 
-<p>Find all records where the subject is opera and where the results are sound files with a long duration :</p>
+<p><a href="/api/console/?function=search&amp;query=Paris&amp;thumbnail=true&amp;qf=MIME_TYPE:image%2Fjpeg&amp;qf=IMAGE_ASPECTRATIO:landscape">Test on API Console</a></p>
 
-<p>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=what:opera&amp;qf=SOUND_DURATION:long</p>
+<p>Find all records where the subject is opera and where the results are sound files with a long duration:</p>
 
-<h2 id="version-2-0-12-2014-06-18">Version 2.-0-.12 (2014-06-18)</h2>
+<pre><code>http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=what:opera&amp;qf=SOUND_DURATION:long
+</code></pre>
+
+<p><a href="/api/console/?function=search&amp;query=what:opera&amp;qf=SOUND_DURATION:long">Test on API Console</a></p>
+
+<h2 id="version-2012-2014-06-18">Version 2.0.12 (2014-06-18)</h2>
 
 <h3 id="v2translatequeryjson">/v2/translateQuery.json</h3>
 
