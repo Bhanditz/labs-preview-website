@@ -1,0 +1,503 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif:400,700&subset=latin,greek,cyrillic,latin-ext' rel='stylesheet' type='text/css'>	    
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>  API1-API2 field mapping -  Europeana Labs </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width"/>
+	<!-- never cache patterns -->
+	<meta http-equiv="cache-control" content="max-age=0"/>
+	<meta http-equiv="cache-control" content="no-cache"/>
+	<meta http-equiv="expires" content="0"/>
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
+	<meta http-equiv="pragma" content="no-cache"/>
+	<meta property="og:title" content=" API1-API2 field mapping -  Europeana Labs" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="Europeana Labs" />
+	<meta property="twitter:title" content=" API1-API2 field mapping -  Europeana Labs" />
+    <meta property="twitter:description" content="" />
+    <meta property="twitter:site_name" content="Europeana Labs" />    
+
+    <link rel="stylesheet" href="/css/styleguide.css"/>
+    <link rel="stylesheet" href="/css/screen.css" media="all" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel='author' href='/humans.txt'/>
+    
+	<style type="text/css">.tk-dejarip{font-family:"dejarip",sans-serif;}.tk-ff-more-web-pro{font-family:"ff-more-web-pro",serif;}</style>
+	
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu|Open+Sans' rel='stylesheet' type='text/css'>    
+    <link rel="stylesheet" href="/css/labs.css" />
+    <script src="/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/lunr.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/mustache.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/date.format.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/URI.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/jquery.pages.js"></script>
+	<script src="/js/tagfiltering.js"></script>				
+    <script src="/js/labs.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/ifv4urq.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49084773-1', 'labs.europeana.eu');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body class="sg-single-pattern svg"><!--
+-->﻿<!-- Begin header -->
+<header class="header cf" role="banner">
+<div class="lc">
+        <a href="/" class="logo ir"> </a>	
+        <a id="hamMenu" href="#" class="nav-toggle nav-toggle-menu icon-rows"><span class="is-vishidden">Menu</span></a>
+        <a href="/rss.xml" class="nav-toggle nav-toggle-search icon-rss"><span class="is-vishidden">Rss</span></a>
+        <a href="/search" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a>
+
+		
+        <form id="search" action="/search" method="get" class="inline-form search-form">
+        	
+        	<a id="rssUrl" href="/rss.xml" class="icon-rss pull-right"><span class="is-vishidden">Rss</span></a>
+            <fieldset>
+                <legend class="is-vishidden">Search</legend>
+                <label for="search-field" class="is-vishidden">Search</label>
+                <input type="text" placeholder="Search" id="search-query" name="q" class="search-field search-query" autocomplete="off">
+                <button class="search-submit">
+                    <span class="icon-search" aria-hidden="true"></span>
+                    <span class="is-vishidden">Search</span>
+                </button>
+            </fieldset>
+        </form>
+        <nav id="nav" class="nav">
+            <ul>
+                <li><a href="/" class="current">Home</a></li>
+                <li><a href="/api">APIs</a></li>
+                <li><a href="/data">Data</a></li>
+                <li><a href="/apps">Apps</a></li>
+                <li><a href="/blog">Blog</a></li>                
+                <li><a href="/events">Events</a></li>
+                <li><a href="/incubation">Incubation</a></li>
+                <li><a href="/support">Support</a></li>
+            </ul>
+        </nav>
+    </div>
+	<div class="featureBanner"></div>
+</header>
+<!-- End header -->
+<!--
+-->
+
+<div role="main" class="grid">
+	<div class="block block-content-header">
+		<div class="grid__item palm--one-whole push--palm--none three-quarters push--one-quarter">
+			<h1 class="title">API1-API2 field mapping</h1>
+		</div>
+	</div>
+
+		<div class="grid__item one-quarter palm--one-whole">		
+		<style type="text/css">
+		  ul.notabs {display: none;}
+		  ul.notabs li a {border: 0;}
+
+		  ul ul li { margin:0; margin-left: 30px;}
+		  ul.notabs a { padding: 0.5rem; }	
+		  ul ul li a.current{text-decoration: underline; }		
+		</style>
+		<ul class="tabs tabs-v">
+			<li><a href="/api" title="API Introduction">Introduction</a></li>
+			<li>
+				<a class="menuTrigger">REST API</a>
+				<ul class="notabs tabs-v">
+					<li><a href="/api/introduction" title="Introduction">Introduction</a></li>
+					<li><a href="/api/getting-started" title="Getting Started with the Europeana REST API">Getting Started</a></li>
+					<li><a href="/api/registration" title="API Registration">Get an API-key</a></li>
+					<li><a href="/api/console" title="API Console">Console</a></li>
+					<li><a href="/api/authentication" title="Authentication">Authentication</a></li>
+					<li><a href='/api/search/' title='Search'>Search</a></li>
+					<li><a href='/api/opensearch/' title='OpenSearch RSS'>OpenSearch RSS</a></li>
+					<li><a href='/api/query/' title='Query Syntax'>Query Syntax</a></li>
+					<li><a href='/api/record/' title='Record'>Record</a></li>
+					<li><a href='/api/record/jsonld/' title='Record in JSON-LD'>Record in JSON-LD</a></li>
+					<li><a href='/api/suggestions/' title='Suggestions'>Suggestions</a></li>
+					<li><a href='/api/query-translation/' title='Query Translation'>Query Translation</a></li>
+					<li><a href='/api/myeuropeana/' title='MyEuropeana'>MyEuropeana</a></li>
+					<li><a href='/api/provider/' title='Provider and Datasets'>Provider and Datasets</a></li>
+					<li><a href='/api/data-hierarchy/' title='Data Hierarchy'>Data Hierarchy</a></li>
+					<li><a href='/api/data-fields/' title='Data Fields'>Data Fields</a></li>
+					<li><a href='/api/error/' title='Error Codes'>Error Codes</a></li>
+					<li><a href='/api/changelog/' title='Change Log'>Change Log</a></li>
+					<li><a href='/api/api1-api2-mapping/' title='API1-API2 compatibility'>API1-API2 compatibility</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuTrigger">Linked Open Data</a>
+				<ul class="notabs tabs-v">
+					<li><a href="/api/linked-open-data/introduction">Introduction</a></li>
+					<li><a href="/api/linked-open-data/data-downloads">Data Downloads</a></li>
+					<li><a href="/api/linked-open-data/SPARQL-endpoint">SPARQL-endpoint</a></li>
+					<li><a href="/api/linked-open-data/data-structure">Data Structure</a></li>
+					<li><a href="/api/linked-open-data/FAQ">FAQ</a></li>
+					<li><a href="/api/linked-open-data/credits">Credits</a></li>
+				</ul>
+			</li>
+			<li><a href="/api/search-widget" title="Search Widget">Search Widget</a></li>			
+			<li><a href="http://www.europeana.eu/portal/rights/api-terms-of-use.html" title="API Data Fields Reference">Terms of Use</a></li>						
+		</ul>	
+	</div>
+
+		
+	<div id="documentation" class="prose grid__item palm--one-whole push--palm-none one-half"><!--
+	-->
+<p>Some fields available in API1 were renamed in API2. In the table below you can find the mapping between the old and the new field names. Old field names are still supported but we encourage using new names because the backward compatibility with API1 fields will be stopped at some point.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">API1 field</th>
+      <th style="text-align: left">API2 field</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">europeana_uri</td>
+      <td style="text-align: left">europeana_id</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_collectionName</td>
+      <td style="text-align: left">europeana_collectionName</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_type</td>
+      <td style="text-align: left">proxy_edm_type</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_object</td>
+      <td style="text-align: left">provider_aggregation_edm_object</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_isShownAt</td>
+      <td style="text-align: left">provider_aggregation_edm_isShownAt</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_isShownBy</td>
+      <td style="text-align: left">provider_aggregation_edm_isShownBy</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_provider</td>
+      <td style="text-align: left">provider_aggregation_edm_provider</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_dataProvider</td>
+      <td style="text-align: left">provider_aggregation_edm_dataProvider</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_rights</td>
+      <td style="text-align: left">provider_aggregation_edm_rights</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_UGC</td>
+      <td style="text-align: left">edm_UGC</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_completeness</td>
+      <td style="text-align: left">europeana_completeness</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_previewNoDistribute</td>
+      <td style="text-align: left">europeana_previewNoDistribute</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_coverage</td>
+      <td style="text-align: left">proxy_dc_coverage</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_contributor</td>
+      <td style="text-align: left">proxy_dc_contributor</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_description</td>
+      <td style="text-align: left">proxy_dc_description</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_creator</td>
+      <td style="text-align: left">proxy_dc_creator</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_date</td>
+      <td style="text-align: left">proxy_dc_date</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_format</td>
+      <td style="text-align: left">proxy_dc_format</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_identifier</td>
+      <td style="text-align: left">proxy_dc_identifier</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_language</td>
+      <td style="text-align: left">proxy_dc_language</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_publisher</td>
+      <td style="text-align: left">proxy_dc_publisher</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_relation</td>
+      <td style="text-align: left">proxy_dc_relation</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_rights</td>
+      <td style="text-align: left">proxy_dc_rights</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_source</td>
+      <td style="text-align: left">proxy_dc_source</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_subject</td>
+      <td style="text-align: left">proxy_dc_subject</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_title</td>
+      <td style="text-align: left">proxy_dc_title</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dc_type</td>
+      <td style="text-align: left">proxy_dc_type</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_alternative</td>
+      <td style="text-align: left">proxy_dcterms_alternative</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_created</td>
+      <td style="text-align: left">proxy_dcterms_created</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_conformsTo</td>
+      <td style="text-align: left">proxy_dcterms_conformsTo</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_extent</td>
+      <td style="text-align: left">proxy_dcterms_extent</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_hasFormat</td>
+      <td style="text-align: left">proxy_dcterms_hasFormat</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_hasVersion</td>
+      <td style="text-align: left">proxy_dcterms_hasVersion</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_isFormatOf</td>
+      <td style="text-align: left">proxy_dcterms_isFormatOf</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_isPartOf</td>
+      <td style="text-align: left">proxy_dcterms_isPartOf</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_isReferencedBy</td>
+      <td style="text-align: left">proxy_dcterms_isReferencedBy</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_isReplacedBy</td>
+      <td style="text-align: left">proxy_dcterms_isReplacedBy</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_isRequiredBy</td>
+      <td style="text-align: left">proxy_dcterms_isRequiredBy</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_issued</td>
+      <td style="text-align: left">proxy_dcterms_issued</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_isVersionOf</td>
+      <td style="text-align: left">proxy_dcterms_isVersionOf</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_medium</td>
+      <td style="text-align: left">proxy_dcterms_medium</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_provenance</td>
+      <td style="text-align: left">proxy_dcterms_provenance</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_references</td>
+      <td style="text-align: left">proxy_dcterms_references</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_replaces</td>
+      <td style="text-align: left">proxy_dcterms_replaces</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_requires</td>
+      <td style="text-align: left">proxy_dcterms_requires</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_spatial</td>
+      <td style="text-align: left">proxy_dcterms_spatial</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_tableOfContents</td>
+      <td style="text-align: left">proxy_dcterms_tableOfContents</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_temporal</td>
+      <td style="text-align: left">proxy_dcterms_temporal</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">skos_prefLabel</td>
+      <td style="text-align: left">cc_skos_prefLabel</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">skos_altLabel</td>
+      <td style="text-align: left">cc_skos_altLabel</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">skos_broader</td>
+      <td style="text-align: left">cc_skos_broader</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">period_begin</td>
+      <td style="text-align: left">ts_edm_begin</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">period_end</td>
+      <td style="text-align: left">ts_edm_end</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">wgs_lat</td>
+      <td style="text-align: left">pl_wgs84_pos_lat</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">wgs_lon</td>
+      <td style="text-align: left">pl_wgs84_pos_long</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_place_term</td>
+      <td style="text-align: left">edm_place</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_place_label</td>
+      <td style="text-align: left">pl_skos_prefLabel</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_place_latitude</td>
+      <td style="text-align: left">pl_wgs84_pos_lat</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_place_longitude</td>
+      <td style="text-align: left">pl_wgs84_pos_long</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_period_term</td>
+      <td style="text-align: left">edm_timespan</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_period_label</td>
+      <td style="text-align: left">ts_skos_prefLabel</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_period_begin</td>
+      <td style="text-align: left">ts_edm_begin</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_period_end</td>
+      <td style="text-align: left">ts_edm_end</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_concept_term</td>
+      <td style="text-align: left">skos_concept</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_concept_label</td>
+      <td style="text-align: left">cc_skos_prefLabel</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_agent_term</td>
+      <td style="text-align: left">edm_agent</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_agent_label</td>
+      <td style="text-align: left">ag_skos_prefLabel</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_place_broader_term</td>
+      <td style="text-align: left">pl_dcterms_isPartOf</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_place_broader_label</td>
+      <td style="text-align: left">pl_dcterms_isPartOf_label</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_period_broader_term</td>
+      <td style="text-align: left">ts_dcterms_isPartOf</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_period_broader_label</td>
+      <td style="text-align: left">ts_dcterms_isPartOf_label</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_concept_broader_term</td>
+      <td style="text-align: left">cc_skos_broader”, false, true),</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">enrichment_concept_broader_label</td>
+      <td style="text-align: left">cc_skos_broaderLabel</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_year</td>
+      <td style="text-align: left">proxy_edm_year</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_language</td>
+      <td style="text-align: left">europeana_aggregation_edm_language</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">europeana_country</td>
+      <td style="text-align: left">europeana_aggregation_edm_country</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dcterms_hasPart</td>
+      <td style="text-align: left">proxy_dcterms_hasPart</td>
+    </tr>
+  </tbody>
+</table>
+<!--
+--></div>
+</div>
+﻿<!-- Begin Footer -->
+<footer class="footer" role="contentinfo">
+    <div class="lc">
+		<div class="social-icons">
+        	<a class="social-icon icon icon-social-twitter" href="https://twitter.com/EuropeanaTech">&nbsp;</a>
+        	<a class="social-icon icon icon-social-facebook" href="https://www.facebook.com/Europeana">&nbsp;</a>
+        	<a class="social-icon icon icon-social-googleplus" href="https://plus.google.com/+europeana/posts">&nbsp;</a>
+            <a class="social-icon icon icon-social-linkedin" href="https://www.linkedin.com/groups/Europeana-134927/about">&nbsp;</a>
+            <a class="social-icon icon icon-social-github" href="https://github.com/europeana">&nbsp;</a>        	
+        </div>
+        <ul class="nav-footer">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About us</a></li>
+            <li><a href="http://europeana.eu/portal/rights/terms-and-policies.html">Terms &amp; policies</a></li>
+            <!--<li><a href="#">Sitemap</a></li>-->
+        </ul>
+        <p class="copyright">Co-funded by the European Union as part of <a href="http://pro.europeana.eu/web/europeana-creative">Europeana Creative</a>.</p>
+        <a class="licensehr" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/cc.png"></a>
+        
+    </div>
+</footer>
+<!-- End Footer -->
+<!--
+--></body>
+</html>

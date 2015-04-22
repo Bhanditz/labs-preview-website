@@ -3,7 +3,7 @@
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif:400,700&subset=latin,greek,cyrillic,latin-ext' rel='stylesheet' type='text/css'>	    
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>  Querying Providers and Datasets -  Europeana Labs </title>
+	<title>  Suggestions -  Europeana Labs </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width"/>
 	<!-- never cache patterns -->
@@ -12,10 +12,10 @@
 	<meta http-equiv="expires" content="0"/>
 	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
 	<meta http-equiv="pragma" content="no-cache"/>
-	<meta property="og:title" content=" Querying Providers and Datasets -  Europeana Labs" />
+	<meta property="og:title" content=" Suggestions -  Europeana Labs" />
     <meta property="og:description" content="" />
     <meta property="og:site_name" content="Europeana Labs" />
-	<meta property="twitter:title" content=" Querying Providers and Datasets -  Europeana Labs" />
+	<meta property="twitter:title" content=" Suggestions -  Europeana Labs" />
     <meta property="twitter:description" content="" />
     <meta property="twitter:site_name" content="Europeana Labs" />    
 
@@ -95,7 +95,7 @@
 <div role="main" class="grid">
 	<div class="block block-content-header">
 		<div class="grid__item palm--one-whole push--palm--none three-quarters push--one-quarter">
-			<h1 class="title">Querying Providers and Datasets</h1>
+			<h1 class="title">Suggestions</h1>
 		</div>
 	</div>
 
@@ -152,291 +152,108 @@
 
 		
 	<div id="documentation" class="prose grid__item palm--one-whole push--palm-none one-half"><!--
-	--><p>This page describes the API calls that retrieve information about Europeana data providers and datasets that comprise the repository.</p>
-
-<ul id="markdown-toc">
-  <li><a href="#providers">Providers</a>    <ul>
-      <li><a href="#request">Request</a></li>
-      <li><a href="#response">Response</a></li>
-    </ul>
-  </li>
-  <li><a href="#provider">Provider</a>    <ul>
-      <li><a href="#request-1">Request</a></li>
-    </ul>
-  </li>
-  <li><a href="#datasets-by-provider">Datasets by Provider</a>    <ul>
-      <li><a href="#request-2">Request</a></li>
-      <li><a href="#response-1">Response</a></li>
-    </ul>
-  </li>
-  <li><a href="#dataset">Dataset</a>    <ul>
-      <li><a href="#request-3">Request</a></li>
-    </ul>
-  </li>
+	--><ul id="markdown-toc">
+  <li><a href="#request">Request</a></li>
+  <li><a href="#response">Response</a></li>
+  <li><a href="#item">Item</a></li>
 </ul>
 
-<h2 id="providers">Providers</h2>
+<p>Get autocompletion recommendation for search queries. This call returns a list of Europeana records that contain a query term in one of their fields.</p>
 
-<p>Retrieve information about all Europeana data providers.</p>
-
-<pre><code>http://europeana.eu/api/v2/providers.json
+<pre><code>http://europeana.eu/api/v2/suggestions.json
 </code></pre>
 
-<h3 id="request">Request</h3>
+<h2 id="request">Request</h2>
 
 <table>
   <thead>
     <tr>
       <th style="text-align: left">Parameter</th>
       <th style="text-align: left">Datatype</th>
-      <th style="text-align: left">Type</th>
       <th style="text-align: left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">offset</td>
-      <td style="text-align: left">String</td>
       <td style="text-align: left">query</td>
-      <td style="text-align: left">for paging needs - offset to start with</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">The search term on which to search.</td>
     </tr>
     <tr>
-      <td style="text-align: left">pagesize</td>
+      <td style="text-align: left">callback</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">Name of a client side <a href="/api/getting-started/#callback-function">callback function</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">rows</td>
       <td style="text-align: left">Number</td>
+      <td style="text-align: left">The maximum number of results (the default is 10).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Return all suggestions for the query ‘paris’:</p>
+
+<pre><code>&amp;query=paris
+http://www.europeana.eu/api/v2/suggestions.json?wskey=xxxx&amp;query=paris [Test on API Console](/api/console/?function=suggestions&amp;query=paris)
+</code></pre>
+
+<h2 id="response">Response</h2>
+
+<p>A response to this call contains <a href="/api/getting-started/#response">the common fields</a> which are standard for all Europeana API calls and the fields below which are specific for this call.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Field</th>
+      <th style="text-align: left">Datatype</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">items</td>
+      <td style="text-align: left">Array (<a href="/api/suggestions/#item">Item</a></td>
+      <td style="text-align: left">A collection of suggestion items.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="item">Item</h2>
+
+<p>Each item represents a recommendation for search that contains the submitted item.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Field</th>
+      <th style="text-align: left">Datatype</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">term</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">Search suggestion.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">frequency</td>
+      <td style="text-align: left">Number</td>
+      <td style="text-align: left">Number of Europeana records that answer this suggestion.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">field</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"><a href="/api/data-hierarchy/#aggregated-fields">Aggregated fields</a> where the term was found.</td>
+    </tr>
+    <tr>
       <td style="text-align: left">query</td>
-      <td style="text-align: left">for paging needs - size of the result set to fetch</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">countryCode</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left">query</td>
-      <td style="text-align: left">two-letters ISO 3166-1 country code</td>
+      <td style="text-align: left"><a href="/api/query/">Search query</a> to search for the suggestion.</td>
     </tr>
   </tbody>
 </table>
-
-<h3 id="response">Response</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">EDM Field</th>
-      <th style="text-align: left">Name in search</th>
-      <th style="text-align: left">Datatype</th>
-      <th style="text-align: left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">dc:identifier</td>
-      <td style="text-align: left">identifier</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the internal identifier of the provider in Europeana</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">edm:country</td>
-      <td style="text-align: left">country</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">two-letters ISO 3166-1 code of the provider country</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">skos:prefLabel</td>
-      <td style="text-align: left">name</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the name of the provider</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">edm:acronym</td>
-      <td style="text-align: left">acronym</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the acronym commonly used to identify the organization</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">skos:altLabel</td>
-      <td style="text-align: left">altname</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the alternative name</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">edm:organizatonScope</td>
-      <td style="text-align: left">scope</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the scope (Cross/Single/Thematic/Individual)</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">edm:organizationDomain</td>
-      <td style="text-align: left">domain</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the domain (Gallery/Library/Archive/Museum)</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">edm:geographicLevel</td>
-      <td style="text-align: left">geolevel</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the level of operations (Regional/Nationa/European/Worldwide)</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">edm:europeanaRole</td>
-      <td style="text-align: left">role</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the type of the organisation with relation to Europeana (Aggregator/Data Provider)</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">foaf:homepage</td>
-      <td style="text-align: left">website</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">The website of the provider</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="provider">Provider</h2>
-
-<p>Retrieve information about a provider. Returns the same fields as the previous call.</p>
-
-<pre><code>http://europeana.eu/api/v2/provider/[providerID].json
-</code></pre>
-
-<h3 id="request-1">Request</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Parameter</th>
-      <th style="text-align: left">Datatype</th>
-      <th style="text-align: left">Type</th>
-      <th style="text-align: left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">providerID</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">path</td>
-      <td style="text-align: left">The identifier of the provider.</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="datasets-by-provider">Datasets by Provider</h2>
-
-<p>Retrieve information about datasets supplied by a specific data provider.</p>
-
-<pre><code>http://europeana.eu/api/v2/provider/[providerID]/datasets.json
-</code></pre>
-
-<h3 id="request-2">Request</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Parameter</th>
-      <th style="text-align: left">Datatype</th>
-      <th style="text-align: left">Type</th>
-      <th style="text-align: left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">providerID</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">path</td>
-      <td style="text-align: left">The identifier of the provider</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="response-1">Response</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">EDM Field</th>
-      <th style="text-align: left">Name in search</th>
-      <th style="text-align: left">Datatype</th>
-      <th style="text-align: left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">dc:identifier</td>
-      <td style="text-align: left">identifier</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the internal identifier of the dataset in Europeana derived from the edm:datasetName</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">dc:identifier</td>
-      <td style="text-align: left">provIdentifier</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the internal identifier of the provider of the dataset</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">edm:provider</td>
-      <td style="text-align: left">providerName</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the name of the provider of the dataset</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">edm:datasetName</td>
-      <td style="text-align: left">edmDatasetName</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the name of the dataset</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">adms:status</td>
-      <td style="text-align: left">status</td>
-      <td style="text-align: left">String</td>
-      <td style="text-align: left">the current status of the dataset in the europeana ingestion lifecycle</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">dcterms:extent</td>
-      <td style="text-align: left">publishedRecords</td>
-      <td style="text-align: left">Number</td>
-      <td style="text-align: left">the number of records that belong to this dataset and are published on the Europeana Portal</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">…</td>
-      <td style="text-align: left">deleteRecords</td>
-      <td style="text-align: left">Number</td>
-      <td style="text-align: left">The number of records that have been removed or deleted</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">dcterms:created</td>
-      <td style="text-align: left">creationDate</td>
-      <td style="text-align: left">Date</td>
-      <td style="text-align: left">the date the dataset was created</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="dataset">Dataset</h2>
-
-<p>Retrieve information about a dataset. Returns the same fields as the previous call.</p>
-
-<pre><code>http://europeana.eu/api/v2/dataset/[datasetID].json
-</code></pre>
-
-<h3 id="request-3">Request</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Parameter</th>
-      <th style="text-align: left">Datatype</th>
-      <th style="text-align: left">Type</th>
-      <th style="text-align: left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">datasetID</td>
-      <td style="text-align: left">Number</td>
-      <td style="text-align: left">path</td>
-      <td style="text-align: left">Identifier of the dataset to retrieve</td>
-    </tr>
-  </tbody>
-</table>
-
 <!--
 --></div>
 </div>

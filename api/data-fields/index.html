@@ -118,17 +118,20 @@
 					<li><a href="/api/registration" title="API Registration">Get an API-key</a></li>
 					<li><a href="/api/console" title="API Console">Console</a></li>
 					<li><a href="/api/authentication" title="Authentication">Authentication</a></li>
-					<li><a href="/api/search" title="Search">Search</a></li>
-					<li><a href="/api/query" title="Query">Query Syntax</a></li>
-					<li><a href="/api/record" title="Record">Record</a></li>
-					<li><a href="/api/record-jsonld" title="Record">Record in JSON-LD</a></li>
-					<li><a href="/api/myeuropeana" title="Accessing MyEuropeana">MyEuropeana</a></li>
-					<li><a href="/api/provider" title="Querying Providers and Datasets">Provider and Datasets</a></li>
-					<!--<li><a href="/api/data-fields" title="API Data Fields Reference">Data Fields</a></li>-->					
-					<li><a href="/api/data-hierarchy" title="Data Hierarchy">Data Hierarchy</a></li>					
-					<li><a href="/api/data-fields" title="Data Fields">Data Fields</a></li>
-					<li><a href="/api/error" title="Error Codes">Error Codes</a></li>	
-					<li><a href="/api/changelog" title="API ChangeLog">Change Log</a></li>
+					<li><a href='/api/search/' title='Search'>Search</a></li>
+					<li><a href='/api/opensearch/' title='OpenSearch RSS'>OpenSearch RSS</a></li>
+					<li><a href='/api/query/' title='Query Syntax'>Query Syntax</a></li>
+					<li><a href='/api/record/' title='Record'>Record</a></li>
+					<li><a href='/api/record/jsonld/' title='Record in JSON-LD'>Record in JSON-LD</a></li>
+					<li><a href='/api/suggestions/' title='Suggestions'>Suggestions</a></li>
+					<li><a href='/api/query-translation/' title='Query Translation'>Query Translation</a></li>
+					<li><a href='/api/myeuropeana/' title='MyEuropeana'>MyEuropeana</a></li>
+					<li><a href='/api/provider/' title='Provider and Datasets'>Provider and Datasets</a></li>
+					<li><a href='/api/data-hierarchy/' title='Data Hierarchy'>Data Hierarchy</a></li>
+					<li><a href='/api/data-fields/' title='Data Fields'>Data Fields</a></li>
+					<li><a href='/api/error/' title='Error Codes'>Error Codes</a></li>
+					<li><a href='/api/changelog/' title='Change Log'>Change Log</a></li>
+					<li><a href='/api/api1-api2-mapping/' title='API1-API2 compatibility'>API1-API2 compatibility</a></li>
 				</ul>
 			</li>
 			<li>
@@ -159,9 +162,11 @@
   <li><a href="#skosconcept">skos:Concept</a></li>
   <li><a href="#edmplace">edm:Place</a></li>
   <li><a href="#edmtimespan">edm:TimeSpan</a></li>
+  <li><a href="#edmfulltextresource">edm:FullTextResource</a></li>
   <li><a href="#fields-outside-of-edm-schema">Fields outside of EDM schema</a></li>
   <li><a href="#aggregated-fields">Aggregated fields</a></li>
-  <li><a href="#facets">Facets</a></li>
+  <li><a href="#metadata-facets">Metadata facets</a></li>
+  <li><a href="#technical-metadata-facets">Technical metadata facets</a></li>
 </ul>
 
 <h2 id="introduction">Introduction</h2>
@@ -849,6 +854,14 @@
       <td style="text-align: left"> </td>
     </tr>
     <tr>
+      <td style="text-align: left">edm_datasetName</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left">europeana_aggregation_datasetName</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
       <td style="text-align: left">edm:country</td>
       <td style="text-align: left">europeana_aggregation_edm_country</td>
       <td style="text-align: left">string</td>
@@ -931,7 +944,7 @@
   <tbody>
     <tr>
       <td style="text-align: left">@rdf:about</td>
-      <td style="text-align: left">edm_webResource (?)</td>
+      <td style="text-align: left">edm_webResource</td>
       <td style="text-align: left">string</td>
       <td style="text-align: left"> </td>
       <td style="text-align: left">WebResource.about</td>
@@ -1033,6 +1046,134 @@
       <td style="text-align: left">WebResource.webResourceEdmRights</td>
       <td style="text-align: left"> </td>
     </tr>
+    <tr>
+      <td style="text-align: left">edm:codecName</td>
+      <td style="text-align: left">wr_edm_codecName</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.edmcodecName</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:hasMimeType</td>
+      <td style="text-align: left">wr_ebucore_hasMimeType</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucorehasMimeType</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:fileByteSize</td>
+      <td style="text-align: left">wr_ebucore_fileByteSize</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucorefileByteSize</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:duration</td>
+      <td style="text-align: left">wr_ebucore_duration</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucoreduration</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:width</td>
+      <td style="text-align: left">wr_ebucore_width</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucorewidth</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:height</td>
+      <td style="text-align: left">wr_ebucore_height</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucoreheight</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">edm:spatialResolution</td>
+      <td style="text-align: left">wr_edm_spatialResolution</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.edmspatialResolution</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:sampleSize</td>
+      <td style="text-align: left">wr_ebucore_sampleSize</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucoresampleSize</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:sampleRate</td>
+      <td style="text-align: left">wr_ebucore_sampleRate</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucoresampleRate</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:bitRate</td>
+      <td style="text-align: left">wr_ebucore_bitRate</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucorebitRate</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:frameRate</td>
+      <td style="text-align: left">wr_ebucore_frameRate</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucoreframeRate</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">edm:hasColorSpace</td>
+      <td style="text-align: left">wr_edm_hasColorSpace</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.edmhasColorSpace</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">edm:componentColor</td>
+      <td style="text-align: left">wr_edm_componentColor</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.edmcomponentColor</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:orientation</td>
+      <td style="text-align: left">wr_ebucore_orientation</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucoreorientation</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ebucore:audioChannelNumber</td>
+      <td style="text-align: left">wr_ebucore_audioChannelNumber</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.ebucoreaudioChannelNumber</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">rdf:type</td>
+      <td style="text-align: left">rdf_type</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">WebResource.rdfType</td>
+      <td style="text-align: left"> </td>
+    </tr>
   </tbody>
 </table>
 
@@ -1052,7 +1193,7 @@
   <tbody>
     <tr>
       <td style="text-align: left">@rdf:about</td>
-      <td style="text-align: left">edm_agent (?)</td>
+      <td style="text-align: left">edm_agent</td>
       <td style="text-align: left">string</td>
       <td style="text-align: left">edmAgent</td>
       <td style="text-align: left">Agent.about</td>
@@ -1237,7 +1378,7 @@
   <tbody>
     <tr>
       <td style="text-align: left">@rdf:about</td>
-      <td style="text-align: left">skos_concept (?)</td>
+      <td style="text-align: left">skos_concept</td>
       <td style="text-align: left">string</td>
       <td style="text-align: left">edmConceptTerm</td>
       <td style="text-align: left">Concept.about</td>
@@ -1382,7 +1523,7 @@
   <tbody>
     <tr>
       <td style="text-align: left">@rdf:about</td>
-      <td style="text-align: left">edm_place (?)</td>
+      <td style="text-align: left">edm_place</td>
       <td style="text-align: left">string</td>
       <td style="text-align: left">edmPlace</td>
       <td style="text-align: left">Place.about</td>
@@ -1503,7 +1644,7 @@
   <tbody>
     <tr>
       <td style="text-align: left">@rdf:about</td>
-      <td style="text-align: left">edm_timespan (?)</td>
+      <td style="text-align: left">edm_timespan</td>
       <td style="text-align: left">text</td>
       <td style="text-align: left">edmTimespan</td>
       <td style="text-align: left">TimeSpan.about</td>
@@ -1616,6 +1757,8 @@
   </tbody>
 </table>
 
+<h2 id="edmfulltextresource">edm:FullTextResource</h2>
+
 <h2 id="fields-outside-of-edm-schema">Fields outside of EDM schema</h2>
 
 <table>
@@ -1661,13 +1804,6 @@
       <td style="text-align: left">identifier</td>
       <td style="text-align: left">string</td>
       <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">europeana_collectionName</td>
-      <td style="text-align: left">string</td>
-      <td style="text-align: left">europeanaCollectionName</td>
       <td style="text-align: left"> </td>
       <td style="text-align: left"> </td>
     </tr>
@@ -1755,7 +1891,7 @@
   </tbody>
 </table>
 
-<h2 id="facets">Facets</h2>
+<h2 id="metadata-facets">Metadata facets</h2>
 
 <table>
   <thead>
@@ -1810,12 +1946,102 @@
       <td style="text-align: left">string</td>
     </tr>
     <tr>
-      <td style="text-align: left">USERTAGS</td>
-      <td style="text-align: left">string</td>
-    </tr>
-    <tr>
       <td style="text-align: left">YEAR</td>
       <td style="text-align: left">string</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="technical-metadata-facets">Technical metadata facets</h2>
+<p>Facets that relate to the metadata extracted from the media, such as images and videos.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Name in search</th>
+      <th style="text-align: left">Datatype</th>
+      <th style="text-align: left">Media type</th>
+      <th style="text-align: left">Description</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">MIME_TYPE</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">Mime-type of the file, e.g. image/jpeg</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">IMAGE_SIZE</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">Image</td>
+      <td>Size in megapixels of an image, values: small (&lt; 0.5MP), medium (0.5-1MP), large (1-4MP) and extra_large (&gt; 4MP)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">IMAGE_COLOUR</td>
+      <td style="text-align: left">boolean</td>
+      <td style="text-align: left">Image</td>
+      <td style="text-align: left">Lists ‘true’ for colour images. An alias to this facet is IMAGE_COLOR, note that for non-colour images you cannot provide the ‘false’ value. Use the greyscale-facet instead.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">IMAGE_GREYSCALE</td>
+      <td style="text-align: left">boolean</td>
+      <td style="text-align: left">Image</td>
+      <td style="text-align: left">Lists ‘true’ for greyscale images. An alias to this facet is IMAGE_GRAYSCALE, note that for colour images you cannot provide the ‘false’ value. Use the colour-facet instead.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">IMAGE_ASPECTRATIO</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left">Image</td>
+      <td style="text-align: left">Portrait or landscape.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">VIDEO_HD</td>
+      <td style="text-align: left">boolean</td>
+      <td style="text-align: left">Video</td>
+      <td style="text-align: left">Lists ‘true’ for videos that have a resolution higher than 576p.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">VIDEO_DURATION</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left">Video</td>
+      <td style="text-align: left">Duration of the video, values: short (&lt; 4 minutes), medium (4-20 minutes) and long (&gt; 20 minutes).</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SOUND_HQ</td>
+      <td style="text-align: left">boolean</td>
+      <td style="text-align: left">Sound</td>
+      <td style="text-align: left">Lists ‘true’ for sound files where the bit depth is 16 or higher or if the file format is a lossless file type (ALAC, FLAC, APE, SHN, WAV, WMA, AIFF &amp; DSD). Note that ‘false’ does not work for this facet.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SOUND_DURATION</td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left">Sound</td>
+      <td style="text-align: left">Duration of the sound file, values: very_short (&lt; 30 seconds), short (30 seconds - 3 minutes), medium (3-6 minutes) and long (&gt; 6 minutes).</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">TEXT_FULLTEXT</td>
+      <td style="text-align: left">boolean</td>
+      <td style="text-align: left">Text</td>
+      <td style="text-align: left">Lists ‘true’ for text media types which are searchable, e.g. a PDF with text.</td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
