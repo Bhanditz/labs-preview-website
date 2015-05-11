@@ -171,10 +171,10 @@
 
 <p>Retrieve information about all Europeana data providers.</p>
 
-<pre><code>http://europeana.eu/api/v2/providers.json
+<pre><code>http://beta.europeana.eu/v2/providers.json
 </code></pre>
 
-<p>Alternatively, you can also use the <a href="/api/data-fields/#metadata-facets">DATA_PROVIDER facet</a> in a <a href="/api/search/">Search Query</a> to group results by and search for results by a provider.</p>
+<p>Alternatively, you can also use the <a href="/api/preview-data-fields/#metadata-facets">DATA_PROVIDER facet</a> in a <a href="/api/preview-search/">Search Query</a> to group results by and search for results by a provider.</p>
 
 <h3 id="request">Request</h3>
 
@@ -212,7 +212,7 @@
 <p>List all providers from The Netherlands:</p>
 
 <pre><code>&amp;countryCode=NL
-http://www.europeana.eu/api/v2/providers.json?wskey=xxxx&amp;countryCode=NL
+http://beta.europeana.eu/v2/providers.json?wskey=xxxx&amp;countryCode=NL
 </code></pre>
 
 <h3 id="response">Response</h3>
@@ -294,7 +294,7 @@ http://www.europeana.eu/api/v2/providers.json?wskey=xxxx&amp;countryCode=NL
 
 <p>Retrieve information about a provider. Returns the same fields as the previous call.</p>
 
-<pre><code>http://europeana.eu/api/v2/provider/[providerID].json
+<pre><code>http://beta.europeana.eu/v2/provider/[providerID].json
 </code></pre>
 
 <h3 id="request-1">Request</h3>
@@ -322,12 +322,12 @@ http://www.europeana.eu/api/v2/providers.json?wskey=xxxx&amp;countryCode=NL
 
 <p>Retrieve information about datasets supplied by a specific data provider.</p>
 
-<pre><code>http://europeana.eu/api/v2/provider/[providerID]/datasets.json
+<pre><code>http://beta.europeana.eu/v2/provider/[providerID]/datasets.json
 </code></pre>
 
 <p>Alternatively, you can also construct a <a href="/api/search">Search Query</a> with a custom dataset facet to group results by and search for results by dataset.</p>
 
-<pre><code>http://europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=europeana_collectionName:*&amp;facet=europeana_collectionName&amp;f.europeana_collectionName.facet.limit=2000&amp;profile=facets
+<pre><code>http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=europeana_collectionName:*&amp;facet=europeana_collectionName&amp;f.europeana_collectionName.facet.limit=2000&amp;profile=facets
 </code></pre>
 
 <h3 id="request-2">Request</h3>
@@ -418,7 +418,7 @@ http://www.europeana.eu/api/v2/providers.json?wskey=xxxx&amp;countryCode=NL
 
 <p>Retrieve information about a dataset. Returns the same fields as the previous call.</p>
 
-<pre><code>http://europeana.eu/api/v2/dataset/[datasetID].json
+<pre><code>http://beta.europeana.eu/v2/dataset/[datasetID].json
 </code></pre>
 
 <h3 id="request-3">Request</h3>

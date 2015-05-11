@@ -164,9 +164,9 @@
   </li>
 </ul>
 
-<p>Retrieve a single record from the Europeana dataset. On the relation between EDM and records read <a href="http://labs.europeana.eu/api/data-hierarchy/#edm-and-records">this</a>.</p>
+<p>Retrieve a single record from the Europeana dataset. On the relation between EDM and records read <a href="http://labs.europeana.eu/api/preview-data-hierarchy/#edm-and-records">this</a>.</p>
 
-<pre><code>http://europeana.eu/api/v2/record/[recordID].json
+<pre><code>http://beta.europeana.eu/v2/record/[recordID].json
 </code></pre>
 
 <h2 id="request">Request</h2>
@@ -183,12 +183,12 @@
     <tr>
       <td style="text-align: left">recordID</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left"><a href="http://labs.europeana.eu/api/data-hierarchy/#identifying-records">Europeana ID</a> of the record to retrieve.</td>
+      <td style="text-align: left"><a href="http://labs.europeana.eu/api/preview-data-hierarchy/#identifying-records">Europeana ID</a> of the record to retrieve.</td>
     </tr>
     <tr>
       <td style="text-align: left">callback</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left">Name of a <a href="http://labs.europeana.eu/api/search/#callback-function">client side callback function</a>.</td>
+      <td style="text-align: left">Name of a <a href="http://labs.europeana.eu/api/preview-search/#callback-function">client side callback function</a>.</td>
     </tr>
   </tbody>
 </table>
@@ -211,8 +211,8 @@
     </tr>
     <tr>
       <td style="text-align: left">similarItems</td>
-      <td style="text-align: left">Array(<a href="http://labs.europeana.eu/api/search/#item">item</a>)</td>
-      <td style="text-align: left">The collection of metadata records similar to the current one. Available when profile parameter value is set to <strong>similar</strong>. The structure of each record is the same as the structure of the items collection returned by the <a href="http://labs.europeana.eu/api/search">search</a> method.</td>
+      <td style="text-align: left">Array(<a href="http://labs.europeana.eu/api/preview-search/#item">item</a>)</td>
+      <td style="text-align: left">The collection of metadata records similar to the current one. Available when profile parameter value is set to <strong>similar</strong>. The structure of each record is the same as the structure of the items collection returned by the <a href="http://labs.europeana.eu/api/preview-search">search</a> method.</td>
     </tr>
   </tbody>
 </table>
@@ -231,7 +231,7 @@
     <tr>
       <td style="text-align: left">about</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left"><a href="http://labs.europeana.eu/api/data-hierarchy/#identifying-records">Europeana ID</a> of the returned object.</td>
+      <td style="text-align: left"><a href="http://labs.europeana.eu/api/preview-data-hierarchy/#identifying-records">Europeana ID</a> of the returned object.</td>
     </tr>
     <tr>
       <td style="text-align: left">agents</td>

@@ -201,16 +201,16 @@
 
 <p>There are two methods to access MyEuropeana user data.</p>
 
-<p>To access data of a specific account you can use MyData methods which require <a href="http://labs.europeana.eu/api/authentication/#user_authentication">authentication using the public and private key of the user</a>.</p>
+<p>To access data of a specific account you can use MyData methods which require <a href="http://labs.europeana.eu/api/preview-authentication/#user_authentication">authentication using the public and private key of the user</a>.</p>
 
-<p>Applications that wish to access MyEuropeana data of a specific end-user on her behalf need to authenticate using the <a href="http://labs.europeana.eu/api/authentication/#oauth2_authentication">OAuth2 scheme</a> and to use MyEuropeana set of methods.</p>
+<p>Applications that wish to access MyEuropeana data of a specific end-user on her behalf need to authenticate using the <a href="http://labs.europeana.eu/api/preview-authentication/#oauth2_authentication">OAuth2 scheme</a> and to use MyEuropeana set of methods.</p>
 
 <h2 id="profile">Profile</h2>
 
 <p>Retrieve your MyEuropeana profile, including statistics about user’s activity. This call is read-only.</p>
 
-<pre><code>GET http://europeana.eu/api/v2/user/profile.json
-GET http://europeana.eu/api/v2/mydata/profile.json
+<pre><code>GET http://beta.europeana.eu/v2/user/profile.json
+GET http://beta.europeana.eu/v2/mydata/profile.json
 </code></pre>
 
 <h3 id="response">Response</h3>
@@ -312,8 +312,8 @@ GET http://europeana.eu/api/v2/mydata/profile.json
 
 <p>Retrieve saved items.</p>
 
-<pre><code>GET http://europeana.eu/api/v2/user/saveditem.json
-GET http://europeana.eu/api/v2/mydata/saveditem.json
+<pre><code>GET http://beta.europeana.eu/v2/user/saveditem.json
+GET http://beta.europeana.eu/v2/mydata/saveditem.json
 </code></pre>
 
 <h4 id="request">Request</h4>
@@ -358,7 +358,7 @@ GET http://europeana.eu/api/v2/mydata/saveditem.json
     </tr>
     <tr>
       <td style="text-align: left">items</td>
-      <td style="text-align: left">Array(<a href="http://labs.europeana.eu/api/myeuropeana/saved_item">SavedItem</a>)</td>
+      <td style="text-align: left">Array(<a href="http://labs.europeana.eu/api/preview-myeuropeana/saved_item">SavedItem</a>)</td>
       <td style="text-align: left">Collection of saved items</td>
     </tr>
   </tbody>
@@ -385,7 +385,7 @@ GET http://europeana.eu/api/v2/mydata/saveditem.json
     <tr>
       <td style="text-align: left">europeanaID</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left"><a href="http://labs.europeana.eu/api/data-hierarchy/#identifying_records">Europeana ID</a> of the item</td>
+      <td style="text-align: left"><a href="http://labs.europeana.eu/api/preview-data-hierarchy/#identifying_records">Europeana ID</a> of the item</td>
     </tr>
     <tr>
       <td style="text-align: left">guid</td>
@@ -424,8 +424,8 @@ GET http://europeana.eu/api/v2/mydata/saveditem.json
 
 <p>Creates a new saved item.</p>
 
-<pre><code>POST http://europeana.eu/api/v2/user/saveditem.json
-POST http://europeana.eu/api/v2/mydata/saveditem.json
+<pre><code>POST http://beta.europeana.eu/v2/user/saveditem.json
+POST http://beta.europeana.eu/v2/mydata/saveditem.json
 </code></pre>
 
 <h4 id="request-1">Request</h4>
@@ -456,8 +456,8 @@ POST http://europeana.eu/api/v2/mydata/saveditem.json
 
 <p>Deletes a saved item.</p>
 
-<pre><code>DELETE http://europeana.eu/api/v2/user/saveditem.json
-DELETE http://europeana.eu/api/v2/mydata/saveditem.json
+<pre><code>DELETE http://beta.europeana.eu/v2/user/saveditem.json
+DELETE http://beta.europeana.eu/v2/mydata/saveditem.json
 </code></pre>
 
 <h4 id="request-2">Request</h4>
@@ -497,8 +497,8 @@ DELETE http://europeana.eu/api/v2/mydata/saveditem.json
 
 <p>Get a tag.</p>
 
-<pre><code>GET http://europeana.eu/api/v2/user/tag.json
-GET http://europeana.eu/api/v2/mydata/tag.json
+<pre><code>GET http://beta.europeana.eu/v2/user/tag.json
+GET http://beta.europeana.eu/v2/mydata/tag.json
 </code></pre>
 
 <h4 id="request-3">Request</h4>
@@ -543,7 +543,7 @@ GET http://europeana.eu/api/v2/mydata/tag.json
     </tr>
     <tr>
       <td style="text-align: left">items</td>
-      <td style="text-align: left">Array(<a href="http://labs.europeana.eu/api/myeuropeana/tag">Tag</a>)</td>
+      <td style="text-align: left">Array(<a href="http://labs.europeana.eu/api/preview-myeuropeana/tag">Tag</a>)</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
@@ -594,7 +594,7 @@ GET http://europeana.eu/api/v2/mydata/tag.json
     </tr>
     <tr>
       <td style="text-align: left">items</td>
-      <td style="text-align: left">Array(<a href="http://labs.europeana.eu/api/myeuropeana/tagcloud">TagCloud</a>)</td>
+      <td style="text-align: left">Array(<a href="http://labs.europeana.eu/api/preview-myeuropeana/tagcloud">TagCloud</a>)</td>
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
@@ -628,8 +628,8 @@ GET http://europeana.eu/api/v2/mydata/tag.json
 
 <p>Create a new tag.</p>
 
-<pre><code>GET http://europeana.eu/api/v2/user/tag.json
-GET http://europeana.eu/api/v2/mydata/tag.json
+<pre><code>GET http://beta.europeana.eu/v2/user/tag.json
+GET http://beta.europeana.eu/v2/mydata/tag.json
 </code></pre>
 
 <h4 id="request-5">Request</h4>
@@ -665,8 +665,8 @@ GET http://europeana.eu/api/v2/mydata/tag.json
 
 <p>Delete a tag.</p>
 
-<pre><code>DELETE http://europeana.eu/api/v2/user/tag.json
-DELETE http://europeana.eu/api/v2/mydata/tag.json
+<pre><code>DELETE http://beta.europeana.eu/v2/user/tag.json
+DELETE http://beta.europeana.eu/v2/mydata/tag.json
 </code></pre>
 
 <h2 id="request-6">Request</h2>
@@ -710,8 +710,8 @@ DELETE http://europeana.eu/api/v2/mydata/tag.json
 
 <p>Get saved searches.</p>
 
-<pre><code>GET http://europeana.eu/api/v2/user/savedsearch.json
-GET http://europeana.eu/api/v2/mydata/savedsearch.json
+<pre><code>GET http://beta.europeana.eu/v2/user/savedsearch.json
+GET http://beta.europeana.eu/v2/mydata/savedsearch.json
 </code></pre>
 
 <h3 id="response-4">Response</h3>
@@ -732,7 +732,7 @@ GET http://europeana.eu/api/v2/mydata/savedsearch.json
     </tr>
     <tr>
       <td style="text-align: left">items</td>
-      <td style="text-align: left">Array(<a href="http://labs.europeana.eu/api/myeuropeana/savedsearch">SavedSearch</a>)</td>
+      <td style="text-align: left">Array(<a href="http://labs.europeana.eu/api/preview-myeuropeana/savedsearch">SavedSearch</a>)</td>
       <td style="text-align: left">Collection of saved searches</td>
     </tr>
   </tbody>
@@ -776,8 +776,8 @@ GET http://europeana.eu/api/v2/mydata/savedsearch.json
 
 <p>Create a new saved search. Read more on the search parameters in <a href="http://labs.europeana.eu/api/query/">Query Syntax</a>.</p>
 
-<pre><code>POST http://europeana.eu/api/v2/user/savedsearch.json
-POST http://europeana.eu/api/v2/mydata/savedsearch.json
+<pre><code>POST http://beta.europeana.eu/v2/user/savedsearch.json
+POST http://beta.europeana.eu/v2/mydata/savedsearch.json
 </code></pre>
 
 <table>
@@ -816,8 +816,8 @@ POST http://europeana.eu/api/v2/mydata/savedsearch.json
 
 <p>Delete a saved search.</p>
 
-<pre><code>DELETE http://europeana.eu/api/v2/user/savedsearch.json
-DELETE http://europeana.eu/api/v2/mydata/savedsearch.json
+<pre><code>DELETE http://beta.europeana.eu/v2/user/savedsearch.json
+DELETE http://beta.europeana.eu/v2/mydata/savedsearch.json
 </code></pre>
 
 <table>

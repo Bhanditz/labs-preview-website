@@ -171,7 +171,7 @@
 
 <p>Search for records.</p>
 
-<pre><code>http://europeana.eu/api/v2/search.json
+<pre><code>http://beta.europeana.eu/v2/search.json
 </code></pre>
 
 <h2 id="request">Request</h2>
@@ -246,10 +246,10 @@
 <p>Conduct a search for all openly licensed records with a direct link to the full media file:</p>
 
 <pre><code>&amp;query=Paris&amp;reusability=open&amp;media=true
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusability=open&amp;media=true
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusability=open&amp;media=true
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=Paris&amp;reusability=open&amp;media=true">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=Paris&reusability=open&media=true)-->
 
 <h3 id="profile-parameter">Profile parameter</h3>
 
@@ -265,23 +265,23 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
   <tbody>
     <tr>
       <td style="text-align: left">minimal</td>
-      <td style="text-align: left">Returns minimal set of metadata. See <a href="/api/search/#metadata-sets">metadata sets</a>.</td>
+      <td style="text-align: left">Returns minimal set of metadata. See <a href="/api/preview-search/#metadata-sets">metadata sets</a>.</td>
     </tr>
     <tr>
       <td style="text-align: left">standard</td>
-      <td style="text-align: left">Returns a broader set of metadata. See <a href="/api/search/#metadata-sets">metadata sets</a>.</td>
+      <td style="text-align: left">Returns a broader set of metadata. See <a href="/api/preview-search/#metadata-sets">metadata sets</a>.</td>
     </tr>
     <tr>
       <td style="text-align: left">rich</td>
-      <td style="text-align: left">Returns the broadest set of metadata. See <a href="/api/search/#metadata-sets">metadata sets</a>.</td>
+      <td style="text-align: left">Returns the broadest set of metadata. See <a href="/api/preview-search/#metadata-sets">metadata sets</a>.</td>
     </tr>
     <tr>
       <td style="text-align: left">facets</td>
-      <td style="text-align: left">Information about <a href="/api/search/#facets">facets</a> is added. For the records the Standard profile is used.</td>
+      <td style="text-align: left">Information about <a href="/api/preview-search/#facets">facets</a> is added. For the records the Standard profile is used.</td>
     </tr>
     <tr>
       <td style="text-align: left">breadcrumbs</td>
-      <td style="text-align: left">information about the query is added in the form of <a href="/api/search/#breadcrumb">breadcrumbs</a>. Facets are added as well; for the records the Standard profile is used.</td>
+      <td style="text-align: left">information about the query is added in the form of <a href="/api/preview-search/#breadcrumb">breadcrumbs</a>. Facets are added as well; for the records the Standard profile is used.</td>
     </tr>
     <tr>
       <td style="text-align: left">params</td>
@@ -289,7 +289,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
     </tr>
     <tr>
       <td style="text-align: left">portal</td>
-      <td style="text-align: left"><code>standard</code>, <code>facets</code>, and <code>breadcrumb</code> combined, plus additional fields over <code>standard</code> metadata set.  See <a href="/api/search/#metadata-sets">metadata sets</a>.</td>
+      <td style="text-align: left"><code>standard</code>, <code>facets</code>, and <code>breadcrumb</code> combined, plus additional fields over <code>standard</code> metadata set.  See <a href="/api/preview-search/#metadata-sets">metadata sets</a>.</td>
     </tr>
   </tbody>
 </table>
@@ -297,10 +297,10 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
 <p>Include the broadest set of metadata in the search response:</p>
 
 <pre><code>&amp;query=Paris&amp;profile=rich
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;profile=rich
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=Paris&amp;profile=rich
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=Paris&amp;profile=rich">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=Paris&profile=rich)-->
 
 <h3 id="reusability-parameter">Reusability parameter</h3>
 
@@ -332,14 +332,14 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;profil
 <p>Search only for freely reusable records:</p>
 
 <pre><code>&amp;query=Paris&amp;reusability=open
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusability=open
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusability=open
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=Paris&amp;reusability=open">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=Paris&reusability=open)-->
 
 <h2 id="response">Response</h2>
 
-<p>For the common data fields returned by both search and object response, see Getting started guide’s <a href="/api/getting-started/#response">response</a> section.</p>
+<p>For the common data fields returned by both search and object response, see Getting started guide’s <a href="/api/preview-getting-started/#response">response</a> section.</p>
 
 <table>
   <thead>
@@ -395,7 +395,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
 
 <h3 id="item">item</h3>
 
-<p>Each item is a search result and is represented by a summary of its metadata record. The actual content depends of the profile parameter, see <a href="/api/search/#metadata-sets">metadata sets</a>.</p>
+<p>Each item is a search result and is represented by a summary of its metadata record. The actual content depends of the profile parameter, see <a href="/api/preview-search/#metadata-sets">metadata sets</a>.</p>
 
 <table>
   <thead>
@@ -696,7 +696,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
     <tr>
       <td style="text-align: left">name</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left">The name of the facet (COUNTRY, DATA_PROVIDER, LANGUAGE, PROVIDER, RIGHTS, TYPE, UGC, YEAR, a <a href="/api/data-fields/">technical metadata facet</a> or a custom facet)</td>
+      <td style="text-align: left">The name of the facet (COUNTRY, DATA_PROVIDER, LANGUAGE, PROVIDER, RIGHTS, TYPE, UGC, YEAR, a <a href="/api/preview-data-fields/">technical metadata facet</a> or a custom facet)</td>
     </tr>
     <tr>
       <td style="text-align: left">fields<sup>*</sup></td>
@@ -1004,63 +1004,63 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
 <p>API users can select which facets they would like to retrieve beyond the default facet set via the <code>facet</code> parameter. When you request a facet you have to set the profile either as <code>facets</code> or as <code>portal</code> or <code>rich</code> (which both covers facets as well).</p>
 
 <p>The value of the parameter could be “DEFAULT” (which is a shortcut of the Europeana facet set we use on the portal, containing UGC, LANGUAGE, TYPE, YEAR, PROVIDER, DATA_PROVIDER, COUNTRY and RIGHTS), or any field name which is indexed and stored in Apache Solr.
-We maintain a table in API documentation about the existing  <a href="/api/api-fields/">API Fields</a>. In the field type column, “text” means indexed as as a row of distinct terms, while “string” means indexed as phrase, so the whole content is taken as one individual unit.</p>
+We maintain a table in API documentation about the existing  <a href="/api/preview-api-fields/">API Fields</a>. In the field type column, “text” means indexed as as a row of distinct terms, while “string” means indexed as phrase, so the whole content is taken as one individual unit.</p>
 
 <p>Users can set one or more facet in one query.</p>
 
 <p>Requesting a single facet:</p>
 
 <pre><code>&amp;facet=proxy_dc_contributor&amp;profile=facets
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_contributor&amp;profile=facets
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_contributor&amp;profile=facets
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=paris&amp;facet=proxy_dc_contributor&amp;profile=facets">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_contributor&profile=facets)-->
 
 <p>Requesting multiple facets can be done with two different syntaxes. You can add multiple facet parameters, or one facet parameter with multiple values separated by commas:</p>
 
 <p>Multiple facet parameters:</p>
 
 <pre><code>&amp;facet=proxy_dc_coverage&amp;facet=proxy_dc_contributor&amp;profile=facets
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_coverage&amp;facet=proxy_dc_contributor&amp;profile=facets
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_coverage&amp;facet=proxy_dc_contributor&amp;profile=facets
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=paris&amp;facet=proxy_dc_coverage&amp;facet=proxy_dc_contributor&amp;profile=facets">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets)-->
 
 <p>Multiple facets separated by commas</p>
 
 <pre><code>&amp;facet=proxy_dc_coverage,proxy_dc_contributor&amp;profile=facets
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_coverage,proxy_dc_contributor&amp;profile=facets
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=proxy_dc_coverage,proxy_dc_contributor&amp;profile=facets
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=paris&amp;facet=proxy_dc_coverage,proxy_dc_contributor&amp;profile=facets">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets)-->
 
 <p>Requesting the default facets:</p>
 
 <pre><code>&amp;profile=portal
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;profile=portal
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=paris&amp;profile=portal
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=paris&amp;profile=portal">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=paris&profile=portal)-->
 
 <pre><code>&amp;profile=facets
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;profile=facets
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=paris&amp;profile=facets
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=paris&amp;profile=facets">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=paris&profile=facets)-->
 
 <pre><code>&amp;facet=DEFAULT&amp;profile=facets
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=DEFAULT&amp;profile=facets
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=DEFAULT&amp;profile=facets
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=paris&amp;facet=DEFAULT&amp;profile=facets">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=paris&facet=DEFAULT&profile=facets)-->
 
 <p>Combining default facets with custom facets:</p>
 
 <pre><code>&amp;facet=DEFAULT+proxy_dc_contributor&amp;profile=facets
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=DEFAULT+proxy_dc_contributor&amp;profile=facets
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=DEFAULT+proxy_dc_contributor&amp;profile=facets
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=paris&amp;facet=DEFAULT%20proxy_dc_contributor&amp;profile=facets">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=paris&facet=DEFAULT%20proxy_dc_contributor&profile=facets)-->
 
 <h3 id="offset-and-limit-of-facets">Offset and limit of facets</h3>
 
@@ -1068,17 +1068,17 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=
 
 <pre><code>Syntax: f.[facet name].facet.limit
 Example: &amp;f.PROVIDER.facet.limit=30
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=PROVIDER&amp;profile=facets&amp;f.PROVIDER.facet.limit=30
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=PROVIDER&amp;profile=facets&amp;f.PROVIDER.facet.limit=30
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=paris&amp;facet=PROVIDER&amp;profile=facets&amp;f.PROVIDER.facet.limit=30">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.limit=30)-->
 
 <pre><code>Syntax: f.[facet name].facet.offset
 Example: &amp;f.PROVIDER.facet.offset=30
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=PROVIDER&amp;profile=facets&amp;f.PROVIDER.facet.offset=30
+http://beta.europeana.eu/v2/search.json?wskey=xxxx&amp;query=paris&amp;facet=PROVIDER&amp;profile=facets&amp;f.PROVIDER.facet.offset=30
 </code></pre>
 
-<p><a href="/api/console/?function=search&amp;query=paris&amp;facet=PROVIDER&amp;profile=facets&amp;f.PROVIDER.facet.offset=30">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=search&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.offset=30)-->
 
 <p>Both parameters accept numeric values.</p>
 

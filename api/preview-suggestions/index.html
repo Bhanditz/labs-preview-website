@@ -152,7 +152,7 @@
 
 <p>Get autocompletion recommendation for search queries. This call returns a list of Europeana records that contain a query term in one of their fields.</p>
 
-<pre><code>http://europeana.eu/api/v2/suggestions.json
+<pre><code>http://beta.europeana.eu/v2/suggestions.json
 </code></pre>
 
 <h2 id="request">Request</h2>
@@ -174,7 +174,7 @@
     <tr>
       <td style="text-align: left">callback</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left">Name of a client side <a href="/api/getting-started/#callback-function">callback function</a>.</td>
+      <td style="text-align: left">Name of a client side <a href="/api/preview-getting-started/#callback-function">callback function</a>.</td>
     </tr>
     <tr>
       <td style="text-align: left">rows</td>
@@ -187,10 +187,10 @@
 <p>Return all suggestions for the query ‘paris’:</p>
 
 <pre><code>&amp;query=paris
-http://www.europeana.eu/api/v2/suggestions.json?wskey=xxxx&amp;query=paris
+http://beta.europeana.eu/v2/suggestions.json?wskey=xxxx&amp;query=paris
 </code></pre>
 
-<p><a href="/api/console/?function=suggestions&amp;query=paris">Test on API Console</a></p>
+<!--[Test on API Console](/api/console/?function=suggestions&query=paris)-->
 
 <h2 id="response">Response</h2>
 
@@ -207,7 +207,7 @@ http://www.europeana.eu/api/v2/suggestions.json?wskey=xxxx&amp;query=paris
   <tbody>
     <tr>
       <td style="text-align: left">items</td>
-      <td style="text-align: left">Array (<a href="/api/suggestions/#item">Item</a>)</td>
+      <td style="text-align: left">Array (<a href="/api/preview-suggestions/#item">Item</a>)</td>
       <td style="text-align: left">A collection of suggestion items.</td>
     </tr>
   </tbody>
