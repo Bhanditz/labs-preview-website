@@ -229,11 +229,6 @@
       <td style="text-align: left">Filter by copyright status. Possible values are open, restricted or permission, see <a href="#reusability-parameter">reusability parameters</a>.</td>
     </tr>
     <tr>
-      <td style="text-align: left">media</td>
-      <td style="text-align: left">Boolean</td>
-      <td style="text-align: left">Filter by records where an URL to the full media file is present in the edm:isShownBy or edm:hasView metadata and is resolvable. Works only with ‘true’.</td>
-    </tr>
-    <tr>
       <td style="text-align: left">facet</td>
       <td style="text-align: left">String</td>
       <td style="text-align: left">Name of an individual facet. See <a href="#individual-facets">individual facets</a></td>
@@ -250,14 +245,6 @@
     </tr>
   </tbody>
 </table>
-
-<p>Conduct a search for all openly licensed records with a direct link to the full media file:</p>
-
-<pre><code>&amp;query=Paris&amp;reusability=open&amp;media=true
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusability=open&amp;media=true
-</code></pre>
-
-<p><a href="/api/console/?function=search&amp;query=Paris&amp;reusability=open&amp;media=true">Test on API Console</a></p>
 
 <h3 id="profile-parameter">Profile parameter</h3>
 
@@ -277,7 +264,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
     </tr>
     <tr>
       <td style="text-align: left">standard</td>
-      <td style="text-align: left">Returns a broader set of metadata. See <a href="/api/search/#metadata-sets">metadata sets</a>.</td>
+      <td style="text-align: left">Returns a boarder set of metadata. See <a href="/api/search/#metadata-sets">metadata sets</a>.</td>
     </tr>
     <tr>
       <td style="text-align: left">rich</td>
@@ -302,17 +289,9 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
   </tbody>
 </table>
 
-<p>Include the broadest set of metadata in the search response:</p>
-
-<pre><code>&amp;query=Paris&amp;profile=rich
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;profile=rich
-</code></pre>
-
-<p><a href="/api/console/?function=search&amp;query=Paris&amp;profile=rich">Test on API Console</a></p>
-
 <h3 id="reusability-parameter">Reusability parameter</h3>
 
-<p>The possible values of the reusability parameters.</p>
+<p>The possible values of the reusability parameters</p>
 
 <table>
   <thead>
@@ -324,11 +303,11 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;profil
   <tbody>
     <tr>
       <td style="text-align: left">open</td>
-      <td style="text-align: left">The records are freely reusable. The licenses in this category are <a href="http://creativecommons.org/publicdomain/mark/1.0/">PD</a>, <a href="http://creativecommons.org/publicdomain/mark/">NOC</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC ZERO</a>, <a href="http://creativecommons.org/licenses/by/">CC BY</a>, <a href="http://creativecommons.org/licenses/by-sa/">CC BY-SA</a></td>
+      <td style="text-align: left">The records are freely reusable. The licenses in this category are <a href="http://creativecommons.org/publicdomain/mark/1.0/">Public Domain</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC-ZERO</a>, <a href="http://creativecommons.org/licenses/by/">CC BY</a>, <a href="http://creativecommons.org/licenses/by-sa/">CC BY-SA</a></td>
     </tr>
     <tr>
       <td style="text-align: left">restricted</td>
-      <td style="text-align: left">The records are reusable, but with restrictions. The licenses in this category are <a href="http://creativecommons.org/licenses/by-nc/">CC BY-NC</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/">CC BY-NC-SA</a>, <a href="http://creativecommons.org/licenses/by-nc-nd/">CC BY-NC-ND</a>, <a href="http://creativecommons.org/licenses/by-nd/">CC BY-ND</a>, <a href="http://www.europeana.eu/rights/out-of-copyright-non-commercial/">OOC-NC</a></td>
+      <td style="text-align: left">The records are reusable, but with restrictions. The licenses in this category are <a href="http://creativecommons.org/licenses/by-nc/">CC-BY-NC</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/">CC BY-NC-SA</a>, <a href="http://creativecommons.org/licenses/by-nc-nd/">CC-BY-NC-ND</a>, <a href="http://creativecommons.org/licenses/by-nd/">CC BY-ND</a>, <a href="http://www.europeana.eu/rights/out-of-copyright-non-commercial/">OOC-NC</a></td>
     </tr>
     <tr>
       <td style="text-align: left">permission</td>
@@ -336,14 +315,6 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;profil
     </tr>
   </tbody>
 </table>
-
-<p>Search only for freely reusable records:</p>
-
-<pre><code>&amp;query=Paris&amp;reusability=open
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusability=open
-</code></pre>
-
-<p><a href="/api/console/?function=search&amp;query=Paris&amp;reusability=open">Test on API Console</a></p>
 
 <h2 id="response">Response</h2>
 
@@ -385,21 +356,6 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
     </tr>
   </tbody>
 </table>
-
-<p>Example of a search response in JSON with the portal profile:
-<code>
-{
-	"apikey": "XXX",
-	"action": "search.json",
-	"success": true,
-	"requestNumber": 999,
-	"itemsCount": 24,
-	"totalResults": 343,
-	"items": [],
-	"breadCrumbs": [],
-	"facets": []
-}
-</code></p>
 
 <h3 id="item">item</h3>
 
@@ -557,7 +513,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
     <tr>
       <td style="text-align: left">ugc</td>
       <td style="text-align: left">Array (Boolnean)</td>
-      <td style="text-align: left">Whether or not the record includeshas user generated contents in the record</td>
+      <td style="text-align: left">Whether or not has user generated contents in the record</td>
     </tr>
     <tr>
       <td style="text-align: left">country</td>
@@ -690,7 +646,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
 
 <h3 id="facet">facet</h3>
 
-<p>A collection of facets that describe the resultant dataset. A facet represents the result for the search grouped by a certain entity. If you would conduct a search for the keyword ‘paris  and have a look at the TYPE facet, this facet would tell how much items there exist within your search result grouped by TYPE (such as IMAGE, VIDEO etc.). When you search within your result set for a specific facet, the other items in your facet would still exist (you search for TYPE:IMAGE, then you can still see how many results there are for TYPE:VIDEO etc.). This last functionality, called multi-facets, is not supported for the <a href="/api/data-fields/">technical metadata facets</a>. </p>
+<p>A collection of facets that describe the resultant dataset.</p>
 
 <table>
   <thead>
@@ -704,7 +660,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
     <tr>
       <td style="text-align: left">name</td>
       <td style="text-align: left">String</td>
-      <td style="text-align: left">The name of the facet (COUNTRY, DATA_PROVIDER, LANGUAGE, PROVIDER, RIGHTS, TYPE, UGC, YEAR, a <a href="/api/data-fields/">technical metadata facet</a> or a custom facet)</td>
+      <td style="text-align: left">The name of the facet (COUNTRY, DATA_PROVIDER, LANGUAGE, PROVIDER, RIGHTS, TYPE, UGC, YEAR or a custom facet)</td>
     </tr>
     <tr>
       <td style="text-align: left">fields<sup>*</sup></td>
@@ -720,7 +676,7 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
 
 <h3 id="minimal-profile">Minimal profile</h3>
 
-<p>The minimal profile returns the following fields:</p>
+<p>The minimal profile returns the follwoing fields:</p>
 
 <table>
   <thead>
@@ -1009,10 +965,10 @@ http://www.europeana.eu/api/v2/search.json?wskey=xxxx&amp;query=Paris&amp;reusab
 
 <h2 id="individual-facets">Individual facets</h2>
 
-<p>API users can select which facets they would like to retrieve beyond the default facet set via the <code>facet</code> parameter. When you request a facet you have to set the profile either as <code>facets</code> or as <code>portal</code> or <code>rich</code> (which both covers facets as well).</p>
+<p>API users can select which facets they would like to retrieve beyond the default facet set via the <code>facet</code> parameter. When you request facet you have to set the profile either as <code>facets</code> or as <code>portal</code> (which covers facets as well).</p>
 
 <p>The value of the parameter could be “DEFAULT” (which is a shortcut of the Europeana facet set we use on the portal, containing UGC, LANGUAGE, TYPE, YEAR, PROVIDER, DATA_PROVIDER, COUNTRY and RIGHTS), or any field name which is indexed and stored in Apache Solr.
-We maintain a table in API documentation about the existing  <a href="/api/api-fields/">API Fields</a>. In the field type column, “text” means indexed as as a row of distinct terms, while “string” means indexed as phrase, so the whole content is taken as one individual unit.</p>
+We maintain a table in API documentation about the existing  (API Fields)[/api/api-fields/]. In the field type column “text” means indexed as as a row of distinct terms, while “string” means indexed as phrase, so the whole content is taken as one individual unit.</p>
 
 <p>Users can set one or more facet in one query.</p>
 
