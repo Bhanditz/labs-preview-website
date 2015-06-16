@@ -146,6 +146,12 @@
 	<div id="documentation" class="prose grid__item palm--one-whole push--palm-none one-half"><!--
 	--><ul id="markdown-toc">
   <li><a href="#request">Request</a></li>
+  <li><a href="#methods">Methods</a>    <ul>
+      <li><a href="#search-and-retrieve-records">Search and retrieve records</a></li>
+      <li><a href="#myeuropeana-actions">MyEuropeana Actions</a></li>
+      <li><a href="#data-providers-and-datasets">Data Providers and Datasets</a></li>
+    </ul>
+  </li>
   <li><a href="#response">Response</a></li>
   <li><a href="#datatypes">Datatypes</a></li>
   <li><a href="#error-codes">Error Codes</a></li>
@@ -164,6 +170,66 @@ The API root URL is located at: </p>
 </code></pre>
 
 <p>For obligatory request parameters look into the documentation of specific calls. The <a href="http://labs.europeana.eu/api/preview-authentication/">authentication</a> section provides information on the obligatory authentication parameter <em>wskey</em>.</p>
+
+<h2 id="methods">Methods</h2>
+
+<h3 id="search-and-retrieve-records">Search and retrieve records</h3>
+<p>|Method|Description|
+|:————- |:————-|
+|<a href="/api/preview-record/">record.json</a> 	|Retrieve information about a single record within the Europeana repository|
+|<a href="/api/preview-search/">search.json</a> 	|Find records within the Europeana repository|
+|<a href="/api/preview-suggestions/">suggestions.json</a> 	|Provides suggestions aimed at applications that use autocompletion for search queries|
+|<a href="/api/preview-opensearch/">opensearch.rss</a> 	|Find objects within the Europeana repository following the OpenSearch specification|</p>
+
+<h3 id="myeuropeana-actions">MyEuropeana Actions</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Method</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="/api/preview-myeuropeana/#profile">profile.json</a></td>
+      <td style="text-align: left">Retrieve user profile information</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="/api/preview-myeuropeana/#saved-items">saveditem.json</a></td>
+      <td style="text-align: left">Manage favourite records</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="/api/preview-myeuropeana/#tags">tag.json</a></td>
+      <td style="text-align: left">Manage tags</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="/api/preview-myeuropeana/#saved-searches">savedsearch.json</a></td>
+      <td style="text-align: left">Manage saved searches</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="data-providers-and-datasets">Data Providers and Datasets</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Method</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="/api/preview-provider/#providers">providers.json</a></td>
+      <td style="text-align: left">Retrieve information about Europeana data providers</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="/api/preview-provider/#datasets-by-provider">datasets.json</a></td>
+      <td style="text-align: left">Retrieve information about datasets supplied by a specific data provider</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="response">Response</h2>
 
